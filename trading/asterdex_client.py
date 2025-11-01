@@ -19,17 +19,20 @@ class AsterDEXClient:
         self.api_key = api_key or Config.API_KEY
         self.api_secret = api_secret or Config.API_SECRET
         self.testnet = testnet if testnet is not None else Config.TESTNET_MODE
-        
+
         # Initialize Binance client
         self.client = Client(self.api_key, self.api_secret)
-        
+
         # Override URL
         base_url = Config.TESTNET_URL if self.testnet else Config.FUTURES_BASE_URL
         self.client.FUTURES_URL = base_url
-        
+
         mode = "TESTNET" if self.testnet else "MAINNET"
         logger.info(f"🔌 AsterDEX Client initialized ({mode})")
         logger.info(f"   URL: {base_url}")
+
+        # Cache symbol info for precision
+        self._symbol_info_cache = {}
     
     def get_account_balance(self):
         """Lấy balance USDT"""
@@ -150,35 +153,94 @@ class AsterDEXClient:
                 return True
             logger.warning(f"Set margin type warning: {e}")
             return False
+
+    def _get_symbol_info(self, symbol):
+        """Get symbol info with caching"""
+        if symbol not in self._symbol_info_cache:
+            try:
+                exchange_info = self.client.futures_exchange_info()
+                for s in exchange_info['symbols']:
+                    if s['symbol'] == symbol:
+                        self._symbol_info_cache[symbol] = s
+                        break
+            except Exception as e:
+                logger.error(f"Error getting symbol info: {e}")
+                return None
+        return self._symbol_info_cache.get(symbol)
+
+    def format_quantity(self, symbol, quantity):
+        """Format quantity according to symbol's LOT_SIZE filter"""
+        try:
+            symbol_info = self._get_symbol_info(symbol)
+            if not symbol_info:
+                # Default to 3 decimals if can't get info
+                return round(quantity, 3)
+
+            # Get LOT_SIZE filter
+            lot_size_filter = next(
+                (f for f in symbol_info['filters'] if f['filterType'] == 'LOT_SIZE'),
+                None
+            )
+
+            if lot_size_filter:
+                step_size = float(lot_size_filter['stepSize'])
+
+                # Calculate precision from step_size
+                # e.g., 0.001 -> 3 decimals, 0.01 -> 2 decimals, 1.0 -> 0 decimals
+                precision = 0
+                if step_size < 1:
+                    precision = len(str(step_size).rstrip('0').split('.')[-1])
+
+                # Round to step_size
+                formatted = round(quantity / step_size) * step_size
+                # Round to precision
+                formatted = round(formatted, precision)
+
+                return formatted
+            else:
+                # Fallback to quantityPrecision
+                qty_precision = symbol_info.get('quantityPrecision', 3)
+                return round(quantity, qty_precision)
+
+        except Exception as e:
+            logger.error(f"Error formatting quantity: {e}")
+            return round(quantity, 3)  # Safe default
     
     def create_market_order(self, symbol, side, quantity, reduce_only=False):
         """
         Tạo market order
-        
+
         Args:
             symbol: Trading pair
             side: 'BUY' hoặc 'SELL'
-            quantity: Số lượng
+            quantity: Số lượng (will be formatted to correct precision)
             reduce_only: True nếu đóng position
         """
         try:
+            # Format quantity to correct precision
+            formatted_qty = self.format_quantity(symbol, quantity)
+
+            logger.info(f"📝 Order: {side} {symbol}")
+            logger.info(f"   Raw qty: {quantity:.8f} -> Formatted: {formatted_qty}")
+
             params = {
                 'symbol': symbol,
                 'side': side,
                 'type': 'MARKET',
-                'quantity': quantity
+                'quantity': formatted_qty
             }
-            
+
             if reduce_only:
                 params['reduceOnly'] = True
-            
+
             order = self.client.futures_create_order(**params)
-            
-            logger.info(f"✅ Order created: {side} {quantity} {symbol}")
+
+            logger.info(f"✅ Order created: {side} {formatted_qty} {symbol}")
             return order
-            
+
         except BinanceAPIException as e:
             logger.error(f"Create order error: {e}")
+            logger.error(f"   Symbol: {symbol}, Side: {side}, Qty: {quantity}")
             return None
     
     def close_position(self, symbol):

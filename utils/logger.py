@@ -66,15 +66,54 @@ class Logger:
         """Gửi message qua Telegram"""
         if not self.tg_bot:
             return
-        
+
         try:
-            self.tg_bot.send_message(
-                chat_id=Config.TELEGRAM_CHAT_ID,
-                text=msg,
-                parse_mode='HTML'
-            )
-        except TelegramError as e:
-            self.logger.error(f"Telegram send failed: {e}")
+            # Use asyncio to run async send_message in sync context
+            import asyncio
+
+            # Try to get existing event loop, or create new one
+            try:
+                loop = asyncio.get_event_loop()
+                if loop.is_running():
+                    # If loop is running, schedule in thread
+                    import threading
+                    def send():
+                        new_loop = asyncio.new_event_loop()
+                        asyncio.set_event_loop(new_loop)
+                        new_loop.run_until_complete(
+                            self.tg_bot.send_message(
+                                chat_id=Config.TELEGRAM_CHAT_ID,
+                                text=msg,
+                                parse_mode='HTML'
+                            )
+                        )
+                        new_loop.close()
+                    thread = threading.Thread(target=send, daemon=True)
+                    thread.start()
+                else:
+                    # Loop exists but not running, use it
+                    loop.run_until_complete(
+                        self.tg_bot.send_message(
+                            chat_id=Config.TELEGRAM_CHAT_ID,
+                            text=msg,
+                            parse_mode='HTML'
+                        )
+                    )
+            except RuntimeError:
+                # No event loop, create new one
+                loop = asyncio.new_event_loop()
+                asyncio.set_event_loop(loop)
+                loop.run_until_complete(
+                    self.tg_bot.send_message(
+                        chat_id=Config.TELEGRAM_CHAT_ID,
+                        text=msg,
+                        parse_mode='HTML'
+                    )
+                )
+                loop.close()
+        except Exception as e:
+            # Silently fail to avoid breaking bot
+            pass
 
 # Global logger instance
 logger = Logger()
