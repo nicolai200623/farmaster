@@ -1,0 +1,239 @@
+# ============================================
+# 🚀 ASTERDEX PERP FARM BOT - MAIN
+# Stage 3 - Full Production Bot
+# ============================================
+
+import os
+import sys
+# Add project root to path
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
+import time
+from datetime import datetime
+import signal
+
+from config import Config
+from utils.logger import logger
+from trading.asterdex_client import AsterDEXClient
+from trading.signal_generator import SignalGenerator
+from trading.risk_manager import RiskManager
+from ml.lstm_model import LSTMTrainer
+from ml.features import FeatureEngine
+
+class AsterDEXBot:
+    """Main trading bot"""
+    
+    def __init__(self):
+        logger.info("=" * 60)
+        logger.info("🚀 ASTERDEX PERP FARM BOT - INITIALIZING")
+        logger.info("=" * 60)
+        
+        # Validate config
+        Config.validate()
+        
+        # Initialize components
+        self.client = AsterDEXClient()
+        self.risk_manager = RiskManager()
+        
+        # Load LSTM model
+        logger.info("🧠 Loading LSTM model...")
+        self.lstm_trainer = LSTMTrainer(input_size=len(FeatureEngine.FEATURE_COLUMNS))
+        
+        if not self.lstm_trainer.load():
+            logger.error("❌ Model chưa được train! Chạy ml/train.py trước.")
+            sys.exit(1)
+        
+        self.signal_generator = SignalGenerator(self.lstm_trainer)
+        
+        # State
+        self.running = True
+        self.loop_count = 0
+        
+        # Setup signal handlers
+        signal.signal(signal.SIGINT, self._signal_handler)
+        signal.signal(signal.SIGTERM, self._signal_handler)
+        
+        logger.info("✅ Bot initialized successfully!")
+        logger.info(f"   Symbols: {Config.SYMBOLS}")
+        logger.info(f"   Leverage: {Config.LEVERAGE}x")
+        logger.info(f"   Position Size: {Config.SIZE_PCT*100}%")
+        logger.info(f"   TP/SL: {Config.TP_PCT*100}% / {Config.SL_PCT*100}%")
+        logger.info("=" * 60)
+    
+    def _signal_handler(self, signum, frame):
+        """Handle shutdown signals"""
+        logger.info("\n🛑 Shutdown signal received...")
+        self.running = False
+    
+    def start(self):
+        """Bắt đầu bot"""
+        logger.info("🏁 BOT STARTED!", send_tg=True)
+        
+        # Get initial balance
+        balance = self.client.get_account_balance()
+        self.risk_manager.set_daily_start(balance)
+        
+        logger.info(f"💰 Starting balance: ${balance:.2f}", send_tg=True)
+        
+        # Main loop
+        while self.running:
+            try:
+                self.loop_count += 1
+                logger.info(f"\n{'='*60}")
+                logger.info(f"🔄 LOOP #{self.loop_count} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+                logger.info(f"{'='*60}")
+                
+                # Get current balance
+                current_balance = self.client.get_account_balance()
+                
+                # Check if can trade
+                can_trade, reason = self.risk_manager.should_trade(current_balance)
+                
+                if not can_trade:
+                    logger.warning(f"⚠️ Cannot trade: {reason}", send_tg=True)
+                    break
+                
+                # Process each symbol (with small delay to avoid rate limiting)
+                for i, symbol in enumerate(Config.SYMBOLS):
+                    self._process_symbol(symbol, current_balance)
+
+                    # Small delay between symbols (except last one)
+                    if i < len(Config.SYMBOLS) - 1:
+                        time.sleep(0.5)  # 500ms delay
+                
+                # Daily reset check (00:00)
+                if datetime.now().hour == 0 and datetime.now().minute < 1:
+                    self._daily_reset()
+                
+                # Sleep
+                logger.info(f"\n💤 Sleeping {Config.LOOP_SLEEP}s...")
+                time.sleep(Config.LOOP_SLEEP)
+                
+            except KeyboardInterrupt:
+                logger.info("\n⌨️ Keyboard interrupt...")
+                break
+            except Exception as e:
+                logger.error(f"Loop error: {e}")
+                time.sleep(60)
+        
+        # Shutdown
+        self._shutdown()
+    
+    def _process_symbol(self, symbol, current_balance):
+        """Xử lý 1 symbol"""
+        logger.info(f"\n📊 Processing {symbol}...")
+        
+        try:
+            # Check current position
+            position = self.client.get_position(symbol)
+            
+            if position:
+                logger.info(f"   Current position: {position['side']} {position['amount']}")
+                logger.info(f"   Entry: ${position['entry_price']:.2f} | Mark: ${position['mark_price']:.2f}")
+                logger.info(f"   PnL: {position['pnl_pct']*100:.2f}% (${position['pnl_usdt']:.2f})")
+                
+                # Check if should close
+                should_close, reason = self.signal_generator.should_close_position(position)
+                
+                if should_close:
+                    logger.info(f"   🔴 Closing position: {reason}")
+                    
+                    if self.client.close_position(symbol):
+                        logger.trade(f"CLOSE {position['side']} {symbol} | {reason} | PnL: {position['pnl_pct']*100:.2f}%")
+                        
+                        # Record trade
+                        self.risk_manager.record_trade(
+                            symbol=symbol,
+                            side=f"CLOSE_{position['side']}",
+                            quantity=position['amount'],
+                            price=position['mark_price'],
+                            pnl_pct=position['pnl_pct']
+                        )
+            
+            else:
+                # No position - check for entry signal
+                signal = self.signal_generator.generate_signal(self.client, symbol)
+                
+                if signal != 'HOLD':
+                    logger.info(f"   🟢 Entry signal: {signal}")
+                    
+                    # Setup leverage and margin
+                    self.client.set_leverage(symbol, Config.LEVERAGE)
+                    self.client.set_margin_type(symbol, 'ISOLATED')
+                    
+                    # Get price
+                    price = self.client.get_ticker_price(symbol)
+                    
+                    # Calculate position size
+                    quantity = self.risk_manager.calculate_position_size(
+                        current_balance, price, Config.LEVERAGE
+                    )
+                    quantity = self.risk_manager.round_quantity(quantity, symbol)
+                    
+                    # Determine side
+                    side = 'BUY' if signal == 'LONG' else 'SELL'
+                    
+                    # Create order
+                    order = self.client.create_market_order(
+                        symbol=symbol,
+                        side=side,
+                        quantity=quantity
+                    )
+                    
+                    if order:
+                        logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
+                        
+                        # Record trade
+                        self.risk_manager.record_trade(
+                            symbol=symbol,
+                            side=signal,
+                            quantity=quantity,
+                            price=price
+                        )
+                else:
+                    logger.info(f"   ⚪ No signal - HOLD")
+        
+        except Exception as e:
+            logger.error(f"Error processing {symbol}: {e}")
+    
+    def _daily_reset(self):
+        """Reset daily stats"""
+        logger.info("\n🌅 DAILY RESET")
+        
+        # Send daily report
+        stats_msg = self.risk_manager.get_stats_message()
+        logger.info(stats_msg, send_tg=True)
+        
+        # Reset
+        balance = self.client.get_account_balance()
+        self.risk_manager.set_daily_start(balance)
+    
+    def _shutdown(self):
+        """Shutdown bot"""
+        logger.info("\n" + "=" * 60)
+        logger.info("🛑 SHUTTING DOWN BOT")
+        logger.info("=" * 60)
+        
+        # Close all positions (optional)
+        # for symbol in Config.SYMBOLS:
+        #     self.client.close_position(symbol)
+        
+        # Final stats
+        stats_msg = self.risk_manager.get_stats_message()
+        logger.info(stats_msg, send_tg=True)
+        
+        logger.info("👋 Bot stopped!", send_tg=True)
+
+def main():
+    """Main entry point"""
+    # Create necessary directories
+    os.makedirs('logs', exist_ok=True)
+    os.makedirs('models', exist_ok=True)
+    
+    # Start bot
+    bot = AsterDEXBot()
+    bot.start()
+
+if __name__ == '__main__':
+    main()
+
