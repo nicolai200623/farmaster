@@ -162,10 +162,10 @@ class SignalGenerator:
         # Take Profit
         if pnl_pct >= tp_pct:
             return True, f"TP ({pnl_pct*100:.2f}%)"
-        
-        # Stop Loss
-        if pnl_pct <= -sl_pct:
+
+        # Stop Loss (only if SL_PCT > 0)
+        if sl_pct > 0 and pnl_pct <= -sl_pct:
             return True, f"SL ({pnl_pct*100:.2f}%)"
-        
+
         return False, ""
 
