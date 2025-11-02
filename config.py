@@ -58,7 +58,7 @@ class Config:
     RSI_OVERBOUGHT = 70
     OB_IMBALANCE_LONG = 1.5
     OB_IMBALANCE_SHORT = 0.67
-    MIN_SIGNAL_SCORE = 1  # Cần ít nhất 1/3 tín hiệu (relaxed for testing)
+    MIN_SIGNAL_SCORE = 2  # Cần ít nhất 2/3 tín hiệu (balanced quality)
     
     # Model Path
     MODEL_PATH = 'models/lstm_model.pt'
