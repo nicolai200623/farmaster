@@ -48,6 +48,8 @@ Save: `Ctrl+O`, Enter, `Ctrl+X`
 
 ```bash
 source venv/bin/activate
+
+# Train LSTM model (will auto-create logs/ and models/ directories)
 python scripts/train_lstm.py
 ```
 

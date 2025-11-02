@@ -122,7 +122,8 @@ Save: `Ctrl+O`, Exit: `Ctrl+X`
 ### 5. Train Model
 
 ```bash
-python ml/train.py
+# Use the correct script path
+python scripts/train_lstm.py
 ```
 
 Wait for completion (~10 minutes).

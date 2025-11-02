@@ -4,6 +4,7 @@
 
 import logging
 import sys
+import os
 from datetime import datetime
 from telegram import Bot
 from telegram.error import TelegramError
@@ -13,6 +14,9 @@ class Logger:
     """Logger với Telegram integration"""
 
     def __init__(self):
+        # Create logs directory if not exists
+        os.makedirs('logs', exist_ok=True)
+
         # Setup file logging with UTF-8 encoding for Windows
         file_handler = logging.FileHandler(
             f'logs/bot_{datetime.now().strftime("%Y%m%d")}.log',
