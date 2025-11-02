@@ -176,9 +176,9 @@ After=network.target
 [Service]
 Type=simple
 User=botuser
-WorkingDirectory=/home/botuser/asterdex-bot
-Environment="PATH=/home/botuser/asterdex-bot/venv/bin"
-ExecStart=/home/botuser/asterdex-bot/venv/bin/python bot.py
+WorkingDirectory=/home/farmaster/farmaster/
+Environment="PATH=/home/farmaster/farmaster/venv/bin"
+ExecStart=/home/farmaster/farmaster/venv/bin/python bot.py
 Restart=always
 RestartSec=10
 

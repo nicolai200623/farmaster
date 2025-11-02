@@ -47,23 +47,28 @@ class RiskManager:
     def calculate_position_size(self, balance, price, leverage=None):
         """
         Tính position size
-        
+
         Args:
             balance: USDT balance
             price: Giá hiện tại
             leverage: Đòn bẩy
-            
+
         Returns:
             float: Quantity to trade
         """
         leverage = leverage or Config.LEVERAGE
-        
-        # Capital cho trade này
-        capital = balance * Config.SIZE_PCT
-        
+
+        # Determine capital for this trade
+        if Config.POSITION_SIZE_USDT is not None:
+            # Use fixed USDT amount
+            capital = Config.POSITION_SIZE_USDT
+        else:
+            # Use percentage of balance
+            capital = balance * Config.SIZE_PCT
+
         # Quantity = capital / price (đã tính leverage)
         quantity = (capital * leverage) / price
-        
+
         return quantity
     
     def round_quantity(self, quantity, symbol):

@@ -29,10 +29,17 @@ def main():
     
     print(f"\n📊 Account Info:")
     print(f"   Total Balance: ${balance:.2f} USDT")
-    print(f"   Position Size: {Config.SIZE_PCT * 100}%")
-    print(f"   Leverage: {Config.LEVERAGE}x")
-    print(f"   Capital per trade: ${balance * Config.SIZE_PCT:.2f}")
-    print(f"   Buying power: ${balance * Config.SIZE_PCT * Config.LEVERAGE:.2f}")
+
+    if Config.POSITION_SIZE_USDT is not None:
+        print(f"   Position Size: ${Config.POSITION_SIZE_USDT:.2f} USDT (fixed)")
+        print(f"   Leverage: {Config.LEVERAGE}x")
+        print(f"   Capital per trade: ${Config.POSITION_SIZE_USDT:.2f}")
+        print(f"   Buying power: ${Config.POSITION_SIZE_USDT * Config.LEVERAGE:.2f}")
+    else:
+        print(f"   Position Size: {Config.SIZE_PCT * 100}%")
+        print(f"   Leverage: {Config.LEVERAGE}x")
+        print(f"   Capital per trade: ${balance * Config.SIZE_PCT:.2f}")
+        print(f"   Buying power: ${balance * Config.SIZE_PCT * Config.LEVERAGE:.2f}")
     
     # Check each symbol
     symbols = Config.SYMBOLS.split(',')

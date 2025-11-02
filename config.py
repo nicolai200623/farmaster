@@ -27,7 +27,20 @@ class Config:
     TESTNET_MODE = os.getenv('TESTNET_MODE', 'True').lower() == 'true'
     SYMBOLS = os.getenv('SYMBOLS', 'BTCUSDT,ETHUSDT').split(',')
     LEVERAGE = int(os.getenv('LEVERAGE', '5'))
-    SIZE_PCT = float(os.getenv('SIZE_PCT', '0.1'))  # 10% vốn mỗi lệnh
+
+    # Position Size Config
+    SIZE_PCT = float(os.getenv('SIZE_PCT', '0.1'))  # 10% vốn mỗi lệnh (nếu không dùng POSITION_SIZE_USDT)
+    POSITION_SIZE_USDT = os.getenv('POSITION_SIZE_USDT', '')  # Số tiền cố định mỗi lệnh (ví dụ: 10 = $10)
+
+    # Convert POSITION_SIZE_USDT to float if set
+    if POSITION_SIZE_USDT:
+        try:
+            POSITION_SIZE_USDT = float(POSITION_SIZE_USDT)
+        except ValueError:
+            POSITION_SIZE_USDT = None
+    else:
+        POSITION_SIZE_USDT = None
+
     TP_PCT = float(os.getenv('TP_PCT', '0.02'))  # Take profit 2%
     SL_PCT = float(os.getenv('SL_PCT', '0.01'))  # Stop loss 1%
     LOOP_SLEEP = int(os.getenv('LOOP_SLEEP', '30'))  # 30 giây
@@ -60,13 +73,20 @@ class Config:
         """Kiểm tra config hợp lệ"""
         if not cls.API_KEY or not cls.API_SECRET:
             raise ValueError("❌ API_KEY và API_SECRET bắt buộc phải có trong .env!")
-        
-        if cls.SIZE_PCT <= 0 or cls.SIZE_PCT > 1:
-            raise ValueError("❌ SIZE_PCT phải trong khoảng (0, 1]")
-        
+
+        # Validate position size config
+        if cls.POSITION_SIZE_USDT is not None:
+            if cls.POSITION_SIZE_USDT <= 0:
+                raise ValueError("❌ POSITION_SIZE_USDT phải > 0")
+            print(f"✅ Using fixed position size: ${cls.POSITION_SIZE_USDT} USDT per trade")
+        else:
+            if cls.SIZE_PCT <= 0 or cls.SIZE_PCT > 1:
+                raise ValueError("❌ SIZE_PCT phải trong khoảng (0, 1]")
+            print(f"✅ Using percentage position size: {cls.SIZE_PCT*100}% of balance per trade")
+
         if cls.LEVERAGE < 1 or cls.LEVERAGE > 125:
             raise ValueError("❌ LEVERAGE phải trong khoảng [1, 125]")
-        
+
         print("✅ Config validation passed!")
         return True
 

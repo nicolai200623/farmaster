@@ -176,7 +176,12 @@ class AsterDEXBot:
                     logger.info(f"💰 Position calculation for {symbol}:")
                     logger.info(f"   Balance: ${current_balance:.2f}")
                     logger.info(f"   Price: ${price:.2f}")
-                    logger.info(f"   Capital (10%): ${current_balance * Config.SIZE_PCT:.2f}")
+
+                    if Config.POSITION_SIZE_USDT is not None:
+                        logger.info(f"   Capital (fixed): ${Config.POSITION_SIZE_USDT:.2f}")
+                    else:
+                        logger.info(f"   Capital ({Config.SIZE_PCT*100}%): ${current_balance * Config.SIZE_PCT:.2f}")
+
                     logger.info(f"   Leverage: {Config.LEVERAGE}x")
                     logger.info(f"   Raw quantity: {raw_quantity:.8f}")
                     logger.info(f"   Formatted quantity: {quantity:.8f}")
