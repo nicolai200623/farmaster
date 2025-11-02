@@ -46,7 +46,7 @@ class DataFetcher:
     @classmethod
     def fetch_historical_ohlcv(cls, symbol, days=365, max_retries=3):
         """
-        Lấy dữ liệu OHLCV lịch sử từ Coingecko
+        Lấy dữ liệu OHLCV lịch sử từ AsterDEX/Binance API (unlimited data!)
 
         Args:
             symbol: Trading pair (e.g., 'BTCUSDT')
@@ -56,47 +56,64 @@ class DataFetcher:
         Returns:
             DataFrame với columns: timestamp, open, high, low, close, volume
         """
-        coin_id = cls.COIN_MAP.get(symbol)
-        if not coin_id:
-            logger.warning(f"Symbol {symbol} không có trong COIN_MAP, dùng bitcoin")
-            coin_id = 'bitcoin'
+        # Use AsterDEX/Binance API instead of Coingecko (no limits!)
+        url = "https://fapi.asterdex.com/fapi/v1/klines"
+
+        # Calculate start time
+        end_time = int(time.time() * 1000)  # Current time in ms
+        start_time = end_time - (days * 24 * 60 * 60 * 1000)  # days ago
+
+        params = {
+            'symbol': symbol,
+            'interval': '4h',  # 4-hour candles
+            'startTime': start_time,
+            'endTime': end_time,
+            'limit': 1500  # Max per request
+        }
+
+        logger.info(f"Fetching {days} days data for {symbol}...")
 
         for attempt in range(max_retries):
             try:
-                url = f"{cls.COINGECKO_API}/coins/{coin_id}/ohlc"
-                params = {
-                    'vs_currency': 'usd',
-                    'days': days
-                }
-
-                logger.info(f"Fetching {days} days data for {symbol} ({coin_id})...")
                 response = requests.get(url, params=params, timeout=30)
                 response.raise_for_status()
-
                 data = response.json()
 
-                # Parse data
-                df = pd.DataFrame(data, columns=['timestamp', 'open', 'high', 'low', 'close'])
-                df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+                if not data:
+                    logger.warning(f"No data returned for {symbol}")
+                    return pd.DataFrame()
 
-                # Coingecko không có volume trong OHLC, estimate từ price
-                df['volume'] = (df['high'] - df['low']) * 1000000  # Dummy volume
+                # Parse Binance klines format
+                # [timestamp, open, high, low, close, volume, close_time, ...]
+                df = pd.DataFrame(data, columns=[
+                    'timestamp', 'open', 'high', 'low', 'close', 'volume',
+                    'close_time', 'quote_volume', 'trades', 'taker_buy_base',
+                    'taker_buy_quote', 'ignore'
+                ])
+
+                # Convert types
+                df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+                df['open'] = df['open'].astype(float)
+                df['high'] = df['high'].astype(float)
+                df['low'] = df['low'].astype(float)
+                df['close'] = df['close'].astype(float)
+                df['volume'] = df['volume'].astype(float)
+
+                # Keep only needed columns
+                df = df[['timestamp', 'open', 'high', 'low', 'close', 'volume']]
 
                 logger.info(f"✅ Fetched {len(df)} candles for {symbol}")
                 return df
 
             except requests.exceptions.HTTPError as e:
                 if e.response.status_code == 429:  # Rate limit
-                    wait_time = 10 * (attempt + 1)  # Exponential backoff: 10s, 20s, 30s
+                    wait_time = 10 * (attempt + 1)
                     logger.warning(f"⚠️ Rate limit hit, waiting {wait_time}s... (attempt {attempt+1}/{max_retries})")
                     time.sleep(wait_time)
                     continue
                 else:
-                    logger.error(f"Coingecko API error: {e}")
+                    logger.error(f"AsterDEX API error: {e}")
                     return pd.DataFrame()
-            except requests.exceptions.RequestException as e:
-                logger.error(f"Coingecko API error: {e}")
-                return pd.DataFrame()
             except Exception as e:
                 logger.error(f"Data fetch error: {e}")
                 return pd.DataFrame()

@@ -64,9 +64,9 @@ ldconfig
 ### 5. Create User (Security)
 
 ```bash
-adduser botuser
-usermod -aG sudo botuser
-su - botuser
+adduser botuser2
+usermod -aG sudo botuser2
+su - botuser2
 ```
 
 ## 📦 Deploy Bot
@@ -168,23 +168,23 @@ sudo nano /etc/systemd/system/asterdex-bot.service
 ```
 
 Content:
-```ini
 [Unit]
 Description=AsterDEX Perp Farm Bot
 After=network.target
 
 [Service]
 Type=simple
-User=botuser
-WorkingDirectory=/home/farmaster/farmaster/
+User=root
+WorkingDirectory=/home/farmaster/farmaster
 Environment="PATH=/home/farmaster/farmaster/venv/bin"
 ExecStart=/home/farmaster/farmaster/venv/bin/python bot.py
 Restart=always
 RestartSec=10
+StandardOutput=append:/home/farmaster/farmaster/logs/bot.log
+StandardError=append:/home/farmaster/farmaster/logs/bot_error.log
 
 [Install]
 WantedBy=multi-user.target
-```
 
 Enable and start:
 
