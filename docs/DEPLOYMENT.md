@@ -90,8 +90,16 @@ source venv/bin/activate
 
 ```bash
 pip install --upgrade pip
-pip install -r requirements.txt
+
+# Install core dependencies (pandas-ta is now optional)
+pip install -r requirements-vps.txt
+
+# Optional: Try to install pandas-ta (recommended but not required)
+# If this fails, bot will use manual indicator calculation
+pip install git+https://github.com/twopirllc/pandas-ta.git || echo "pandas-ta install failed, using manual calculation"
 ```
+
+**Note:** If `pandas-ta` installation fails due to git authentication issues, the bot will automatically use manual indicator calculation. Performance is slightly slower but fully functional.
 
 ### 4. Configure Environment
 

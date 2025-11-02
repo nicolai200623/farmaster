@@ -1,7 +1,7 @@
 # VPS-friendly requirements
-# Install pandas-ta separately: pip install git+https://github.com/twopirllc/pandas-ta.git
+# pandas-ta is now OPTIONAL - bot will use manual calculation if not available
 
-# Core dependencies
+# Core dependencies (all required)
 python-binance==1.0.19
 torch>=2.0.0
 pandas>=2.0.0
@@ -11,6 +11,9 @@ python-telegram-bot>=20.0
 requests>=2.31.0
 scikit-learn>=1.3.0
 
-# Note: Install pandas-ta separately with:
+# Optional: pandas-ta (recommended for better performance)
+# If you can install git on VPS:
 # pip install git+https://github.com/twopirllc/pandas-ta.git
+#
+# If git doesn't work, bot will use manual indicator calculation (slower but works)
 
