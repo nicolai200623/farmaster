@@ -156,40 +156,58 @@ class AsterDEXBot:
                 
                 if signal != 'HOLD':
                     logger.info(f"   🟢 Entry signal: {signal}")
-                    
+
                     # Setup leverage and margin
                     self.client.set_leverage(symbol, Config.LEVERAGE)
                     self.client.set_margin_type(symbol, 'ISOLATED')
-                    
+
                     # Get price
                     price = self.client.get_ticker_price(symbol)
-                    
+
                     # Calculate position size
-                    quantity = self.risk_manager.calculate_position_size(
+                    raw_quantity = self.risk_manager.calculate_position_size(
                         current_balance, price, Config.LEVERAGE
                     )
-                    quantity = self.risk_manager.round_quantity(quantity, symbol)
-                    
-                    # Determine side
-                    side = 'BUY' if signal == 'LONG' else 'SELL'
-                    
-                    # Create order
-                    order = self.client.create_market_order(
-                        symbol=symbol,
-                        side=side,
-                        quantity=quantity
-                    )
-                    
-                    if order:
-                        logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
-                        
-                        # Record trade
-                        self.risk_manager.record_trade(
+
+                    # Format quantity according to exchange rules
+                    quantity = self.client.format_quantity(symbol, raw_quantity)
+
+                    # Log calculation details
+                    logger.info(f"💰 Position calculation for {symbol}:")
+                    logger.info(f"   Balance: ${current_balance:.2f}")
+                    logger.info(f"   Price: ${price:.2f}")
+                    logger.info(f"   Capital (10%): ${current_balance * Config.SIZE_PCT:.2f}")
+                    logger.info(f"   Leverage: {Config.LEVERAGE}x")
+                    logger.info(f"   Raw quantity: {raw_quantity:.8f}")
+                    logger.info(f"   Formatted quantity: {quantity:.8f}")
+
+                    # Check minimum quantity
+                    if quantity > 0:
+                        # Determine side
+                        side = 'BUY' if signal == 'LONG' else 'SELL'
+
+                        # Create order
+                        order = self.client.create_market_order(
                             symbol=symbol,
-                            side=signal,
-                            quantity=quantity,
-                            price=price
+                            side=side,
+                            quantity=quantity
                         )
+
+                        if order:
+                            logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
+
+                            # Record trade
+                            self.risk_manager.record_trade(
+                                symbol=symbol,
+                                side=signal,
+                                quantity=quantity,
+                                price=price
+                            )
+                    else:
+                        # Quantity too small
+                        logger.warning(f"⚠️ Quantity too small ({quantity}), skipping {symbol}")
+                        logger.warning(f"   Minimum notional value may not be met")
+                        logger.warning(f"   Try increasing balance or SIZE_PCT")
                 else:
                     logger.info(f"   ⚪ No signal - HOLD")
         
