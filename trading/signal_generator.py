@@ -35,7 +35,7 @@ class SignalGenerator:
         """
         try:
             # 1. Get klines data
-            klines = client.get_klines(symbol, interval='1m', limit=100)
+            klines = client.get_klines(symbol, interval='15m', limit=100)
             
             if not klines or len(klines) < 60:
                 logger.warning(f"Insufficient klines data for {symbol}")

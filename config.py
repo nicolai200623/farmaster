@@ -52,7 +52,7 @@ class Config:
     LSTM_NUM_LAYERS = int(os.getenv('LSTM_NUM_LAYERS', '2'))
     LSTM_EPOCHS = int(os.getenv('LSTM_EPOCHS', '50'))
     SEQUENCE_LENGTH = int(os.getenv('SEQUENCE_LENGTH', '60'))
-    LSTM_THRESHOLD = float(os.getenv('LSTM_THRESHOLD', '0.6'))
+    LSTM_THRESHOLD = float(os.getenv('LSTM_THRESHOLD', '0.55'))
     
     # Signal Thresholds
     RSI_OVERSOLD = 30
