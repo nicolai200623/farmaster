@@ -17,6 +17,7 @@ from utils.logger import logger
 from trading.asterdex_client import AsterDEXClient
 from trading.signal_generator import SignalGenerator
 from trading.risk_manager import RiskManager
+from trading.position_tracker import PositionTracker
 from ml.lstm_model import LSTMTrainer
 from ml.features import FeatureEngine
 
@@ -34,15 +35,16 @@ class AsterDEXBot:
         # Initialize components
         self.client = AsterDEXClient()
         self.risk_manager = RiskManager()
-        
+        self.position_tracker = PositionTracker()
+
         # Load LSTM model
         logger.info("🧠 Loading LSTM model...")
         self.lstm_trainer = LSTMTrainer(input_size=len(FeatureEngine.FEATURE_COLUMNS))
-        
+
         if not self.lstm_trainer.load():
             logger.error("❌ Model chưa được train! Chạy ml/train.py trước.")
             sys.exit(1)
-        
+
         self.signal_generator = SignalGenerator(self.lstm_trainer)
         
         # State
@@ -58,6 +60,7 @@ class AsterDEXBot:
         logger.info(f"   Leverage: {Config.LEVERAGE}x")
         logger.info(f"   Position Size: {Config.SIZE_PCT*100}%")
         logger.info(f"   TP/SL: {Config.TP_PCT*100}% / {Config.SL_PCT*100}%")
+        logger.info(f"   Position Timeout: {Config.POSITION_TIMEOUT_HOURS}h")
         logger.info("=" * 60)
     
     def _signal_handler(self, signum, frame):
@@ -100,7 +103,12 @@ class AsterDEXBot:
                     # Small delay between symbols (except last one)
                     if i < len(Config.SYMBOLS) - 1:
                         time.sleep(0.5)  # 500ms delay
-                
+
+                # Cleanup stale position tracking (every 10 loops)
+                if self.loop_count % 10 == 0:
+                    active_symbols = [s for s in Config.SYMBOLS if self.client.get_position(s) is not None]
+                    self.position_tracker.cleanup_stale_positions(active_symbols)
+
                 # Daily reset check (00:00)
                 if datetime.now().hour == 0 and datetime.now().minute < 1:
                     self._daily_reset()
@@ -128,19 +136,31 @@ class AsterDEXBot:
             position = self.client.get_position(symbol)
             
             if position:
+                # Get position age
+                position_age_hours = self.position_tracker.get_position_age_hours(symbol)
+
                 logger.info(f"   Current position: {position['side']} {position['amount']}")
                 logger.info(f"   Entry: ${position['entry_price']:.2f} | Mark: ${position['mark_price']:.2f}")
                 logger.info(f"   PnL: {position['pnl_pct']*100:.2f}% (${position['pnl_usdt']:.2f})")
-                
-                # Check if should close
-                should_close, reason = self.signal_generator.should_close_position(position)
-                
+
+                if position_age_hours is not None:
+                    logger.info(f"   Age: {position_age_hours:.1f}h / {Config.POSITION_TIMEOUT_HOURS}h")
+
+                # Check if should close (including timeout check)
+                should_close, reason = self.signal_generator.should_close_position(
+                    position,
+                    position_age_hours=position_age_hours
+                )
+
                 if should_close:
                     logger.info(f"   🔴 Closing position: {reason}")
-                    
+
                     if self.client.close_position(symbol):
                         logger.trade(f"CLOSE {position['side']} {symbol} | {reason} | PnL: {position['pnl_pct']*100:.2f}%")
-                        
+
+                        # Clear position tracking
+                        self.position_tracker.clear_position(symbol)
+
                         # Record trade
                         self.risk_manager.record_trade(
                             symbol=symbol,
@@ -201,6 +221,9 @@ class AsterDEXBot:
                         if order:
                             logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
 
+                            # Track position opening time
+                            self.position_tracker.track_position_open(symbol)
+
                             # Record trade
                             self.risk_manager.record_trade(
                                 symbol=symbol,
@@ -252,7 +275,8 @@ def main():
     # Create necessary directories
     os.makedirs('logs', exist_ok=True)
     os.makedirs('models', exist_ok=True)
-    
+    os.makedirs('data', exist_ok=True)
+
     # Start bot
     bot = AsterDEXBot()
     bot.start()

@@ -164,7 +164,7 @@ python bot.py
 Create service file:
 
 ```bash
-sudo nano /etc/systemd/system/asterdex-bot.service
+sudo nano /etc/systemd/system/asterdex-bot2.service
 ```
 
 Content:
@@ -175,13 +175,13 @@ After=network.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/home/farmaster/farmaster
-Environment="PATH=/home/farmaster/farmaster/venv/bin"
-ExecStart=/home/farmaster/farmaster/venv/bin/python bot.py
+WorkingDirectory=/home/farmaster2/farmaster/
+Environment="PATH=/home/farmaster2/farmaster/venv/bin"
+ExecStart=/home/farmaster2/farmaster/venv/bin/python bot.py
 Restart=always
 RestartSec=10
-StandardOutput=append:/home/farmaster/farmaster/logs/bot.log
-StandardError=append:/home/farmaster/farmaster/logs/bot_error.log
+StandardOutput=append:/home/farmaster2/farmaster/logs/bot.log
+StandardError=append:/home/farmaster2/farmaster/logs/bot_error.log
 
 [Install]
 WantedBy=multi-user.target
@@ -192,7 +192,7 @@ Enable and start:
 sudo systemctl daemon-reload
 sudo systemctl enable asterdex-bot
 sudo systemctl start asterdex-bot
-
+sudo systemctl restart asterdex-bot
 # Check status
 sudo systemctl status asterdex-bot
 

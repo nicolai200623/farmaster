@@ -45,6 +45,7 @@ class Config:
     SL_PCT = float(os.getenv('SL_PCT', '0.01'))  # Stop loss 1%
     LOOP_SLEEP = int(os.getenv('LOOP_SLEEP', '30'))  # 30 giây
     DAILY_LOSS_LIMIT = float(os.getenv('DAILY_LOSS_LIMIT', '0.2'))  # 20%
+    POSITION_TIMEOUT_HOURS = float(os.getenv('POSITION_TIMEOUT_HOURS', '24'))  # Auto-close after 24 hours
     
     # ML Parameters
     LSTM_HIDDEN_SIZE = int(os.getenv('LSTM_HIDDEN_SIZE', '64'))

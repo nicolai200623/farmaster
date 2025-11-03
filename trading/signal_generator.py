@@ -139,26 +139,27 @@ class SignalGenerator:
         
         return df[['timestamp', 'open', 'high', 'low', 'close', 'volume']]
     
-    def should_close_position(self, position, tp_pct=None, sl_pct=None):
+    def should_close_position(self, position, tp_pct=None, sl_pct=None, position_age_hours=None):
         """
         Kiểm tra có nên đóng position không
-        
+
         Args:
             position: Dict từ get_position()
             tp_pct: Take profit %
             sl_pct: Stop loss %
-            
+            position_age_hours: How long position has been open (hours)
+
         Returns:
             tuple: (should_close: bool, reason: str)
         """
         if not position:
             return False, ""
-        
+
         tp_pct = tp_pct or Config.TP_PCT
         sl_pct = sl_pct or Config.SL_PCT
-        
+
         pnl_pct = position['pnl_pct']
-        
+
         # Take Profit
         if pnl_pct >= tp_pct:
             return True, f"TP ({pnl_pct*100:.2f}%)"
@@ -166,6 +167,10 @@ class SignalGenerator:
         # Stop Loss (only if SL_PCT > 0)
         if sl_pct > 0 and pnl_pct <= -sl_pct:
             return True, f"SL ({pnl_pct*100:.2f}%)"
+
+        # Position Timeout (24+ hours without hitting TP)
+        if position_age_hours is not None and position_age_hours >= Config.POSITION_TIMEOUT_HOURS:
+            return True, f"TIMEOUT ({position_age_hours:.1f}h, PnL: {pnl_pct*100:.2f}%)"
 
         return False, ""
 
