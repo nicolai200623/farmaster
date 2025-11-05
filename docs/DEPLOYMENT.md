@@ -123,7 +123,8 @@ Save: `Ctrl+O`, Exit: `Ctrl+X`
 
 ```bash
 # Use the correct script path
-python scripts/train_lstm.py
+python ml/train.py
+
 ```
 
 Wait for completion (~10 minutes).

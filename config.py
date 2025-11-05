@@ -55,8 +55,8 @@ class Config:
     LSTM_THRESHOLD = float(os.getenv('LSTM_THRESHOLD', '0.55'))
     
     # Signal Thresholds
-    RSI_OVERSOLD = 25
-    RSI_OVERBOUGHT = 75
+    RSI_OVERSOLD = 20
+    RSI_OVERBOUGHT = 80
     OB_IMBALANCE_LONG = 1.5
     OB_IMBALANCE_SHORT = 0.67
     MIN_SIGNAL_SCORE = 2  # Cần ít nhất 2/3 tín hiệu (balanced quality)
