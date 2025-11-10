@@ -60,11 +60,52 @@ class Config:
     OB_IMBALANCE_LONG = 1.5
     OB_IMBALANCE_SHORT = 0.67
     MIN_SIGNAL_SCORE = 2  # Cần ít nhất 2/3 tín hiệu (balanced quality)
-    
+
+    # ============================================
+    # 🎯 ADVANCED ENTRY SETTINGS
+    # ============================================
+    USE_ADVANCED_ENTRY = os.getenv('USE_ADVANCED_ENTRY', 'True').lower() == 'true'
+    MIN_CONFLUENCE_SCORE = int(os.getenv('MIN_CONFLUENCE_SCORE', '7'))  # Minimum score để entry (7-10)
+
+    # Entry Confirmation
+    WAIT_FOR_CONFIRMATION = os.getenv('WAIT_FOR_CONFIRMATION', 'True').lower() == 'true'
+    CONFIRMATION_CANDLES = int(os.getenv('CONFIRMATION_CANDLES', '2'))
+
+    # Multi-Timeframe Settings
+    USE_MULTI_TIMEFRAME = os.getenv('USE_MULTI_TIMEFRAME', 'True').lower() == 'true'
+    PRIMARY_TIMEFRAME = os.getenv('PRIMARY_TIMEFRAME', '15m')
+    HIGHER_TIMEFRAME = os.getenv('HIGHER_TIMEFRAME', '1h')
+
+    # Smart Money Concepts
+    USE_SMC = os.getenv('USE_SMC', 'True').lower() == 'true'  # Use Smart Money Concepts
+    DETECT_ORDER_BLOCKS = os.getenv('DETECT_ORDER_BLOCKS', 'True').lower() == 'true'
+    DETECT_FVG = os.getenv('DETECT_FVG', 'True').lower() == 'true'  # Fair Value Gaps
+    DETECT_LIQUIDITY_SWEEPS = os.getenv('DETECT_LIQUIDITY_SWEEPS', 'True').lower() == 'true'
+
+    # Price Action Patterns
+    USE_PRICE_PATTERNS = os.getenv('USE_PRICE_PATTERNS', 'True').lower() == 'true'
+    DETECT_ENGULFING = os.getenv('DETECT_ENGULFING', 'True').lower() == 'true'
+    DETECT_PIN_BARS = os.getenv('DETECT_PIN_BARS', 'True').lower() == 'true'
+    DETECT_DOJI = os.getenv('DETECT_DOJI', 'True').lower() == 'true'
+
+    # Volume Analysis
+    VOLUME_CONFIRMATION = os.getenv('VOLUME_CONFIRMATION', 'True').lower() == 'true'
+    MIN_VOLUME_SPIKE = float(os.getenv('MIN_VOLUME_SPIKE', '1.5'))  # 150% of average
+
+    # Entry Optimization
+    USE_LIMIT_ORDERS = os.getenv('USE_LIMIT_ORDERS', 'False').lower() == 'true'
+    LIMIT_ORDER_OFFSET = float(os.getenv('LIMIT_ORDER_OFFSET', '0.001'))  # 0.1% offset
+
+    # Risk Management Updates
+    USE_ATR_STOPS = os.getenv('USE_ATR_STOPS', 'False').lower() == 'true'
+    ATR_MULTIPLIER_SL = float(os.getenv('ATR_MULTIPLIER_SL', '1.5'))  # SL = 1.5x ATR
+    ATR_MULTIPLIER_TP = float(os.getenv('ATR_MULTIPLIER_TP', '2.5'))  # TP = 2.5x ATR
+    MIN_RR_RATIO = float(os.getenv('MIN_RR_RATIO', '1.5'))  # Minimum Risk:Reward ratio
+
     # Model Path
     MODEL_PATH = 'models/lstm_model.pt'
     SCALER_PATH = 'models/scaler.pkl'
-    
+
     # Backtest
     BACKTEST_DAYS = 30
     BACKTEST_INITIAL_CAPITAL = 1000

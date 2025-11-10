@@ -172,10 +172,21 @@ class AsterDEXBot:
             
             else:
                 # No position - check for entry signal
-                signal = self.signal_generator.generate_signal(self.client, symbol)
-                
+                signal_result = self.signal_generator.generate_signal(self.client, symbol)
+
+                # Handle both advanced (tuple) and legacy (str) return types
+                if Config.USE_ADVANCED_ENTRY:
+                    signal, confluence_score, reasons = signal_result
+                else:
+                    signal = signal_result
+                    confluence_score = 0
+                    reasons = []
+
                 if signal != 'HOLD':
                     logger.info(f"   🟢 Entry signal: {signal}")
+                    if Config.USE_ADVANCED_ENTRY:
+                        logger.info(f"   📊 Confluence: {confluence_score}")
+                        logger.info(f"   📝 Reasons: {', '.join(reasons[:3])}")
 
                     # Setup leverage and margin
                     self.client.set_leverage(symbol, Config.LEVERAGE)
@@ -219,7 +230,11 @@ class AsterDEXBot:
                         )
 
                         if order:
-                            logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
+                            # Log trade with confluence info if available
+                            if Config.USE_ADVANCED_ENTRY:
+                                logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f} | Score: {confluence_score} | {reasons[0] if reasons else ''}")
+                            else:
+                                logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
 
                             # Track position opening time
                             self.position_tracker.track_position_open(symbol)

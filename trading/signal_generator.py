@@ -1,6 +1,6 @@
 # ============================================
 # 📡 SIGNAL GENERATOR
-# Kết hợp LSTM + RSI + OB Imbalance
+# Kết hợp LSTM + RSI + OB Imbalance + Advanced Entry
 # ============================================
 
 import pandas as pd
@@ -9,6 +9,7 @@ from ml.features import FeatureEngine
 from ml.lstm_model import LSTMTrainer
 from config import Config
 from utils.logger import logger
+from trading.advanced_entry import AdvancedEntrySystem
 
 class SignalGenerator:
     """
@@ -16,30 +17,49 @@ class SignalGenerator:
     1. LSTM prediction
     2. RSI oversold/overbought
     3. Order Book imbalance
+    4. Advanced Entry System (Market Structure + Price Patterns + SMC + Volume)
     """
-    
+
     def __init__(self, lstm_trainer):
         self.lstm_trainer = lstm_trainer
         self.feature_engine = FeatureEngine()
+
+        # Initialize Advanced Entry System if enabled
+        if Config.USE_ADVANCED_ENTRY:
+            self.advanced_entry = AdvancedEntrySystem(
+                min_confluence_score=Config.MIN_CONFLUENCE_SCORE
+            )
+            logger.info(f"🎯 Advanced Entry System enabled (min score: {Config.MIN_CONFLUENCE_SCORE})")
+        else:
+            self.advanced_entry = None
+            logger.info("📡 Using legacy signal system")
     
     def generate_signal(self, client, symbol):
         """
         Tạo signal cho 1 symbol
-        
+
         Args:
             client: AsterDEXClient instance
             symbol: Trading pair
-            
+
         Returns:
-            str: 'LONG', 'SHORT', hoặc 'HOLD'
+            tuple: (signal, confluence_score, reasons) if USE_ADVANCED_ENTRY
+                   OR str: 'LONG', 'SHORT', 'HOLD' (legacy mode)
         """
         try:
-            # 1. Get klines data
-            klines = client.get_klines(symbol, interval='15m', limit=100)
+            # Determine interval
+            interval = Config.PRIMARY_TIMEFRAME if Config.USE_ADVANCED_ENTRY else '15m'
+
+            # 1. Get klines data (more data for advanced analysis)
+            limit = 200 if Config.USE_ADVANCED_ENTRY else 100
+            klines = client.get_klines(symbol, interval=interval, limit=limit)
             
             if not klines or len(klines) < 60:
                 logger.warning(f"Insufficient klines data for {symbol}")
-                return 'HOLD'
+                if Config.USE_ADVANCED_ENTRY:
+                    return 'HOLD', 0, []
+                else:
+                    return 'HOLD'
             
             # Parse klines
             df = self._parse_klines(klines)
@@ -106,22 +126,91 @@ class SignalGenerator:
             
             # 8. Decision
             signal = 'HOLD'
-            
-            if score_long >= Config.MIN_SIGNAL_SCORE:
-                signal = 'LONG'
-            elif score_short >= Config.MIN_SIGNAL_SCORE:
-                signal = 'SHORT'
-            
-            # Log signal details
-            logger.info(f"📡 {symbol} Signal: {signal}")
-            logger.info(f"   LSTM: {lstm_prob:.3f} | RSI: {current_rsi:.1f} | OB: {ob_imbalance:.2f}")
-            logger.info(f"   Score LONG: {score_long} | SHORT: {score_short}")
-            
-            return signal
+            confluence_score = 0
+            reasons = []
+
+            # Use Advanced Entry System if enabled
+            if Config.USE_ADVANCED_ENTRY and self.advanced_entry:
+                # Get higher timeframe data for confirmation if enabled
+                if Config.USE_MULTI_TIMEFRAME:
+                    try:
+                        klines_htf = client.get_klines(symbol, interval=Config.HIGHER_TIMEFRAME, limit=100)
+                        df_htf = self._parse_klines(klines_htf)
+                        df_htf = self.feature_engine.calculate_indicators(df_htf)
+
+                        # Check HTF trend
+                        htf_trend = self._get_trend(df_htf)
+                    except Exception as e:
+                        logger.warning(f"Could not get HTF data: {e}")
+                        htf_trend = 'NEUTRAL'
+                else:
+                    htf_trend = 'NEUTRAL'
+
+                # Get advanced signal
+                signal, confluence_score, reasons = self.advanced_entry.should_enter_trade(df, symbol)
+
+                # Filter by higher timeframe trend if enabled
+                if Config.USE_MULTI_TIMEFRAME and signal != 'HOLD':
+                    if signal == 'LONG' and htf_trend == 'DOWN':
+                        logger.info(f"   ⚠️ HTF trend is bearish, filtering LONG signal")
+                        return 'HOLD', confluence_score, reasons
+                    elif signal == 'SHORT' and htf_trend == 'UP':
+                        logger.info(f"   ⚠️ HTF trend is bullish, filtering SHORT signal")
+                        return 'HOLD', confluence_score, reasons
+
+                # Log advanced signal
+                if signal != 'HOLD':
+                    logger.info(f"🎯 {symbol} Advanced Signal: {signal}")
+                    logger.info(f"   📊 Confluence Score: {confluence_score}/{Config.MIN_CONFLUENCE_SCORE}")
+                    logger.info(f"   📝 Top Reasons:")
+                    for i, reason in enumerate(reasons[:3], 1):
+                        logger.info(f"      {i}. {reason}")
+                    logger.info(f"   📈 Legacy Signals - LSTM: {lstm_prob:.3f} | RSI: {current_rsi:.1f} | OB: {ob_imbalance:.2f}")
+                else:
+                    logger.info(f"📡 {symbol} Signal: HOLD (score: {confluence_score}/{Config.MIN_CONFLUENCE_SCORE})")
+                    if reasons:
+                        logger.info(f"   Partial signals: {', '.join(reasons[:2])}")
+
+                return signal, confluence_score, reasons
+
+            else:
+                # Legacy signal system
+                if score_long >= Config.MIN_SIGNAL_SCORE:
+                    signal = 'LONG'
+                elif score_short >= Config.MIN_SIGNAL_SCORE:
+                    signal = 'SHORT'
+
+                # Log signal details
+                logger.info(f"📡 {symbol} Signal: {signal}")
+                logger.info(f"   LSTM: {lstm_prob:.3f} | RSI: {current_rsi:.1f} | OB: {ob_imbalance:.2f}")
+                logger.info(f"   Score LONG: {score_long} | SHORT: {score_short}")
+
+                return signal
             
         except Exception as e:
             logger.error(f"Signal generation error for {symbol}: {e}")
-            return 'HOLD'
+            import traceback
+            logger.error(traceback.format_exc())
+            if Config.USE_ADVANCED_ENTRY:
+                return 'HOLD', 0, []
+            else:
+                return 'HOLD'
+
+    def _get_trend(self, df):
+        """Get trend from higher timeframe"""
+        if len(df) < 50:
+            return 'NEUTRAL'
+
+        ema_20 = df['close'].ewm(span=20, adjust=False).mean().iloc[-1]
+        ema_50 = df['close'].ewm(span=50, adjust=False).mean().iloc[-1]
+        current_price = df['close'].iloc[-1]
+
+        if current_price > ema_20 > ema_50:
+            return 'UP'
+        elif current_price < ema_20 < ema_50:
+            return 'DOWN'
+        else:
+            return 'NEUTRAL'
     
     def _parse_klines(self, klines):
         """Parse klines thành DataFrame"""
