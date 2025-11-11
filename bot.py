@@ -19,33 +19,46 @@ from trading.signal_generator import SignalGenerator
 from trading.risk_manager import RiskManager
 from trading.position_tracker import PositionTracker
 from ml.lstm_model import LSTMTrainer
+from ml.ensemble import EnsemblePredictor
 from ml.features import FeatureEngine
 
 class AsterDEXBot:
     """Main trading bot"""
-    
+
     def __init__(self):
         logger.info("=" * 60)
         logger.info("🚀 ASTERDEX PERP FARM BOT - INITIALIZING")
         logger.info("=" * 60)
-        
+
         # Validate config
         Config.validate()
-        
+
         # Initialize components
         self.client = AsterDEXClient()
         self.risk_manager = RiskManager()
         self.position_tracker = PositionTracker()
 
-        # Load LSTM model
-        logger.info("🧠 Loading LSTM model...")
-        self.lstm_trainer = LSTMTrainer(input_size=len(FeatureEngine.FEATURE_COLUMNS))
+        # Load ML models
+        if Config.USE_ENSEMBLE:
+            logger.info("🎭 Loading Ensemble models...")
+            self.predictor = EnsemblePredictor(
+                models=Config.ENSEMBLE_MODELS,
+                weights=Config.ENSEMBLE_WEIGHTS,
+                input_size=len(FeatureEngine.FEATURE_COLUMNS)
+            )
 
-        if not self.lstm_trainer.load():
-            logger.error("❌ Model chưa được train! Chạy ml/train.py trước.")
-            sys.exit(1)
+            if not self.predictor.load_models():
+                logger.error("❌ Ensemble models chưa được train! Chạy ml/train_ensemble.py trước.")
+                sys.exit(1)
+        else:
+            logger.info("🧠 Loading LSTM model...")
+            self.predictor = LSTMTrainer(input_size=len(FeatureEngine.FEATURE_COLUMNS))
 
-        self.signal_generator = SignalGenerator(self.lstm_trainer)
+            if not self.predictor.load():
+                logger.error("❌ LSTM model chưa được train! Chạy ml/train.py trước.")
+                sys.exit(1)
+
+        self.signal_generator = SignalGenerator(self.predictor)
         
         # State
         self.running = True
