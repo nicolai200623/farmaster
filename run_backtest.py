@@ -12,8 +12,9 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from config import Config
 from utils.logger import logger
 from ml.lstm_model import LSTMTrainer
+from ml.ensemble import EnsemblePredictor
 from ml.features import FeatureEngine
-from backtest.backtester import Backtester
+from backtest.enhanced_backtester import EnhancedBacktester
 
 def main():
     """Main backtest runner"""
@@ -27,21 +28,36 @@ def main():
     
     # Validate config
     Config.validate()
-    
-    # Load LSTM model
-    logger.info("🧠 Loading LSTM model...")
-    lstm_trainer = LSTMTrainer(input_size=len(FeatureEngine.FEATURE_COLUMNS))
-    
-    if not lstm_trainer.load():
-        logger.error("❌ Model chưa được train!")
-        logger.info("💡 Chạy: python ml/train.py")
-        sys.exit(1)
-    
-    # Create backtester
-    backtester = Backtester(
-        lstm_trainer=lstm_trainer,
-        initial_capital=Config.BACKTEST_INITIAL_CAPITAL
-    )
+
+    # Load model (Ensemble or LSTM)
+    if Config.USE_ENSEMBLE:
+        logger.info("🎭 Loading Ensemble models...")
+        ensemble = EnsemblePredictor()
+
+        if not ensemble.load_models():
+            logger.error("❌ Ensemble models chưa được train!")
+            logger.info("💡 Chạy: python ml/train_ensemble.py")
+            sys.exit(1)
+
+        # Create enhanced backtester with ensemble
+        backtester = EnhancedBacktester(
+            ensemble_predictor=ensemble,
+            initial_capital=Config.BACKTEST_INITIAL_CAPITAL
+        )
+    else:
+        logger.info("🧠 Loading LSTM model...")
+        lstm_trainer = LSTMTrainer(input_size=len(FeatureEngine.FEATURE_COLUMNS))
+
+        if not lstm_trainer.load():
+            logger.error("❌ Model chưa được train!")
+            logger.info("💡 Chạy: python ml/train.py")
+            sys.exit(1)
+
+        # Create enhanced backtester with LSTM
+        backtester = EnhancedBacktester(
+            lstm_trainer=lstm_trainer,
+            initial_capital=Config.BACKTEST_INITIAL_CAPITAL
+        )
     
     # Run backtest
     results = backtester.run_backtest(

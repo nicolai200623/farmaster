@@ -14,9 +14,10 @@ from utils.logger import logger
 
 class Backtester:
     """Backtest trading strategy"""
-    
-    def __init__(self, lstm_trainer, initial_capital=1000):
+
+    def __init__(self, lstm_trainer=None, ensemble_predictor=None, initial_capital=1000):
         self.lstm_trainer = lstm_trainer
+        self.ensemble_predictor = ensemble_predictor
         self.initial_capital = initial_capital
         self.feature_engine = FeatureEngine()
     
@@ -77,21 +78,34 @@ class Backtester:
         """Backtest 1 symbol"""
         # Calculate indicators
         df = self.feature_engine.calculate_indicators(df)
-        
+
         # Prepare features
         feature_df = self.feature_engine.prepare_features(df)
-        normalized = self.lstm_trainer.scaler.transform(feature_df.values)
-        
+
+        # Get prediction based on model type
+        if self.ensemble_predictor:
+            # Use ensemble prediction
+            normalized = feature_df.values
+        else:
+            # Use LSTM prediction
+            normalized = self.lstm_trainer.scaler.transform(feature_df.values)
+
         # Simulate trading
         trades = []
         position = None
         capital = self.initial_capital
         total_volume = 0
-        
+
         for i in range(Config.SEQUENCE_LENGTH, len(df)):
-            # Get LSTM prediction
-            lstm_input = normalized[i-Config.SEQUENCE_LENGTH:i]
-            lstm_prob = self.lstm_trainer.predict(lstm_input)[0]
+            # Get prediction
+            if self.ensemble_predictor:
+                # Ensemble prediction
+                sequence = normalized[i-Config.SEQUENCE_LENGTH:i]
+                lstm_prob = self.ensemble_predictor.predict(sequence)
+            else:
+                # LSTM prediction
+                lstm_input = normalized[i-Config.SEQUENCE_LENGTH:i]
+                lstm_prob = self.lstm_trainer.predict(lstm_input)[0]
             
             # Get indicators
             rsi = df['rsi'].iloc[i]

@@ -18,7 +18,7 @@ from utils.data_fetcher import DataFetcher
 from config import Config
 from utils.logger import logger
 
-def train_ensemble_models(symbols=['BTCUSDT', 'ETHUSDT'], days=90):
+def train_ensemble_models(symbols=['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'DOTUSDT', 'AVAXUSDT'], days=360):
     """
     Train both LSTM and XGBoost models
 
@@ -38,33 +38,15 @@ def train_ensemble_models(symbols=['BTCUSDT', 'ETHUSDT'], days=90):
 
     # 1. Fetch data
     logger.info("\n📥 Fetching historical data...")
-    fetcher = DataFetcher()
-    all_data = []
+    data_dict = DataFetcher.fetch_multiple_symbols(symbols, days=days)
 
-    for symbol in symbols:
-        try:
-            df = fetcher.fetch_historical_klines(
-                symbol=symbol,
-                interval='15m',
-                days=days
-            )
-
-            if df is not None and len(df) > 0:
-                all_data.append(df)
-                logger.info(f"   ✅ {symbol}: {len(df)} candles")
-            else:
-                logger.warning(f"   ⚠️ {symbol}: No data")
-
-        except Exception as e:
-            logger.error(f"   ❌ {symbol}: {e}")
-
-    if not all_data:
+    if not data_dict:
         logger.error("❌ No data fetched! Exiting...")
         return False
 
     # Combine all data
     import pandas as pd
-    df_combined = pd.concat(all_data, ignore_index=True)
+    df_combined = DataFetcher.combine_dataframes(data_dict)
     logger.info(f"\n📊 Combined dataset: {len(df_combined)} candles")
 
     # 2. Calculate indicators
@@ -113,19 +95,31 @@ def train_ensemble_models(symbols=['BTCUSDT', 'ETHUSDT'], days=90):
                     num_layers=Config.LSTM_NUM_LAYERS
                 )
 
-                history = lstm_trainer.train(
+                # Fit scaler on training data (flatten for scaler)
+                # Reshape from (samples, seq_len, features) to (samples*seq_len, features)
+                X_train_flat = X_train.reshape(-1, X_train.shape[2])
+                lstm_trainer.scaler.fit(X_train_flat)
+                logger.info(f"   ✅ Scaler fitted on training data")
+
+                lstm_trainer.train(
                     X_train, y_train,
-                    X_val, y_val,
                     epochs=Config.LSTM_EPOCHS,
-                    batch_size=32
+                    batch_size=32,
+                    lr=Config.LSTM_LEARNING_RATE
                 )
+
+                # Evaluate on validation set
+                y_val_pred = lstm_trainer.predict(X_val)
+                y_val_pred_binary = (y_val_pred > 0.5).astype(int)
+                val_acc = (y_val_pred_binary == y_val).sum() / len(y_val)
 
                 # Save LSTM
                 lstm_trainer.save(Config.MODEL_PATH, Config.SCALER_PATH)
-                results['lstm'] = history
+
+                results['lstm'] = {'val_acc': val_acc}
 
                 logger.info(f"✅ LSTM training complete!")
-                logger.info(f"   Best Val Acc: {history.get('best_val_acc', 0):.4f}")
+                logger.info(f"   Val Acc: {val_acc:.4f}")
 
             elif model_name == 'xgboost':
                 # Train XGBoost
@@ -179,9 +173,9 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser(description='Train ensemble models')
-    parser.add_argument('--symbols', type=str, default='BTCUSDT,ETHUSDT',
+    parser.add_argument('--symbols', type=str, default='BTCUSDT,ETHUSDT,SOLUSDT,LTCUSDT,DOTUSDT,AVAXUSDT',
                         help='Comma-separated list of symbols')
-    parser.add_argument('--days', type=int, default=90,
+    parser.add_argument('--days', type=int, default=360,
                         help='Days of historical data')
 
     args = parser.parse_args()

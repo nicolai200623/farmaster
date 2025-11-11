@@ -10,6 +10,7 @@ import os
 from sklearn.preprocessing import StandardScaler
 import xgboost as xgb
 from utils.logger import logger
+from config import Config
 
 class XGBoostTrainer:
     """
@@ -32,19 +33,19 @@ class XGBoostTrainer:
         self.input_size = input_size
         self.feature_names = None
 
-        # XGBoost parameters
+        # XGBoost parameters (Anti-overfitting)
         self.params = {
             'objective': 'binary:logistic',
             'eval_metric': 'auc',
-            'max_depth': 6,
-            'learning_rate': 0.05,
-            'n_estimators': 200,
-            'subsample': 0.8,
-            'colsample_bytree': 0.8,
-            'min_child_weight': 3,
+            'max_depth': Config.XGBOOST_MAX_DEPTH,
+            'learning_rate': Config.XGBOOST_LEARNING_RATE,
+            'n_estimators': Config.XGBOOST_N_ESTIMATORS,
+            'subsample': Config.XGBOOST_SUBSAMPLE,
+            'colsample_bytree': Config.XGBOOST_COLSAMPLE_BYTREE,
+            'min_child_weight': Config.XGBOOST_MIN_CHILD_WEIGHT,
             'gamma': 0.1,
-            'reg_alpha': 0.1,
-            'reg_lambda': 1.0,
+            'reg_alpha': Config.XGBOOST_REG_ALPHA,
+            'reg_lambda': Config.XGBOOST_REG_LAMBDA,
             'random_state': 42,
             'n_jobs': -1,
             'tree_method': 'hist'  # Fast histogram-based algorithm
@@ -84,22 +85,18 @@ class XGBoostTrainer:
         # Create XGBoost model
         self.model = xgb.XGBClassifier(**self.params)
 
-        # Training with early stopping if validation set provided
+        # Training with validation set
         if X_val is not None and y_val is not None:
-            logger.info("   Training with early stopping...")
-            eval_set = [(X_train_scaled, y_train), (X_val_scaled, y_val)]
+            logger.info("   Training with validation monitoring...")
 
             self.model.fit(
                 X_train_scaled,
                 y_train,
-                eval_set=eval_set,
-                early_stopping_rounds=20,
+                eval_set=[(X_train_scaled, y_train), (X_val_scaled, y_val)],
                 verbose=False
             )
 
-            # Get best iteration
-            best_iteration = self.model.best_iteration
-            logger.info(f"   Best iteration: {best_iteration}")
+            logger.info(f"   Training completed with {epochs} iterations")
 
             # Evaluate
             train_pred = self.model.predict_proba(X_train_scaled)[:, 1]
@@ -118,8 +115,7 @@ class XGBoostTrainer:
                 'train_auc': train_auc,
                 'val_auc': val_auc,
                 'train_acc': train_acc,
-                'val_acc': val_acc,
-                'best_iteration': best_iteration
+                'val_acc': val_acc
             }
         else:
             logger.info("   Training without validation...")

@@ -41,16 +41,19 @@ class Config:
     else:
         POSITION_SIZE_USDT = None
 
-    TP_PCT = float(os.getenv('TP_PCT', '0.02'))  # Take profit 2%
-    SL_PCT = float(os.getenv('SL_PCT', '0.01'))  # Stop loss 1%
+    # TP/SL in percentage (1.0 = 1%, not 0.01)
+    TP_PCT = float(os.getenv('TP_PCT', '2.0'))  # Take profit 2%
+    SL_PCT = float(os.getenv('SL_PCT', '1.0')) if float(os.getenv('SL_PCT', '0')) > 0 else None  # Stop loss 1%
     LOOP_SLEEP = int(os.getenv('LOOP_SLEEP', '30'))  # 30 giây
     DAILY_LOSS_LIMIT = float(os.getenv('DAILY_LOSS_LIMIT', '0.2'))  # 20%
     POSITION_TIMEOUT_HOURS = float(os.getenv('POSITION_TIMEOUT_HOURS', '24'))  # Auto-close after 24 hours
     
     # ML Parameters
-    LSTM_HIDDEN_SIZE = int(os.getenv('LSTM_HIDDEN_SIZE', '64'))
-    LSTM_NUM_LAYERS = int(os.getenv('LSTM_NUM_LAYERS', '2'))
-    LSTM_EPOCHS = int(os.getenv('LSTM_EPOCHS', '50'))
+    LSTM_HIDDEN_SIZE = int(os.getenv('LSTM_HIDDEN_SIZE', '128'))
+    LSTM_NUM_LAYERS = int(os.getenv('LSTM_NUM_LAYERS', '3'))
+    LSTM_EPOCHS = int(os.getenv('LSTM_EPOCHS', '150'))
+    LSTM_DROPOUT = float(os.getenv('LSTM_DROPOUT', '0.3'))
+    LSTM_LEARNING_RATE = float(os.getenv('LSTM_LEARNING_RATE', '0.0005'))
     SEQUENCE_LENGTH = int(os.getenv('SEQUENCE_LENGTH', '60'))
     LSTM_THRESHOLD = float(os.getenv('LSTM_THRESHOLD', '0.55'))
 
@@ -61,17 +64,22 @@ class Config:
     ENSEMBLE_MODELS = os.getenv('ENSEMBLE_MODELS', 'lstm,xgboost').split(',')
 
     # Parse ensemble weights
-    ensemble_weights_str = os.getenv('ENSEMBLE_WEIGHTS', '0.4,0.6')
+    ensemble_weights_str = os.getenv('ENSEMBLE_WEIGHTS', '0.3,0.7')
     ENSEMBLE_WEIGHTS = [float(w.strip()) for w in ensemble_weights_str.split(',')]
 
     # Validate ensemble weights
     if len(ENSEMBLE_WEIGHTS) != len(ENSEMBLE_MODELS):
         raise ValueError(f"ENSEMBLE_WEIGHTS length ({len(ENSEMBLE_WEIGHTS)}) must match ENSEMBLE_MODELS ({len(ENSEMBLE_MODELS)})")
 
-    # XGBoost specific parameters
-    XGBOOST_MAX_DEPTH = int(os.getenv('XGBOOST_MAX_DEPTH', '6'))
-    XGBOOST_LEARNING_RATE = float(os.getenv('XGBOOST_LEARNING_RATE', '0.05'))
-    XGBOOST_N_ESTIMATORS = int(os.getenv('XGBOOST_N_ESTIMATORS', '200'))
+    # XGBoost specific parameters (Anti-overfitting)
+    XGBOOST_MAX_DEPTH = int(os.getenv('XGBOOST_MAX_DEPTH', '4'))
+    XGBOOST_LEARNING_RATE = float(os.getenv('XGBOOST_LEARNING_RATE', '0.03'))
+    XGBOOST_N_ESTIMATORS = int(os.getenv('XGBOOST_N_ESTIMATORS', '300'))
+    XGBOOST_MIN_CHILD_WEIGHT = int(os.getenv('XGBOOST_MIN_CHILD_WEIGHT', '5'))
+    XGBOOST_SUBSAMPLE = float(os.getenv('XGBOOST_SUBSAMPLE', '0.7'))
+    XGBOOST_COLSAMPLE_BYTREE = float(os.getenv('XGBOOST_COLSAMPLE_BYTREE', '0.7'))
+    XGBOOST_REG_ALPHA = float(os.getenv('XGBOOST_REG_ALPHA', '0.5'))
+    XGBOOST_REG_LAMBDA = float(os.getenv('XGBOOST_REG_LAMBDA', '2.0'))
     
     # Signal Thresholds
     RSI_OVERSOLD = 20
@@ -126,9 +134,37 @@ class Config:
     SCALER_PATH = 'models/scaler.pkl'
 
     # Backtest
-    BACKTEST_DAYS = 30
-    BACKTEST_INITIAL_CAPITAL = 1000
-    
+    BACKTEST_DAYS = int(os.getenv('BACKTEST_DAYS', '90'))
+    BACKTEST_INITIAL_CAPITAL = int(os.getenv('BACKTEST_INITIAL_CAPITAL', '1000'))
+
+    # Signal Filters
+    USE_SIGNAL_FILTERS = os.getenv('USE_SIGNAL_FILTERS', 'True').lower() == 'true'
+    USE_TREND_FILTER = os.getenv('USE_TREND_FILTER', 'True').lower() == 'true'
+    USE_VOLATILITY_FILTER = os.getenv('USE_VOLATILITY_FILTER', 'True').lower() == 'true'
+    USE_VOLUME_FILTER = os.getenv('USE_VOLUME_FILTER', 'True').lower() == 'true'
+    MIN_VOLUME_RATIO = float(os.getenv('MIN_VOLUME_RATIO', '1.2'))
+    MIN_ATR_PCT = float(os.getenv('MIN_ATR_PCT', '0.5'))
+    MAX_ATR_PCT = float(os.getenv('MAX_ATR_PCT', '5.0'))
+    MIN_SIGNAL_QUALITY_SCORE = float(os.getenv('MIN_SIGNAL_QUALITY_SCORE', '50'))
+
+    # Trailing Stop
+    USE_TRAILING_STOP = os.getenv('USE_TRAILING_STOP', 'True').lower() == 'true'
+    TRAILING_ACTIVATION_PCT = float(os.getenv('TRAILING_ACTIVATION_PCT', '0.5'))
+    TRAILING_DISTANCE_PCT = float(os.getenv('TRAILING_DISTANCE_PCT', '0.3'))
+    USE_ATR_TRAILING = os.getenv('USE_ATR_TRAILING', 'False').lower() == 'true'
+    ATR_TRAILING_MULTIPLIER = float(os.getenv('ATR_TRAILING_MULTIPLIER', '2.0'))
+    USE_BREAKEVEN_STOP = os.getenv('USE_BREAKEVEN_STOP', 'True').lower() == 'true'
+    BREAKEVEN_ACTIVATION_PCT = float(os.getenv('BREAKEVEN_ACTIVATION_PCT', '0.5'))
+    BREAKEVEN_OFFSET_PCT = float(os.getenv('BREAKEVEN_OFFSET_PCT', '0.1'))
+
+    # Market Regime Detection
+    USE_MARKET_REGIME = os.getenv('USE_MARKET_REGIME', 'True').lower() == 'true'
+    REGIME_LOOKBACK = int(os.getenv('REGIME_LOOKBACK', '50'))
+
+    # Symbol Optimization
+    USE_SYMBOL_OPTIMIZER = os.getenv('USE_SYMBOL_OPTIMIZER', 'True').lower() == 'true'
+    SYMBOL_PARAMS_FILE = os.getenv('SYMBOL_PARAMS_FILE', 'config/symbol_params.json')
+
     @classmethod
     def validate(cls):
         """Kiểm tra config hợp lệ"""

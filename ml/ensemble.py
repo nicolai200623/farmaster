@@ -157,12 +157,6 @@ class EnsemblePredictor:
 
         ensemble_pred = np.average(predictions, weights=valid_weights)
 
-        # Log individual predictions (optional, for debugging)
-        if logger.level <= 10:  # DEBUG level
-            for i, (name, pred, weight) in enumerate(zip(self.model_names, predictions, valid_weights)):
-                logger.debug(f"   {name}: {pred:.4f} (weight: {weight:.2f})")
-            logger.debug(f"   Ensemble: {ensemble_pred:.4f}")
-
         return ensemble_pred
 
     def predict_with_details(self, X):

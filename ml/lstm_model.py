@@ -69,15 +69,17 @@ class LSTMPredictor(nn.Module):
 class LSTMTrainer:
     """Training và inference cho LSTM model"""
     
-    def __init__(self, input_size, hidden_size=None, num_layers=None):
+    def __init__(self, input_size, hidden_size=None, num_layers=None, dropout=None):
         self.input_size = input_size
         self.hidden_size = hidden_size or Config.LSTM_HIDDEN_SIZE
         self.num_layers = num_layers or Config.LSTM_NUM_LAYERS
-        
+        self.dropout = dropout or Config.LSTM_DROPOUT
+
         self.model = LSTMPredictor(
             input_size=input_size,
             hidden_size=self.hidden_size,
-            num_layers=self.num_layers
+            num_layers=self.num_layers,
+            dropout=self.dropout
         )
         
         self.scaler = MinMaxScaler()
@@ -85,9 +87,9 @@ class LSTMTrainer:
         self.model.to(self.device)
         
         logger.info(f"🧠 LSTM Model initialized on {self.device}")
-        logger.info(f"   Input: {input_size}, Hidden: {self.hidden_size}, Layers: {self.num_layers}")
-    
-    def train(self, X_train, y_train, epochs=None, batch_size=32, lr=0.001):
+        logger.info(f"   Input: {input_size}, Hidden: {self.hidden_size}, Layers: {self.num_layers}, Dropout: {self.dropout}")
+
+    def train(self, X_train, y_train, epochs=None, batch_size=32, lr=None):
         """
         Train model
         
@@ -99,11 +101,12 @@ class LSTMTrainer:
             lr: Learning rate
         """
         epochs = epochs or Config.LSTM_EPOCHS
-        
+        lr = lr or Config.LSTM_LEARNING_RATE
+
         # Convert to tensors
         X_tensor = torch.FloatTensor(X_train).to(self.device)
         y_tensor = torch.FloatTensor(y_train).view(-1, 1).to(self.device)
-        
+
         # Loss and optimizer
         criterion = nn.BCELoss()
         optimizer = torch.optim.Adam(self.model.parameters(), lr=lr)
