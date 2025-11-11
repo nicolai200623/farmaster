@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 from ml.features import FeatureEngine
 from ml.lstm_model import LSTMTrainer
+from ml.ensemble import EnsemblePredictor
 from config import Config
 from utils.logger import logger
 from trading.advanced_entry import AdvancedEntrySystem
@@ -14,15 +15,30 @@ from trading.advanced_entry import AdvancedEntrySystem
 class SignalGenerator:
     """
     Tạo trading signals từ nhiều nguồn:
-    1. LSTM prediction
+    1. ML prediction (LSTM or Ensemble)
     2. RSI oversold/overbought
     3. Order Book imbalance
     4. Advanced Entry System (Market Structure + Price Patterns + SMC + Volume)
     """
 
-    def __init__(self, lstm_trainer):
-        self.lstm_trainer = lstm_trainer
+    def __init__(self, predictor):
+        """
+        Initialize signal generator
+
+        Args:
+            predictor: LSTM trainer or Ensemble predictor
+        """
+        self.predictor = predictor  # Can be LSTMTrainer or EnsemblePredictor
         self.feature_engine = FeatureEngine()
+
+        # Check if using ensemble
+        self.use_ensemble = isinstance(predictor, EnsemblePredictor)
+
+        if self.use_ensemble:
+            logger.info(f"🎭 Using Ensemble predictor: {Config.ENSEMBLE_MODELS}")
+            logger.info(f"   Weights: {Config.ENSEMBLE_WEIGHTS}")
+        else:
+            logger.info("🧠 Using LSTM predictor")
 
         # Initialize Advanced Entry System if enabled
         if Config.USE_ADVANCED_ENTRY:
@@ -83,21 +99,36 @@ class SignalGenerator:
             # Update OB imbalance
             df['ob_imbalance'] = ob_imbalance
             
-            # 4. Prepare features for LSTM
+            # 4. Prepare features for ML model
             feature_df = self.feature_engine.prepare_features(df)
-            
+
             # Normalize
-            normalized = self.lstm_trainer.scaler.transform(feature_df.values)
-            
+            normalized = self.predictor.scaler.transform(feature_df.values)
+
             # Get last 60 candles
             if len(normalized) < Config.SEQUENCE_LENGTH:
-                logger.warning(f"Not enough data for LSTM: {len(normalized)}")
-                return 'HOLD'
-            
-            lstm_input = normalized[-Config.SEQUENCE_LENGTH:]
-            
-            # 5. LSTM Prediction
-            lstm_prob = self.lstm_trainer.predict(lstm_input)[0]
+                logger.warning(f"Not enough data for ML model: {len(normalized)}")
+                if Config.USE_ADVANCED_ENTRY:
+                    return 'HOLD', 0, []
+                else:
+                    return 'HOLD'
+
+            ml_input = normalized[-Config.SEQUENCE_LENGTH:]
+
+            # 5. ML Prediction (LSTM or Ensemble)
+            if self.use_ensemble:
+                ml_prob, pred_details = self.predictor.predict_with_details(ml_input)
+                # Log individual model predictions
+                if logger.level <= 20:  # INFO level
+                    logger.debug(f"   ML predictions:")
+                    for model_name, pred in pred_details.items():
+                        if model_name not in ['ensemble', 'weights']:
+                            logger.debug(f"      {model_name}: {pred:.3f}")
+            else:
+                ml_prob = self.predictor.predict(ml_input)[0]
+
+            # For backward compatibility, keep variable name as lstm_prob
+            lstm_prob = ml_prob
             
             # 6. Get current indicators
             current_rsi = df['rsi'].iloc[-1]

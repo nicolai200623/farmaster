@@ -53,6 +53,25 @@ class Config:
     LSTM_EPOCHS = int(os.getenv('LSTM_EPOCHS', '50'))
     SEQUENCE_LENGTH = int(os.getenv('SEQUENCE_LENGTH', '60'))
     LSTM_THRESHOLD = float(os.getenv('LSTM_THRESHOLD', '0.55'))
+
+    # ============================================
+    # 🎭 ENSEMBLE MODEL SETTINGS
+    # ============================================
+    USE_ENSEMBLE = os.getenv('USE_ENSEMBLE', 'True').lower() == 'true'
+    ENSEMBLE_MODELS = os.getenv('ENSEMBLE_MODELS', 'lstm,xgboost').split(',')
+
+    # Parse ensemble weights
+    ensemble_weights_str = os.getenv('ENSEMBLE_WEIGHTS', '0.4,0.6')
+    ENSEMBLE_WEIGHTS = [float(w.strip()) for w in ensemble_weights_str.split(',')]
+
+    # Validate ensemble weights
+    if len(ENSEMBLE_WEIGHTS) != len(ENSEMBLE_MODELS):
+        raise ValueError(f"ENSEMBLE_WEIGHTS length ({len(ENSEMBLE_WEIGHTS)}) must match ENSEMBLE_MODELS ({len(ENSEMBLE_MODELS)})")
+
+    # XGBoost specific parameters
+    XGBOOST_MAX_DEPTH = int(os.getenv('XGBOOST_MAX_DEPTH', '6'))
+    XGBOOST_LEARNING_RATE = float(os.getenv('XGBOOST_LEARNING_RATE', '0.05'))
+    XGBOOST_N_ESTIMATORS = int(os.getenv('XGBOOST_N_ESTIMATORS', '200'))
     
     # Signal Thresholds
     RSI_OVERSOLD = 20
