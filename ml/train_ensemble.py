@@ -18,14 +18,17 @@ from utils.data_fetcher import DataFetcher
 from config import Config
 from utils.logger import logger
 
-def train_ensemble_models(symbols=['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'DOTUSDT', 'AVAXUSDT'], days=360):
+def train_ensemble_models(symbols=None, days=360):
     """
     Train both LSTM and XGBoost models
 
     Args:
-        symbols: List of symbols to train on
+        symbols: List of symbols to train on (default: read from Config.SYMBOLS)
         days: Historical data days
     """
+    # Use symbols from Config if not provided
+    if symbols is None:
+        symbols = Config.SYMBOLS
     logger.info("="*60)
     logger.info("🎭 ENSEMBLE MODEL TRAINING")
     logger.info("="*60)
@@ -173,14 +176,15 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser(description='Train ensemble models')
-    parser.add_argument('--symbols', type=str, default='BTCUSDT,ETHUSDT,SOLUSDT,LTCUSDT,DOTUSDT,AVAXUSDT',
-                        help='Comma-separated list of symbols')
+    parser.add_argument('--symbols', type=str, default=None,
+                        help='Comma-separated list of symbols (default: from .env SYMBOLS)')
     parser.add_argument('--days', type=int, default=360,
                         help='Days of historical data')
 
     args = parser.parse_args()
 
-    symbols = args.symbols.split(',')
+    # Parse symbols if provided via command line
+    symbols = args.symbols.split(',') if args.symbols else None
 
     success = train_ensemble_models(symbols=symbols, days=args.days)
 
