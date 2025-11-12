@@ -4,16 +4,35 @@ Quick navigation to all documentation files.
 
 ## 🚀 Getting Started
 
-### New Users Start Here
-1. **[README.md](README.md)** - Main documentation, features overview
-2. **[QUICKSTART.md](QUICKSTART.md)** - Get running in 5 minutes
-3. **[INSTALL.md](INSTALL.md)** - Detailed installation guide for all OS
-4. **[INSTALL_WINDOWS.md](INSTALL_WINDOWS.md)** - Windows-specific installation guide
+### New Users Start Here (Đọc theo thứ tự)
+1. **[COMPLETE_GUIDE.md](COMPLETE_GUIDE.md)** ⭐ - Hướng dẫn đầy đủ từ A-Z (Setup → Train → Backtest → Run)
+2. **[QUICK_START_VOLUME_FARMING.md](QUICK_START_VOLUME_FARMING.md)** - Quick start 3 bước cho volume farming
+3. **[CHEAT_SHEET.md](CHEAT_SHEET.md)** - Tra cứu lệnh nhanh
+4. **[INSTALL.md](INSTALL.md)** - Hướng dẫn cài đặt chi tiết
+
+### Experienced Users
+- **[CHEAT_SHEET.md](CHEAT_SHEET.md)** - Tất cả lệnh quan trọng
+- **[COMMANDS.md](COMMANDS.md)** - Lệnh chi tiết
+- **[VOLUME_FARMING_STRATEGY.md](VOLUME_FARMING_STRATEGY.md)** - Chiến lược volume farming
 
 ### Before You Start
 - **[CHECKLIST.md](CHECKLIST.md)** - Pre-launch checklist (MUST READ)
 - **[docs/FAQ.md](docs/FAQ.md)** - Frequently asked questions (50+ Q&A)
 - **[FIXES.md](FIXES.md)** - Recent fixes and updates
+
+---
+
+## 🎯 Volume Farming Strategy (MỚI)
+
+### Tài Liệu Chính
+- **[VOLUME_FARMING_STRATEGY.md](VOLUME_FARMING_STRATEGY.md)** ⭐ - Chiến lược chi tiết, tối ưu hóa
+- **[QUICK_START_VOLUME_FARMING.md](QUICK_START_VOLUME_FARMING.md)** - Quick start 3 bước
+- **[VOLUME_FARMING_DEPLOYMENT.md](VOLUME_FARMING_DEPLOYMENT.md)** - Deployment guide
+
+### Scripts & Tools
+- **[scripts/apply_volume_farming_config.py](scripts/apply_volume_farming_config.py)** - Áp dụng config tự động
+- **[scripts/test_volume_farming.py](scripts/test_volume_farming.py)** - Test backtest với config mới
+- **[.env.volume_farming](.env.volume_farming)** - Cấu hình tối ưu
 
 ---
 
@@ -26,6 +45,7 @@ Quick navigation to all documentation files.
 
 ### Using the Bot
 - **[COMMANDS.md](COMMANDS.md)** - All commands reference
+- **[CHEAT_SHEET.md](CHEAT_SHEET.md)** ⭐ - Quick reference cho tất cả lệnh
 - **[docs/OPTIMIZATION.md](docs/OPTIMIZATION.md)** - Performance tuning guide
 - **[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)** - VPS deployment guide
 

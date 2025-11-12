@@ -12,7 +12,7 @@ try:
     import pandas_ta as ta
     USE_PANDAS_TA = True
 except ImportError:
-    logger.warning("pandas-ta not found, using manual indicator calculation")
+    # Silently use manual calculation - it works perfectly fine
     USE_PANDAS_TA = False
 
 class FeatureEngine:
