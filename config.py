@@ -41,9 +41,9 @@ class Config:
     else:
         POSITION_SIZE_USDT = None
 
-    # TP/SL in percentage (1.0 = 1%, not 0.01)
-    TP_PCT = float(os.getenv('TP_PCT', '2.0'))  # Take profit 2%
-    SL_PCT = float(os.getenv('SL_PCT', '1.0')) if float(os.getenv('SL_PCT', '0')) > 0 else None  # Stop loss 1%
+    # TP/SL in decimal format (0.01 = 1%, NOT 1.0)
+    TP_PCT = float(os.getenv('TP_PCT', '0.02'))  # Take profit 2% (0.02)
+    SL_PCT = float(os.getenv('SL_PCT', '0.01')) if float(os.getenv('SL_PCT', '0')) > 0 else None  # Stop loss 1% (0.01)
     LOOP_SLEEP = int(os.getenv('LOOP_SLEEP', '30'))  # 30 giây
     DAILY_LOSS_LIMIT = float(os.getenv('DAILY_LOSS_LIMIT', '0.2'))  # 20%
     POSITION_TIMEOUT_HOURS = float(os.getenv('POSITION_TIMEOUT_HOURS', '24'))  # Auto-close after 24 hours
@@ -147,10 +147,11 @@ class Config:
     MAX_ATR_PCT = float(os.getenv('MAX_ATR_PCT', '5.0'))
     MIN_SIGNAL_QUALITY_SCORE = float(os.getenv('MIN_SIGNAL_QUALITY_SCORE', '50'))
 
-    # Trailing Stop
+    # Trailing Stop (percentage format: 1.0 = 1%, NOT 0.01)
+    # NOTE: Trailing stop uses percentage format (1.0 = 1%) because it calculates profit_pct * 100 internally
     USE_TRAILING_STOP = os.getenv('USE_TRAILING_STOP', 'True').lower() == 'true'
-    TRAILING_ACTIVATION_PCT = float(os.getenv('TRAILING_ACTIVATION_PCT', '0.5'))
-    TRAILING_DISTANCE_PCT = float(os.getenv('TRAILING_DISTANCE_PCT', '0.3'))
+    TRAILING_ACTIVATION_PCT = float(os.getenv('TRAILING_ACTIVATION_PCT', '0.5'))  # 0.5%
+    TRAILING_DISTANCE_PCT = float(os.getenv('TRAILING_DISTANCE_PCT', '0.3'))  # 0.3%
     USE_ATR_TRAILING = os.getenv('USE_ATR_TRAILING', 'False').lower() == 'true'
     ATR_TRAILING_MULTIPLIER = float(os.getenv('ATR_TRAILING_MULTIPLIER', '2.0'))
     USE_BREAKEVEN_STOP = os.getenv('USE_BREAKEVEN_STOP', 'True').lower() == 'true'

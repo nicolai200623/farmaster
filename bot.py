@@ -18,6 +18,7 @@ from trading.asterdex_client import AsterDEXClient
 from trading.signal_generator import SignalGenerator
 from trading.risk_manager import RiskManager
 from trading.position_tracker import PositionTracker
+from trading.trailing_stop import TrailingStopManager
 from ml.lstm_model import LSTMTrainer
 from ml.ensemble import EnsemblePredictor
 from ml.features import FeatureEngine
@@ -37,6 +38,17 @@ class AsterDEXBot:
         self.client = AsterDEXClient()
         self.risk_manager = RiskManager()
         self.position_tracker = PositionTracker()
+
+        # Initialize trailing stop manager
+        if Config.USE_TRAILING_STOP:
+            self.trailing_stop_mgr = TrailingStopManager(
+                activation_pct=Config.TRAILING_ACTIVATION_PCT,
+                trail_pct=Config.TRAILING_DISTANCE_PCT
+            )
+            logger.info(f"📈 Trailing Stop enabled: Activation={Config.TRAILING_ACTIVATION_PCT}%, Trail={Config.TRAILING_DISTANCE_PCT}%")
+        else:
+            self.trailing_stop_mgr = None
+            logger.info("📈 Trailing Stop disabled")
 
         # Load ML models
         if Config.USE_ENSEMBLE:
@@ -73,9 +85,9 @@ class AsterDEXBot:
         logger.info(f"   Leverage: {Config.LEVERAGE}x")
         logger.info(f"   Position Size: {Config.SIZE_PCT*100}%")
 
-        # Handle None for SL_PCT
-        sl_display = f"{Config.SL_PCT*100}%" if Config.SL_PCT is not None else "Disabled"
-        logger.info(f"   TP/SL: {Config.TP_PCT*100}% / {sl_display}")
+        # Handle None for SL_PCT (TP_PCT and SL_PCT are in decimal: 0.01 = 1%)
+        sl_display = f"{Config.SL_PCT*100:.2f}%" if Config.SL_PCT is not None else "Disabled"
+        logger.info(f"   TP/SL: {Config.TP_PCT*100:.2f}% / {sl_display}")
         logger.info(f"   Position Timeout: {Config.POSITION_TIMEOUT_HOURS}h")
         logger.info("=" * 60)
     
@@ -199,11 +211,29 @@ class AsterDEXBot:
                 if position_age_hours is not None:
                     logger.info(f"   Age: {position_age_hours:.1f}h / {Config.POSITION_TIMEOUT_HOURS}h")
 
-                # Check if should close (including timeout check)
-                should_close, reason = self.signal_generator.should_close_position(
-                    position,
-                    position_age_hours=position_age_hours
-                )
+                # Check trailing stop first (highest priority for profit protection)
+                should_close = False
+                reason = ""
+
+                if self.trailing_stop_mgr is not None:
+                    ts_result = self.trailing_stop_mgr.update_trailing_stop(
+                        symbol=symbol,
+                        side=position['side'],
+                        entry_price=position['entry_price'],
+                        current_price=position['mark_price']
+                    )
+
+                    if ts_result['should_close']:
+                        should_close = True
+                        reason = ts_result['reason']
+                        logger.info(f"   📈 {reason}")
+
+                # If not closed by trailing stop, check TP/SL/Timeout
+                if not should_close:
+                    should_close, reason = self.signal_generator.should_close_position(
+                        position,
+                        position_age_hours=position_age_hours
+                    )
 
                 if should_close:
                     logger.info(f"   🔴 Closing position: {reason}")
@@ -213,6 +243,10 @@ class AsterDEXBot:
 
                         # Clear position tracking
                         self.position_tracker.clear_position(symbol)
+
+                        # Clear trailing stop
+                        if self.trailing_stop_mgr is not None:
+                            self.trailing_stop_mgr.remove_trailing_stop(symbol)
 
                         # Record trade
                         self.risk_manager.record_trade(

@@ -287,7 +287,7 @@ class SignalGenerator:
             return True, f"TP ({pnl_pct*100:.2f}%)"
 
         # Stop Loss (only if SL_PCT > 0)
-        if sl_pct > 0 and pnl_pct <= -sl_pct:
+        if sl_pct is not None and sl_pct > 0 and pnl_pct <= -sl_pct:
             return True, f"SL ({pnl_pct*100:.2f}%)"
 
         # Position Timeout (24+ hours without hitting TP)
