@@ -20,7 +20,8 @@ def main():
     
     logger.info(f"\n📊 Current Settings:")
     logger.info(f"   TP: {Config.TP_PCT*100}%")
-    logger.info(f"   SL: {Config.SL_PCT*100}%")
+    sl_display = f"{Config.SL_PCT*100}%" if Config.SL_PCT is not None else "Disabled"
+    logger.info(f"   SL: {sl_display}")
     logger.info(f"   LSTM Threshold: {Config.LSTM_THRESHOLD}")
     logger.info(f"   LSTM Epochs: {Config.LSTM_EPOCHS}")
     logger.info(f"   Symbols: {', '.join(Config.SYMBOLS)}")
@@ -87,7 +88,8 @@ def main():
     
     if win_rate < 40:
         logger.warning("⚠️  Low win rate! Consider:")
-        logger.warning("   - Widen SL (current: {}%)".format(Config.SL_PCT*100))
+        sl_display = f"{Config.SL_PCT*100}%" if Config.SL_PCT is not None else "Disabled"
+        logger.warning(f"   - Widen SL (current: {sl_display})")
         logger.warning("   - Retrain model with more data")
         logger.warning("   - Check signal logic")
     

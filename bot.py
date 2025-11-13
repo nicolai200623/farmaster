@@ -72,7 +72,10 @@ class AsterDEXBot:
         logger.info(f"   Symbols: {Config.SYMBOLS}")
         logger.info(f"   Leverage: {Config.LEVERAGE}x")
         logger.info(f"   Position Size: {Config.SIZE_PCT*100}%")
-        logger.info(f"   TP/SL: {Config.TP_PCT*100}% / {Config.SL_PCT*100}%")
+
+        # Handle None for SL_PCT
+        sl_display = f"{Config.SL_PCT*100}%" if Config.SL_PCT is not None else "Disabled"
+        logger.info(f"   TP/SL: {Config.TP_PCT*100}% / {sl_display}")
         logger.info(f"   Position Timeout: {Config.POSITION_TIMEOUT_HOURS}h")
         logger.info("=" * 60)
     

@@ -106,7 +106,7 @@ def test_signal_generator_timeout():
                 return True, f"TP ({pnl_pct*100:.2f}%)"
             
             # Stop Loss
-            if sl_pct > 0 and pnl_pct <= -sl_pct:
+            if sl_pct is not None and sl_pct > 0 and pnl_pct <= -sl_pct:
                 return True, f"SL ({pnl_pct*100:.2f}%)"
             
             # Position Timeout

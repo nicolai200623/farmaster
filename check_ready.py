@@ -23,7 +23,8 @@ print(f"   ✅ Testnet Mode: {Config.TESTNET_MODE}")
 print(f"   ✅ Symbols: {', '.join(Config.SYMBOLS)}")
 print(f"   ✅ Leverage: {Config.LEVERAGE}x")
 print(f"   ✅ Position Size: {Config.SIZE_PCT*100}%")
-print(f"   ✅ TP/SL: {Config.TP_PCT*100}% / {Config.SL_PCT*100}%")
+sl_display = f"{Config.SL_PCT*100}%" if Config.SL_PCT is not None else "Disabled"
+print(f"   ✅ TP/SL: {Config.TP_PCT*100}% / {sl_display}")
 
 # 2. Test AsterDEX Connection
 print("\n🔌 2. TESTING ASTERDEX CONNECTION...")

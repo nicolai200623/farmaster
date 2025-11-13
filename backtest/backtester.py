@@ -162,11 +162,11 @@ class Backtester:
                 # Check TP/SL
                 should_close = False
                 reason = ""
-                
+
                 if pnl_pct >= Config.TP_PCT:
                     should_close = True
                     reason = "TP"
-                elif pnl_pct <= -Config.SL_PCT:
+                elif Config.SL_PCT is not None and pnl_pct <= -Config.SL_PCT:
                     should_close = True
                     reason = "SL"
                 
