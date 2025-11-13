@@ -11,6 +11,7 @@ from ml.ensemble import EnsemblePredictor
 from config import Config
 from utils.logger import logger
 from trading.advanced_entry import AdvancedEntrySystem
+from trading.signal_cooldown import SignalCooldownTracker
 
 class SignalGenerator:
     """
@@ -48,6 +49,15 @@ class SignalGenerator:
             logger.info(f"🎯 Advanced Entry System enabled (min score: {Config.MIN_CONFLUENCE_SCORE})")
         else:
             self.advanced_entry = None
+
+        # Initialize Signal Cooldown Tracker
+        if Config.USE_SIGNAL_COOLDOWN:
+            self.cooldown_tracker = SignalCooldownTracker(
+                cooldown_minutes=Config.SIGNAL_COOLDOWN_MINUTES
+            )
+            logger.info(f"🚫 Signal Cooldown enabled: {Config.SIGNAL_COOLDOWN_MINUTES} minutes")
+        else:
+            self.cooldown_tracker = None
             logger.info("📡 Using legacy signal system")
     
     def generate_signal(self, client, symbol):
@@ -182,14 +192,40 @@ class SignalGenerator:
                 # Get advanced signal
                 signal, confluence_score, reasons = self.advanced_entry.should_enter_trade(df, symbol)
 
-                # Filter by higher timeframe trend if enabled
-                if Config.USE_MULTI_TIMEFRAME and signal != 'HOLD':
-                    if signal == 'LONG' and htf_trend == 'DOWN':
-                        logger.info(f"   ⚠️ HTF trend is bearish, filtering LONG signal")
-                        return 'HOLD', confluence_score, reasons
-                    elif signal == 'SHORT' and htf_trend == 'UP':
-                        logger.info(f"   ⚠️ HTF trend is bullish, filtering SHORT signal")
-                        return 'HOLD', confluence_score, reasons
+                # ============================================
+                # APPLY ANTI-WHIPSAW FILTERS
+                # ============================================
+                if signal != 'HOLD':
+                    # Filter 1: ML Conviction Filter
+                    if Config.USE_ML_CONVICTION_FILTER:
+                        ml_distance = abs(lstm_prob - 0.5)
+                        if ml_distance < Config.MIN_ML_CONVICTION:
+                            logger.info(f"   🚫 ML Conviction too low: {lstm_prob:.3f} (distance from 0.5: {ml_distance:.3f} < {Config.MIN_ML_CONVICTION})")
+                            signal = 'HOLD'
+
+                    # Filter 2: HTF Trend Alignment (Strict mode)
+                    if signal != 'HOLD' and Config.REQUIRE_HTF_TREND_ALIGNMENT and Config.USE_MULTI_TIMEFRAME:
+                        if signal == 'LONG' and htf_trend != 'UP':
+                            logger.info(f"   🚫 HTF trend not bullish ({htf_trend}), filtering LONG signal")
+                            signal = 'HOLD'
+                        elif signal == 'SHORT' and htf_trend != 'DOWN':
+                            logger.info(f"   🚫 HTF trend not bearish ({htf_trend}), filtering SHORT signal")
+                            signal = 'HOLD'
+                    # Filter 2b: HTF Trend Filter (Relaxed mode - original)
+                    elif signal != 'HOLD' and not Config.REQUIRE_HTF_TREND_ALIGNMENT and Config.USE_MULTI_TIMEFRAME:
+                        if signal == 'LONG' and htf_trend == 'DOWN':
+                            logger.info(f"   ⚠️ HTF trend is bearish, filtering LONG signal")
+                            signal = 'HOLD'
+                        elif signal == 'SHORT' and htf_trend == 'UP':
+                            logger.info(f"   ⚠️ HTF trend is bullish, filtering SHORT signal")
+                            signal = 'HOLD'
+
+                    # Filter 3: Signal Cooldown
+                    if signal != 'HOLD' and self.cooldown_tracker is not None:
+                        can_signal, cooldown_reason = self.cooldown_tracker.can_signal(symbol, signal)
+                        if not can_signal:
+                            logger.info(f"   🚫 {cooldown_reason}")
+                            signal = 'HOLD'
 
                 # Log advanced signal
                 if signal != 'HOLD':

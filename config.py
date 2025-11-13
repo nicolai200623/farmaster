@@ -103,6 +103,13 @@ class Config:
     PRIMARY_TIMEFRAME = os.getenv('PRIMARY_TIMEFRAME', '15m')
     HIGHER_TIMEFRAME = os.getenv('HIGHER_TIMEFRAME', '1h')
 
+    # Anti-Whipsaw Filters (Prevent rapid signal flipping)
+    USE_SIGNAL_COOLDOWN = os.getenv('USE_SIGNAL_COOLDOWN', 'True').lower() == 'true'
+    SIGNAL_COOLDOWN_MINUTES = int(os.getenv('SIGNAL_COOLDOWN_MINUTES', '60'))  # No new signal for 60 min after entry
+    REQUIRE_HTF_TREND_ALIGNMENT = os.getenv('REQUIRE_HTF_TREND_ALIGNMENT', 'True').lower() == 'true'  # Only LONG when HTF UP, SHORT when HTF DOWN
+    USE_ML_CONVICTION_FILTER = os.getenv('USE_ML_CONVICTION_FILTER', 'True').lower() == 'true'
+    MIN_ML_CONVICTION = float(os.getenv('MIN_ML_CONVICTION', '0.1'))  # LSTM must be >0.6 or <0.4 (distance from 0.5)
+
     # Smart Money Concepts
     USE_SMC = os.getenv('USE_SMC', 'True').lower() == 'true'  # Use Smart Money Concepts
     DETECT_ORDER_BLOCKS = os.getenv('DETECT_ORDER_BLOCKS', 'True').lower() == 'true'

@@ -343,6 +343,10 @@ class AsterDEXBot:
                                 # Track position opening time
                                 self.position_tracker.track_position_open(symbol)
 
+                                # Record signal for cooldown tracking
+                                if self.signal_generator.cooldown_tracker is not None:
+                                    self.signal_generator.cooldown_tracker.record_signal(symbol, signal)
+
                                 # Record trade
                                 self.risk_manager.record_trade(
                                     symbol=symbol,
