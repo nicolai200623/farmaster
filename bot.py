@@ -83,71 +83,108 @@ class AsterDEXBot:
     
     def start(self):
         """Bắt đầu bot"""
-        logger.info("🏁 BOT STARTED!", send_tg=True)
-        
-        # Get initial balance
-        balance = self.client.get_account_balance()
-        self.risk_manager.set_daily_start(balance)
-        
-        logger.info(f"💰 Starting balance: ${balance:.2f}", send_tg=True)
-        
-        # Main loop
-        while self.running:
+        try:
+            logger.info("🏁 BOT STARTED!", send_tg=True)
+
+            # Get initial balance with error handling
             try:
-                self.loop_count += 1
-                logger.info(f"\n{'='*60}")
-                logger.info(f"🔄 LOOP #{self.loop_count} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-                logger.info(f"{'='*60}")
-                
-                # Get current balance
-                current_balance = self.client.get_account_balance()
-                
-                # Check if can trade
-                can_trade, reason = self.risk_manager.should_trade(current_balance)
-                
-                if not can_trade:
-                    logger.warning(f"⚠️ Cannot trade: {reason}", send_tg=True)
-                    break
-                
-                # Process each symbol (with small delay to avoid rate limiting)
-                for i, symbol in enumerate(Config.SYMBOLS):
-                    self._process_symbol(symbol, current_balance)
-
-                    # Small delay between symbols (except last one)
-                    if i < len(Config.SYMBOLS) - 1:
-                        time.sleep(0.5)  # 500ms delay
-
-                # Cleanup stale position tracking (every 10 loops)
-                if self.loop_count % 10 == 0:
-                    active_symbols = [s for s in Config.SYMBOLS if self.client.get_position(s) is not None]
-                    self.position_tracker.cleanup_stale_positions(active_symbols)
-
-                # Daily reset check (00:00)
-                if datetime.now().hour == 0 and datetime.now().minute < 1:
-                    self._daily_reset()
-                
-                # Sleep
-                logger.info(f"\n💤 Sleeping {Config.LOOP_SLEEP}s...")
-                time.sleep(Config.LOOP_SLEEP)
-                
-            except KeyboardInterrupt:
-                logger.info("\n⌨️ Keyboard interrupt...")
-                break
+                balance = self.client.get_account_balance()
+                self.risk_manager.set_daily_start(balance)
+                logger.info(f"💰 Starting balance: ${balance:.2f}", send_tg=True)
             except Exception as e:
-                logger.error(f"Loop error: {e}")
-                time.sleep(60)
-        
-        # Shutdown
-        self._shutdown()
+                logger.error(f"❌ Failed to get initial balance: {e}", send_tg=True)
+                logger.error("   Check API credentials and network connection")
+                return
+
+            # Main loop with comprehensive error handling
+            while self.running:
+                try:
+                    self.loop_count += 1
+                    logger.info(f"\n{'='*60}")
+                    logger.info(f"🔄 LOOP #{self.loop_count} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+                    logger.info(f"{'='*60}")
+
+                    # Heartbeat logging every 5 loops
+                    if self.loop_count % 5 == 0:
+                        positions_count = sum(1 for s in Config.SYMBOLS if self.client.get_position(s) is not None)
+                        logger.info(f"💓 Bot alive - Loop #{self.loop_count} - Active positions: {positions_count}")
+
+                    # Get current balance with retry
+                    try:
+                        current_balance = self.client.get_account_balance()
+                        logger.info(f"💰 Current balance: ${current_balance:.2f}")
+                    except Exception as e:
+                        logger.error(f"⚠️ Failed to get balance: {e}")
+                        logger.info("   Retrying in 60s...")
+                        time.sleep(60)
+                        continue
+
+                    # Check if can trade
+                    can_trade, reason = self.risk_manager.should_trade(current_balance)
+
+                    if not can_trade:
+                        logger.warning(f"⚠️ Cannot trade: {reason}", send_tg=True)
+                        break
+
+                    # Process each symbol (with small delay to avoid rate limiting)
+                    for i, symbol in enumerate(Config.SYMBOLS):
+                        try:
+                            self._process_symbol(symbol, current_balance)
+                        except Exception as e:
+                            logger.error(f"❌ Error processing {symbol}: {e}")
+                            logger.error(f"   Continuing with next symbol...")
+                            continue
+
+                        # Small delay between symbols (except last one)
+                        if i < len(Config.SYMBOLS) - 1:
+                            time.sleep(0.5)  # 500ms delay
+
+                    # Cleanup stale position tracking (every 10 loops)
+                    if self.loop_count % 10 == 0:
+                        try:
+                            active_symbols = [s for s in Config.SYMBOLS if self.client.get_position(s) is not None]
+                            self.position_tracker.cleanup_stale_positions(active_symbols)
+                        except Exception as e:
+                            logger.error(f"⚠️ Error during cleanup: {e}")
+
+                    # Daily reset check (00:00)
+                    if datetime.now().hour == 0 and datetime.now().minute < 1:
+                        try:
+                            self._daily_reset()
+                        except Exception as e:
+                            logger.error(f"⚠️ Error during daily reset: {e}")
+
+                    # Sleep
+                    logger.info(f"\n💤 Sleeping {Config.LOOP_SLEEP}s...")
+                    time.sleep(Config.LOOP_SLEEP)
+
+                except KeyboardInterrupt:
+                    logger.info("\n⌨️ Keyboard interrupt...")
+                    break
+                except Exception as e:
+                    logger.error(f"❌ CRITICAL: Main loop error: {e}")
+                    logger.error(f"   Error type: {type(e).__name__}")
+                    import traceback
+                    logger.error(f"   Traceback: {traceback.format_exc()}")
+                    logger.error("   Waiting 60s before retry...")
+                    time.sleep(60)
+
+        except Exception as e:
+            logger.error(f"❌ FATAL: Bot crashed: {e}", send_tg=True)
+            import traceback
+            logger.error(f"   Traceback: {traceback.format_exc()}")
+        finally:
+            # Shutdown
+            self._shutdown()
     
     def _process_symbol(self, symbol, current_balance):
-        """Xử lý 1 symbol"""
+        """Xử lý 1 symbol với detailed logging"""
         logger.info(f"\n📊 Processing {symbol}...")
-        
+
         try:
             # Check current position
             position = self.client.get_position(symbol)
-            
+
             if position:
                 # Get position age
                 position_age_hours = self.position_tracker.get_position_age_hours(symbol)
@@ -182,93 +219,120 @@ class AsterDEXBot:
                             price=position['mark_price'],
                             pnl_pct=position['pnl_pct']
                         )
-            
-            else:
-                # No position - check for entry signal
-                signal_result = self.signal_generator.generate_signal(self.client, symbol)
 
-                # Handle both advanced (tuple) and legacy (str) return types
-                if Config.USE_ADVANCED_ENTRY:
-                    signal, confluence_score, reasons = signal_result
-                else:
-                    signal = signal_result
-                    confluence_score = 0
-                    reasons = []
+            else:
+                # No position - check for entry signal with detailed logging
+                logger.info(f"   🔍 Analyzing {symbol} for entry signal...")
+
+                try:
+                    signal_result = self.signal_generator.generate_signal(self.client, symbol)
+
+                    # Handle both advanced (tuple) and legacy (str) return types
+                    if Config.USE_ADVANCED_ENTRY:
+                        signal, confluence_score, reasons = signal_result
+                        logger.info(f"   📊 Analysis complete: Signal={signal}, Score={confluence_score}")
+                        if reasons:
+                            logger.info(f"   📝 Signal reasons: {', '.join(reasons[:5])}")
+                    else:
+                        signal = signal_result
+                        confluence_score = 0
+                        reasons = []
+                        logger.info(f"   📊 Analysis complete: Signal={signal}")
+
+                except Exception as e:
+                    logger.error(f"   ❌ Signal generation failed: {e}")
+                    import traceback
+                    logger.error(f"   Traceback: {traceback.format_exc()}")
+                    return
 
                 if signal != 'HOLD':
-                    logger.info(f"   🟢 Entry signal: {signal}")
+                    logger.info(f"   🟢 Entry signal detected: {signal}")
                     if Config.USE_ADVANCED_ENTRY:
-                        logger.info(f"   📊 Confluence: {confluence_score}")
-                        logger.info(f"   📝 Reasons: {', '.join(reasons[:3])}")
+                        logger.info(f"   📊 Confluence score: {confluence_score}/{Config.MIN_CONFLUENCE_SCORE}")
+                        logger.info(f"   📝 Top reasons: {', '.join(reasons[:3])}")
 
-                    # Setup leverage and margin
-                    self.client.set_leverage(symbol, Config.LEVERAGE)
-                    self.client.set_margin_type(symbol, 'ISOLATED')
+                    try:
+                        # Setup leverage and margin
+                        logger.info(f"   ⚙️ Setting up leverage {Config.LEVERAGE}x and ISOLATED margin...")
+                        self.client.set_leverage(symbol, Config.LEVERAGE)
+                        self.client.set_margin_type(symbol, 'ISOLATED')
 
-                    # Get price
-                    price = self.client.get_ticker_price(symbol)
+                        # Get price
+                        price = self.client.get_ticker_price(symbol)
+                        logger.info(f"   💵 Current price: ${price:.2f}")
 
-                    # Calculate position size
-                    raw_quantity = self.risk_manager.calculate_position_size(
-                        current_balance, price, Config.LEVERAGE
-                    )
-
-                    # Format quantity according to exchange rules
-                    quantity = self.client.format_quantity(symbol, raw_quantity)
-
-                    # Log calculation details
-                    logger.info(f"💰 Position calculation for {symbol}:")
-                    logger.info(f"   Balance: ${current_balance:.2f}")
-                    logger.info(f"   Price: ${price:.2f}")
-
-                    if Config.POSITION_SIZE_USDT is not None:
-                        logger.info(f"   Capital (fixed): ${Config.POSITION_SIZE_USDT:.2f}")
-                    else:
-                        logger.info(f"   Capital ({Config.SIZE_PCT*100}%): ${current_balance * Config.SIZE_PCT:.2f}")
-
-                    logger.info(f"   Leverage: {Config.LEVERAGE}x")
-                    logger.info(f"   Raw quantity: {raw_quantity:.8f}")
-                    logger.info(f"   Formatted quantity: {quantity:.8f}")
-
-                    # Check minimum quantity
-                    if quantity > 0:
-                        # Determine side
-                        side = 'BUY' if signal == 'LONG' else 'SELL'
-
-                        # Create order
-                        order = self.client.create_market_order(
-                            symbol=symbol,
-                            side=side,
-                            quantity=quantity
+                        # Calculate position size
+                        raw_quantity = self.risk_manager.calculate_position_size(
+                            current_balance, price, Config.LEVERAGE
                         )
 
-                        if order:
-                            # Log trade with confluence info if available
-                            if Config.USE_ADVANCED_ENTRY:
-                                logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f} | Score: {confluence_score} | {reasons[0] if reasons else ''}")
-                            else:
-                                logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
+                        # Format quantity according to exchange rules
+                        quantity = self.client.format_quantity(symbol, raw_quantity)
 
-                            # Track position opening time
-                            self.position_tracker.track_position_open(symbol)
+                        # Log calculation details
+                        logger.info(f"   💰 Position calculation:")
+                        logger.info(f"      Balance: ${current_balance:.2f}")
+                        logger.info(f"      Price: ${price:.2f}")
 
-                            # Record trade
-                            self.risk_manager.record_trade(
+                        if Config.POSITION_SIZE_USDT is not None:
+                            logger.info(f"      Capital (fixed): ${Config.POSITION_SIZE_USDT:.2f}")
+                        else:
+                            logger.info(f"      Capital ({Config.SIZE_PCT*100}%): ${current_balance * Config.SIZE_PCT:.2f}")
+
+                        logger.info(f"      Leverage: {Config.LEVERAGE}x")
+                        logger.info(f"      Raw quantity: {raw_quantity:.8f}")
+                        logger.info(f"      Formatted quantity: {quantity:.8f}")
+
+                        # Check minimum quantity
+                        if quantity > 0:
+                            # Determine side
+                            side = 'BUY' if signal == 'LONG' else 'SELL'
+                            logger.info(f"   📤 Placing {side} order for {quantity} {symbol}...")
+
+                            # Create order
+                            order = self.client.create_market_order(
                                 symbol=symbol,
-                                side=signal,
-                                quantity=quantity,
-                                price=price
+                                side=side,
+                                quantity=quantity
                             )
-                    else:
-                        # Quantity too small
-                        logger.warning(f"⚠️ Quantity too small ({quantity}), skipping {symbol}")
-                        logger.warning(f"   Minimum notional value may not be met")
-                        logger.warning(f"   Try increasing balance or SIZE_PCT")
+
+                            if order:
+                                # Log trade with confluence info if available
+                                if Config.USE_ADVANCED_ENTRY:
+                                    logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f} | Score: {confluence_score} | {reasons[0] if reasons else ''}")
+                                else:
+                                    logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
+
+                                # Track position opening time
+                                self.position_tracker.track_position_open(symbol)
+
+                                # Record trade
+                                self.risk_manager.record_trade(
+                                    symbol=symbol,
+                                    side=signal,
+                                    quantity=quantity,
+                                    price=price
+                                )
+                                logger.info(f"   ✅ Order placed successfully!")
+                            else:
+                                logger.error(f"   ❌ Order placement failed!")
+                        else:
+                            # Quantity too small
+                            logger.warning(f"   ⚠️ Quantity too small ({quantity}), skipping {symbol}")
+                            logger.warning(f"      Minimum notional value may not be met")
+                            logger.warning(f"      Try increasing balance or SIZE_PCT")
+
+                    except Exception as e:
+                        logger.error(f"   ❌ Order execution failed: {e}")
+                        import traceback
+                        logger.error(f"   Traceback: {traceback.format_exc()}")
                 else:
                     logger.info(f"   ⚪ No signal - HOLD")
-        
+
         except Exception as e:
-            logger.error(f"Error processing {symbol}: {e}")
+            logger.error(f"❌ Critical error processing {symbol}: {e}")
+            import traceback
+            logger.error(f"   Traceback: {traceback.format_exc()}")
     
     def _daily_reset(self):
         """Reset daily stats"""
