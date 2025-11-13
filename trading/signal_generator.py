@@ -118,8 +118,10 @@ class SignalGenerator:
             # 5. ML Prediction (LSTM or Ensemble)
             if self.use_ensemble:
                 ml_prob, pred_details = self.predictor.predict_with_details(ml_input)
-                # Log individual model predictions
-                if logger.level <= 20:  # INFO level
+                # Log individual model predictions (only in debug mode)
+                # Note: logger is custom Logger class, use logging module for level check
+                import logging
+                if logging.getLogger().getEffectiveLevel() <= logging.INFO:
                     logger.debug(f"   ML predictions:")
                     for model_name, pred in pred_details.items():
                         if model_name not in ['ensemble', 'weights']:
