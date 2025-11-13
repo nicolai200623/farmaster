@@ -585,6 +585,7 @@ Config.MIN_SIGNAL_SCORE
 from utils.logger import logger
 
 # Log levels
+logger.debug("Debug message")
 logger.info("Info message")
 logger.warning("Warning message")
 logger.error("Error message")

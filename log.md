@@ -1,648 +1,222 @@
-2025-11-13 03:07:21,730 [INFO] ============================================================
-2025-11-13 03:07:21,732 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:07:21,732 [INFO] ============================================================
-2025-11-13 03:07:22,223 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:07:22,223 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:07:22,225 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:07:22,226 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:07:22,275 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:07:22,276 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:07:22,276 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:07:22,276 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:07:22,277 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:07:22,312 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:07:22,312 [INFO] âœ… LSTM loaded
-2025-11-13 03:07:22,394 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:07:22,394 [INFO] âœ… XGBoost loaded
-2025-11-13 03:07:22,395 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:07:22,395 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:07:22,395 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:07:22,395 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:07:22,395 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:07:22,395 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:07:22,395 [INFO]    Leverage: 10x
-2025-11-13 03:07:22,395 [INFO]    Position Size: 20.0%
+2025-11-13 03:58:18,245 [INFO] 
+============================================================
+2025-11-13 03:58:18,246 [INFO] ðŸ›‘ SHUTTING DOWN BOT
+2025-11-13 03:58:18,246 [INFO] ============================================================
+2025-11-13 03:58:18,246 [INFO] ðŸ“Š <b>DAILY STATS</b>
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+Trades: 0
+Volume: $0.00M
+PnL: 0.00%
+
+<b>Overall</b>
+Total Trades: 0
+Win Rate: 0.0%
+W/L: 0/0
+2025-11-13 03:58:18,959 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:18,961 [INFO] ðŸ‘‹ Bot stopped!
+2025-11-13 03:58:19,342 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
 âœ… Using fixed position size: $10.0 USDT per trade
 âœ… Config validation passed!
-2025-11-13 03:07:36,908 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:07:45,183 [INFO] ============================================================
-2025-11-13 03:07:45,184 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:07:45,184 [INFO] ============================================================
-2025-11-13 03:07:45,620 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:07:45,620 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:07:45,621 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:07:45,621 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:07:45,648 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:07:45,649 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:07:45,649 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:07:45,649 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:07:45,650 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:07:45,674 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:07:45,674 [INFO] âœ… LSTM loaded
-2025-11-13 03:07:45,754 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:07:45,754 [INFO] âœ… XGBoost loaded
-2025-11-13 03:07:45,754 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:07:45,754 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:07:45,754 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:07:45,754 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:07:45,754 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:07:45,754 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:07:45,755 [INFO]    Leverage: 10x
-2025-11-13 03:07:45,755 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:07:59,004 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:08:05,515 [INFO] ============================================================
-2025-11-13 03:08:05,516 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:08:05,516 [INFO] ============================================================
-2025-11-13 03:08:05,954 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:08:05,955 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:08:05,955 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:08:05,955 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:08:05,966 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:08:05,966 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:08:05,967 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:08:05,967 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:08:05,967 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:08:05,995 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:08:05,995 [INFO] âœ… LSTM loaded
-2025-11-13 03:08:06,095 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:08:06,096 [INFO] âœ… XGBoost loaded
-2025-11-13 03:08:06,096 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:08:06,096 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:08:06,096 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:08:06,096 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:08:06,096 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:08:06,097 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:08:06,097 [INFO]    Leverage: 10x
-2025-11-13 03:08:06,097 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:08:18,711 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:08:24,616 [INFO] ============================================================
-2025-11-13 03:08:24,617 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:08:24,617 [INFO] ============================================================
-2025-11-13 03:08:25,068 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:08:25,068 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:08:25,068 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:08:25,068 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:08:25,077 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:08:25,077 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:08:25,077 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:08:25,077 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:08:25,078 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:08:25,090 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:08:25,090 [INFO] âœ… LSTM loaded
-2025-11-13 03:08:25,211 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:08:25,211 [INFO] âœ… XGBoost loaded
-2025-11-13 03:08:25,211 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:08:25,211 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:08:25,211 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:08:25,211 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:08:25,212 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:08:25,212 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:08:25,212 [INFO]    Leverage: 10x
-2025-11-13 03:08:25,212 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:08:37,823 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:08:43,487 [INFO] ============================================================
-2025-11-13 03:08:43,487 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:08:43,487 [INFO] ============================================================
-2025-11-13 03:08:43,917 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:08:43,918 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:08:43,918 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:08:43,918 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:08:43,928 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:08:43,929 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:08:43,929 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:08:43,929 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:08:43,930 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:08:43,945 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:08:43,945 [INFO] âœ… LSTM loaded
-2025-11-13 03:08:44,003 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:08:44,004 [INFO] âœ… XGBoost loaded
-2025-11-13 03:08:44,004 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:08:44,004 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:08:44,004 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:08:44,004 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:08:44,004 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:08:44,004 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:08:44,004 [INFO]    Leverage: 10x
-2025-11-13 03:08:44,005 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:08:56,460 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:09:01,858 [INFO] ============================================================
-2025-11-13 03:09:01,859 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:09:01,859 [INFO] ============================================================
-2025-11-13 03:09:02,278 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:09:02,278 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:09:02,278 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:09:02,279 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:09:02,292 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:09:02,292 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:09:02,292 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:09:02,292 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:09:02,293 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:09:02,310 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:09:02,310 [INFO] âœ… LSTM loaded
-2025-11-13 03:09:02,364 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:09:02,364 [INFO] âœ… XGBoost loaded
-2025-11-13 03:09:02,364 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:09:02,365 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:09:02,365 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:09:02,365 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:09:02,365 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:09:02,365 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:09:02,365 [INFO]    Leverage: 10x
-2025-11-13 03:09:02,365 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:09:14,724 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:09:20,445 [INFO] ============================================================
-2025-11-13 03:09:20,445 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:09:20,446 [INFO] ============================================================
-2025-11-13 03:09:20,858 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:09:20,858 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:09:20,859 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:09:20,859 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:09:20,870 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:09:20,870 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:09:20,870 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:09:20,870 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:09:20,871 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:09:20,885 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:09:20,886 [INFO] âœ… LSTM loaded
-2025-11-13 03:09:20,937 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:09:20,938 [INFO] âœ… XGBoost loaded
-2025-11-13 03:09:20,938 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:09:20,938 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:09:20,938 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:09:20,938 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:09:20,938 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:09:20,938 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:09:20,938 [INFO]    Leverage: 10x
-2025-11-13 03:09:20,938 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:09:33,249 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:09:38,705 [INFO] ============================================================
-2025-11-13 03:09:38,706 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:09:38,706 [INFO] ============================================================
-2025-11-13 03:09:44,256 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:09:44,256 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:09:44,257 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:09:44,257 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:09:44,268 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:09:44,268 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:09:44,268 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:09:44,268 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:09:44,268 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:09:44,292 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:09:44,293 [INFO] âœ… LSTM loaded
-2025-11-13 03:09:44,338 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:09:44,338 [INFO] âœ… XGBoost loaded
-2025-11-13 03:09:44,338 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:09:44,338 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:09:44,338 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:09:44,338 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:09:44,338 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:09:44,338 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:09:44,339 [INFO]    Leverage: 10x
-2025-11-13 03:09:44,339 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:09:56,402 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:10:02,251 [INFO] ============================================================
-2025-11-13 03:10:02,251 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:10:02,251 [INFO] ============================================================
-2025-11-13 03:10:02,684 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:10:02,685 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:10:02,685 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:10:02,685 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:10:02,696 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:10:02,697 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:10:02,697 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:10:02,697 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:10:02,698 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:10:02,727 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:10:02,728 [INFO] âœ… LSTM loaded
-2025-11-13 03:10:02,809 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:10:02,809 [INFO] âœ… XGBoost loaded
-2025-11-13 03:10:02,810 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:10:02,810 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:10:02,810 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:10:02,810 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:10:02,810 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:10:02,810 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:10:02,810 [INFO]    Leverage: 10x
-2025-11-13 03:10:02,810 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:10:15,273 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:10:21,311 [INFO] ============================================================
-2025-11-13 03:10:21,311 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:10:21,312 [INFO] ============================================================
-2025-11-13 03:10:21,768 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:10:21,769 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:10:21,769 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:10:21,770 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:10:21,795 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:10:21,795 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:10:21,795 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:10:21,795 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:10:21,796 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:10:21,818 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:10:21,818 [INFO] âœ… LSTM loaded
-2025-11-13 03:10:21,886 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:10:21,887 [INFO] âœ… XGBoost loaded
-2025-11-13 03:10:21,887 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:10:21,887 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:10:21,888 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:10:21,888 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:10:21,888 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:10:21,888 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:10:21,888 [INFO]    Leverage: 10x
-2025-11-13 03:10:21,888 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:10:34,302 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:10:41,886 [INFO] ============================================================
-2025-11-13 03:10:41,888 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:10:41,888 [INFO] ============================================================
-2025-11-13 03:10:42,360 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:10:42,360 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:10:42,360 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:10:42,361 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:10:42,380 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:10:42,380 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:10:42,380 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:10:42,380 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:10:42,381 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:10:42,397 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:10:42,397 [INFO] âœ… LSTM loaded
-2025-11-13 03:10:42,470 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:10:42,470 [INFO] âœ… XGBoost loaded
-2025-11-13 03:10:42,470 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:10:42,471 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:10:42,471 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:10:42,471 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:10:42,471 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:10:42,471 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:10:42,471 [INFO]    Leverage: 10x
-2025-11-13 03:10:42,471 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:10:55,024 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:11:01,382 [INFO] ============================================================
-2025-11-13 03:11:01,382 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:11:01,383 [INFO] ============================================================
-2025-11-13 03:11:01,577 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:11:01,577 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:11:01,577 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:11:01,578 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:11:01,587 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:11:01,588 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:11:01,588 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:11:01,588 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:11:01,589 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:11:01,603 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:11:01,604 [INFO] âœ… LSTM loaded
-2025-11-13 03:11:01,694 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:11:01,696 [INFO] âœ… XGBoost loaded
-2025-11-13 03:11:01,696 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:11:01,696 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:11:01,696 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:11:01,696 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:11:01,696 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:11:01,696 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:11:01,697 [INFO]    Leverage: 10x
-2025-11-13 03:11:01,697 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:11:14,231 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:11:20,047 [INFO] ============================================================
-2025-11-13 03:11:20,047 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:11:20,047 [INFO] ============================================================
-2025-11-13 03:11:20,231 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:11:20,232 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:11:20,232 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:11:20,232 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:11:20,245 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:11:20,245 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:11:20,245 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:11:20,245 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:11:20,246 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:11:20,261 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:11:20,262 [INFO] âœ… LSTM loaded
-2025-11-13 03:11:20,317 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:11:20,317 [INFO] âœ… XGBoost loaded
-2025-11-13 03:11:20,317 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:11:20,317 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:11:20,317 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:11:20,317 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:11:20,318 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:11:20,318 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:11:20,318 [INFO]    Leverage: 10x
-2025-11-13 03:11:20,318 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:11:32,648 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:11:37,462 [INFO] ============================================================
-2025-11-13 03:11:37,463 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:11:37,464 [INFO] ============================================================
-2025-11-13 03:11:37,791 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:11:37,791 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:11:37,791 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:11:37,791 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:11:37,803 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:11:37,803 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:11:37,803 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:11:37,803 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:11:37,804 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:11:37,819 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:11:37,819 [INFO] âœ… LSTM loaded
-2025-11-13 03:11:37,866 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:11:37,866 [INFO] âœ… XGBoost loaded
-2025-11-13 03:11:37,867 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:11:37,867 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:11:37,867 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:11:37,867 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:11:37,867 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:11:37,867 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:11:37,867 [INFO]    Leverage: 10x
-2025-11-13 03:11:37,867 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:11:50,274 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:11:56,854 [INFO] ============================================================
-2025-11-13 03:11:56,857 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:11:56,857 [INFO] ============================================================
-2025-11-13 03:11:57,324 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:11:57,325 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:11:57,325 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:11:57,325 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:11:57,340 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:11:57,340 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:11:57,340 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:11:57,341 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:11:57,341 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:11:57,365 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:11:57,366 [INFO] âœ… LSTM loaded
-2025-11-13 03:11:57,419 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:11:57,419 [INFO] âœ… XGBoost loaded
-2025-11-13 03:11:57,419 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:11:57,419 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:11:57,419 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:11:57,420 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:11:57,420 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:11:57,420 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:11:57,420 [INFO]    Leverage: 10x
-2025-11-13 03:11:57,420 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:12:10,334 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:12:17,087 [INFO] ============================================================
-2025-11-13 03:12:17,088 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:12:17,088 [INFO] ============================================================
-2025-11-13 03:12:17,585 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:12:17,585 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:12:17,586 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:12:17,586 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:12:17,597 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:12:17,597 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:12:17,597 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:12:17,598 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:12:17,598 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:12:17,624 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:12:17,624 [INFO] âœ… LSTM loaded
-2025-11-13 03:12:17,699 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:12:17,700 [INFO] âœ… XGBoost loaded
-2025-11-13 03:12:17,700 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:12:17,700 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:12:17,700 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:12:17,700 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:12:17,700 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:12:17,700 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:12:17,700 [INFO]    Leverage: 10x
-2025-11-13 03:12:17,700 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:12:30,068 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:12:36,394 [INFO] ============================================================
-2025-11-13 03:12:36,395 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:12:36,395 [INFO] ============================================================
-2025-11-13 03:12:36,920 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:12:36,920 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:12:36,921 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:12:36,921 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:12:36,930 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:12:36,930 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:12:36,930 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:12:36,931 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:12:36,931 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:12:36,948 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:12:36,949 [INFO] âœ… LSTM loaded
-2025-11-13 03:12:36,994 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:12:36,994 [INFO] âœ… XGBoost loaded
-2025-11-13 03:12:36,995 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:12:36,995 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:12:36,995 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:12:36,995 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:12:36,995 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:12:36,995 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:12:36,995 [INFO]    Leverage: 10x
-2025-11-13 03:12:36,995 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:12:49,033 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:12:55,543 [INFO] ============================================================
-2025-11-13 03:12:55,543 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:12:55,544 [INFO] ============================================================
-2025-11-13 03:12:56,112 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:12:56,112 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:12:56,113 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:12:56,113 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:12:56,129 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:12:56,129 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:12:56,129 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:12:56,129 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:12:56,130 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:12:56,146 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:12:56,146 [INFO] âœ… LSTM loaded
-2025-11-13 03:12:56,206 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:12:56,206 [INFO] âœ… XGBoost loaded
-2025-11-13 03:12:56,206 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:12:56,207 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:12:56,207 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:12:56,207 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:12:56,207 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:12:56,207 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:12:56,207 [INFO]    Leverage: 10x
-2025-11-13 03:12:56,207 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:13:08,240 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:13:13,363 [INFO] ============================================================
-2025-11-13 03:13:13,363 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:13:13,363 [INFO] ============================================================
-2025-11-13 03:13:13,617 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:13:13,617 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:13:13,617 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:13:13,617 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:13:13,626 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:13:13,626 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:13:13,626 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:13:13,627 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:13:13,627 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:13:13,640 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:13:13,640 [INFO] âœ… LSTM loaded
-2025-11-13 03:13:13,691 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:13:13,691 [INFO] âœ… XGBoost loaded
-2025-11-13 03:13:13,691 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:13:13,691 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:13:13,692 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:13:13,692 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:13:13,692 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:13:13,692 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:13:13,692 [INFO]    Leverage: 10x
-2025-11-13 03:13:13,692 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:13:26,182 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:13:32,727 [INFO] ============================================================
-2025-11-13 03:13:32,727 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:13:32,727 [INFO] ============================================================
-2025-11-13 03:13:32,913 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:13:32,913 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:13:32,914 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:13:32,914 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:13:32,924 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:13:32,925 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:13:32,925 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:13:32,925 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:13:32,925 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:13:32,941 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:13:32,941 [INFO] âœ… LSTM loaded
-2025-11-13 03:13:32,992 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:13:32,993 [INFO] âœ… XGBoost loaded
-2025-11-13 03:13:32,993 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:13:32,993 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:13:32,993 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:13:32,993 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:13:32,993 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:13:32,993 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:13:32,993 [INFO]    Leverage: 10x
-2025-11-13 03:13:32,994 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:13:45,630 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:13:52,372 [INFO] ============================================================
-2025-11-13 03:13:52,372 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:13:52,372 [INFO] ============================================================
-2025-11-13 03:13:52,554 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:13:52,555 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:13:52,555 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:13:52,555 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:13:52,570 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:13:52,570 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:13:52,570 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:13:52,570 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:13:52,571 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:13:52,591 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:13:52,591 [INFO] âœ… LSTM loaded
-2025-11-13 03:13:52,709 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:13:52,710 [INFO] âœ… XGBoost loaded
-2025-11-13 03:13:52,710 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:13:52,710 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:13:52,710 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:13:52,710 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:13:52,710 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:13:52,711 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:13:52,711 [INFO]    Leverage: 10x
-2025-11-13 03:13:52,711 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:14:05,275 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:14:12,242 [INFO] ============================================================
-2025-11-13 03:14:12,245 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:14:12,246 [INFO] ============================================================
-2025-11-13 03:14:12,699 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:14:12,700 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:14:12,700 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:14:12,700 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:14:12,711 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:14:12,712 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:14:12,712 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:14:12,712 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:14:12,713 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:14:12,730 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:14:12,730 [INFO] âœ… LSTM loaded
-2025-11-13 03:14:12,778 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:14:12,778 [INFO] âœ… XGBoost loaded
-2025-11-13 03:14:12,778 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:14:12,778 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:14:12,778 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:14:12,778 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:14:12,778 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:14:12,778 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:14:12,778 [INFO]    Leverage: 10x
-2025-11-13 03:14:12,779 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:14:25,227 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:14:31,448 [INFO] ============================================================
-2025-11-13 03:14:31,448 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:14:31,448 [INFO] ============================================================
-2025-11-13 03:14:31,863 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:14:31,864 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:14:31,864 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:14:31,864 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:14:31,876 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:14:31,876 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:14:31,876 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:14:31,876 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:14:31,877 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:14:31,894 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:14:31,894 [INFO] âœ… LSTM loaded
-2025-11-13 03:14:32,001 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:14:32,004 [INFO] âœ… XGBoost loaded
-2025-11-13 03:14:32,004 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:14:32,004 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:14:32,004 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:14:32,004 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:14:32,004 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:14:32,004 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:14:32,004 [INFO]    Leverage: 10x
-2025-11-13 03:14:32,005 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:14:44,610 [INFO] âœ… Telegram bot initialized
-2025-11-13 03:14:50,947 [INFO] ============================================================
-2025-11-13 03:14:50,947 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
-2025-11-13 03:14:50,947 [INFO] ============================================================
-2025-11-13 03:14:51,122 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
-2025-11-13 03:14:51,122 [INFO]    URL: https://fapi.asterdex.com/fapi
-2025-11-13 03:14:51,123 [INFO] ðŸ“‚ Loaded 1 position timestamps
-2025-11-13 03:14:51,123 [INFO] ðŸŽ­ Loading Ensemble models...
-2025-11-13 03:14:51,133 [INFO] ðŸ§  LSTM Model initialized on cpu
-2025-11-13 03:14:51,133 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
-2025-11-13 03:14:51,133 [INFO] ðŸŽ­ Ensemble initialized with 2 models
-2025-11-13 03:14:51,134 [INFO]    Models: ['lstm', 'xgboost']
-2025-11-13 03:14:51,134 [INFO]    Weights: [0.3 0.7]
-2025-11-13 03:14:51,150 [INFO] âœ… Model loaded from models/lstm_model.pt
-2025-11-13 03:14:51,150 [INFO] âœ… LSTM loaded
-2025-11-13 03:14:51,198 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
-2025-11-13 03:14:51,199 [INFO] âœ… XGBoost loaded
-2025-11-13 03:14:51,199 [INFO] âœ… Ensemble loaded: 2/2 models
-2025-11-13 03:14:51,199 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
-2025-11-13 03:14:51,199 [INFO]    Weights: [0.3, 0.7]
-2025-11-13 03:14:51,199 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
-2025-11-13 03:14:51,199 [INFO] âœ… Bot initialized successfully!
-2025-11-13 03:14:51,199 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
-2025-11-13 03:14:51,199 [INFO]    Leverage: 10x
-2025-11-13 03:14:51,199 [INFO]    Position Size: 20.0%
-âœ… Using fixed position size: $10.0 USDT per trade
-âœ… Config validation passed!
-2025-11-13 03:15:03,679 [INFO] âœ… Telegram bot initialized
+2025-11-13 03:58:21,596 [INFO] âœ… Telegram bot initialized
+2025-11-13 03:58:27,391 [INFO] ============================================================
+2025-11-13 03:58:27,392 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
+2025-11-13 03:58:27,392 [INFO] ============================================================
+2025-11-13 03:58:27,794 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
+2025-11-13 03:58:27,794 [INFO]    URL: https://fapi.asterdex.com/fapi
+2025-11-13 03:58:27,795 [INFO] ðŸ“‚ Loaded 1 position timestamps
+2025-11-13 03:58:27,795 [INFO] ðŸŽ­ Loading Ensemble models...
+2025-11-13 03:58:27,806 [INFO] ðŸ§  LSTM Model initialized on cpu
+2025-11-13 03:58:27,806 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
+2025-11-13 03:58:27,807 [INFO] ðŸŽ­ Ensemble initialized with 2 models
+2025-11-13 03:58:27,807 [INFO]    Models: ['lstm', 'xgboost']
+2025-11-13 03:58:27,807 [INFO]    Weights: [0.3 0.7]
+2025-11-13 03:58:27,833 [INFO] âœ… Model loaded from models/lstm_model.pt
+2025-11-13 03:58:27,834 [INFO] âœ… LSTM loaded
+2025-11-13 03:58:27,907 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
+2025-11-13 03:58:27,907 [INFO] âœ… XGBoost loaded
+2025-11-13 03:58:27,907 [INFO] âœ… Ensemble loaded: 2/2 models
+2025-11-13 03:58:27,907 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
+2025-11-13 03:58:27,907 [INFO]    Weights: [0.3, 0.7]
+2025-11-13 03:58:27,907 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
+2025-11-13 03:58:27,908 [INFO] âœ… Bot initialized successfully!
+2025-11-13 03:58:27,908 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
+2025-11-13 03:58:27,908 [INFO]    Leverage: 10x
+2025-11-13 03:58:27,908 [INFO]    Position Size: 20.0%
+2025-11-13 03:58:27,908 [INFO]    TP/SL: 100.0% / Disabled
+2025-11-13 03:58:27,908 [INFO]    Position Timeout: 36.0h
+2025-11-13 03:58:27,908 [INFO] ============================================================
+2025-11-13 03:58:27,908 [INFO] ðŸ BOT STARTED!
+2025-11-13 03:58:28,646 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:28,821 [INFO] ðŸ“Š Daily start balance: $18.76
+2025-11-13 03:58:28,822 [INFO] ðŸ’° Starting balance: $18.76
+2025-11-13 03:58:29,202 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:29,204 [INFO] 
+============================================================
+2025-11-13 03:58:29,204 [INFO] ðŸ”„ LOOP #1 - 2025-11-13 03:58:29
+2025-11-13 03:58:29,204 [INFO] ============================================================
+2025-11-13 03:58:29,289 [INFO] ðŸ’° Current balance: $18.76
+2025-11-13 03:58:29,289 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 03:58:29,372 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 03:58:29,590 [ERROR] Signal generation error for BTCUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:58:29,974 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:29,977 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:58:30,356 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:30,358 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:58:30,359 [INFO]    âšª No signal - HOLD
+2025-11-13 03:58:30,859 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 03:58:30,945 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 03:58:31,148 [ERROR] Signal generation error for ETHUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:58:34,733 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:34,736 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:58:35,119 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:35,120 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:58:35,120 [INFO]    âšª No signal - HOLD
+2025-11-13 03:58:35,621 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 03:58:35,710 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 03:58:35,911 [ERROR] Signal generation error for SOLUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:58:36,300 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:36,303 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:58:36,689 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:36,691 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:58:36,691 [INFO]    âšª No signal - HOLD
+2025-11-13 03:58:37,192 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 03:58:37,274 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 03:58:37,609 [ERROR] Signal generation error for LTCUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:58:38,007 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:38,009 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:58:41,590 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:41,595 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:58:41,595 [INFO]    âšª No signal - HOLD
+2025-11-13 03:58:42,096 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 03:58:42,183 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-11-13 03:58:42,386 [ERROR] Signal generation error for AVAXUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:58:42,919 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:42,922 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:58:43,358 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:43,360 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:58:43,360 [INFO]    âšª No signal - HOLD
+2025-11-13 03:58:43,861 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 03:58:43,944 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 03:58:44,159 [ERROR] Signal generation error for XRPUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:58:47,740 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:47,742 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:58:48,122 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:58:48,124 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:58:48,124 [INFO]    âšª No signal - HOLD
+2025-11-13 03:58:48,124 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 03:59:48,179 [INFO] 
+============================================================
+2025-11-13 03:59:48,179 [INFO] ðŸ”„ LOOP #2 - 2025-11-13 03:59:48
+2025-11-13 03:59:48,179 [INFO] ============================================================
+2025-11-13 03:59:48,300 [INFO] ðŸ’° Current balance: $18.76
+2025-11-13 03:59:48,300 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 03:59:48,386 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 03:59:48,582 [ERROR] Signal generation error for BTCUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:59:49,425 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:49,427 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:59:49,838 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:49,840 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:59:49,840 [INFO]    âšª No signal - HOLD
+2025-11-13 03:59:50,341 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 03:59:50,427 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 03:59:50,622 [ERROR] Signal generation error for ETHUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:59:51,046 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:51,050 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:59:51,504 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:51,507 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:59:51,508 [INFO]    âšª No signal - HOLD
+2025-11-13 03:59:52,008 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 03:59:52,094 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 03:59:52,287 [ERROR] Signal generation error for SOLUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:59:52,787 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:52,789 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:59:56,580 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:56,583 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:59:56,583 [INFO]    âšª No signal - HOLD
+2025-11-13 03:59:57,084 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 03:59:57,173 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 03:59:57,366 [ERROR] Signal generation error for LTCUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:59:57,791 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:57,795 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:59:58,234 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:58,236 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:59:58,236 [INFO]    âšª No signal - HOLD
+2025-11-13 03:59:58,737 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 03:59:58,824 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-11-13 03:59:59,031 [ERROR] Signal generation error for AVAXUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 03:59:59,442 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:59,444 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 03:59:59,877 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 03:59:59,879 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 03:59:59,879 [INFO]    âšª No signal - HOLD
+2025-11-13 04:00:00,380 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 04:00:00,475 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 04:00:00,701 [ERROR] Signal generation error for XRPUSDT: 'Logger' object has no attribute 'debug'
+2025-11-13 04:00:04,395 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 04:00:04,417 [ERROR] Traceback (most recent call last):
+  File "/home/farmaster/farmaster/trading/signal_generator.py", line 125, in generate_signal
+    logger.debug(f"   ML predictions:")
+AttributeError: 'Logger' object has no attribute 'debug'
+
+2025-11-13 04:00:04,935 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 04:00:04,957 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 04:00:04,960 [INFO]    âšª No signal - HOLD
+2025-11-13 04:00:04,960 [INFO] 
+ðŸ’¤ Sleeping 60s...

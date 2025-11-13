@@ -43,18 +43,24 @@ class Logger:
             except Exception as e:
                 self.logger.warning(f"⚠️ Telegram bot init failed: {e}")
     
+    def debug(self, msg, send_tg=False):
+        """Log debug message"""
+        self.logger.debug(msg)
+        if send_tg:
+            self._send_telegram(msg)
+
     def info(self, msg, send_tg=False):
         """Log info message"""
         self.logger.info(msg)
         if send_tg:
             self._send_telegram(msg)
-    
+
     def warning(self, msg, send_tg=True):
         """Log warning"""
         self.logger.warning(msg)
         if send_tg:
             self._send_telegram(f"⚠️ {msg}")
-    
+
     def error(self, msg, send_tg=True):
         """Log error"""
         self.logger.error(msg)
