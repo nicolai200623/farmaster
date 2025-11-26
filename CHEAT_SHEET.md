@@ -19,6 +19,9 @@ python ml/train_ensemble.py
 # 5. Backtest
 python scripts/test_volume_farming.py
 
+source venv/bin/activate
+
+
 # 6. Chạy bot (testnet)
 python bot.py
 ```

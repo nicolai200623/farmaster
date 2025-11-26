@@ -53,30 +53,96 @@ class AutoRetrainer:
 
     def fetch_training_data(self, symbol, days=90):
         """
-        Fetch training data for a symbol
+        Fetch training data for a symbol using multiple batches
+
+        This method fetches historical data in batches to overcome the 1500 candle API limit.
+        It uses startTime and endTime parameters to fetch data from different time periods.
 
         Args:
             symbol: Trading symbol
-            days: Days of history
+            days: Days of history (can be 90, 180, or any number)
 
         Returns:
             DataFrame with OHLCV data
         """
+        import time
+
         logger.info(f"📥 Fetching {days} days of data for {symbol}...")
 
-        # Calculate how many 15m candles we need
-        # 1 day = 96 candles (24h * 4 candles/hour)
-        limit = days * 96
+        # AsterDEX API limit: max 1500 candles per request
+        # 1 day = 96 candles (24h * 4 candles/hour for 15m interval)
+        # For 90 days: 90 * 96 = 8640 candles → need 6 batches
+        # For 180 days: 180 * 96 = 17280 candles → need 12 batches
+
+        max_candles_per_batch = 1500
+        candles_per_day = 96
+        interval_minutes = 15
+
+        # Calculate total candles needed
+        total_candles_needed = days * candles_per_day
+
+        # Calculate number of batches
+        num_batches = (total_candles_needed + max_candles_per_batch - 1) // max_candles_per_batch
+
+        logger.info(f"   Total candles needed: {total_candles_needed}")
+        logger.info(f"   Fetching in {num_batches} batches...")
+
+        # Calculate time range
+        end_time = int(time.time() * 1000)  # Current time in milliseconds
+        start_time = end_time - (days * 24 * 60 * 60 * 1000)  # days ago
+
+        all_klines = []
 
         try:
-            klines = self.client.get_klines(symbol, interval='15m', limit=limit)
+            # Fetch data in batches from oldest to newest
+            current_start = start_time
 
-            if not klines:
+            for batch_num in range(num_batches):
+                # Calculate end time for this batch
+                # Each batch covers max_candles_per_batch * interval_minutes
+                batch_duration_ms = max_candles_per_batch * interval_minutes * 60 * 1000
+                current_end = min(current_start + batch_duration_ms, end_time)
+
+                logger.info(f"   Batch {batch_num + 1}/{num_batches}: Fetching from {pd.to_datetime(current_start, unit='ms')} to {pd.to_datetime(current_end, unit='ms')}")
+
+                # Fetch this batch using Binance client with startTime and endTime
+                try:
+                    batch_klines = self.client.client.futures_klines(
+                        symbol=symbol,
+                        interval='15m',
+                        startTime=current_start,
+                        endTime=current_end,
+                        limit=max_candles_per_batch
+                    )
+
+                    if batch_klines:
+                        all_klines.extend(batch_klines)
+                        logger.info(f"      ✅ Fetched {len(batch_klines)} candles")
+                    else:
+                        logger.warning(f"      ⚠️ No data in this batch")
+
+                except Exception as e:
+                    logger.error(f"      ❌ Error fetching batch {batch_num + 1}: {e}")
+                    # Continue with next batch instead of failing completely
+
+                # Move to next batch
+                current_start = current_end
+
+                # Rate limiting: wait between batches to avoid API ban
+                if batch_num < num_batches - 1:
+                    wait_time = 0.5  # 500ms between requests
+                    time.sleep(wait_time)
+
+                # Stop if we've reached the end time
+                if current_start >= end_time:
+                    break
+
+            if not all_klines:
                 logger.error(f"❌ No data received for {symbol}")
                 return None
 
             # Parse klines
-            df = pd.DataFrame(klines, columns=[
+            df = pd.DataFrame(all_klines, columns=[
                 'timestamp', 'open', 'high', 'low', 'close', 'volume',
                 'close_time', 'quote_volume', 'trades', 'taker_buy_base',
                 'taker_buy_quote', 'ignore'
@@ -87,13 +153,23 @@ class AutoRetrainer:
                 df[col] = df[col].astype(float)
 
             # Keep only OHLCV
-            df = df[['open', 'high', 'low', 'close', 'volume']]
+            df = df[['timestamp', 'open', 'high', 'low', 'close', 'volume']]
 
-            logger.info(f"✅ Fetched {len(df)} candles for {symbol}")
+            # Remove duplicates (in case of overlapping batches)
+            df = df.drop_duplicates(subset=['timestamp'], keep='first')
+
+            # Sort by timestamp
+            df = df.sort_values('timestamp').reset_index(drop=True)
+
+            actual_days = len(df) / candles_per_day
+            logger.info(f"✅ Fetched {len(df)} candles for {symbol} (~{actual_days:.1f} days)")
+
             return df
 
         except Exception as e:
             logger.error(f"❌ Error fetching data for {symbol}: {e}")
+            import traceback
+            logger.error(traceback.format_exc())
             return None
 
     def prepare_training_data(self):

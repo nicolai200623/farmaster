@@ -4940,3 +4940,4738 @@ W/L: 0/0
 2025-11-13 05:57:11,951 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
 2025-11-13 05:57:11,953 [INFO] 
 ðŸ’¤ Sleeping 60s...
+2025-11-13 05:58:11,978 [INFO] 
+============================================================
+2025-11-13 05:58:11,979 [INFO] ðŸ”„ LOOP #62 - 2025-11-13 05:58:11
+2025-11-13 05:58:11,979 [INFO] ============================================================
+2025-11-13 05:58:12,083 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 05:58:12,084 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 05:58:12,190 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 05:58:12,605 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 05:58:12,605 [INFO]    ðŸ“Š Confluence Score: 4/4
+2025-11-13 05:58:12,606 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 05:58:12,606 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 05:58:12,606 [INFO]       2. ðŸ“ˆ Volume Spike
+2025-11-13 05:58:12,606 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.575 | RSI: 63.8 | OB: 1.19
+2025-11-13 05:58:12,607 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=4
+2025-11-13 05:58:12,607 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 05:58:12,607 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 05:58:12,607 [INFO]    ðŸ“Š Confluence score: 4/4
+2025-11-13 05:58:12,607 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 05:58:12,607 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 05:58:12,704 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 05:58:12,910 [INFO]    ðŸ’µ Current price: $103168.80
+2025-11-13 05:58:12,910 [INFO]    ðŸ’° Position calculation:
+2025-11-13 05:58:12,910 [INFO]       Balance: $18.75
+2025-11-13 05:58:12,910 [INFO]       Price: $103168.80
+2025-11-13 05:58:12,910 [INFO]       Capital (fixed): $10.00
+2025-11-13 05:58:12,911 [INFO]       Leverage: 10x
+2025-11-13 05:58:12,911 [INFO]       Raw quantity: 0.00096929
+2025-11-13 05:58:12,911 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 05:58:12,911 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 05:58:12,911 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 05:58:12,911 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 05:58:13,267 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 05:58:13,984 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:13,987 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 05:58:14,386 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:14,388 [ERROR]    âŒ Order placement failed!
+2025-11-13 05:58:14,774 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:15,277 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 05:58:15,377 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 05:58:15,746 [INFO] ðŸŽ¯ ETHUSDT Advanced Signal: SHORT
+2025-11-13 05:58:15,747 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 05:58:15,747 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 05:58:15,747 [INFO]       1. ðŸ“ˆ RSI Overbought
+2025-11-13 05:58:15,747 [INFO]       2. ðŸ”€ Bearish RSI Divergence
+2025-11-13 05:58:15,747 [INFO]       3. ðŸ“ˆ Volume Spike
+2025-11-13 05:58:15,747 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.585 | RSI: 74.0 | OB: 3.32
+2025-11-13 05:58:15,748 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=6
+2025-11-13 05:58:15,748 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 05:58:15,748 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-11-13 05:58:15,748 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 05:58:15,748 [INFO]    ðŸ“ Top reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 05:58:15,749 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 05:58:15,848 [INFO] âœ… Set leverage 10x for ETHUSDT
+2025-11-13 05:58:16,056 [INFO]    ðŸ’µ Current price: $3530.40
+2025-11-13 05:58:16,057 [INFO]    ðŸ’° Position calculation:
+2025-11-13 05:58:16,057 [INFO]       Balance: $18.75
+2025-11-13 05:58:16,057 [INFO]       Price: $3530.40
+2025-11-13 05:58:16,057 [INFO]       Capital (fixed): $10.00
+2025-11-13 05:58:16,057 [INFO]       Leverage: 10x
+2025-11-13 05:58:16,057 [INFO]       Raw quantity: 0.02832540
+2025-11-13 05:58:16,058 [INFO]       Formatted quantity: 0.02800000
+2025-11-13 05:58:16,058 [INFO]    ðŸ“¤ Placing SELL order for 0.028 ETHUSDT...
+2025-11-13 05:58:16,058 [INFO] ðŸ“ Order: SELL ETHUSDT
+2025-11-13 05:58:16,058 [INFO]    Raw qty: 0.02800000 -> Formatted: 0.028
+2025-11-13 05:58:16,411 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 05:58:16,807 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:16,808 [ERROR]    Symbol: ETHUSDT, Side: SELL, Qty: 0.028
+2025-11-13 05:58:17,207 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:17,209 [ERROR]    âŒ Order placement failed!
+2025-11-13 05:58:21,202 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:21,704 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 05:58:21,802 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 05:58:22,150 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 05:58:22,150 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 05:58:22,150 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 05:58:22,151 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 05:58:22,151 [INFO]    âšª No signal - HOLD
+2025-11-13 05:58:22,651 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 05:58:22,750 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 05:58:23,107 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 05:58:23,108 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 05:58:23,108 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 05:58:23,108 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 05:58:23,108 [INFO]    âšª No signal - HOLD
+2025-11-13 05:58:23,609 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 05:58:23,705 [INFO]    Current position: LONG 6.0
+2025-11-13 05:58:23,705 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 05:58:23,706 [INFO]    PnL: 0.52% ($0.55)
+2025-11-13 05:58:23,706 [INFO]    Age: 0.2h / 36.0h
+2025-11-13 05:58:24,206 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 05:58:24,306 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 05:58:24,662 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 05:58:24,663 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 05:58:24,663 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 05:58:24,663 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 05:58:24,663 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 05:58:24,663 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.520 | RSI: 72.4 | OB: 1.42
+2025-11-13 05:58:24,663 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 05:58:24,664 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 05:58:24,664 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 05:58:24,664 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 05:58:24,664 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 05:58:24,664 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 05:58:24,763 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 05:58:24,962 [INFO]    ðŸ’µ Current price: $2.50
+2025-11-13 05:58:24,962 [INFO]    ðŸ’° Position calculation:
+2025-11-13 05:58:24,962 [INFO]       Balance: $18.75
+2025-11-13 05:58:24,962 [INFO]       Price: $2.50
+2025-11-13 05:58:24,963 [INFO]       Capital (fixed): $10.00
+2025-11-13 05:58:24,963 [INFO]       Leverage: 10x
+2025-11-13 05:58:24,963 [INFO]       Raw quantity: 40.05447408
+2025-11-13 05:58:24,963 [INFO]       Formatted quantity: 40.10000000
+2025-11-13 05:58:24,963 [INFO]    ðŸ“¤ Placing BUY order for 40.1 XRPUSDT...
+2025-11-13 05:58:24,963 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 05:58:24,963 [INFO]    Raw qty: 40.10000000 -> Formatted: 40.1
+2025-11-13 05:58:25,315 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 05:58:25,706 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:25,708 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.1
+2025-11-13 05:58:26,109 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:26,111 [ERROR]    âŒ Order placement failed!
+2025-11-13 05:58:26,491 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:58:26,493 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 05:59:26,554 [INFO] 
+============================================================
+2025-11-13 05:59:26,554 [INFO] ðŸ”„ LOOP #63 - 2025-11-13 05:59:26
+2025-11-13 05:59:26,554 [INFO] ============================================================
+2025-11-13 05:59:26,654 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 05:59:26,655 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 05:59:26,754 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 05:59:27,202 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 05:59:27,203 [INFO]    ðŸ“Š Confluence Score: 4/4
+2025-11-13 05:59:27,203 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 05:59:27,203 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 05:59:27,203 [INFO]       2. ðŸ“ˆ Volume Spike
+2025-11-13 05:59:27,203 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.582 | RSI: 63.7 | OB: 3.26
+2025-11-13 05:59:27,204 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=4
+2025-11-13 05:59:27,204 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 05:59:27,204 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 05:59:27,204 [INFO]    ðŸ“Š Confluence score: 4/4
+2025-11-13 05:59:27,204 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 05:59:27,204 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 05:59:27,305 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 05:59:27,504 [INFO]    ðŸ’µ Current price: $103165.80
+2025-11-13 05:59:27,505 [INFO]    ðŸ’° Position calculation:
+2025-11-13 05:59:27,505 [INFO]       Balance: $18.75
+2025-11-13 05:59:27,505 [INFO]       Price: $103165.80
+2025-11-13 05:59:27,505 [INFO]       Capital (fixed): $10.00
+2025-11-13 05:59:27,505 [INFO]       Leverage: 10x
+2025-11-13 05:59:27,505 [INFO]       Raw quantity: 0.00096931
+2025-11-13 05:59:27,505 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 05:59:27,506 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 05:59:27,506 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 05:59:27,506 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 05:59:27,858 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 05:59:28,600 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:28,602 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 05:59:29,001 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:29,003 [ERROR]    âŒ Order placement failed!
+2025-11-13 05:59:29,395 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:29,897 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 05:59:29,994 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 05:59:30,343 [INFO] ðŸŽ¯ ETHUSDT Advanced Signal: SHORT
+2025-11-13 05:59:30,343 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 05:59:30,343 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 05:59:30,344 [INFO]       1. ðŸ“ˆ RSI Overbought
+2025-11-13 05:59:30,344 [INFO]       2. ðŸ”€ Bearish RSI Divergence
+2025-11-13 05:59:30,344 [INFO]       3. ðŸ“ˆ Volume Spike
+2025-11-13 05:59:30,344 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.583 | RSI: 73.7 | OB: 3.06
+2025-11-13 05:59:30,344 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=6
+2025-11-13 05:59:30,344 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 05:59:30,345 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-11-13 05:59:30,345 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 05:59:30,345 [INFO]    ðŸ“ Top reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 05:59:30,345 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 05:59:30,443 [INFO] âœ… Set leverage 10x for ETHUSDT
+2025-11-13 05:59:30,637 [INFO]    ðŸ’µ Current price: $3528.00
+2025-11-13 05:59:30,637 [INFO]    ðŸ’° Position calculation:
+2025-11-13 05:59:30,637 [INFO]       Balance: $18.75
+2025-11-13 05:59:30,637 [INFO]       Price: $3528.00
+2025-11-13 05:59:30,637 [INFO]       Capital (fixed): $10.00
+2025-11-13 05:59:30,637 [INFO]       Leverage: 10x
+2025-11-13 05:59:30,637 [INFO]       Raw quantity: 0.02834467
+2025-11-13 05:59:30,637 [INFO]       Formatted quantity: 0.02800000
+2025-11-13 05:59:30,638 [INFO]    ðŸ“¤ Placing SELL order for 0.028 ETHUSDT...
+2025-11-13 05:59:30,638 [INFO] ðŸ“ Order: SELL ETHUSDT
+2025-11-13 05:59:30,638 [INFO]    Raw qty: 0.02800000 -> Formatted: 0.028
+2025-11-13 05:59:31,092 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 05:59:31,501 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:31,504 [ERROR]    Symbol: ETHUSDT, Side: SELL, Qty: 0.028
+2025-11-13 05:59:31,908 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:31,911 [ERROR]    âŒ Order placement failed!
+2025-11-13 05:59:35,568 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:36,071 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 05:59:36,170 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 05:59:36,516 [INFO] ðŸŽ¯ SOLUSDT Advanced Signal: LONG
+2025-11-13 05:59:36,517 [INFO]    ðŸ“Š Confluence Score: 4/4
+2025-11-13 05:59:36,517 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 05:59:36,517 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 05:59:36,517 [INFO]       2. ðŸ“ˆ Volume Spike
+2025-11-13 05:59:36,517 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.593 | RSI: 73.0 | OB: 1.06
+2025-11-13 05:59:36,518 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=4
+2025-11-13 05:59:36,518 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 05:59:36,518 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 05:59:36,518 [INFO]    ðŸ“Š Confluence score: 4/4
+2025-11-13 05:59:36,518 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 05:59:36,518 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 05:59:36,613 [INFO] âœ… Set leverage 10x for SOLUSDT
+2025-11-13 05:59:36,906 [INFO]    ðŸ’µ Current price: $156.20
+2025-11-13 05:59:36,907 [INFO]    ðŸ’° Position calculation:
+2025-11-13 05:59:36,907 [INFO]       Balance: $18.75
+2025-11-13 05:59:36,907 [INFO]       Price: $156.20
+2025-11-13 05:59:36,907 [INFO]       Capital (fixed): $10.00
+2025-11-13 05:59:36,907 [INFO]       Leverage: 10x
+2025-11-13 05:59:36,907 [INFO]       Raw quantity: 0.64020487
+2025-11-13 05:59:36,907 [INFO]       Formatted quantity: 0.64000000
+2025-11-13 05:59:36,907 [INFO]    ðŸ“¤ Placing BUY order for 0.64 SOLUSDT...
+2025-11-13 05:59:36,907 [INFO] ðŸ“ Order: BUY SOLUSDT
+2025-11-13 05:59:36,907 [INFO]    Raw qty: 0.64000000 -> Formatted: 0.64
+2025-11-13 05:59:37,259 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 05:59:37,667 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:37,669 [ERROR]    Symbol: SOLUSDT, Side: BUY, Qty: 0.64
+2025-11-13 05:59:38,032 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:38,034 [ERROR]    âŒ Order placement failed!
+2025-11-13 05:59:38,478 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:38,981 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 05:59:39,087 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 05:59:39,460 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 05:59:39,460 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 05:59:39,461 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 05:59:39,461 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 05:59:39,461 [INFO]    âšª No signal - HOLD
+2025-11-13 05:59:39,962 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 05:59:40,062 [INFO]    Current position: LONG 6.0
+2025-11-13 05:59:40,062 [INFO]    Entry: $17.52 | Mark: $17.59
+2025-11-13 05:59:40,062 [INFO]    PnL: 0.41% ($0.43)
+2025-11-13 05:59:40,062 [INFO]    Age: 0.2h / 36.0h
+2025-11-13 05:59:40,563 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 05:59:40,666 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 05:59:41,047 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 05:59:41,047 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 05:59:41,047 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 05:59:41,047 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 05:59:41,047 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 05:59:41,047 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.509 | RSI: 71.9 | OB: 0.72
+2025-11-13 05:59:41,048 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 05:59:41,048 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 05:59:41,048 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 05:59:41,048 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 05:59:41,048 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 05:59:41,048 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 05:59:41,243 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 05:59:41,444 [INFO]    ðŸ’µ Current price: $2.49
+2025-11-13 05:59:41,445 [INFO]    ðŸ’° Position calculation:
+2025-11-13 05:59:41,445 [INFO]       Balance: $18.75
+2025-11-13 05:59:41,445 [INFO]       Price: $2.49
+2025-11-13 05:59:41,445 [INFO]       Capital (fixed): $10.00
+2025-11-13 05:59:41,445 [INFO]       Leverage: 10x
+2025-11-13 05:59:41,445 [INFO]       Raw quantity: 40.10105466
+2025-11-13 05:59:41,445 [INFO]       Formatted quantity: 40.10000000
+2025-11-13 05:59:41,445 [INFO]    ðŸ“¤ Placing BUY order for 40.1 XRPUSDT...
+2025-11-13 05:59:41,445 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 05:59:41,445 [INFO]    Raw qty: 40.10000000 -> Formatted: 40.1
+2025-11-13 05:59:41,799 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 05:59:42,197 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:42,199 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.1
+2025-11-13 05:59:42,562 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:42,564 [ERROR]    âŒ Order placement failed!
+2025-11-13 05:59:43,026 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 05:59:43,028 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:00:43,082 [INFO] 
+============================================================
+2025-11-13 06:00:43,082 [INFO] ðŸ”„ LOOP #64 - 2025-11-13 06:00:43
+2025-11-13 06:00:43,082 [INFO] ============================================================
+2025-11-13 06:00:43,183 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:00:43,183 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:00:43,282 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:00:43,691 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:00:43,692 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:00:43,692 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:00:43,693 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:00:43,693 [INFO]    âšª No signal - HOLD
+2025-11-13 06:00:44,194 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:00:44,295 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:00:44,658 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:00:44,658 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(3): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:00:44,659 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:00:44,659 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:00:44,659 [INFO]    âšª No signal - HOLD
+2025-11-13 06:00:45,160 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:00:45,260 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:00:45,631 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:00:45,632 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:00:45,632 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:00:45,632 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:00:45,632 [INFO]    âšª No signal - HOLD
+2025-11-13 06:00:46,133 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:00:46,233 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:00:46,608 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:00:46,608 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:00:46,609 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:00:46,609 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:00:46,609 [INFO]    âšª No signal - HOLD
+2025-11-13 06:00:47,110 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:00:47,215 [INFO]    Current position: LONG 6.0
+2025-11-13 06:00:47,215 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 06:00:47,215 [INFO]    PnL: 0.52% ($0.55)
+2025-11-13 06:00:47,215 [INFO]    Age: 0.3h / 36.0h
+2025-11-13 06:00:47,716 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:00:47,817 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:00:48,206 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:00:48,207 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:00:48,207 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:00:48,207 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:00:48,207 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:00:48,207 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.653 | RSI: 71.5 | OB: 0.82
+2025-11-13 06:00:48,208 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:00:48,208 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:00:48,209 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:00:48,209 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:00:48,209 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:00:48,209 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:00:48,308 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:00:48,608 [INFO]    ðŸ’µ Current price: $2.50
+2025-11-13 06:00:48,609 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:00:48,609 [INFO]       Balance: $18.75
+2025-11-13 06:00:48,609 [INFO]       Price: $2.50
+2025-11-13 06:00:48,609 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:00:48,609 [INFO]       Leverage: 10x
+2025-11-13 06:00:48,609 [INFO]       Raw quantity: 40.06249750
+2025-11-13 06:00:48,609 [INFO]       Formatted quantity: 40.10000000
+2025-11-13 06:00:48,609 [INFO]    ðŸ“¤ Placing BUY order for 40.1 XRPUSDT...
+2025-11-13 06:00:48,610 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:00:48,610 [INFO]    Raw qty: 40.10000000 -> Formatted: 40.1
+2025-11-13 06:00:48,964 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:00:49,727 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:00:49,729 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.1
+2025-11-13 06:00:50,115 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:00:50,116 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:00:50,528 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:00:50,530 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:01:50,584 [INFO] 
+============================================================
+2025-11-13 06:01:50,584 [INFO] ðŸ”„ LOOP #65 - 2025-11-13 06:01:50
+2025-11-13 06:01:50,584 [INFO] ============================================================
+2025-11-13 06:01:51,195 [INFO] ðŸ’“ Bot alive - Loop #65 - Active positions: 1
+2025-11-13 06:01:51,310 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:01:51,310 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:01:51,412 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:01:51,784 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:01:51,784 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(2): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:01:51,784 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:01:51,784 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(2): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:01:51,785 [INFO]    âšª No signal - HOLD
+2025-11-13 06:01:52,285 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:01:52,383 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:01:52,734 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:01:52,734 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:01:52,735 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:01:52,735 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:01:52,735 [INFO]    âšª No signal - HOLD
+2025-11-13 06:01:53,236 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:01:53,334 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:01:53,687 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:01:53,687 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:01:53,688 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:01:53,688 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:01:53,688 [INFO]    âšª No signal - HOLD
+2025-11-13 06:01:54,189 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:01:54,293 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:01:54,755 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:01:54,755 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:01:54,755 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:01:54,756 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:01:54,756 [INFO]    âšª No signal - HOLD
+2025-11-13 06:01:55,257 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:01:55,357 [INFO]    Current position: LONG 6.0
+2025-11-13 06:01:55,358 [INFO]    Entry: $17.52 | Mark: $17.62
+2025-11-13 06:01:55,358 [INFO]    PnL: 0.55% ($0.58)
+2025-11-13 06:01:55,358 [INFO]    Age: 0.3h / 36.0h
+2025-11-13 06:01:55,859 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:01:55,957 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:01:56,307 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:01:56,308 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:01:56,308 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:01:56,308 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:01:56,308 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:01:56,308 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.668 | RSI: 71.8 | OB: 1.23
+2025-11-13 06:01:56,309 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:01:56,309 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:01:56,309 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:01:56,309 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:01:56,309 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:01:56,309 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:01:56,408 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:01:56,602 [INFO]    ðŸ’µ Current price: $2.50
+2025-11-13 06:01:56,602 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:01:56,602 [INFO]       Balance: $18.75
+2025-11-13 06:01:56,602 [INFO]       Price: $2.50
+2025-11-13 06:01:56,602 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:01:56,602 [INFO]       Leverage: 10x
+2025-11-13 06:01:56,602 [INFO]       Raw quantity: 39.99040230
+2025-11-13 06:01:56,602 [INFO]       Formatted quantity: 40.00000000
+2025-11-13 06:01:56,603 [INFO]    ðŸ“¤ Placing BUY order for 40.0 XRPUSDT...
+2025-11-13 06:01:56,603 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:01:56,603 [INFO]    Raw qty: 40.00000000 -> Formatted: 40.0
+2025-11-13 06:01:56,957 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:01:57,760 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:01:57,762 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.0
+2025-11-13 06:01:58,202 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:01:58,204 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:01:58,640 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:01:58,643 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:02:58,653 [INFO] 
+============================================================
+2025-11-13 06:02:58,654 [INFO] ðŸ”„ LOOP #66 - 2025-11-13 06:02:58
+2025-11-13 06:02:58,654 [INFO] ============================================================
+2025-11-13 06:02:58,755 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:02:58,756 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:02:58,855 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:02:59,260 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:02:59,260 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(2): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:02:59,261 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:02:59,261 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(2): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:02:59,261 [INFO]    âšª No signal - HOLD
+2025-11-13 06:02:59,762 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:02:59,862 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:03:00,329 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:03:00,329 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:03:00,330 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:03:00,330 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:03:00,330 [INFO]    âšª No signal - HOLD
+2025-11-13 06:03:00,831 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:03:00,929 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:03:01,414 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:03:01,415 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(3): ðŸ’§ Bearish Liquidity Sweep
+2025-11-13 06:03:01,415 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:03:01,415 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(3): ðŸ’§ Bearish Liquidity Sweep
+2025-11-13 06:03:01,415 [INFO]    âšª No signal - HOLD
+2025-11-13 06:03:01,916 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:03:02,020 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:03:02,371 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:03:02,371 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:03:02,372 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:03:02,372 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:03:02,372 [INFO]    âšª No signal - HOLD
+2025-11-13 06:03:02,873 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:03:02,974 [INFO]    Current position: LONG 6.0
+2025-11-13 06:03:02,974 [INFO]    Entry: $17.52 | Mark: $17.56
+2025-11-13 06:03:02,974 [INFO]    PnL: 0.22% ($0.23)
+2025-11-13 06:03:02,974 [INFO]    Age: 0.3h / 36.0h
+2025-11-13 06:03:03,475 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:03:03,576 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:03:03,919 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:03:03,920 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:03:03,920 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:03:03,920 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:03:03,920 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:03:03,920 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.667 | RSI: 70.2 | OB: 1.71
+2025-11-13 06:03:03,920 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:03:03,921 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:03:03,921 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:03:03,921 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:03:03,921 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:03:03,921 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:03:04,018 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:03:04,317 [INFO]    ðŸ’µ Current price: $2.49
+2025-11-13 06:03:04,317 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:03:04,317 [INFO]       Balance: $18.75
+2025-11-13 06:03:04,317 [INFO]       Price: $2.49
+2025-11-13 06:03:04,317 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:03:04,317 [INFO]       Leverage: 10x
+2025-11-13 06:03:04,318 [INFO]       Raw quantity: 40.12519059
+2025-11-13 06:03:04,318 [INFO]       Formatted quantity: 40.10000000
+2025-11-13 06:03:04,318 [INFO]    ðŸ“¤ Placing BUY order for 40.1 XRPUSDT...
+2025-11-13 06:03:04,318 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:03:04,318 [INFO]    Raw qty: 40.10000000 -> Formatted: 40.1
+2025-11-13 06:03:04,769 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:03:05,505 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:03:05,507 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.1
+2025-11-13 06:03:05,918 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:03:05,920 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:03:06,329 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:03:06,331 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:04:06,337 [INFO] 
+============================================================
+2025-11-13 06:04:06,338 [INFO] ðŸ”„ LOOP #67 - 2025-11-13 06:04:06
+2025-11-13 06:04:06,338 [INFO] ============================================================
+2025-11-13 06:04:06,441 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:04:06,441 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:04:06,539 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:04:06,937 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:04:06,937 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:04:06,938 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:04:06,938 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:04:06,938 [INFO]    âšª No signal - HOLD
+2025-11-13 06:04:07,439 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:04:07,537 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:04:07,889 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:04:07,889 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:04:07,889 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:04:07,890 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:04:07,890 [INFO]    âšª No signal - HOLD
+2025-11-13 06:04:08,390 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:04:08,594 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:04:09,044 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:04:09,044 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:04:09,045 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:04:09,045 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:04:09,045 [INFO]    âšª No signal - HOLD
+2025-11-13 06:04:09,546 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:04:09,644 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:04:10,093 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:04:10,094 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:04:10,094 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:04:10,094 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:04:10,094 [INFO]    âšª No signal - HOLD
+2025-11-13 06:04:10,595 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:04:10,697 [INFO]    Current position: LONG 6.0
+2025-11-13 06:04:10,697 [INFO]    Entry: $17.52 | Mark: $17.54
+2025-11-13 06:04:10,697 [INFO]    PnL: 0.11% ($0.12)
+2025-11-13 06:04:10,697 [INFO]    Age: 0.3h / 36.0h
+2025-11-13 06:04:11,198 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:04:11,297 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:04:11,665 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:04:11,666 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:04:11,666 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:04:11,666 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:04:11,666 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:04:11,666 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.678 | RSI: 71.0 | OB: 1.22
+2025-11-13 06:04:11,667 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:04:11,667 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:04:11,667 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:04:11,667 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:04:11,667 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:04:11,667 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:04:11,763 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:04:11,963 [INFO]    ðŸ’µ Current price: $2.49
+2025-11-13 06:04:11,964 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:04:11,964 [INFO]       Balance: $18.75
+2025-11-13 06:04:11,964 [INFO]       Price: $2.49
+2025-11-13 06:04:11,964 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:04:11,964 [INFO]       Leverage: 10x
+2025-11-13 06:04:11,964 [INFO]       Raw quantity: 40.08176680
+2025-11-13 06:04:11,964 [INFO]       Formatted quantity: 40.10000000
+2025-11-13 06:04:11,964 [INFO]    ðŸ“¤ Placing BUY order for 40.1 XRPUSDT...
+2025-11-13 06:04:11,964 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:04:11,964 [INFO]    Raw qty: 40.10000000 -> Formatted: 40.1
+2025-11-13 06:04:12,321 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:04:13,159 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:04:13,161 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.1
+2025-11-13 06:04:13,596 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:04:13,598 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:04:14,056 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:04:14,058 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:05:14,110 [INFO] 
+============================================================
+2025-11-13 06:05:14,110 [INFO] ðŸ”„ LOOP #68 - 2025-11-13 06:05:14
+2025-11-13 06:05:14,110 [INFO] ============================================================
+2025-11-13 06:05:14,215 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:05:14,216 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:05:14,318 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:05:14,733 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:05:14,734 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:05:14,734 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:05:14,734 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:05:14,735 [INFO]    âšª No signal - HOLD
+2025-11-13 06:05:15,235 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:05:15,337 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:05:15,857 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:05:15,857 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:05:15,858 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:05:15,858 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:05:15,858 [INFO]    âšª No signal - HOLD
+2025-11-13 06:05:16,359 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:05:16,459 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:05:16,875 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:05:16,877 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:05:16,877 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:05:16,878 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:05:16,878 [INFO]    âšª No signal - HOLD
+2025-11-13 06:05:17,379 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:05:17,483 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:05:18,071 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:05:18,071 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:05:18,072 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:05:18,072 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:05:18,072 [INFO]    âšª No signal - HOLD
+2025-11-13 06:05:18,573 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:05:18,670 [INFO]    Current position: LONG 6.0
+2025-11-13 06:05:18,670 [INFO]    Entry: $17.52 | Mark: $17.54
+2025-11-13 06:05:18,670 [INFO]    PnL: 0.10% ($0.11)
+2025-11-13 06:05:18,670 [INFO]    Age: 0.3h / 36.0h
+2025-11-13 06:05:19,171 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:05:19,275 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:05:19,685 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:05:19,686 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:05:19,686 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:05:19,686 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:05:19,686 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:05:19,686 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.674 | RSI: 71.5 | OB: 1.06
+2025-11-13 06:05:19,687 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:05:19,687 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:05:19,687 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:05:19,687 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:05:19,687 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:05:19,688 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:05:19,786 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:05:20,007 [INFO]    ðŸ’µ Current price: $2.50
+2025-11-13 06:05:20,007 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:05:20,007 [INFO]       Balance: $18.75
+2025-11-13 06:05:20,007 [INFO]       Price: $2.50
+2025-11-13 06:05:20,007 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:05:20,008 [INFO]       Leverage: 10x
+2025-11-13 06:05:20,008 [INFO]       Raw quantity: 40.01280410
+2025-11-13 06:05:20,008 [INFO]       Formatted quantity: 40.00000000
+2025-11-13 06:05:20,008 [INFO]    ðŸ“¤ Placing BUY order for 40.0 XRPUSDT...
+2025-11-13 06:05:20,008 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:05:20,008 [INFO]    Raw qty: 40.00000000 -> Formatted: 40.0
+2025-11-13 06:05:20,462 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:05:21,245 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:05:21,247 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.0
+2025-11-13 06:05:21,709 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:05:21,710 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:05:22,176 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:05:22,178 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:06:22,235 [INFO] 
+============================================================
+2025-11-13 06:06:22,235 [INFO] ðŸ”„ LOOP #69 - 2025-11-13 06:06:22
+2025-11-13 06:06:22,235 [INFO] ============================================================
+2025-11-13 06:06:22,339 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:06:22,339 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:06:22,440 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:06:22,845 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:06:22,845 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:06:22,846 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:06:22,846 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:06:22,846 [INFO]    âšª No signal - HOLD
+2025-11-13 06:06:23,347 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:06:23,447 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:06:23,923 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:06:23,923 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:06:23,924 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:06:23,924 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:06:23,924 [INFO]    âšª No signal - HOLD
+2025-11-13 06:06:24,425 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:06:24,523 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:06:24,870 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:06:24,871 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:06:24,871 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:06:24,871 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:06:24,871 [INFO]    âšª No signal - HOLD
+2025-11-13 06:06:25,372 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:06:25,473 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:06:25,826 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:06:25,827 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:06:25,827 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:06:25,827 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:06:25,827 [INFO]    âšª No signal - HOLD
+2025-11-13 06:06:26,328 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:06:26,429 [INFO]    Current position: LONG 6.0
+2025-11-13 06:06:26,429 [INFO]    Entry: $17.52 | Mark: $17.54
+2025-11-13 06:06:26,429 [INFO]    PnL: 0.12% ($0.13)
+2025-11-13 06:06:26,429 [INFO]    Age: 0.4h / 36.0h
+2025-11-13 06:06:26,930 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:06:27,030 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:06:27,390 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:06:27,390 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:06:27,391 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:06:27,391 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:06:27,391 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:06:27,391 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.646 | RSI: 71.9 | OB: 1.75
+2025-11-13 06:06:27,391 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:06:27,392 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:06:27,392 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:06:27,392 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:06:27,392 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:06:27,392 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:06:27,491 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:06:27,686 [INFO]    ðŸ’µ Current price: $2.50
+2025-11-13 06:06:27,686 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:06:27,686 [INFO]       Balance: $18.75
+2025-11-13 06:06:27,686 [INFO]       Price: $2.50
+2025-11-13 06:06:27,686 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:06:27,686 [INFO]       Leverage: 10x
+2025-11-13 06:06:27,686 [INFO]       Raw quantity: 39.96962309
+2025-11-13 06:06:27,686 [INFO]       Formatted quantity: 40.00000000
+2025-11-13 06:06:27,686 [INFO]    ðŸ“¤ Placing BUY order for 40.0 XRPUSDT...
+2025-11-13 06:06:27,687 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:06:27,687 [INFO]    Raw qty: 40.00000000 -> Formatted: 40.0
+2025-11-13 06:06:28,037 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:06:28,916 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:06:28,918 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.0
+2025-11-13 06:06:29,398 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:06:29,400 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:06:29,859 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:06:29,861 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:07:29,916 [INFO] 
+============================================================
+2025-11-13 06:07:29,917 [INFO] ðŸ”„ LOOP #70 - 2025-11-13 06:07:29
+2025-11-13 06:07:29,917 [INFO] ============================================================
+2025-11-13 06:07:30,514 [INFO] ðŸ’“ Bot alive - Loop #70 - Active positions: 1
+2025-11-13 06:07:30,618 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:07:30,619 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:07:30,720 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:07:31,071 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:07:31,071 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:07:31,071 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:07:31,071 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:07:31,071 [INFO]    âšª No signal - HOLD
+2025-11-13 06:07:31,572 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:07:31,675 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:07:32,033 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:07:32,033 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:07:32,034 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:07:32,034 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:07:32,034 [INFO]    âšª No signal - HOLD
+2025-11-13 06:07:32,537 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:07:32,637 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:07:33,008 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:07:33,008 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:07:33,009 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:07:33,009 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:07:33,009 [INFO]    âšª No signal - HOLD
+2025-11-13 06:07:33,510 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:07:33,610 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:07:33,974 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:07:33,974 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:07:33,975 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:07:33,975 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:07:33,975 [INFO]    âšª No signal - HOLD
+2025-11-13 06:07:34,476 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:07:34,577 [INFO]    Current position: LONG 6.0
+2025-11-13 06:07:34,577 [INFO]    Entry: $17.52 | Mark: $17.56
+2025-11-13 06:07:34,577 [INFO]    PnL: 0.19% ($0.20)
+2025-11-13 06:07:34,577 [INFO]    Age: 0.4h / 36.0h
+2025-11-13 06:07:35,078 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:07:35,178 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:07:35,542 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:07:35,543 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:07:35,543 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:07:35,543 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:07:35,543 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:07:35,543 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.662 | RSI: 72.1 | OB: 1.40
+2025-11-13 06:07:35,544 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:07:35,544 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:07:35,544 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:07:35,544 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:07:35,544 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:07:35,544 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:07:35,645 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:07:35,840 [INFO]    ðŸ’µ Current price: $2.50
+2025-11-13 06:07:35,840 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:07:35,841 [INFO]       Balance: $18.75
+2025-11-13 06:07:35,841 [INFO]       Price: $2.50
+2025-11-13 06:07:35,841 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:07:35,841 [INFO]       Leverage: 10x
+2025-11-13 06:07:35,841 [INFO]       Raw quantity: 39.96483095
+2025-11-13 06:07:35,841 [INFO]       Formatted quantity: 40.00000000
+2025-11-13 06:07:35,841 [INFO]    ðŸ“¤ Placing BUY order for 40.0 XRPUSDT...
+2025-11-13 06:07:35,841 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:07:35,841 [INFO]    Raw qty: 40.00000000 -> Formatted: 40.0
+2025-11-13 06:07:36,197 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:07:36,912 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:07:36,914 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.0
+2025-11-13 06:07:37,370 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:07:37,372 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:07:37,795 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:07:38,603 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:08:38,657 [INFO] 
+============================================================
+2025-11-13 06:08:38,658 [INFO] ðŸ”„ LOOP #71 - 2025-11-13 06:08:38
+2025-11-13 06:08:38,658 [INFO] ============================================================
+2025-11-13 06:08:38,763 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:08:38,764 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:08:38,863 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:08:39,227 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:08:39,228 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:08:39,228 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:08:39,229 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:08:39,229 [INFO]    âšª No signal - HOLD
+2025-11-13 06:08:39,730 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:08:39,830 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:08:40,181 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:08:40,181 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:08:40,182 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:08:40,182 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:08:40,182 [INFO]    âšª No signal - HOLD
+2025-11-13 06:08:40,683 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:08:40,782 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:08:41,143 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:08:41,144 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:08:41,144 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:08:41,144 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:08:41,144 [INFO]    âšª No signal - HOLD
+2025-11-13 06:08:41,645 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:08:41,749 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:08:42,211 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:08:42,212 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:08:42,212 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:08:42,213 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:08:42,213 [INFO]    âšª No signal - HOLD
+2025-11-13 06:08:42,714 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:08:42,813 [INFO]    Current position: LONG 6.0
+2025-11-13 06:08:42,814 [INFO]    Entry: $17.52 | Mark: $17.59
+2025-11-13 06:08:42,814 [INFO]    PnL: 0.40% ($0.42)
+2025-11-13 06:08:42,814 [INFO]    Age: 0.4h / 36.0h
+2025-11-13 06:08:43,315 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:08:43,415 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:08:43,772 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:08:43,772 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:08:43,772 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:08:43,773 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:08:43,773 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:08:43,773 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.675 | RSI: 72.6 | OB: 0.76
+2025-11-13 06:08:43,773 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:08:43,774 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:08:43,774 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:08:43,774 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:08:43,774 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:08:43,774 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:08:43,974 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:08:44,173 [INFO]    ðŸ’µ Current price: $2.51
+2025-11-13 06:08:44,173 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:08:44,173 [INFO]       Balance: $18.75
+2025-11-13 06:08:44,173 [INFO]       Price: $2.51
+2025-11-13 06:08:44,173 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:08:44,173 [INFO]       Leverage: 10x
+2025-11-13 06:08:44,173 [INFO]       Raw quantity: 39.89626970
+2025-11-13 06:08:44,173 [INFO]       Formatted quantity: 39.90000000
+2025-11-13 06:08:44,173 [INFO]    ðŸ“¤ Placing BUY order for 39.9 XRPUSDT...
+2025-11-13 06:08:44,174 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:08:44,174 [INFO]    Raw qty: 39.90000000 -> Formatted: 39.9
+2025-11-13 06:08:44,525 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:08:45,320 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:08:45,322 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 39.9
+2025-11-13 06:08:45,762 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:08:45,764 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:08:46,164 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:08:46,166 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:09:46,227 [INFO] 
+============================================================
+2025-11-13 06:09:46,228 [INFO] ðŸ”„ LOOP #72 - 2025-11-13 06:09:46
+2025-11-13 06:09:46,228 [INFO] ============================================================
+2025-11-13 06:09:46,332 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:09:46,332 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:09:46,435 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:09:46,831 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:09:46,831 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:09:46,831 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:09:46,831 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:09:46,831 [INFO]    âšª No signal - HOLD
+2025-11-13 06:09:47,332 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:09:47,431 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:09:47,827 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:09:47,827 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:09:47,828 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:09:47,828 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:09:47,828 [INFO]    âšª No signal - HOLD
+2025-11-13 06:09:48,329 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:09:48,427 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:09:48,880 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:09:48,880 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:09:48,881 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:09:48,881 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:09:48,881 [INFO]    âšª No signal - HOLD
+2025-11-13 06:09:49,382 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:09:49,481 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:09:49,840 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:09:49,840 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:09:49,841 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:09:49,841 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:09:49,841 [INFO]    âšª No signal - HOLD
+2025-11-13 06:09:50,341 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:09:50,546 [INFO]    Current position: LONG 6.0
+2025-11-13 06:09:50,546 [INFO]    Entry: $17.52 | Mark: $17.59
+2025-11-13 06:09:50,546 [INFO]    PnL: 0.39% ($0.41)
+2025-11-13 06:09:50,546 [INFO]    Age: 0.4h / 36.0h
+2025-11-13 06:09:51,047 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:09:51,249 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:09:51,639 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:09:51,639 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:09:51,640 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:09:51,640 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:09:51,640 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:09:51,640 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.669 | RSI: 72.9 | OB: 1.13
+2025-11-13 06:09:51,641 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:09:51,641 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:09:51,641 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:09:51,641 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:09:51,641 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:09:51,642 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:09:51,745 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:09:51,943 [INFO]    ðŸ’µ Current price: $2.51
+2025-11-13 06:09:51,944 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:09:51,944 [INFO]       Balance: $18.75
+2025-11-13 06:09:51,944 [INFO]       Price: $2.51
+2025-11-13 06:09:51,944 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:09:51,944 [INFO]       Leverage: 10x
+2025-11-13 06:09:51,944 [INFO]       Raw quantity: 39.88990387
+2025-11-13 06:09:51,944 [INFO]       Formatted quantity: 39.90000000
+2025-11-13 06:09:51,944 [INFO]    ðŸ“¤ Placing BUY order for 39.9 XRPUSDT...
+2025-11-13 06:09:51,944 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:09:51,944 [INFO]    Raw qty: 39.90000000 -> Formatted: 39.9
+2025-11-13 06:09:52,295 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:09:53,078 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:09:53,080 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 39.9
+2025-11-13 06:09:53,521 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:09:53,522 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:09:53,970 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:09:53,972 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:10:53,982 [INFO] 
+============================================================
+2025-11-13 06:10:53,982 [INFO] ðŸ”„ LOOP #73 - 2025-11-13 06:10:53
+2025-11-13 06:10:53,982 [INFO] ============================================================
+2025-11-13 06:10:54,085 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:10:54,086 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:10:54,187 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:10:54,577 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:10:54,578 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:10:54,578 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:10:54,578 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:10:54,578 [INFO]    âšª No signal - HOLD
+2025-11-13 06:10:55,079 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:10:55,181 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:10:55,577 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:10:55,577 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:10:55,582 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:10:55,583 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:10:55,583 [INFO]    âšª No signal - HOLD
+2025-11-13 06:10:56,083 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:10:56,183 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:10:56,577 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:10:56,578 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:10:56,578 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:10:56,578 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:10:56,578 [INFO]    âšª No signal - HOLD
+2025-11-13 06:10:57,079 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:10:57,183 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:10:57,535 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:10:57,535 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:10:57,536 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:10:57,536 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:10:57,536 [INFO]    âšª No signal - HOLD
+2025-11-13 06:10:58,037 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:10:58,136 [INFO]    Current position: LONG 6.0
+2025-11-13 06:10:58,136 [INFO]    Entry: $17.52 | Mark: $17.59
+2025-11-13 06:10:58,136 [INFO]    PnL: 0.41% ($0.43)
+2025-11-13 06:10:58,136 [INFO]    Age: 0.4h / 36.0h
+2025-11-13 06:10:58,637 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:10:58,741 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:10:59,193 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:10:59,193 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:10:59,193 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:10:59,193 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:10:59,193 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:10:59,193 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.680 | RSI: 72.8 | OB: 1.22
+2025-11-13 06:10:59,194 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:10:59,194 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:10:59,194 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:10:59,194 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:10:59,194 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:10:59,194 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:10:59,290 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:10:59,489 [INFO]    ðŸ’µ Current price: $2.51
+2025-11-13 06:10:59,489 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:10:59,490 [INFO]       Balance: $18.75
+2025-11-13 06:10:59,490 [INFO]       Price: $2.51
+2025-11-13 06:10:59,490 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:10:59,490 [INFO]       Leverage: 10x
+2025-11-13 06:10:59,490 [INFO]       Raw quantity: 39.87081855
+2025-11-13 06:10:59,490 [INFO]       Formatted quantity: 39.90000000
+2025-11-13 06:10:59,490 [INFO]    ðŸ“¤ Placing BUY order for 39.9 XRPUSDT...
+2025-11-13 06:10:59,490 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:10:59,490 [INFO]    Raw qty: 39.90000000 -> Formatted: 39.9
+2025-11-13 06:10:59,842 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:11:00,562 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:11:00,565 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 39.9
+2025-11-13 06:11:01,389 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:11:01,391 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:11:01,799 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:11:01,801 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:12:01,861 [INFO] 
+============================================================
+2025-11-13 06:12:01,861 [INFO] ðŸ”„ LOOP #74 - 2025-11-13 06:12:01
+2025-11-13 06:12:01,862 [INFO] ============================================================
+2025-11-13 06:12:01,969 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:12:01,970 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:12:02,072 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:12:02,485 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:12:02,485 [INFO]    ðŸ“Š Confluence Score: 4/4
+2025-11-13 06:12:02,486 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:12:02,486 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:12:02,486 [INFO]       2. ðŸ“ˆ Volume Spike
+2025-11-13 06:12:02,486 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.550 | RSI: 62.3 | OB: 90.09
+2025-11-13 06:12:02,486 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=4
+2025-11-13 06:12:02,486 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 06:12:02,487 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:12:02,487 [INFO]    ðŸ“Š Confluence score: 4/4
+2025-11-13 06:12:02,487 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 06:12:02,487 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:12:02,586 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:12:02,787 [INFO]    ðŸ’µ Current price: $103139.60
+2025-11-13 06:12:02,788 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:12:02,788 [INFO]       Balance: $18.75
+2025-11-13 06:12:02,788 [INFO]       Price: $103139.60
+2025-11-13 06:12:02,788 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:12:02,788 [INFO]       Leverage: 10x
+2025-11-13 06:12:02,788 [INFO]       Raw quantity: 0.00096956
+2025-11-13 06:12:02,788 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:12:02,788 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:12:02,788 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:12:02,788 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:12:03,139 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:12:03,869 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:12:03,870 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:12:04,281 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:12:04,282 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:12:04,692 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:12:05,195 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:12:05,298 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:12:05,647 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:12:05,648 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:12:05,648 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:12:05,648 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:12:05,648 [INFO]    âšª No signal - HOLD
+2025-11-13 06:12:06,149 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:12:06,251 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:12:06,724 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:12:06,725 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:12:06,725 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:12:06,726 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:12:06,726 [INFO]    âšª No signal - HOLD
+2025-11-13 06:12:07,227 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:12:07,334 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:12:07,898 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:12:07,898 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:12:07,899 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:12:07,899 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:12:07,899 [INFO]    âšª No signal - HOLD
+2025-11-13 06:12:08,400 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:12:08,499 [INFO]    Current position: LONG 6.0
+2025-11-13 06:12:08,500 [INFO]    Entry: $17.52 | Mark: $17.63
+2025-11-13 06:12:08,500 [INFO]    PnL: 0.62% ($0.65)
+2025-11-13 06:12:08,500 [INFO]    Age: 0.4h / 36.0h
+2025-11-13 06:12:09,000 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:12:09,106 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:12:09,559 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:12:09,559 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:12:09,559 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:12:09,559 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:12:09,560 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:12:09,560 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.683 | RSI: 72.9 | OB: 0.97
+2025-11-13 06:12:09,560 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:12:09,560 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:12:09,560 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:12:09,560 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:12:09,561 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:12:09,561 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:12:09,657 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:12:09,863 [INFO]    ðŸ’µ Current price: $2.51
+2025-11-13 06:12:09,864 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:12:09,864 [INFO]       Balance: $18.75
+2025-11-13 06:12:09,864 [INFO]       Price: $2.51
+2025-11-13 06:12:09,864 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:12:09,864 [INFO]       Leverage: 10x
+2025-11-13 06:12:09,864 [INFO]       Raw quantity: 39.87717829
+2025-11-13 06:12:09,864 [INFO]       Formatted quantity: 39.90000000
+2025-11-13 06:12:09,864 [INFO]    ðŸ“¤ Placing BUY order for 39.9 XRPUSDT...
+2025-11-13 06:12:09,864 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:12:09,864 [INFO]    Raw qty: 39.90000000 -> Formatted: 39.9
+2025-11-13 06:12:10,219 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:12:11,051 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:12:11,052 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 39.9
+2025-11-13 06:12:11,450 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:12:11,452 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:12:11,874 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:12:11,876 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:13:11,895 [INFO] 
+============================================================
+2025-11-13 06:13:11,895 [INFO] ðŸ”„ LOOP #75 - 2025-11-13 06:13:11
+2025-11-13 06:13:11,895 [INFO] ============================================================
+2025-11-13 06:13:12,511 [INFO] ðŸ’“ Bot alive - Loop #75 - Active positions: 1
+2025-11-13 06:13:12,615 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:13:12,615 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:13:12,714 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:13:13,074 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:13:13,074 [INFO]    ðŸ“Š Confluence Score: 4/4
+2025-11-13 06:13:13,075 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:13:13,075 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:13:13,075 [INFO]       2. ðŸ“ˆ Volume Spike
+2025-11-13 06:13:13,075 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.590 | RSI: 62.7 | OB: 0.97
+2025-11-13 06:13:13,075 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=4
+2025-11-13 06:13:13,075 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 06:13:13,076 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:13:13,076 [INFO]    ðŸ“Š Confluence score: 4/4
+2025-11-13 06:13:13,076 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 06:13:13,076 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:13:13,176 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:13:13,482 [INFO]    ðŸ’µ Current price: $103111.20
+2025-11-13 06:13:13,482 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:13:13,482 [INFO]       Balance: $18.75
+2025-11-13 06:13:13,482 [INFO]       Price: $103111.20
+2025-11-13 06:13:13,482 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:13:13,482 [INFO]       Leverage: 10x
+2025-11-13 06:13:13,482 [INFO]       Raw quantity: 0.00096983
+2025-11-13 06:13:13,482 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:13:13,482 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:13:13,483 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:13:13,483 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:13:13,836 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:13:14,612 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:13:14,614 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:13:15,037 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:13:15,039 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:13:15,466 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:13:15,968 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:13:16,071 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:13:16,436 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:13:16,436 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:13:16,437 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:13:16,437 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:13:16,437 [INFO]    âšª No signal - HOLD
+2025-11-13 06:13:16,938 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:13:17,040 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:13:17,386 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:13:17,386 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:13:17,386 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:13:17,386 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:13:17,386 [INFO]    âšª No signal - HOLD
+2025-11-13 06:13:17,887 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:13:17,988 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:13:18,335 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:13:18,335 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:13:18,335 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:13:18,336 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:13:18,336 [INFO]    âšª No signal - HOLD
+2025-11-13 06:13:18,836 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:13:19,041 [INFO]    Current position: LONG 6.0
+2025-11-13 06:13:19,041 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 06:13:19,041 [INFO]    PnL: 0.50% ($0.53)
+2025-11-13 06:13:19,041 [INFO]    Age: 0.5h / 36.0h
+2025-11-13 06:13:19,542 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:13:19,647 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:13:20,126 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:13:20,126 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:13:20,127 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:13:20,127 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:13:20,127 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:13:20,127 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.677 | RSI: 72.5 | OB: 1.95
+2025-11-13 06:13:20,127 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:13:20,127 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:13:20,128 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:13:20,128 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:13:20,128 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:13:20,128 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:13:20,227 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:13:20,429 [INFO]    ðŸ’µ Current price: $2.51
+2025-11-13 06:13:20,429 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:13:20,429 [INFO]       Balance: $18.75
+2025-11-13 06:13:20,430 [INFO]       Price: $2.51
+2025-11-13 06:13:20,430 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:13:20,430 [INFO]       Leverage: 10x
+2025-11-13 06:13:20,430 [INFO]       Raw quantity: 39.91060026
+2025-11-13 06:13:20,430 [INFO]       Formatted quantity: 39.90000000
+2025-11-13 06:13:20,430 [INFO]    ðŸ“¤ Placing BUY order for 39.9 XRPUSDT...
+2025-11-13 06:13:20,430 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:13:20,430 [INFO]    Raw qty: 39.90000000 -> Formatted: 39.9
+2025-11-13 06:13:20,782 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:13:21,636 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:13:21,638 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 39.9
+2025-11-13 06:13:22,044 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:13:22,045 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:13:22,447 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:13:22,448 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:14:22,500 [INFO] 
+============================================================
+2025-11-13 06:14:22,500 [INFO] ðŸ”„ LOOP #76 - 2025-11-13 06:14:22
+2025-11-13 06:14:22,500 [INFO] ============================================================
+2025-11-13 06:14:22,604 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:14:22,604 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:14:22,707 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:14:23,111 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:14:23,111 [INFO]    ðŸ“Š Confluence Score: 4/4
+2025-11-13 06:14:23,111 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:14:23,112 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:14:23,112 [INFO]       2. ðŸ“ˆ Volume Spike
+2025-11-13 06:14:23,112 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.590 | RSI: 62.8 | OB: 0.72
+2025-11-13 06:14:23,113 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=4
+2025-11-13 06:14:23,113 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 06:14:23,113 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:14:23,113 [INFO]    ðŸ“Š Confluence score: 4/4
+2025-11-13 06:14:23,113 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ“ˆ Volume Spike
+2025-11-13 06:14:23,113 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:14:23,212 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:14:23,417 [INFO]    ðŸ’µ Current price: $103160.40
+2025-11-13 06:14:23,418 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:14:23,418 [INFO]       Balance: $18.75
+2025-11-13 06:14:23,418 [INFO]       Price: $103160.40
+2025-11-13 06:14:23,418 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:14:23,418 [INFO]       Leverage: 10x
+2025-11-13 06:14:23,418 [INFO]       Raw quantity: 0.00096936
+2025-11-13 06:14:23,418 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:14:23,418 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:14:23,418 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:14:23,418 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:14:23,771 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:14:24,482 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:14:24,484 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:14:24,886 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:14:24,887 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:14:25,288 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:14:25,790 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:14:25,891 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:14:26,241 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:14:26,241 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:14:26,242 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:14:26,242 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:14:26,242 [INFO]    âšª No signal - HOLD
+2025-11-13 06:14:26,743 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:14:26,843 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:14:27,192 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:14:27,193 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:14:27,193 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:14:27,193 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:14:27,193 [INFO]    âšª No signal - HOLD
+2025-11-13 06:14:27,694 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:14:27,900 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:14:28,247 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:14:28,247 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:14:28,248 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:14:28,248 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG
+2025-11-13 06:14:28,248 [INFO]    âšª No signal - HOLD
+2025-11-13 06:14:28,749 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:14:28,945 [INFO]    Current position: LONG 6.0
+2025-11-13 06:14:28,945 [INFO]    Entry: $17.52 | Mark: $17.59
+2025-11-13 06:14:28,945 [INFO]    PnL: 0.41% ($0.43)
+2025-11-13 06:14:28,945 [INFO]    Age: 0.5h / 36.0h
+2025-11-13 06:14:29,446 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:14:29,545 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:14:29,890 [INFO] ðŸŽ¯ XRPUSDT Advanced Signal: LONG
+2025-11-13 06:14:29,890 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:14:29,890 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:14:29,890 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:14:29,890 [INFO]       2. ðŸ“Š Bullish FVG
+2025-11-13 06:14:29,890 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.660 | RSI: 71.9 | OB: 2.50
+2025-11-13 06:14:29,891 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:14:29,891 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:14:29,891 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:14:29,891 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:14:29,891 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ“Š Bullish FVG
+2025-11-13 06:14:29,891 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:14:29,990 [INFO] âœ… Set leverage 10x for XRPUSDT
+2025-11-13 06:14:30,189 [INFO]    ðŸ’µ Current price: $2.50
+2025-11-13 06:14:30,190 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:14:30,190 [INFO]       Balance: $18.75
+2025-11-13 06:14:30,190 [INFO]       Price: $2.50
+2025-11-13 06:14:30,190 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:14:30,190 [INFO]       Leverage: 10x
+2025-11-13 06:14:30,190 [INFO]       Raw quantity: 40.00800160
+2025-11-13 06:14:30,190 [INFO]       Formatted quantity: 40.00000000
+2025-11-13 06:14:30,190 [INFO]    ðŸ“¤ Placing BUY order for 40.0 XRPUSDT...
+2025-11-13 06:14:30,190 [INFO] ðŸ“ Order: BUY XRPUSDT
+2025-11-13 06:14:30,190 [INFO]    Raw qty: 40.00000000 -> Formatted: 40.0
+2025-11-13 06:14:30,540 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:14:31,259 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:14:31,261 [ERROR]    Symbol: XRPUSDT, Side: BUY, Qty: 40.0
+2025-11-13 06:14:31,636 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:14:31,638 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:14:32,017 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:14:32,019 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:15:32,080 [INFO] 
+============================================================
+2025-11-13 06:15:32,080 [INFO] ðŸ”„ LOOP #77 - 2025-11-13 06:15:32
+2025-11-13 06:15:32,080 [INFO] ============================================================
+2025-11-13 06:15:32,181 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:15:32,181 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:15:32,281 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:15:32,706 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:15:32,706 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:15:32,707 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:15:32,707 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:15:32,707 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:15:32,707 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.549 | RSI: 63.8 | OB: 1.29
+2025-11-13 06:15:32,707 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:15:32,707 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:15:32,708 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:15:32,708 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:15:32,708 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:15:32,708 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:15:32,806 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:15:33,001 [INFO]    ðŸ’µ Current price: $103201.90
+2025-11-13 06:15:33,001 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:15:33,001 [INFO]       Balance: $18.75
+2025-11-13 06:15:33,001 [INFO]       Price: $103201.90
+2025-11-13 06:15:33,001 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:15:33,001 [INFO]       Leverage: 10x
+2025-11-13 06:15:33,001 [INFO]       Raw quantity: 0.00096897
+2025-11-13 06:15:33,002 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:15:33,002 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:15:33,002 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:15:33,002 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:15:33,354 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:15:34,150 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:15:34,152 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:15:34,581 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:15:34,584 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:15:35,009 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:15:35,511 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:15:35,618 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:15:35,986 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:15:35,987 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:15:35,987 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:15:35,988 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:15:35,988 [INFO]    âšª No signal - HOLD
+2025-11-13 06:15:36,489 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:15:36,589 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:15:36,954 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:15:36,954 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:15:36,955 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:15:36,955 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:15:36,955 [INFO]    âšª No signal - HOLD
+2025-11-13 06:15:37,456 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:15:37,556 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:15:37,922 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:15:37,922 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:15:37,922 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:15:37,922 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:15:37,922 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:15:37,922 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.530 | RSI: 67.0 | OB: 1.01
+2025-11-13 06:15:37,923 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:15:37,923 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:15:37,923 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:15:37,923 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:15:37,923 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:15:37,923 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:15:38,023 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:15:38,224 [INFO]    ðŸ’µ Current price: $101.44
+2025-11-13 06:15:38,224 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:15:38,224 [INFO]       Balance: $18.75
+2025-11-13 06:15:38,224 [INFO]       Price: $101.44
+2025-11-13 06:15:38,224 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:15:38,225 [INFO]       Leverage: 10x
+2025-11-13 06:15:38,225 [INFO]       Raw quantity: 0.98580442
+2025-11-13 06:15:38,225 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:15:38,225 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:15:38,225 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:15:38,225 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:15:38,575 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:15:39,033 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:15:39,034 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:15:39,464 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:15:39,466 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:15:39,908 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:15:40,411 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:15:40,618 [INFO]    Current position: LONG 6.0
+2025-11-13 06:15:40,619 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 06:15:40,619 [INFO]    PnL: 0.51% ($0.54)
+2025-11-13 06:15:40,619 [INFO]    Age: 0.5h / 36.0h
+2025-11-13 06:15:41,120 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:15:41,221 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:15:41,582 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:15:41,582 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:15:41,583 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:15:41,583 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:15:41,583 [INFO]    âšª No signal - HOLD
+2025-11-13 06:15:41,583 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:16:41,622 [INFO] 
+============================================================
+2025-11-13 06:16:41,623 [INFO] ðŸ”„ LOOP #78 - 2025-11-13 06:16:41
+2025-11-13 06:16:41,623 [INFO] ============================================================
+2025-11-13 06:16:41,727 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:16:41,727 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:16:41,828 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:16:42,222 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:16:42,222 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:16:42,222 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:16:42,222 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:16:42,222 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:16:42,222 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.587 | RSI: 64.4 | OB: 4.12
+2025-11-13 06:16:42,223 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:16:42,224 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:16:42,224 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:16:42,224 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:16:42,224 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:16:42,224 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:16:42,325 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:16:42,526 [INFO]    ðŸ’µ Current price: $103261.50
+2025-11-13 06:16:42,527 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:16:42,527 [INFO]       Balance: $18.75
+2025-11-13 06:16:42,527 [INFO]       Price: $103261.50
+2025-11-13 06:16:42,527 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:16:42,527 [INFO]       Leverage: 10x
+2025-11-13 06:16:42,527 [INFO]       Raw quantity: 0.00096842
+2025-11-13 06:16:42,527 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:16:42,527 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:16:42,527 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:16:42,527 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:16:42,880 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:16:43,682 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:16:43,684 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:16:44,269 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:16:44,271 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:16:44,707 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:16:45,211 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:16:45,312 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:16:45,668 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:16:45,668 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:16:45,669 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:16:45,669 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:16:45,669 [INFO]    âšª No signal - HOLD
+2025-11-13 06:16:46,170 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:16:46,376 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:16:46,729 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:16:46,730 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:16:46,730 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:16:46,730 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:16:46,730 [INFO]    âšª No signal - HOLD
+2025-11-13 06:16:47,231 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:16:47,329 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:16:47,810 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:16:47,810 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:16:47,810 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:16:47,810 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:16:47,810 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:16:47,810 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.532 | RSI: 67.0 | OB: 0.89
+2025-11-13 06:16:47,811 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:16:47,811 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:16:47,811 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:16:47,811 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:16:47,811 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:16:47,811 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:16:47,907 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:16:48,106 [INFO]    ðŸ’µ Current price: $101.44
+2025-11-13 06:16:48,106 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:16:48,106 [INFO]       Balance: $18.75
+2025-11-13 06:16:48,106 [INFO]       Price: $101.44
+2025-11-13 06:16:48,106 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:16:48,106 [INFO]       Leverage: 10x
+2025-11-13 06:16:48,106 [INFO]       Raw quantity: 0.98580442
+2025-11-13 06:16:48,107 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:16:48,107 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:16:48,107 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:16:48,107 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:16:48,564 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:16:49,006 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:16:49,008 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:16:49,450 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:16:49,452 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:16:49,890 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:16:50,393 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:16:50,493 [INFO]    Current position: LONG 6.0
+2025-11-13 06:16:50,493 [INFO]    Entry: $17.52 | Mark: $17.63
+2025-11-13 06:16:50,493 [INFO]    PnL: 0.64% ($0.67)
+2025-11-13 06:16:50,494 [INFO]    Age: 0.5h / 36.0h
+2025-11-13 06:16:50,994 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:16:51,092 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:16:51,459 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:16:51,459 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:16:51,460 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:16:51,460 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:16:51,460 [INFO]    âšª No signal - HOLD
+2025-11-13 06:16:51,460 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:17:51,516 [INFO] 
+============================================================
+2025-11-13 06:17:51,516 [INFO] ðŸ”„ LOOP #79 - 2025-11-13 06:17:51
+2025-11-13 06:17:51,516 [INFO] ============================================================
+2025-11-13 06:17:51,619 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:17:51,619 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:17:51,719 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:17:52,107 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:17:52,108 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:17:52,108 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:17:52,108 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:17:52,108 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:17:52,108 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.593 | RSI: 64.1 | OB: 5.59
+2025-11-13 06:17:52,108 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:17:52,108 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:17:52,108 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:17:52,108 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:17:52,109 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:17:52,109 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:17:52,214 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:17:52,414 [INFO]    ðŸ’µ Current price: $103212.10
+2025-11-13 06:17:52,415 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:17:52,415 [INFO]       Balance: $18.75
+2025-11-13 06:17:52,415 [INFO]       Price: $103212.10
+2025-11-13 06:17:52,415 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:17:52,415 [INFO]       Leverage: 10x
+2025-11-13 06:17:52,415 [INFO]       Raw quantity: 0.00096888
+2025-11-13 06:17:52,415 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:17:52,415 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:17:52,415 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:17:52,415 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:17:52,767 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:17:53,526 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:17:53,528 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:17:53,962 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:17:53,965 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:17:54,392 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:17:54,895 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:17:54,996 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:17:55,382 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:17:55,382 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:17:55,383 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:17:55,383 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:17:55,384 [INFO]    âšª No signal - HOLD
+2025-11-13 06:17:55,884 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:17:55,990 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:17:56,354 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:17:56,354 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:17:56,355 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:17:56,355 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:17:56,355 [INFO]    âšª No signal - HOLD
+2025-11-13 06:17:56,856 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:17:56,955 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:17:57,340 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:17:57,340 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:17:57,340 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:17:57,340 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:17:57,340 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:17:57,340 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.533 | RSI: 67.0 | OB: 0.83
+2025-11-13 06:17:57,341 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:17:57,342 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:17:57,342 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:17:57,342 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:17:57,342 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:17:57,342 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:17:57,441 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:17:57,744 [INFO]    ðŸ’µ Current price: $101.44
+2025-11-13 06:17:57,744 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:17:57,744 [INFO]       Balance: $18.75
+2025-11-13 06:17:57,744 [INFO]       Price: $101.44
+2025-11-13 06:17:57,744 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:17:57,744 [INFO]       Leverage: 10x
+2025-11-13 06:17:57,744 [INFO]       Raw quantity: 0.98580442
+2025-11-13 06:17:57,744 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:17:57,744 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:17:57,744 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:17:57,745 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:17:58,098 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:17:58,601 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:17:58,603 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:17:59,031 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:17:59,033 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:17:59,458 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:17:59,960 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:18:00,071 [INFO]    Current position: LONG 6.0
+2025-11-13 06:18:00,072 [INFO]    Entry: $17.52 | Mark: $17.64
+2025-11-13 06:18:00,072 [INFO]    PnL: 0.66% ($0.70)
+2025-11-13 06:18:00,072 [INFO]    Age: 0.5h / 36.0h
+2025-11-13 06:18:00,573 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:18:00,676 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:18:01,048 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:18:01,048 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:18:01,049 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:18:01,049 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:18:01,049 [INFO]    âšª No signal - HOLD
+2025-11-13 06:18:01,049 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:19:01,050 [INFO] 
+============================================================
+2025-11-13 06:19:01,050 [INFO] ðŸ”„ LOOP #80 - 2025-11-13 06:19:01
+2025-11-13 06:19:01,050 [INFO] ============================================================
+2025-11-13 06:19:01,650 [INFO] ðŸ’“ Bot alive - Loop #80 - Active positions: 1
+2025-11-13 06:19:01,752 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:19:01,752 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:19:01,853 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:19:02,355 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:19:02,356 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:19:02,356 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:19:02,356 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:19:02,356 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:19:02,356 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.593 | RSI: 63.8 | OB: 6.68
+2025-11-13 06:19:02,357 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:19:02,357 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:19:02,358 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:19:02,358 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:19:02,358 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:19:02,358 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:19:02,456 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:19:02,659 [INFO]    ðŸ’µ Current price: $103239.30
+2025-11-13 06:19:02,659 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:19:02,660 [INFO]       Balance: $18.75
+2025-11-13 06:19:02,660 [INFO]       Price: $103239.30
+2025-11-13 06:19:02,660 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:19:02,660 [INFO]       Leverage: 10x
+2025-11-13 06:19:02,660 [INFO]       Raw quantity: 0.00096862
+2025-11-13 06:19:02,660 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:19:02,660 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:19:02,660 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:19:02,660 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:19:03,015 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:19:03,778 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:19:03,780 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:19:04,209 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:19:04,210 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:19:04,630 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:19:05,133 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:19:05,234 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:19:05,696 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:19:05,696 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:19:05,697 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:19:05,697 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:19:05,697 [INFO]    âšª No signal - HOLD
+2025-11-13 06:19:06,198 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:19:06,299 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:19:06,660 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:19:06,660 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:19:06,662 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:19:06,662 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:19:06,662 [INFO]    âšª No signal - HOLD
+2025-11-13 06:19:07,163 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:19:07,263 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:19:07,638 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:19:07,639 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:19:07,639 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:19:07,639 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:19:07,639 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:19:07,639 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.529 | RSI: 67.0 | OB: 1.18
+2025-11-13 06:19:07,640 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:19:07,640 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:19:07,640 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:19:07,640 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:19:07,640 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:19:07,640 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:19:07,738 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:19:08,042 [INFO]    ðŸ’µ Current price: $101.44
+2025-11-13 06:19:08,042 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:19:08,042 [INFO]       Balance: $18.75
+2025-11-13 06:19:08,042 [INFO]       Price: $101.44
+2025-11-13 06:19:08,043 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:19:08,043 [INFO]       Leverage: 10x
+2025-11-13 06:19:08,043 [INFO]       Raw quantity: 0.98580442
+2025-11-13 06:19:08,043 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:19:08,043 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:19:08,043 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:19:08,043 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:19:08,396 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:19:08,888 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:19:08,890 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:19:09,380 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:19:09,381 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:19:09,808 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:19:10,319 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:19:10,422 [INFO]    Current position: LONG 6.0
+2025-11-13 06:19:10,423 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:19:10,423 [INFO]    PnL: 0.72% ($0.76)
+2025-11-13 06:19:10,423 [INFO]    Age: 0.6h / 36.0h
+2025-11-13 06:19:10,924 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:19:11,026 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:19:11,489 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:19:11,489 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:19:11,490 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:19:11,490 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:19:11,490 [INFO]    âšª No signal - HOLD
+2025-11-13 06:19:12,201 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:20:12,235 [INFO] 
+============================================================
+2025-11-13 06:20:12,235 [INFO] ðŸ”„ LOOP #81 - 2025-11-13 06:20:12
+2025-11-13 06:20:12,235 [INFO] ============================================================
+2025-11-13 06:20:12,340 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:20:12,340 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:20:12,443 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:20:12,802 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:20:12,802 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:20:12,802 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:20:12,802 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:20:12,802 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:20:12,802 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.596 | RSI: 64.3 | OB: 0.75
+2025-11-13 06:20:12,803 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:20:12,803 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:20:12,803 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:20:12,803 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:20:12,803 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:20:12,803 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:20:12,903 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:20:13,101 [INFO]    ðŸ’µ Current price: $103233.40
+2025-11-13 06:20:13,101 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:20:13,101 [INFO]       Balance: $18.75
+2025-11-13 06:20:13,101 [INFO]       Price: $103233.40
+2025-11-13 06:20:13,101 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:20:13,101 [INFO]       Leverage: 10x
+2025-11-13 06:20:13,102 [INFO]       Raw quantity: 0.00096868
+2025-11-13 06:20:13,102 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:20:13,102 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:20:13,102 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:20:13,102 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:20:13,455 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:20:14,323 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:20:14,325 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:20:14,763 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:20:14,765 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:20:15,231 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:20:15,733 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:20:15,834 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:20:16,209 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:20:16,210 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:20:16,210 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:20:16,210 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:20:16,211 [INFO]    âšª No signal - HOLD
+2025-11-13 06:20:16,711 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:20:16,814 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:20:17,173 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:20:17,173 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:20:17,174 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:20:17,174 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:20:17,174 [INFO]    âšª No signal - HOLD
+2025-11-13 06:20:17,675 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:20:17,775 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:20:18,127 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:20:18,127 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:20:18,128 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:20:18,128 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:20:18,128 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:20:18,128 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.530 | RSI: 67.0 | OB: 1.11
+2025-11-13 06:20:18,128 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:20:18,128 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:20:18,128 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:20:18,129 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:20:18,129 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:20:18,129 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:20:18,229 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:20:18,522 [INFO]    ðŸ’µ Current price: $101.44
+2025-11-13 06:20:18,522 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:20:18,522 [INFO]       Balance: $18.75
+2025-11-13 06:20:18,522 [INFO]       Price: $101.44
+2025-11-13 06:20:18,523 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:20:18,523 [INFO]       Leverage: 10x
+2025-11-13 06:20:18,523 [INFO]       Raw quantity: 0.98580442
+2025-11-13 06:20:18,523 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:20:18,523 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:20:18,523 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:20:18,523 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:20:18,970 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:20:19,439 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:20:19,441 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:20:19,931 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:20:19,933 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:20:20,425 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:20:20,928 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:20:21,031 [INFO]    Current position: LONG 6.0
+2025-11-13 06:20:21,032 [INFO]    Entry: $17.52 | Mark: $17.67
+2025-11-13 06:20:21,032 [INFO]    PnL: 0.87% ($0.92)
+2025-11-13 06:20:21,032 [INFO]    Age: 0.6h / 36.0h
+2025-11-13 06:20:21,533 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:20:21,634 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:20:21,990 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:20:21,991 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:20:21,991 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:20:21,991 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:20:21,991 [INFO]    âšª No signal - HOLD
+2025-11-13 06:20:21,992 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:21:22,052 [INFO] 
+============================================================
+2025-11-13 06:21:22,052 [INFO] ðŸ”„ LOOP #82 - 2025-11-13 06:21:22
+2025-11-13 06:21:22,052 [INFO] ============================================================
+2025-11-13 06:21:22,154 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:21:22,155 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:21:22,266 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:21:22,666 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:21:22,666 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:21:22,666 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:21:22,666 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:21:22,666 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:21:22,666 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.594 | RSI: 64.7 | OB: 3.01
+2025-11-13 06:21:22,667 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:21:22,667 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:21:22,667 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:21:22,667 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:21:22,667 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:21:22,667 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:21:22,770 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:21:22,970 [INFO]    ðŸ’µ Current price: $103402.30
+2025-11-13 06:21:22,970 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:21:22,970 [INFO]       Balance: $18.75
+2025-11-13 06:21:22,970 [INFO]       Price: $103402.30
+2025-11-13 06:21:22,971 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:21:22,971 [INFO]       Leverage: 10x
+2025-11-13 06:21:22,971 [INFO]       Raw quantity: 0.00096710
+2025-11-13 06:21:22,971 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:21:22,971 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:21:22,971 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:21:22,971 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:21:23,324 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:21:24,120 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:21:24,122 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:21:24,563 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:21:24,566 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:21:25,074 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:21:25,577 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:21:25,679 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:21:26,065 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:21:26,066 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:21:26,066 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:21:26,066 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:21:26,066 [INFO]    âšª No signal - HOLD
+2025-11-13 06:21:26,569 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:21:26,670 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:21:27,047 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:21:27,048 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:21:27,048 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:21:27,049 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:21:27,049 [INFO]    âšª No signal - HOLD
+2025-11-13 06:21:27,549 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:21:27,651 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:21:28,197 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:21:28,197 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:21:28,197 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:21:28,197 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:21:28,197 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:21:28,198 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.529 | RSI: 67.3 | OB: 1.16
+2025-11-13 06:21:28,198 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:21:28,198 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:21:28,198 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:21:28,198 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:21:28,199 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:21:28,199 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:21:28,297 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:21:28,495 [INFO]    ðŸ’µ Current price: $101.49
+2025-11-13 06:21:28,495 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:21:28,496 [INFO]       Balance: $18.75
+2025-11-13 06:21:28,496 [INFO]       Price: $101.49
+2025-11-13 06:21:28,496 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:21:28,496 [INFO]       Leverage: 10x
+2025-11-13 06:21:28,496 [INFO]       Raw quantity: 0.98531875
+2025-11-13 06:21:28,496 [INFO]       Formatted quantity: 0.98500000
+2025-11-13 06:21:28,496 [INFO]    ðŸ“¤ Placing BUY order for 0.985 LTCUSDT...
+2025-11-13 06:21:28,496 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:21:28,496 [INFO]    Raw qty: 0.98500000 -> Formatted: 0.985
+2025-11-13 06:21:28,847 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:21:29,313 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:21:29,316 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.985
+2025-11-13 06:21:29,749 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:21:29,751 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:21:30,195 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:21:30,698 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:21:30,903 [INFO]    Current position: LONG 6.0
+2025-11-13 06:21:30,904 [INFO]    Entry: $17.52 | Mark: $17.68
+2025-11-13 06:21:30,904 [INFO]    PnL: 0.88% ($0.93)
+2025-11-13 06:21:30,904 [INFO]    Age: 0.6h / 36.0h
+2025-11-13 06:21:31,405 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:21:31,503 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:21:31,852 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:21:31,852 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:21:31,852 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:21:31,852 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:21:31,852 [INFO]    âšª No signal - HOLD
+2025-11-13 06:21:31,852 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:22:31,882 [INFO] 
+============================================================
+2025-11-13 06:22:31,882 [INFO] ðŸ”„ LOOP #83 - 2025-11-13 06:22:31
+2025-11-13 06:22:31,882 [INFO] ============================================================
+2025-11-13 06:22:31,982 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:22:31,983 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:22:32,083 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:22:32,494 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:22:32,495 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:22:32,495 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:22:32,495 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:22:32,495 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:22:32,495 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.593 | RSI: 65.3 | OB: 3.79
+2025-11-13 06:22:32,496 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:22:32,496 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:22:32,496 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:22:32,496 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:22:32,496 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:22:32,496 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:22:32,595 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:22:32,796 [INFO]    ðŸ’µ Current price: $103353.20
+2025-11-13 06:22:32,796 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:22:32,797 [INFO]       Balance: $18.75
+2025-11-13 06:22:32,797 [INFO]       Price: $103353.20
+2025-11-13 06:22:32,797 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:22:32,797 [INFO]       Leverage: 10x
+2025-11-13 06:22:32,797 [INFO]       Raw quantity: 0.00096756
+2025-11-13 06:22:32,797 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:22:32,797 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:22:32,797 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:22:32,797 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:22:33,150 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:22:34,049 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:22:34,050 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:22:34,560 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:22:34,561 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:22:35,019 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:22:35,523 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:22:35,623 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:22:35,974 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:22:35,974 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:22:35,974 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:22:35,975 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:22:35,975 [INFO]    âšª No signal - HOLD
+2025-11-13 06:22:36,476 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:22:36,578 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:22:36,963 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:22:36,963 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:22:36,964 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:22:36,964 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:22:36,964 [INFO]    âšª No signal - HOLD
+2025-11-13 06:22:37,465 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:22:37,566 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:22:37,916 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:22:37,916 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:22:37,917 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:22:37,917 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:22:37,917 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:22:37,917 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.537 | RSI: 67.3 | OB: 0.73
+2025-11-13 06:22:37,917 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:22:37,917 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:22:37,917 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:22:37,917 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:22:37,918 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:22:37,918 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:22:38,113 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:22:38,413 [INFO]    ðŸ’µ Current price: $101.49
+2025-11-13 06:22:38,413 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:22:38,413 [INFO]       Balance: $18.75
+2025-11-13 06:22:38,413 [INFO]       Price: $101.49
+2025-11-13 06:22:38,413 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:22:38,413 [INFO]       Leverage: 10x
+2025-11-13 06:22:38,413 [INFO]       Raw quantity: 0.98531875
+2025-11-13 06:22:38,414 [INFO]       Formatted quantity: 0.98500000
+2025-11-13 06:22:38,414 [INFO]    ðŸ“¤ Placing BUY order for 0.985 LTCUSDT...
+2025-11-13 06:22:38,414 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:22:38,414 [INFO]    Raw qty: 0.98500000 -> Formatted: 0.985
+2025-11-13 06:22:38,764 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:22:39,226 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:22:39,227 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.985
+2025-11-13 06:22:39,711 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:22:39,713 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:22:40,224 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:22:40,726 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:22:40,824 [INFO]    Current position: LONG 6.0
+2025-11-13 06:22:40,824 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:22:40,824 [INFO]    PnL: 0.75% ($0.79)
+2025-11-13 06:22:40,824 [INFO]    Age: 0.6h / 36.0h
+2025-11-13 06:22:41,325 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:22:41,428 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:22:41,782 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:22:41,782 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:22:41,782 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:22:41,782 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:22:41,782 [INFO]    âšª No signal - HOLD
+2025-11-13 06:22:41,782 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:23:41,827 [INFO] 
+============================================================
+2025-11-13 06:23:41,828 [INFO] ðŸ”„ LOOP #84 - 2025-11-13 06:23:41
+2025-11-13 06:23:41,828 [INFO] ============================================================
+2025-11-13 06:23:41,928 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:23:41,928 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:23:42,025 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:23:42,419 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:23:42,420 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:23:42,420 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:23:42,420 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:23:42,420 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:23:42,420 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.590 | RSI: 66.2 | OB: 50.37
+2025-11-13 06:23:42,421 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:23:42,421 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:23:42,421 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:23:42,421 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:23:42,421 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:23:42,421 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:23:42,524 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:23:42,723 [INFO]    ðŸ’µ Current price: $103496.10
+2025-11-13 06:23:42,723 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:23:42,723 [INFO]       Balance: $18.75
+2025-11-13 06:23:42,723 [INFO]       Price: $103496.10
+2025-11-13 06:23:42,723 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:23:42,724 [INFO]       Leverage: 10x
+2025-11-13 06:23:42,724 [INFO]       Raw quantity: 0.00096622
+2025-11-13 06:23:42,724 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:23:42,724 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:23:42,724 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:23:42,724 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:23:43,079 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:23:44,932 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:23:44,933 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:23:45,325 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:23:45,327 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:23:45,810 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:23:46,313 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:23:46,410 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:23:46,761 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:23:46,762 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:23:46,762 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:23:46,762 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:23:46,762 [INFO]    âšª No signal - HOLD
+2025-11-13 06:23:47,263 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:23:47,366 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:23:47,738 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:23:47,738 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:23:47,739 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:23:47,739 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:23:47,740 [INFO]    âšª No signal - HOLD
+2025-11-13 06:23:48,240 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:23:48,341 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:23:48,714 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:23:48,714 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:23:48,714 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:23:48,714 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:23:48,714 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:23:48,715 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.539 | RSI: 67.3 | OB: 0.68
+2025-11-13 06:23:48,715 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:23:48,716 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:23:48,716 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:23:48,716 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:23:48,716 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:23:48,716 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:23:48,818 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:23:49,122 [INFO]    ðŸ’µ Current price: $101.49
+2025-11-13 06:23:49,123 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:23:49,123 [INFO]       Balance: $18.75
+2025-11-13 06:23:49,123 [INFO]       Price: $101.49
+2025-11-13 06:23:49,123 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:23:49,123 [INFO]       Leverage: 10x
+2025-11-13 06:23:49,123 [INFO]       Raw quantity: 0.98531875
+2025-11-13 06:23:49,123 [INFO]       Formatted quantity: 0.98500000
+2025-11-13 06:23:49,123 [INFO]    ðŸ“¤ Placing BUY order for 0.985 LTCUSDT...
+2025-11-13 06:23:49,123 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:23:49,123 [INFO]    Raw qty: 0.98500000 -> Formatted: 0.985
+2025-11-13 06:23:49,474 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:23:49,929 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:23:49,932 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.985
+2025-11-13 06:23:50,370 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:23:50,372 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:23:50,833 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:23:51,335 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:23:51,438 [INFO]    Current position: LONG 6.0
+2025-11-13 06:23:51,438 [INFO]    Entry: $17.52 | Mark: $17.67
+2025-11-13 06:23:51,438 [INFO]    PnL: 0.82% ($0.87)
+2025-11-13 06:23:51,438 [INFO]    Age: 0.6h / 36.0h
+2025-11-13 06:23:51,939 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:23:52,040 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:23:52,410 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:23:52,411 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:23:52,411 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:23:52,412 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:23:52,412 [INFO]    âšª No signal - HOLD
+2025-11-13 06:23:52,412 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:24:52,459 [INFO] 
+============================================================
+2025-11-13 06:24:52,459 [INFO] ðŸ”„ LOOP #85 - 2025-11-13 06:24:52
+2025-11-13 06:24:52,459 [INFO] ============================================================
+2025-11-13 06:24:53,067 [INFO] ðŸ’“ Bot alive - Loop #85 - Active positions: 1
+2025-11-13 06:24:53,171 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:24:53,171 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:24:53,276 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:24:53,646 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:24:53,647 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:24:53,647 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:24:53,647 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:24:53,647 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:24:53,647 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.598 | RSI: 66.9 | OB: 0.48
+2025-11-13 06:24:53,647 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:24:53,648 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:24:53,648 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:24:53,648 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:24:53,648 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:24:53,648 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:24:53,747 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:24:53,944 [INFO]    ðŸ’µ Current price: $103555.70
+2025-11-13 06:24:53,945 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:24:53,945 [INFO]       Balance: $18.75
+2025-11-13 06:24:53,945 [INFO]       Price: $103555.70
+2025-11-13 06:24:53,945 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:24:53,945 [INFO]       Leverage: 10x
+2025-11-13 06:24:53,945 [INFO]       Raw quantity: 0.00096566
+2025-11-13 06:24:53,945 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:24:53,945 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:24:53,945 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:24:53,945 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:24:54,299 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:24:55,035 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:24:55,037 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:24:55,467 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:24:55,469 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:24:55,901 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:24:56,403 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:24:56,502 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:24:56,852 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:24:56,853 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:24:56,853 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:24:56,853 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:24:56,854 [INFO]    âšª No signal - HOLD
+2025-11-13 06:24:57,354 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:24:57,463 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:24:57,816 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:24:57,816 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:24:57,817 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:24:57,817 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:24:57,817 [INFO]    âšª No signal - HOLD
+2025-11-13 06:24:58,318 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:24:58,417 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:24:58,792 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:24:58,792 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:24:58,792 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:24:58,792 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:24:58,792 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:24:58,792 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.551 | RSI: 67.3 | OB: 0.38
+2025-11-13 06:24:58,793 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:24:58,793 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:24:58,794 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:24:58,794 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:24:58,794 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:24:58,794 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:24:58,895 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:24:59,198 [INFO]    ðŸ’µ Current price: $101.73
+2025-11-13 06:24:59,198 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:24:59,198 [INFO]       Balance: $18.75
+2025-11-13 06:24:59,198 [INFO]       Price: $101.73
+2025-11-13 06:24:59,198 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:24:59,198 [INFO]       Leverage: 10x
+2025-11-13 06:24:59,198 [INFO]       Raw quantity: 0.98299420
+2025-11-13 06:24:59,198 [INFO]       Formatted quantity: 0.98300000
+2025-11-13 06:24:59,199 [INFO]    ðŸ“¤ Placing BUY order for 0.983 LTCUSDT...
+2025-11-13 06:24:59,199 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:24:59,199 [INFO]    Raw qty: 0.98300000 -> Formatted: 0.983
+2025-11-13 06:24:59,553 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:24:59,965 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:24:59,967 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.983
+2025-11-13 06:25:00,385 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:25:00,386 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:25:00,815 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:25:01,317 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:25:01,418 [INFO]    Current position: LONG 6.0
+2025-11-13 06:25:01,418 [INFO]    Entry: $17.52 | Mark: $17.68
+2025-11-13 06:25:01,418 [INFO]    PnL: 0.90% ($0.95)
+2025-11-13 06:25:01,418 [INFO]    Age: 0.7h / 36.0h
+2025-11-13 06:25:01,919 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:25:02,018 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:25:02,371 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:25:02,371 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:25:02,371 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:25:02,371 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:25:02,372 [INFO]    âšª No signal - HOLD
+2025-11-13 06:25:02,372 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:26:02,422 [INFO] 
+============================================================
+2025-11-13 06:26:02,422 [INFO] ðŸ”„ LOOP #86 - 2025-11-13 06:26:02
+2025-11-13 06:26:02,422 [INFO] ============================================================
+2025-11-13 06:26:02,519 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:26:02,520 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:26:02,621 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:26:03,019 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:26:03,019 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:26:03,019 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:26:03,019 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:26:03,019 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:26:03,019 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.598 | RSI: 66.3 | OB: 1.80
+2025-11-13 06:26:03,020 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:26:03,020 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:26:03,020 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:26:03,020 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:26:03,020 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:26:03,020 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:26:03,122 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:26:03,317 [INFO]    ðŸ’µ Current price: $103495.80
+2025-11-13 06:26:03,318 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:26:03,318 [INFO]       Balance: $18.75
+2025-11-13 06:26:03,318 [INFO]       Price: $103495.80
+2025-11-13 06:26:03,318 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:26:03,318 [INFO]       Leverage: 10x
+2025-11-13 06:26:03,318 [INFO]       Raw quantity: 0.00096622
+2025-11-13 06:26:03,318 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:26:03,318 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:26:03,318 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:26:03,318 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:26:03,672 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:26:04,551 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:26:04,553 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:26:04,988 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:26:04,995 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:26:05,430 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:26:05,933 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:26:06,033 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:26:06,520 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:26:06,520 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:26:06,521 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:26:06,521 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:26:06,521 [INFO]    âšª No signal - HOLD
+2025-11-13 06:26:07,022 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:26:07,125 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:26:07,508 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:26:07,509 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:26:07,510 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:26:07,510 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:26:07,510 [INFO]    âšª No signal - HOLD
+2025-11-13 06:26:08,011 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:26:08,109 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:26:08,471 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:26:08,472 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:26:08,472 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:26:08,472 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:26:08,472 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:26:08,472 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.529 | RSI: 66.7 | OB: 1.31
+2025-11-13 06:26:08,472 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:26:08,472 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:26:08,473 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:26:08,473 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:26:08,473 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:26:08,473 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:26:08,572 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:26:08,773 [INFO]    ðŸ’µ Current price: $101.41
+2025-11-13 06:26:08,773 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:26:08,773 [INFO]       Balance: $18.75
+2025-11-13 06:26:08,773 [INFO]       Price: $101.41
+2025-11-13 06:26:08,773 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:26:08,773 [INFO]       Leverage: 10x
+2025-11-13 06:26:08,773 [INFO]       Raw quantity: 0.98609605
+2025-11-13 06:26:08,773 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:26:08,773 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:26:08,774 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:26:08,774 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:26:09,127 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:26:09,591 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:26:09,594 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:26:10,063 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:26:10,064 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:26:10,523 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:26:11,026 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:26:11,227 [INFO]    Current position: LONG 6.0
+2025-11-13 06:26:11,227 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:26:11,228 [INFO]    PnL: 0.75% ($0.79)
+2025-11-13 06:26:11,228 [INFO]    Age: 0.7h / 36.0h
+2025-11-13 06:26:11,728 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:26:11,832 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:26:12,189 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:26:12,189 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:26:12,190 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:26:12,190 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:26:12,190 [INFO]    âšª No signal - HOLD
+2025-11-13 06:26:12,190 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:27:12,235 [INFO] 
+============================================================
+2025-11-13 06:27:12,235 [INFO] ðŸ”„ LOOP #87 - 2025-11-13 06:27:12
+2025-11-13 06:27:12,236 [INFO] ============================================================
+2025-11-13 06:27:12,336 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:27:12,336 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:27:12,441 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:27:12,841 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:27:12,841 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:27:12,841 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:27:12,841 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:27:12,841 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:27:12,841 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.597 | RSI: 65.6 | OB: 0.07
+2025-11-13 06:27:12,842 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:27:12,842 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:27:12,842 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:27:12,842 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:27:12,842 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:27:12,842 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:27:12,942 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:27:13,142 [INFO]    ðŸ’µ Current price: $103428.90
+2025-11-13 06:27:13,143 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:27:13,143 [INFO]       Balance: $18.75
+2025-11-13 06:27:13,143 [INFO]       Price: $103428.90
+2025-11-13 06:27:13,143 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:27:13,143 [INFO]       Leverage: 10x
+2025-11-13 06:27:13,143 [INFO]       Raw quantity: 0.00096685
+2025-11-13 06:27:13,143 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:27:13,143 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:27:13,143 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:27:13,143 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:27:13,496 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:27:14,223 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:27:14,225 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:27:14,612 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:27:14,613 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:27:14,993 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:27:15,495 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:27:15,599 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:27:15,995 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:27:15,996 [INFO]    Partial signals: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:27:15,996 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:27:15,996 [INFO]    ðŸ“ Signal reasons: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:27:15,997 [INFO]    âšª No signal - HOLD
+2025-11-13 06:27:16,497 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:27:16,598 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:27:16,969 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:27:16,970 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:27:16,970 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:27:16,971 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:27:16,971 [INFO]    âšª No signal - HOLD
+2025-11-13 06:27:17,471 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:27:17,572 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:27:17,937 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:27:17,937 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:27:17,938 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:27:17,938 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:27:17,938 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:27:17,938 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.529 | RSI: 66.7 | OB: 2.64
+2025-11-13 06:27:17,939 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:27:17,939 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:27:17,939 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:27:17,939 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:27:17,939 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:27:17,939 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:27:18,041 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:27:18,245 [INFO]    ðŸ’µ Current price: $101.41
+2025-11-13 06:27:18,245 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:27:18,245 [INFO]       Balance: $18.75
+2025-11-13 06:27:18,246 [INFO]       Price: $101.41
+2025-11-13 06:27:18,246 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:27:18,246 [INFO]       Leverage: 10x
+2025-11-13 06:27:18,246 [INFO]       Raw quantity: 0.98609605
+2025-11-13 06:27:18,246 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:27:18,246 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:27:18,246 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:27:18,246 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:27:18,598 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:27:18,984 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:27:18,986 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:27:19,379 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:27:19,380 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:27:19,781 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:27:20,283 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:27:20,382 [INFO]    Current position: LONG 6.0
+2025-11-13 06:27:20,382 [INFO]    Entry: $17.52 | Mark: $17.67
+2025-11-13 06:27:20,383 [INFO]    PnL: 0.83% ($0.88)
+2025-11-13 06:27:20,383 [INFO]    Age: 0.7h / 36.0h
+2025-11-13 06:27:20,883 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:27:20,985 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:27:21,408 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:27:21,409 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:27:21,409 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:27:21,409 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:27:21,410 [INFO]    âšª No signal - HOLD
+2025-11-13 06:27:21,410 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:28:21,451 [INFO] 
+============================================================
+2025-11-13 06:28:21,452 [INFO] ðŸ”„ LOOP #88 - 2025-11-13 06:28:21
+2025-11-13 06:28:21,452 [INFO] ============================================================
+2025-11-13 06:28:21,555 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:28:21,555 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:28:21,652 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:28:22,032 [INFO] ðŸŽ¯ BTCUSDT Advanced Signal: LONG
+2025-11-13 06:28:22,032 [INFO]    ðŸ“Š Confluence Score: 6/4
+2025-11-13 06:28:22,032 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:28:22,032 [INFO]       1. ðŸ”· Bullish Order Block
+2025-11-13 06:28:22,032 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:28:22,032 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.594 | RSI: 65.7 | OB: 7.28
+2025-11-13 06:28:22,033 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=6
+2025-11-13 06:28:22,033 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:28:22,033 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:28:22,033 [INFO]    ðŸ“Š Confluence score: 6/4
+2025-11-13 06:28:22,034 [INFO]    ðŸ“ Top reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:28:22,034 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:28:22,132 [INFO] âœ… Set leverage 10x for BTCUSDT
+2025-11-13 06:28:22,333 [INFO]    ðŸ’µ Current price: $103525.80
+2025-11-13 06:28:22,334 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:28:22,334 [INFO]       Balance: $18.75
+2025-11-13 06:28:22,334 [INFO]       Price: $103525.80
+2025-11-13 06:28:22,334 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:28:22,334 [INFO]       Leverage: 10x
+2025-11-13 06:28:22,334 [INFO]       Raw quantity: 0.00096594
+2025-11-13 06:28:22,334 [INFO]       Formatted quantity: 0.00100000
+2025-11-13 06:28:22,334 [INFO]    ðŸ“¤ Placing BUY order for 0.001 BTCUSDT...
+2025-11-13 06:28:22,334 [INFO] ðŸ“ Order: BUY BTCUSDT
+2025-11-13 06:28:22,335 [INFO]    Raw qty: 0.00100000 -> Formatted: 0.001
+2025-11-13 06:28:22,685 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:28:23,415 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:28:23,421 [ERROR]    Symbol: BTCUSDT, Side: BUY, Qty: 0.001
+2025-11-13 06:28:23,831 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:28:23,836 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:28:24,228 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:28:24,730 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:28:24,831 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:28:25,201 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:28:25,202 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:28:25,202 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:28:25,202 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:28:25,202 [INFO]    âšª No signal - HOLD
+2025-11-13 06:28:25,703 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:28:25,808 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:28:26,204 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:28:26,204 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:28:26,205 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:28:26,206 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:28:26,206 [INFO]    âšª No signal - HOLD
+2025-11-13 06:28:26,707 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:28:26,807 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:28:27,177 [INFO] ðŸŽ¯ LTCUSDT Advanced Signal: LONG
+2025-11-13 06:28:27,178 [INFO]    ðŸ“Š Confluence Score: 5/4
+2025-11-13 06:28:27,178 [INFO]    ðŸ“ Top Reasons:
+2025-11-13 06:28:27,178 [INFO]       1. ðŸ“Š Bullish FVG
+2025-11-13 06:28:27,178 [INFO]       2. ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:28:27,178 [INFO]    ðŸ“ˆ Legacy Signals - LSTM: 0.532 | RSI: 66.7 | OB: 0.88
+2025-11-13 06:28:27,179 [INFO]    ðŸ“Š Analysis complete: Signal=LONG, Score=5
+2025-11-13 06:28:27,179 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:28:27,179 [INFO]    ðŸŸ¢ Entry signal detected: LONG
+2025-11-13 06:28:27,179 [INFO]    ðŸ“Š Confluence score: 5/4
+2025-11-13 06:28:27,179 [INFO]    ðŸ“ Top reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:28:27,180 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-11-13 06:28:27,383 [INFO] âœ… Set leverage 10x for LTCUSDT
+2025-11-13 06:28:27,583 [INFO]    ðŸ’µ Current price: $101.41
+2025-11-13 06:28:27,584 [INFO]    ðŸ’° Position calculation:
+2025-11-13 06:28:27,584 [INFO]       Balance: $18.75
+2025-11-13 06:28:27,584 [INFO]       Price: $101.41
+2025-11-13 06:28:27,584 [INFO]       Capital (fixed): $10.00
+2025-11-13 06:28:27,584 [INFO]       Leverage: 10x
+2025-11-13 06:28:27,584 [INFO]       Raw quantity: 0.98609605
+2025-11-13 06:28:27,584 [INFO]       Formatted quantity: 0.98600000
+2025-11-13 06:28:27,584 [INFO]    ðŸ“¤ Placing BUY order for 0.986 LTCUSDT...
+2025-11-13 06:28:27,584 [INFO] ðŸ“ Order: BUY LTCUSDT
+2025-11-13 06:28:27,584 [INFO]    Raw qty: 0.98600000 -> Formatted: 0.986
+2025-11-13 06:28:27,936 [ERROR] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-11-13 06:28:28,336 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:28:28,338 [ERROR]    Symbol: LTCUSDT, Side: BUY, Qty: 0.986
+2025-11-13 06:28:28,725 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:28:28,727 [ERROR]    âŒ Order placement failed!
+2025-11-13 06:28:29,112 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:28:29,615 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:28:29,716 [INFO]    Current position: LONG 6.0
+2025-11-13 06:28:29,716 [INFO]    Entry: $17.52 | Mark: $17.67
+2025-11-13 06:28:29,716 [INFO]    PnL: 0.85% ($0.89)
+2025-11-13 06:28:29,716 [INFO]    Age: 0.7h / 36.0h
+2025-11-13 06:28:30,217 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:28:30,319 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:28:30,698 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:28:30,698 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:28:30,698 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:28:30,699 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:28:30,699 [INFO]    âšª No signal - HOLD
+2025-11-13 06:28:30,699 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:28:39,421 [INFO] 
+ðŸ›‘ Shutdown signal received...
+2025-11-13 06:29:30,749 [INFO] 
+============================================================
+2025-11-13 06:29:30,750 [INFO] ðŸ›‘ SHUTTING DOWN BOT
+2025-11-13 06:29:30,750 [INFO] ============================================================
+2025-11-13 06:29:30,750 [INFO] ðŸ“Š <b>DAILY STATS</b>
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+Trades: 2
+Volume: $0.00M
+PnL: 0.00%
+
+<b>Overall</b>
+Total Trades: 2
+Win Rate: 50.0%
+W/L: 1/0
+2025-11-13 06:29:31,465 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:29:31,468 [INFO] ðŸ‘‹ Bot stopped!
+2025-11-13 06:29:31,862 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+âœ… Using fixed position size: $10.0 USDT per trade
+âœ… Config validation passed!
+2025-11-13 06:29:37,783 [INFO] âœ… Telegram bot initialized
+2025-11-13 06:29:45,759 [INFO] ============================================================
+2025-11-13 06:29:45,760 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
+2025-11-13 06:29:45,760 [INFO] ============================================================
+2025-11-13 06:29:46,170 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
+2025-11-13 06:29:46,170 [INFO]    URL: https://fapi.asterdex.com/fapi
+2025-11-13 06:29:46,171 [INFO] ðŸ“‚ Loaded 1 position timestamps
+2025-11-13 06:29:46,171 [INFO] ðŸ“ˆ Trailing Stop enabled: Activation=1.0%, Trail=0.3%
+2025-11-13 06:29:46,171 [INFO] ðŸŽ­ Loading Ensemble models...
+2025-11-13 06:29:46,213 [INFO] ðŸ§  LSTM Model initialized on cpu
+2025-11-13 06:29:46,214 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
+2025-11-13 06:29:46,214 [INFO] ðŸŽ­ Ensemble initialized with 2 models
+2025-11-13 06:29:46,214 [INFO]    Models: ['lstm', 'xgboost']
+2025-11-13 06:29:46,215 [INFO]    Weights: [0.3 0.7]
+2025-11-13 06:29:46,238 [INFO] âœ… Model loaded from models/lstm_model.pt
+2025-11-13 06:29:46,239 [INFO] âœ… LSTM loaded
+2025-11-13 06:29:46,308 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
+2025-11-13 06:29:46,308 [INFO] âœ… XGBoost loaded
+2025-11-13 06:29:46,308 [INFO] âœ… Ensemble loaded: 2/2 models
+2025-11-13 06:29:46,308 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
+2025-11-13 06:29:46,308 [INFO]    Weights: [0.3, 0.7]
+2025-11-13 06:29:46,308 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
+2025-11-13 06:29:46,308 [INFO] ðŸš« Signal Cooldown enabled: 60 minutes
+2025-11-13 06:29:46,309 [INFO] âœ… Bot initialized successfully!
+2025-11-13 06:29:46,309 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
+2025-11-13 06:29:46,309 [INFO]    Leverage: 10x
+2025-11-13 06:29:46,309 [INFO]    Position Size: 20.0%
+2025-11-13 06:29:46,309 [INFO]    TP/SL: 1.00% / Disabled
+2025-11-13 06:29:46,309 [INFO]    Position Timeout: 36.0h
+2025-11-13 06:29:46,309 [INFO] ============================================================
+2025-11-13 06:29:46,309 [INFO] ðŸ BOT STARTED!
+2025-11-13 06:29:47,089 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:29:47,277 [INFO] ðŸ“Š Daily start balance: $18.75
+2025-11-13 06:29:47,277 [INFO] ðŸ’° Starting balance: $18.75
+2025-11-13 06:29:47,708 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 06:29:47,710 [INFO] 
+============================================================
+2025-11-13 06:29:47,710 [INFO] ðŸ”„ LOOP #1 - 2025-11-13 06:29:47
+2025-11-13 06:29:47,711 [INFO] ============================================================
+2025-11-13 06:29:47,800 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:29:47,800 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:29:47,885 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:29:48,280 [INFO]    ðŸš« ML Conviction too low: 0.598 (distance from 0.5: 0.098 < 0.1)
+2025-11-13 06:29:48,280 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 6/4)
+2025-11-13 06:29:48,280 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:29:48,281 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=6
+2025-11-13 06:29:48,281 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:29:48,281 [INFO]    âšª No signal - HOLD
+2025-11-13 06:29:48,782 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:29:48,873 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:29:49,223 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:29:49,224 [INFO]    Partial signals: SHORT(3): ðŸ“ˆ RSI Overbought, SHORT(3): ðŸ“ˆ Volume Spike
+2025-11-13 06:29:49,224 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:29:49,225 [INFO]    ðŸ“ Signal reasons: SHORT(3): ðŸ“ˆ RSI Overbought, SHORT(3): ðŸ“ˆ Volume Spike
+2025-11-13 06:29:49,225 [INFO]    âšª No signal - HOLD
+2025-11-13 06:29:49,726 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:29:49,818 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:29:50,147 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:29:50,148 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:29:50,148 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:29:50,149 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:29:50,149 [INFO]    âšª No signal - HOLD
+2025-11-13 06:29:50,653 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:29:50,743 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:29:51,073 [INFO]    ðŸš« ML Conviction too low: 0.530 (distance from 0.5: 0.030 < 0.1)
+2025-11-13 06:29:51,073 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:29:51,074 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:29:51,074 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:29:51,074 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:29:51,074 [INFO]    âšª No signal - HOLD
+2025-11-13 06:29:51,575 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:29:51,663 [INFO]    Current position: LONG 6.0
+2025-11-13 06:29:51,664 [INFO]    Entry: $17.52 | Mark: $17.68
+2025-11-13 06:29:51,664 [INFO]    PnL: 0.89% ($0.94)
+2025-11-13 06:29:51,664 [INFO]    Age: 0.7h / 36.0h
+2025-11-13 06:29:52,165 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:29:52,251 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:29:52,577 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:29:52,578 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:29:52,578 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:29:52,578 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:29:52,578 [INFO]    âšª No signal - HOLD
+2025-11-13 06:29:52,578 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:30:52,637 [INFO] 
+============================================================
+2025-11-13 06:30:52,638 [INFO] ðŸ”„ LOOP #2 - 2025-11-13 06:30:52
+2025-11-13 06:30:52,638 [INFO] ============================================================
+2025-11-13 06:30:52,724 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:30:52,725 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:30:52,814 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:30:53,145 [INFO]    ðŸš« ML Conviction too low: 0.585 (distance from 0.5: 0.085 < 0.1)
+2025-11-13 06:30:53,146 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:30:53,146 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:30:53,146 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:30:53,146 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:30:53,146 [INFO]    âšª No signal - HOLD
+2025-11-13 06:30:53,647 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:30:53,732 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:30:54,062 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:30:54,062 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:30:54,063 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:30:54,063 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:30:54,063 [INFO]    âšª No signal - HOLD
+2025-11-13 06:30:54,564 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:30:54,652 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:30:54,979 [INFO]    ðŸš« ML Conviction too low: 0.574 (distance from 0.5: 0.074 < 0.1)
+2025-11-13 06:30:54,979 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:30:54,979 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:30:54,980 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:30:54,980 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:30:54,980 [INFO]    âšª No signal - HOLD
+2025-11-13 06:30:55,481 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:30:55,566 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:30:55,953 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:30:55,953 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:30:55,954 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:30:55,954 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:30:55,954 [INFO]    âšª No signal - HOLD
+2025-11-13 06:30:56,455 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:30:56,681 [INFO]    Current position: LONG 6.0
+2025-11-13 06:30:56,683 [INFO]    Entry: $17.52 | Mark: $17.68
+2025-11-13 06:30:56,683 [INFO]    PnL: 0.91% ($0.96)
+2025-11-13 06:30:56,683 [INFO]    Age: 0.8h / 36.0h
+2025-11-13 06:30:57,184 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:30:57,272 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:30:57,595 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:30:57,595 [INFO]    Partial signals: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:30:57,596 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:30:57,596 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Š Bullish FVG, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:30:57,596 [INFO]    âšª No signal - HOLD
+2025-11-13 06:30:57,596 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:31:57,640 [INFO] 
+============================================================
+2025-11-13 06:31:57,640 [INFO] ðŸ”„ LOOP #3 - 2025-11-13 06:31:57
+2025-11-13 06:31:57,641 [INFO] ============================================================
+2025-11-13 06:31:57,726 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:31:57,726 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:31:57,811 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:31:58,139 [INFO]    ðŸš« ML Conviction too low: 0.596 (distance from 0.5: 0.096 < 0.1)
+2025-11-13 06:31:58,139 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:31:58,139 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:31:58,139 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:31:58,139 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:31:58,139 [INFO]    âšª No signal - HOLD
+2025-11-13 06:31:58,640 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:31:58,726 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:31:59,060 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:31:59,060 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:31:59,061 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:31:59,061 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:31:59,061 [INFO]    âšª No signal - HOLD
+2025-11-13 06:31:59,561 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:31:59,650 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:31:59,989 [INFO]    ðŸš« ML Conviction too low: 0.577 (distance from 0.5: 0.077 < 0.1)
+2025-11-13 06:31:59,989 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:31:59,989 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:31:59,990 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:31:59,990 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:31:59,990 [INFO]    âšª No signal - HOLD
+2025-11-13 06:32:00,491 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:32:00,578 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:32:00,895 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:32:00,895 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:32:00,896 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:32:00,896 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:32:00,896 [INFO]    âšª No signal - HOLD
+2025-11-13 06:32:01,398 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:32:01,488 [INFO]    Current position: LONG 6.0
+2025-11-13 06:32:01,489 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:32:01,489 [INFO]    PnL: 0.80% ($0.84)
+2025-11-13 06:32:01,489 [INFO]    Age: 0.8h / 36.0h
+2025-11-13 06:32:01,990 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:32:02,083 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:32:02,404 [INFO]    ðŸš« ML Conviction too low: 0.497 (distance from 0.5: 0.003 < 0.1)
+2025-11-13 06:32:02,405 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:32:02,405 [INFO]    Partial signals: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:32:02,405 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:32:02,405 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:32:02,405 [INFO]    âšª No signal - HOLD
+2025-11-13 06:32:02,406 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:33:02,445 [INFO] 
+============================================================
+2025-11-13 06:33:02,445 [INFO] ðŸ”„ LOOP #4 - 2025-11-13 06:33:02
+2025-11-13 06:33:02,446 [INFO] ============================================================
+2025-11-13 06:33:02,537 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:33:02,537 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:33:02,623 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:33:02,954 [INFO]    ðŸš« ML Conviction too low: 0.599 (distance from 0.5: 0.099 < 0.1)
+2025-11-13 06:33:02,954 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:33:02,954 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:33:02,955 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:33:02,955 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:33:02,955 [INFO]    âšª No signal - HOLD
+2025-11-13 06:33:03,456 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:33:03,543 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:33:03,873 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:33:03,874 [INFO]    Partial signals: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:33:03,874 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:33:03,875 [INFO]    ðŸ“ Signal reasons: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:33:03,875 [INFO]    âšª No signal - HOLD
+2025-11-13 06:33:04,376 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:33:04,466 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:33:04,806 [INFO]    ðŸš« ML Conviction too low: 0.576 (distance from 0.5: 0.076 < 0.1)
+2025-11-13 06:33:04,806 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:33:04,806 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:33:04,807 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:33:04,807 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:33:04,807 [INFO]    âšª No signal - HOLD
+2025-11-13 06:33:05,308 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:33:05,397 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:33:05,723 [INFO]    ðŸš« ML Conviction too low: 0.533 (distance from 0.5: 0.033 < 0.1)
+2025-11-13 06:33:05,723 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:33:05,723 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:33:05,724 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:33:05,724 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:33:05,724 [INFO]    âšª No signal - HOLD
+2025-11-13 06:33:06,225 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:33:06,318 [INFO]    Current position: LONG 6.0
+2025-11-13 06:33:06,318 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:33:06,318 [INFO]    PnL: 0.79% ($0.83)
+2025-11-13 06:33:06,318 [INFO]    Age: 0.8h / 36.0h
+2025-11-13 06:33:06,819 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:33:06,907 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:33:07,261 [INFO]    ðŸš« ML Conviction too low: 0.490 (distance from 0.5: 0.010 < 0.1)
+2025-11-13 06:33:07,261 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:33:07,261 [INFO]    Partial signals: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:33:07,262 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:33:07,262 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:33:07,262 [INFO]    âšª No signal - HOLD
+2025-11-13 06:33:07,262 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:34:07,322 [INFO] 
+============================================================
+2025-11-13 06:34:07,322 [INFO] ðŸ”„ LOOP #5 - 2025-11-13 06:34:07
+2025-11-13 06:34:07,323 [INFO] ============================================================
+2025-11-13 06:34:07,853 [INFO] ðŸ’“ Bot alive - Loop #5 - Active positions: 1
+2025-11-13 06:34:07,938 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:34:07,938 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:34:08,023 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:34:08,349 [INFO]    ðŸš« ML Conviction too low: 0.597 (distance from 0.5: 0.097 < 0.1)
+2025-11-13 06:34:08,349 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:34:08,355 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:34:08,356 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:34:08,356 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:34:08,357 [INFO]    âšª No signal - HOLD
+2025-11-13 06:34:08,857 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:34:08,945 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:34:09,252 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:34:09,252 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:34:09,253 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:34:09,253 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:34:09,253 [INFO]    âšª No signal - HOLD
+2025-11-13 06:34:09,754 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:34:09,840 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:34:10,171 [INFO]    ðŸš« ML Conviction too low: 0.564 (distance from 0.5: 0.064 < 0.1)
+2025-11-13 06:34:10,172 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:34:10,172 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:34:10,172 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:34:10,172 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:34:10,172 [INFO]    âšª No signal - HOLD
+2025-11-13 06:34:10,673 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:34:10,756 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:34:11,089 [INFO]    ðŸš« ML Conviction too low: 0.538 (distance from 0.5: 0.038 < 0.1)
+2025-11-13 06:34:11,089 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:34:11,090 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:34:11,090 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:34:11,090 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:34:11,090 [INFO]    âšª No signal - HOLD
+2025-11-13 06:34:11,591 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:34:11,677 [INFO]    Current position: LONG 6.0
+2025-11-13 06:34:11,677 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:34:11,677 [INFO]    PnL: 0.80% ($0.84)
+2025-11-13 06:34:11,677 [INFO]    Age: 0.8h / 36.0h
+2025-11-13 06:34:12,178 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:34:12,271 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:34:12,595 [INFO]    ðŸš« ML Conviction too low: 0.484 (distance from 0.5: 0.016 < 0.1)
+2025-11-13 06:34:12,595 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:34:12,595 [INFO]    Partial signals: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:34:12,596 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:34:12,596 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:34:12,596 [INFO]    âšª No signal - HOLD
+2025-11-13 06:34:12,596 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:35:12,656 [INFO] 
+============================================================
+2025-11-13 06:35:12,657 [INFO] ðŸ”„ LOOP #6 - 2025-11-13 06:35:12
+2025-11-13 06:35:12,657 [INFO] ============================================================
+2025-11-13 06:35:12,743 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:35:12,743 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:35:12,834 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:35:13,166 [INFO]    ðŸš« ML Conviction too low: 0.597 (distance from 0.5: 0.097 < 0.1)
+2025-11-13 06:35:13,166 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:35:13,166 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:35:13,167 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:35:13,167 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:35:13,167 [INFO]    âšª No signal - HOLD
+2025-11-13 06:35:13,668 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:35:13,762 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:35:14,076 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:35:14,077 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:35:14,078 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:35:14,078 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:35:14,078 [INFO]    âšª No signal - HOLD
+2025-11-13 06:35:14,579 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:35:14,667 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:35:14,987 [INFO]    ðŸš« ML Conviction too low: 0.567 (distance from 0.5: 0.067 < 0.1)
+2025-11-13 06:35:14,988 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:35:14,988 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:35:14,988 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:35:14,989 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:35:14,989 [INFO]    âšª No signal - HOLD
+2025-11-13 06:35:15,489 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:35:15,576 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:35:15,894 [INFO]    ðŸš« ML Conviction too low: 0.541 (distance from 0.5: 0.041 < 0.1)
+2025-11-13 06:35:15,894 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:35:15,894 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:35:15,895 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:35:15,895 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:35:15,895 [INFO]    âšª No signal - HOLD
+2025-11-13 06:35:16,396 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:35:16,481 [INFO]    Current position: LONG 6.0
+2025-11-13 06:35:16,481 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:35:16,481 [INFO]    PnL: 0.81% ($0.85)
+2025-11-13 06:35:16,481 [INFO]    Age: 0.8h / 36.0h
+2025-11-13 06:35:16,982 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:35:17,070 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:35:17,385 [INFO]    ðŸš« ML Conviction too low: 0.490 (distance from 0.5: 0.010 < 0.1)
+2025-11-13 06:35:17,385 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:35:17,385 [INFO]    Partial signals: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:35:17,386 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:35:17,386 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:35:17,386 [INFO]    âšª No signal - HOLD
+2025-11-13 06:35:17,386 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:36:17,436 [INFO] 
+============================================================
+2025-11-13 06:36:17,436 [INFO] ðŸ”„ LOOP #7 - 2025-11-13 06:36:17
+2025-11-13 06:36:17,436 [INFO] ============================================================
+2025-11-13 06:36:17,539 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:36:17,539 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:36:17,651 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:36:17,970 [INFO]    ðŸš« ML Conviction too low: 0.599 (distance from 0.5: 0.099 < 0.1)
+2025-11-13 06:36:17,971 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 6/4)
+2025-11-13 06:36:17,971 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:36:17,971 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=6
+2025-11-13 06:36:17,972 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:36:17,972 [INFO]    âšª No signal - HOLD
+2025-11-13 06:36:18,472 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:36:18,562 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:36:18,891 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:36:18,892 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:36:18,892 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:36:18,893 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:36:18,893 [INFO]    âšª No signal - HOLD
+2025-11-13 06:36:19,393 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:36:19,592 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:36:19,908 [INFO]    ðŸš« ML Conviction too low: 0.543 (distance from 0.5: 0.043 < 0.1)
+2025-11-13 06:36:19,909 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:36:19,909 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:36:19,910 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:36:19,910 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:36:19,910 [INFO]    âšª No signal - HOLD
+2025-11-13 06:36:20,411 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:36:20,509 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:36:20,851 [INFO]    ðŸš« ML Conviction too low: 0.538 (distance from 0.5: 0.038 < 0.1)
+2025-11-13 06:36:20,851 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:36:20,852 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:36:20,852 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:36:20,853 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:36:20,853 [INFO]    âšª No signal - HOLD
+2025-11-13 06:36:21,354 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:36:21,447 [INFO]    Current position: LONG 6.0
+2025-11-13 06:36:21,448 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:36:21,448 [INFO]    PnL: 0.80% ($0.84)
+2025-11-13 06:36:21,448 [INFO]    Age: 0.9h / 36.0h
+2025-11-13 06:36:21,949 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:36:22,038 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:36:22,357 [INFO]    ðŸš« ML Conviction too low: 0.462 (distance from 0.5: 0.038 < 0.1)
+2025-11-13 06:36:22,357 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:36:22,358 [INFO]    Partial signals: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:36:22,358 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:36:22,358 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:36:22,358 [INFO]    âšª No signal - HOLD
+2025-11-13 06:36:22,358 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:37:22,371 [INFO] 
+============================================================
+2025-11-13 06:37:22,371 [INFO] ðŸ”„ LOOP #8 - 2025-11-13 06:37:22
+2025-11-13 06:37:22,371 [INFO] ============================================================
+2025-11-13 06:37:22,462 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:37:22,462 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:37:22,549 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:37:22,880 [INFO]    ðŸš« ML Conviction too low: 0.599 (distance from 0.5: 0.099 < 0.1)
+2025-11-13 06:37:22,881 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 6/4)
+2025-11-13 06:37:22,881 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:37:22,882 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=6
+2025-11-13 06:37:22,882 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:37:22,882 [INFO]    âšª No signal - HOLD
+2025-11-13 06:37:23,383 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:37:23,473 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:37:23,807 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:37:23,807 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:37:23,807 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:37:23,808 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:37:23,808 [INFO]    âšª No signal - HOLD
+2025-11-13 06:37:24,309 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:37:24,393 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:37:24,847 [INFO]    ðŸš« ML Conviction too low: 0.557 (distance from 0.5: 0.057 < 0.1)
+2025-11-13 06:37:24,847 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:37:24,848 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:37:24,848 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:37:24,848 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:37:24,849 [INFO]    âšª No signal - HOLD
+2025-11-13 06:37:25,349 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:37:25,439 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:37:25,843 [INFO]    ðŸš« ML Conviction too low: 0.570 (distance from 0.5: 0.070 < 0.1)
+2025-11-13 06:37:25,843 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:37:25,843 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:37:25,844 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:37:25,844 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:37:25,844 [INFO]    âšª No signal - HOLD
+2025-11-13 06:37:26,345 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:37:26,432 [INFO]    Current position: LONG 6.0
+2025-11-13 06:37:26,433 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:37:26,433 [INFO]    PnL: 0.76% ($0.79)
+2025-11-13 06:37:26,433 [INFO]    Age: 0.9h / 36.0h
+2025-11-13 06:37:26,934 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:37:27,019 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:37:27,341 [INFO]    ðŸš« ML Conviction too low: 0.492 (distance from 0.5: 0.008 < 0.1)
+2025-11-13 06:37:27,341 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:37:27,342 [INFO]    Partial signals: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:37:27,342 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:37:27,342 [INFO]    ðŸ“ Signal reasons: ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:37:27,343 [INFO]    âšª No signal - HOLD
+2025-11-13 06:37:27,343 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:38:27,371 [INFO] 
+============================================================
+2025-11-13 06:38:27,371 [INFO] ðŸ”„ LOOP #9 - 2025-11-13 06:38:27
+2025-11-13 06:38:27,371 [INFO] ============================================================
+2025-11-13 06:38:27,472 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:38:27,472 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:38:27,558 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:38:27,890 [INFO]    ðŸš« ML Conviction too low: 0.596 (distance from 0.5: 0.096 < 0.1)
+2025-11-13 06:38:27,890 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 6/4)
+2025-11-13 06:38:27,890 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:38:27,891 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=6
+2025-11-13 06:38:27,891 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:38:27,891 [INFO]    âšª No signal - HOLD
+2025-11-13 06:38:28,392 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:38:28,482 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:38:28,806 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:38:28,806 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:38:28,807 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:38:28,807 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:38:28,807 [INFO]    âšª No signal - HOLD
+2025-11-13 06:38:29,308 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:38:29,397 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:38:29,714 [INFO]    ðŸš« ML Conviction too low: 0.567 (distance from 0.5: 0.067 < 0.1)
+2025-11-13 06:38:29,714 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 5/4)
+2025-11-13 06:38:29,714 [INFO]    Partial signals: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:38:29,715 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 06:38:29,715 [INFO]    ðŸ“ Signal reasons: ðŸ“Š Bullish FVG, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:38:29,715 [INFO]    âšª No signal - HOLD
+2025-11-13 06:38:30,216 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:38:30,302 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:38:30,655 [INFO]    ðŸš« ML Conviction too low: 0.586 (distance from 0.5: 0.086 < 0.1)
+2025-11-13 06:38:30,656 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:38:30,656 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:38:30,656 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:38:30,656 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:38:30,656 [INFO]    âšª No signal - HOLD
+2025-11-13 06:38:31,157 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:38:31,247 [INFO]    Current position: LONG 6.0
+2025-11-13 06:38:31,248 [INFO]    Entry: $17.52 | Mark: $17.67
+2025-11-13 06:38:31,248 [INFO]    PnL: 0.82% ($0.87)
+2025-11-13 06:38:31,248 [INFO]    Age: 0.9h / 36.0h
+2025-11-13 06:38:31,748 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:38:31,844 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:38:32,160 [INFO]    ðŸš« ML Conviction too low: 0.486 (distance from 0.5: 0.014 < 0.1)
+2025-11-13 06:38:32,161 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 7/4)
+2025-11-13 06:38:32,161 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:38:32,162 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 06:38:32,162 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:38:32,162 [INFO]    âšª No signal - HOLD
+2025-11-13 06:38:32,162 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:39:32,211 [INFO] 
+============================================================
+2025-11-13 06:39:32,211 [INFO] ðŸ”„ LOOP #10 - 2025-11-13 06:39:32
+2025-11-13 06:39:32,211 [INFO] ============================================================
+2025-11-13 06:39:32,730 [INFO] ðŸ’“ Bot alive - Loop #10 - Active positions: 1
+2025-11-13 06:39:32,818 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:39:32,818 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:39:32,908 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:39:33,222 [INFO]    ðŸš« ML Conviction too low: 0.592 (distance from 0.5: 0.092 < 0.1)
+2025-11-13 06:39:33,222 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 6/4)
+2025-11-13 06:39:33,222 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:39:33,222 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=6
+2025-11-13 06:39:33,223 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:39:33,223 [INFO]    âšª No signal - HOLD
+2025-11-13 06:39:33,723 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:39:33,817 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:39:34,261 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:39:34,261 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:39:34,262 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:39:34,262 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:39:34,262 [INFO]    âšª No signal - HOLD
+2025-11-13 06:39:34,763 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:39:34,852 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:39:35,165 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:39:35,166 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:39:35,166 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:39:35,167 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:39:35,167 [INFO]    âšª No signal - HOLD
+2025-11-13 06:39:35,667 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:39:35,753 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:39:36,056 [INFO]    ðŸš« ML Conviction too low: 0.579 (distance from 0.5: 0.079 < 0.1)
+2025-11-13 06:39:36,056 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:39:36,056 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:39:36,057 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:39:36,057 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:39:36,057 [INFO]    âšª No signal - HOLD
+2025-11-13 06:39:36,558 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:39:36,642 [INFO]    Current position: LONG 6.0
+2025-11-13 06:39:36,642 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:39:36,642 [INFO]    PnL: 0.72% ($0.76)
+2025-11-13 06:39:36,643 [INFO]    Age: 0.9h / 36.0h
+2025-11-13 06:39:37,143 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:39:37,228 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:39:37,537 [INFO]    ðŸš« ML Conviction too low: 0.464 (distance from 0.5: 0.036 < 0.1)
+2025-11-13 06:39:37,537 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 7/4)
+2025-11-13 06:39:37,537 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:39:37,538 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 06:39:37,538 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:39:37,538 [INFO]    âšª No signal - HOLD
+2025-11-13 06:39:38,054 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:40:38,066 [INFO] 
+============================================================
+2025-11-13 06:40:38,066 [INFO] ðŸ”„ LOOP #11 - 2025-11-13 06:40:38
+2025-11-13 06:40:38,066 [INFO] ============================================================
+2025-11-13 06:40:38,157 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:40:38,157 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:40:38,243 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:40:38,575 [INFO]    ðŸš« ML Conviction too low: 0.590 (distance from 0.5: 0.090 < 0.1)
+2025-11-13 06:40:38,576 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 6/4)
+2025-11-13 06:40:38,576 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:40:38,576 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=6
+2025-11-13 06:40:38,576 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:40:38,576 [INFO]    âšª No signal - HOLD
+2025-11-13 06:40:39,077 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:40:39,163 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:40:39,469 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:40:39,469 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:40:39,470 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:40:39,470 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:40:39,470 [INFO]    âšª No signal - HOLD
+2025-11-13 06:40:39,971 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:40:40,057 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:40:40,384 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:40:40,399 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar
+2025-11-13 06:40:40,399 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:40:40,399 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:40:40,400 [INFO]    âšª No signal - HOLD
+2025-11-13 06:40:40,900 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:40:40,987 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:40:41,297 [INFO]    ðŸš« ML Conviction too low: 0.574 (distance from 0.5: 0.074 < 0.1)
+2025-11-13 06:40:41,297 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:40:41,297 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:40:41,298 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:40:41,298 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:40:41,298 [INFO]    âšª No signal - HOLD
+2025-11-13 06:40:41,799 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:40:41,887 [INFO]    Current position: LONG 6.0
+2025-11-13 06:40:41,887 [INFO]    Entry: $17.52 | Mark: $17.64
+2025-11-13 06:40:41,887 [INFO]    PnL: 0.67% ($0.70)
+2025-11-13 06:40:41,887 [INFO]    Age: 0.9h / 36.0h
+2025-11-13 06:40:42,388 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:40:42,473 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:40:42,783 [INFO]    ðŸš« ML Conviction too low: 0.481 (distance from 0.5: 0.019 < 0.1)
+2025-11-13 06:40:42,783 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 7/4)
+2025-11-13 06:40:42,783 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:40:42,783 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 06:40:42,784 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:40:42,784 [INFO]    âšª No signal - HOLD
+2025-11-13 06:40:42,784 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:41:42,800 [INFO] 
+============================================================
+2025-11-13 06:41:42,800 [INFO] ðŸ”„ LOOP #12 - 2025-11-13 06:41:42
+2025-11-13 06:41:42,800 [INFO] ============================================================
+2025-11-13 06:41:42,890 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:41:42,890 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:41:42,978 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:41:43,293 [INFO]    ðŸš« ML Conviction too low: 0.590 (distance from 0.5: 0.090 < 0.1)
+2025-11-13 06:41:43,293 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 8/4)
+2025-11-13 06:41:43,293 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:41:43,294 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=8
+2025-11-13 06:41:43,294 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 06:41:43,294 [INFO]    âšª No signal - HOLD
+2025-11-13 06:41:43,795 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:41:43,886 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:41:44,218 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:41:44,218 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:41:44,219 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:41:44,219 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:41:44,219 [INFO]    âšª No signal - HOLD
+2025-11-13 06:41:44,720 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:41:44,811 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:41:45,188 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:41:45,189 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:41:45,189 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:41:45,190 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:41:45,190 [INFO]    âšª No signal - HOLD
+2025-11-13 06:41:45,690 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:41:45,778 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:41:46,148 [INFO]    ðŸš« ML Conviction too low: 0.578 (distance from 0.5: 0.078 < 0.1)
+2025-11-13 06:41:46,148 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:41:46,148 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:41:46,149 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:41:46,149 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:41:46,149 [INFO]    âšª No signal - HOLD
+2025-11-13 06:41:46,650 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:41:46,751 [INFO]    Current position: LONG 6.0
+2025-11-13 06:41:46,751 [INFO]    Entry: $17.52 | Mark: $17.64
+2025-11-13 06:41:46,751 [INFO]    PnL: 0.65% ($0.68)
+2025-11-13 06:41:46,751 [INFO]    Age: 0.9h / 36.0h
+2025-11-13 06:41:47,252 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:41:47,337 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:41:47,807 [INFO]    ðŸš« ML Conviction too low: 0.482 (distance from 0.5: 0.018 < 0.1)
+2025-11-13 06:41:47,808 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 7/4)
+2025-11-13 06:41:47,808 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:41:47,808 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 06:41:47,808 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:41:47,809 [INFO]    âšª No signal - HOLD
+2025-11-13 06:41:47,809 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:42:47,842 [INFO] 
+============================================================
+2025-11-13 06:42:47,842 [INFO] ðŸ”„ LOOP #13 - 2025-11-13 06:42:47
+2025-11-13 06:42:47,842 [INFO] ============================================================
+2025-11-13 06:42:47,927 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:42:47,928 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:42:48,015 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:42:48,328 [INFO]    ðŸš« ML Conviction too low: 0.590 (distance from 0.5: 0.090 < 0.1)
+2025-11-13 06:42:48,328 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 8/4)
+2025-11-13 06:42:48,328 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:42:48,329 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=8
+2025-11-13 06:42:48,329 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 06:42:48,329 [INFO]    âšª No signal - HOLD
+2025-11-13 06:42:48,830 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:42:48,923 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:42:49,259 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:42:49,259 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:42:49,260 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:42:49,260 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:42:49,260 [INFO]    âšª No signal - HOLD
+2025-11-13 06:42:49,761 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:42:49,848 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:42:50,177 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:42:50,178 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:42:50,178 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:42:50,178 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:42:50,178 [INFO]    âšª No signal - HOLD
+2025-11-13 06:42:50,679 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:42:50,765 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:42:51,089 [INFO]    ðŸš« ML Conviction too low: 0.577 (distance from 0.5: 0.077 < 0.1)
+2025-11-13 06:42:51,090 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:42:51,090 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:42:51,091 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:42:51,091 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:42:51,091 [INFO]    âšª No signal - HOLD
+2025-11-13 06:42:51,592 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:42:51,687 [INFO]    Current position: LONG 6.0
+2025-11-13 06:42:51,687 [INFO]    Entry: $17.52 | Mark: $17.62
+2025-11-13 06:42:51,687 [INFO]    PnL: 0.59% ($0.62)
+2025-11-13 06:42:51,688 [INFO]    Age: 1.0h / 36.0h
+2025-11-13 06:42:52,188 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:42:52,275 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:42:52,589 [INFO]    ðŸš« ML Conviction too low: 0.483 (distance from 0.5: 0.017 < 0.1)
+2025-11-13 06:42:52,590 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 7/4)
+2025-11-13 06:42:52,590 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:42:52,590 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 06:42:52,590 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:42:52,590 [INFO]    âšª No signal - HOLD
+2025-11-13 06:42:52,591 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:43:52,642 [INFO] 
+============================================================
+2025-11-13 06:43:52,642 [INFO] ðŸ”„ LOOP #14 - 2025-11-13 06:43:52
+2025-11-13 06:43:52,642 [INFO] ============================================================
+2025-11-13 06:43:52,734 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:43:52,734 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:43:52,822 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:43:53,147 [INFO]    ðŸš« ML Conviction too low: 0.585 (distance from 0.5: 0.085 < 0.1)
+2025-11-13 06:43:53,148 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 8/4)
+2025-11-13 06:43:53,148 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:43:53,148 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=8
+2025-11-13 06:43:53,148 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 06:43:53,148 [INFO]    âšª No signal - HOLD
+2025-11-13 06:43:53,649 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:43:53,735 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:43:54,050 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:43:54,050 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:43:54,051 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:43:54,051 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:43:54,051 [INFO]    âšª No signal - HOLD
+2025-11-13 06:43:54,552 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:43:54,638 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:43:55,079 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:43:55,079 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:43:55,080 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:43:55,080 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:43:55,080 [INFO]    âšª No signal - HOLD
+2025-11-13 06:43:55,581 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:43:55,669 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:43:55,985 [INFO]    ðŸš« ML Conviction too low: 0.577 (distance from 0.5: 0.077 < 0.1)
+2025-11-13 06:43:55,985 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:43:55,985 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:43:55,986 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:43:55,986 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:43:55,986 [INFO]    âšª No signal - HOLD
+2025-11-13 06:43:56,487 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:43:56,574 [INFO]    Current position: LONG 6.0
+2025-11-13 06:43:56,574 [INFO]    Entry: $17.52 | Mark: $17.64
+2025-11-13 06:43:56,575 [INFO]    PnL: 0.65% ($0.69)
+2025-11-13 06:43:56,575 [INFO]    Age: 1.0h / 36.0h
+2025-11-13 06:43:57,075 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:43:57,158 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:43:57,473 [INFO]    ðŸš« ML Conviction too low: 0.471 (distance from 0.5: 0.029 < 0.1)
+2025-11-13 06:43:57,474 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 7/4)
+2025-11-13 06:43:57,474 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:43:57,474 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 06:43:57,474 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:43:57,474 [INFO]    âšª No signal - HOLD
+2025-11-13 06:43:57,474 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:44:57,501 [INFO] 
+============================================================
+2025-11-13 06:44:57,502 [INFO] ðŸ”„ LOOP #15 - 2025-11-13 06:44:57
+2025-11-13 06:44:57,502 [INFO] ============================================================
+2025-11-13 06:44:58,012 [INFO] ðŸ’“ Bot alive - Loop #15 - Active positions: 1
+2025-11-13 06:44:58,099 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:44:58,099 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:44:58,185 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:44:58,490 [INFO]    ðŸš« ML Conviction too low: 0.575 (distance from 0.5: 0.075 < 0.1)
+2025-11-13 06:44:58,491 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 8/4)
+2025-11-13 06:44:58,491 [INFO]    Partial signals: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence
+2025-11-13 06:44:58,491 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=8
+2025-11-13 06:44:58,491 [INFO]    ðŸ“ Signal reasons: ðŸ”· Bullish Order Block, ðŸ”€ Bullish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 06:44:58,491 [INFO]    âšª No signal - HOLD
+2025-11-13 06:44:58,992 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:44:59,077 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:44:59,401 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:44:59,401 [INFO]    Partial signals: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:44:59,402 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:44:59,402 [INFO]    ðŸ“ Signal reasons: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:44:59,402 [INFO]    âšª No signal - HOLD
+2025-11-13 06:44:59,903 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:44:59,990 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:45:00,403 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:45:00,403 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:45:00,404 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:45:00,404 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:45:00,404 [INFO]    âšª No signal - HOLD
+2025-11-13 06:45:00,905 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:45:00,995 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:45:01,317 [INFO]    ðŸš« ML Conviction too low: 0.599 (distance from 0.5: 0.099 < 0.1)
+2025-11-13 06:45:01,318 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:45:01,318 [INFO]    Partial signals: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:45:01,318 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:45:01,318 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ“ˆ RSI Overbought
+2025-11-13 06:45:01,318 [INFO]    âšª No signal - HOLD
+2025-11-13 06:45:01,819 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:45:01,909 [INFO]    Current position: LONG 6.0
+2025-11-13 06:45:01,910 [INFO]    Entry: $17.52 | Mark: $17.64
+2025-11-13 06:45:01,910 [INFO]    PnL: 0.70% ($0.73)
+2025-11-13 06:45:01,910 [INFO]    Age: 1.0h / 36.0h
+2025-11-13 06:45:02,411 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:45:02,496 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:45:02,944 [INFO]    ðŸš« ML Conviction too low: 0.480 (distance from 0.5: 0.020 < 0.1)
+2025-11-13 06:45:02,945 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 7/4)
+2025-11-13 06:45:02,945 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:45:02,945 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 06:45:02,945 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought, ðŸ”€ Bearish RSI Divergence
+2025-11-13 06:45:02,946 [INFO]    âšª No signal - HOLD
+2025-11-13 06:45:02,946 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:46:02,978 [INFO] 
+============================================================
+2025-11-13 06:46:02,978 [INFO] ðŸ”„ LOOP #16 - 2025-11-13 06:46:02
+2025-11-13 06:46:02,978 [INFO] ============================================================
+2025-11-13 06:46:03,082 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:46:03,083 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:46:03,175 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:46:03,498 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:46:03,499 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:03,500 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:46:03,500 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:03,500 [INFO]    âšª No signal - HOLD
+2025-11-13 06:46:04,001 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:46:04,096 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:46:04,421 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:46:04,421 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:04,422 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:46:04,422 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:04,422 [INFO]    âšª No signal - HOLD
+2025-11-13 06:46:04,923 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:46:05,014 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:46:05,484 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:46:05,484 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:05,485 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:46:05,485 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:05,485 [INFO]    âšª No signal - HOLD
+2025-11-13 06:46:05,986 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:46:06,072 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:46:06,404 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:46:06,404 [INFO]    Partial signals: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:46:06,405 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:46:06,405 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:46:06,405 [INFO]    âšª No signal - HOLD
+2025-11-13 06:46:06,906 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:46:06,993 [INFO]    Current position: LONG 6.0
+2025-11-13 06:46:06,993 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:46:06,993 [INFO]    PnL: 0.79% ($0.83)
+2025-11-13 06:46:06,994 [INFO]    Age: 1.0h / 36.0h
+2025-11-13 06:46:07,494 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:46:07,609 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:46:08,009 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:46:08,009 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:08,010 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:46:08,010 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:46:08,010 [INFO]    âšª No signal - HOLD
+2025-11-13 06:46:08,010 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:47:08,070 [INFO] 
+============================================================
+2025-11-13 06:47:08,071 [INFO] ðŸ”„ LOOP #17 - 2025-11-13 06:47:08
+2025-11-13 06:47:08,071 [INFO] ============================================================
+2025-11-13 06:47:08,287 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:47:08,288 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:47:08,565 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:47:08,886 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:47:08,886 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:08,887 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:47:08,887 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:08,887 [INFO]    âšª No signal - HOLD
+2025-11-13 06:47:09,388 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:47:09,477 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:47:09,798 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:47:09,799 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:09,799 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:47:09,799 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:09,800 [INFO]    âšª No signal - HOLD
+2025-11-13 06:47:10,300 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:47:10,386 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:47:10,707 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:47:10,708 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:10,709 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:47:10,709 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:10,709 [INFO]    âšª No signal - HOLD
+2025-11-13 06:47:11,210 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:47:11,296 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:47:11,625 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:47:11,625 [INFO]    Partial signals: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:47:11,625 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:47:11,626 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:47:11,626 [INFO]    âšª No signal - HOLD
+2025-11-13 06:47:12,126 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:47:12,213 [INFO]    Current position: LONG 6.0
+2025-11-13 06:47:12,213 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:47:12,213 [INFO]    PnL: 0.76% ($0.80)
+2025-11-13 06:47:12,213 [INFO]    Age: 1.0h / 36.0h
+2025-11-13 06:47:12,714 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:47:12,800 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:47:13,115 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:47:13,115 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:13,116 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:47:13,116 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:47:13,116 [INFO]    âšª No signal - HOLD
+2025-11-13 06:47:13,116 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:48:13,176 [INFO] 
+============================================================
+2025-11-13 06:48:13,177 [INFO] ðŸ”„ LOOP #18 - 2025-11-13 06:48:13
+2025-11-13 06:48:13,177 [INFO] ============================================================
+2025-11-13 06:48:13,270 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:48:13,270 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:48:13,359 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:48:13,675 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:48:13,675 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:13,676 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:48:13,676 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:13,676 [INFO]    âšª No signal - HOLD
+2025-11-13 06:48:14,177 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:48:14,262 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:48:14,578 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:48:14,578 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:14,579 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:48:14,579 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:14,579 [INFO]    âšª No signal - HOLD
+2025-11-13 06:48:15,080 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:48:15,169 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:48:15,487 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:48:15,487 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:15,488 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:48:15,488 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:15,488 [INFO]    âšª No signal - HOLD
+2025-11-13 06:48:15,989 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:48:16,074 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:48:16,399 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:48:16,399 [INFO]    Partial signals: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:48:16,400 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:48:16,400 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:48:16,400 [INFO]    âšª No signal - HOLD
+2025-11-13 06:48:16,901 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:48:16,985 [INFO]    Current position: LONG 6.0
+2025-11-13 06:48:16,990 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:48:16,990 [INFO]    PnL: 0.77% ($0.81)
+2025-11-13 06:48:16,990 [INFO]    Age: 1.1h / 36.0h
+2025-11-13 06:48:17,491 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:48:17,577 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:48:17,906 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:48:17,906 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:17,907 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:48:17,907 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:48:17,907 [INFO]    âšª No signal - HOLD
+2025-11-13 06:48:17,907 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:49:17,961 [INFO] 
+============================================================
+2025-11-13 06:49:17,962 [INFO] ðŸ”„ LOOP #19 - 2025-11-13 06:49:17
+2025-11-13 06:49:17,962 [INFO] ============================================================
+2025-11-13 06:49:18,050 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:49:18,051 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:49:18,137 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:49:18,459 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:49:18,459 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:18,460 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:49:18,460 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:18,460 [INFO]    âšª No signal - HOLD
+2025-11-13 06:49:18,961 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:49:19,050 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:49:19,362 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:49:19,362 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:19,363 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:49:19,363 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:19,363 [INFO]    âšª No signal - HOLD
+2025-11-13 06:49:19,864 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:49:19,949 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:49:20,267 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:49:20,267 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:20,268 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:49:20,268 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:20,268 [INFO]    âšª No signal - HOLD
+2025-11-13 06:49:20,769 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:49:20,853 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:49:21,164 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:49:21,164 [INFO]    Partial signals: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:49:21,164 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:49:21,164 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:49:21,164 [INFO]    âšª No signal - HOLD
+2025-11-13 06:49:21,665 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:49:21,757 [INFO]    Current position: LONG 6.0
+2025-11-13 06:49:21,757 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:49:21,757 [INFO]    PnL: 0.79% ($0.83)
+2025-11-13 06:49:21,757 [INFO]    Age: 1.1h / 36.0h
+2025-11-13 06:49:22,257 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:49:22,369 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:49:22,699 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:49:22,699 [INFO]    Partial signals: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:22,700 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:49:22,700 [INFO]    ðŸ“ Signal reasons: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:49:22,700 [INFO]    âšª No signal - HOLD
+2025-11-13 06:49:22,700 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:50:22,753 [INFO] 
+============================================================
+2025-11-13 06:50:22,754 [INFO] ðŸ”„ LOOP #20 - 2025-11-13 06:50:22
+2025-11-13 06:50:22,754 [INFO] ============================================================
+2025-11-13 06:50:23,291 [INFO] ðŸ’“ Bot alive - Loop #20 - Active positions: 1
+2025-11-13 06:50:23,388 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:50:23,389 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:50:23,485 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:50:23,796 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:50:23,796 [INFO]    Partial signals: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:50:23,797 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:50:23,797 [INFO]    ðŸ“ Signal reasons: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 06:50:23,797 [INFO]    âšª No signal - HOLD
+2025-11-13 06:50:24,298 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:50:24,380 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:50:24,706 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:50:24,706 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:50:24,706 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:50:24,706 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:50:24,707 [INFO]    âšª No signal - HOLD
+2025-11-13 06:50:25,207 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:50:25,296 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:50:25,616 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:50:25,617 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:50:25,617 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:50:25,618 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:50:25,618 [INFO]    âšª No signal - HOLD
+2025-11-13 06:50:26,118 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:50:26,207 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:50:26,537 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:50:26,537 [INFO]    Partial signals: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:50:26,538 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:50:26,538 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:50:26,538 [INFO]    âšª No signal - HOLD
+2025-11-13 06:50:27,039 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:50:27,132 [INFO]    Current position: LONG 6.0
+2025-11-13 06:50:27,132 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:50:27,132 [INFO]    PnL: 0.81% ($0.85)
+2025-11-13 06:50:27,132 [INFO]    Age: 1.1h / 36.0h
+2025-11-13 06:50:27,633 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:50:27,855 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:50:28,173 [INFO]    ðŸš« HTF trend not bearish (UP), filtering SHORT signal
+2025-11-13 06:50:28,173 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 6/4)
+2025-11-13 06:50:28,173 [INFO]    Partial signals: ðŸ“Œ Bearish Pin Bar, ðŸ’§ Bearish Liquidity Sweep
+2025-11-13 06:50:28,174 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=6
+2025-11-13 06:50:28,174 [INFO]    ðŸ“ Signal reasons: ðŸ“Œ Bearish Pin Bar, ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:50:28,175 [INFO]    âšª No signal - HOLD
+2025-11-13 06:50:28,693 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:51:28,754 [INFO] 
+============================================================
+2025-11-13 06:51:28,754 [INFO] ðŸ”„ LOOP #21 - 2025-11-13 06:51:28
+2025-11-13 06:51:28,754 [INFO] ============================================================
+2025-11-13 06:51:28,845 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:51:28,846 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:51:28,930 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:51:29,240 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:51:29,240 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:29,241 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:51:29,241 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:29,241 [INFO]    âšª No signal - HOLD
+2025-11-13 06:51:29,742 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:51:29,833 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:51:30,145 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:51:30,145 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:30,146 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:51:30,146 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:30,147 [INFO]    âšª No signal - HOLD
+2025-11-13 06:51:30,647 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:51:30,734 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:51:31,060 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:51:31,061 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:31,061 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:51:31,062 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:31,062 [INFO]    âšª No signal - HOLD
+2025-11-13 06:51:31,562 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:51:31,649 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:51:31,962 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:51:31,962 [INFO]    Partial signals: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:51:31,962 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:51:31,963 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:51:31,963 [INFO]    âšª No signal - HOLD
+2025-11-13 06:51:32,463 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:51:32,551 [INFO]    Current position: LONG 6.0
+2025-11-13 06:51:32,552 [INFO]    Entry: $17.52 | Mark: $17.63
+2025-11-13 06:51:32,552 [INFO]    PnL: 0.63% ($0.67)
+2025-11-13 06:51:32,552 [INFO]    Age: 1.1h / 36.0h
+2025-11-13 06:51:33,053 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:51:33,138 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:51:33,495 [INFO]    ðŸš« HTF trend not bearish (UP), filtering SHORT signal
+2025-11-13 06:51:33,495 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:51:33,495 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:33,496 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:51:33,496 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:51:33,496 [INFO]    âšª No signal - HOLD
+2025-11-13 06:51:33,496 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:52:33,547 [INFO] 
+============================================================
+2025-11-13 06:52:33,547 [INFO] ðŸ”„ LOOP #22 - 2025-11-13 06:52:33
+2025-11-13 06:52:33,547 [INFO] ============================================================
+2025-11-13 06:52:33,637 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:52:33,637 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:52:33,721 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:52:34,037 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:52:34,037 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:34,038 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:52:34,038 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:34,038 [INFO]    âšª No signal - HOLD
+2025-11-13 06:52:34,543 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:52:34,633 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:52:34,949 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:52:34,949 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:34,949 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:52:34,949 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:34,950 [INFO]    âšª No signal - HOLD
+2025-11-13 06:52:35,450 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:52:35,541 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:52:35,867 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:52:35,868 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:35,869 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:52:35,869 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:35,869 [INFO]    âšª No signal - HOLD
+2025-11-13 06:52:36,370 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:52:36,461 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:52:36,791 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:52:36,791 [INFO]    Partial signals: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:52:36,791 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:52:36,791 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:52:36,792 [INFO]    âšª No signal - HOLD
+2025-11-13 06:52:37,292 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:52:37,383 [INFO]    Current position: LONG 6.0
+2025-11-13 06:52:37,384 [INFO]    Entry: $17.52 | Mark: $17.63
+2025-11-13 06:52:37,384 [INFO]    PnL: 0.64% ($0.67)
+2025-11-13 06:52:37,384 [INFO]    Age: 1.1h / 36.0h
+2025-11-13 06:52:37,885 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:52:37,973 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:52:38,319 [INFO]    ðŸš« HTF trend not bearish (UP), filtering SHORT signal
+2025-11-13 06:52:38,320 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:52:38,320 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:38,320 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:52:38,320 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:52:38,320 [INFO]    âšª No signal - HOLD
+2025-11-13 06:52:38,320 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:53:38,377 [INFO] 
+============================================================
+2025-11-13 06:53:38,378 [INFO] ðŸ”„ LOOP #23 - 2025-11-13 06:53:38
+2025-11-13 06:53:38,378 [INFO] ============================================================
+2025-11-13 06:53:38,466 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:53:38,466 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:53:38,551 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:53:38,888 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:53:38,888 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:38,889 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:53:38,894 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:38,894 [INFO]    âšª No signal - HOLD
+2025-11-13 06:53:39,395 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:53:39,488 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:53:39,819 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:53:39,819 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:39,820 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:53:39,820 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:39,820 [INFO]    âšª No signal - HOLD
+2025-11-13 06:53:40,321 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:53:40,408 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:53:40,736 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:53:40,737 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:40,737 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:53:40,738 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:40,738 [INFO]    âšª No signal - HOLD
+2025-11-13 06:53:41,239 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:53:41,326 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:53:41,630 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:53:41,630 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:53:41,631 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:53:41,631 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:53:41,631 [INFO]    âšª No signal - HOLD
+2025-11-13 06:53:42,131 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:53:42,219 [INFO]    Current position: LONG 6.0
+2025-11-13 06:53:42,219 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:53:42,219 [INFO]    PnL: 0.74% ($0.78)
+2025-11-13 06:53:42,219 [INFO]    Age: 1.1h / 36.0h
+2025-11-13 06:53:42,720 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:53:42,807 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:53:43,136 [INFO]    ðŸš« HTF trend not bearish (UP), filtering SHORT signal
+2025-11-13 06:53:43,136 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:53:43,136 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:43,137 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:53:43,137 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:53:43,137 [INFO]    âšª No signal - HOLD
+2025-11-13 06:53:43,137 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:54:43,181 [INFO] 
+============================================================
+2025-11-13 06:54:43,181 [INFO] ðŸ”„ LOOP #24 - 2025-11-13 06:54:43
+2025-11-13 06:54:43,181 [INFO] ============================================================
+2025-11-13 06:54:43,269 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:54:43,269 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:54:43,353 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:54:43,667 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:54:43,667 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:43,668 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:54:43,668 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:43,668 [INFO]    âšª No signal - HOLD
+2025-11-13 06:54:44,169 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:54:44,256 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:54:44,573 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:54:44,574 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:44,574 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:54:44,575 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:44,575 [INFO]    âšª No signal - HOLD
+2025-11-13 06:54:45,076 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:54:45,161 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:54:45,487 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:54:45,487 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:45,488 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:54:45,488 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:45,488 [INFO]    âšª No signal - HOLD
+2025-11-13 06:54:45,989 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:54:46,079 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:54:46,418 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:54:46,418 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:54:46,419 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:54:46,419 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:54:46,419 [INFO]    âšª No signal - HOLD
+2025-11-13 06:54:46,920 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:54:47,010 [INFO]    Current position: LONG 6.0
+2025-11-13 06:54:47,010 [INFO]    Entry: $17.52 | Mark: $17.65
+2025-11-13 06:54:47,010 [INFO]    PnL: 0.71% ($0.75)
+2025-11-13 06:54:47,010 [INFO]    Age: 1.2h / 36.0h
+2025-11-13 06:54:47,511 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:54:47,597 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:54:47,923 [INFO]    ðŸš« HTF trend not bearish (UP), filtering SHORT signal
+2025-11-13 06:54:47,923 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:54:47,923 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:47,924 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:54:47,924 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:54:47,924 [INFO]    âšª No signal - HOLD
+2025-11-13 06:54:47,924 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:55:47,942 [INFO] 
+============================================================
+2025-11-13 06:55:47,943 [INFO] ðŸ”„ LOOP #25 - 2025-11-13 06:55:47
+2025-11-13 06:55:47,943 [INFO] ============================================================
+2025-11-13 06:55:48,471 [INFO] ðŸ’“ Bot alive - Loop #25 - Active positions: 1
+2025-11-13 06:55:48,557 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:55:48,558 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:55:48,646 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:55:48,957 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:55:48,957 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:48,958 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:55:48,958 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:48,958 [INFO]    âšª No signal - HOLD
+2025-11-13 06:55:49,459 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:55:49,546 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:55:49,855 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:55:49,855 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:49,856 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:55:49,856 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:49,856 [INFO]    âšª No signal - HOLD
+2025-11-13 06:55:50,357 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:55:50,446 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:55:50,894 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:55:50,894 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:50,895 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:55:50,895 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:50,895 [INFO]    âšª No signal - HOLD
+2025-11-13 06:55:51,396 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:55:51,486 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:55:51,801 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:55:51,802 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:55:51,802 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:55:51,803 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:55:51,803 [INFO]    âšª No signal - HOLD
+2025-11-13 06:55:52,304 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:55:52,652 [INFO]    Current position: LONG 6.0
+2025-11-13 06:55:52,652 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:55:52,653 [INFO]    PnL: 0.77% ($0.81)
+2025-11-13 06:55:52,653 [INFO]    Age: 1.2h / 36.0h
+2025-11-13 06:55:53,153 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:55:53,241 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:55:53,728 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:55:53,728 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:53,729 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:55:53,729 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:55:53,729 [INFO]    âšª No signal - HOLD
+2025-11-13 06:55:53,729 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:56:53,789 [INFO] 
+============================================================
+2025-11-13 06:56:53,790 [INFO] ðŸ”„ LOOP #26 - 2025-11-13 06:56:53
+2025-11-13 06:56:53,790 [INFO] ============================================================
+2025-11-13 06:56:53,876 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:56:53,876 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:56:53,963 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:56:54,284 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:56:54,285 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:54,285 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:56:54,285 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:54,286 [INFO]    âšª No signal - HOLD
+2025-11-13 06:56:54,786 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:56:54,873 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:56:55,187 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:56:55,187 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:55,188 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:56:55,188 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:55,188 [INFO]    âšª No signal - HOLD
+2025-11-13 06:56:55,689 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:56:55,782 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:56:56,120 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:56:56,120 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:56,121 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:56:56,121 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:56,121 [INFO]    âšª No signal - HOLD
+2025-11-13 06:56:56,622 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:56:56,706 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:56:57,019 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:56:57,019 [INFO]    Partial signals: LONG(2): ðŸ“Œ Bullish Pin Bar, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:56:57,024 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:56:57,025 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ“Œ Bullish Pin Bar, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:56:57,025 [INFO]    âšª No signal - HOLD
+2025-11-13 06:56:57,525 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:56:57,611 [INFO]    Current position: LONG 6.0
+2025-11-13 06:56:57,611 [INFO]    Entry: $17.52 | Mark: $17.66
+2025-11-13 06:56:57,611 [INFO]    PnL: 0.76% ($0.80)
+2025-11-13 06:56:57,611 [INFO]    Age: 1.2h / 36.0h
+2025-11-13 06:56:58,112 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:56:58,198 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:56:58,547 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:56:58,547 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:58,548 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:56:58,548 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:56:58,548 [INFO]    âšª No signal - HOLD
+2025-11-13 06:56:58,548 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:57:58,562 [INFO] 
+============================================================
+2025-11-13 06:57:58,562 [INFO] ðŸ”„ LOOP #27 - 2025-11-13 06:57:58
+2025-11-13 06:57:58,562 [INFO] ============================================================
+2025-11-13 06:57:58,650 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:57:58,651 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:57:58,735 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:57:59,054 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:57:59,054 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:57:59,055 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:57:59,055 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:57:59,055 [INFO]    âšª No signal - HOLD
+2025-11-13 06:57:59,556 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:57:59,643 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:57:59,958 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:57:59,958 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:57:59,959 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:57:59,959 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:57:59,959 [INFO]    âšª No signal - HOLD
+2025-11-13 06:58:00,460 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:58:00,546 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:58:00,868 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:58:00,869 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:58:00,869 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:58:00,869 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:58:00,869 [INFO]    âšª No signal - HOLD
+2025-11-13 06:58:01,370 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:58:01,455 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:58:01,763 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:58:01,763 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:58:01,764 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:58:01,764 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:58:01,764 [INFO]    âšª No signal - HOLD
+2025-11-13 06:58:02,265 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:58:02,355 [INFO]    Current position: LONG 6.0
+2025-11-13 06:58:02,355 [INFO]    Entry: $17.52 | Mark: $17.63
+2025-11-13 06:58:02,355 [INFO]    PnL: 0.64% ($0.67)
+2025-11-13 06:58:02,355 [INFO]    Age: 1.2h / 36.0h
+2025-11-13 06:58:02,856 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:58:02,942 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:58:03,260 [INFO]    ðŸš« HTF trend not bearish (UP), filtering SHORT signal
+2025-11-13 06:58:03,260 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:58:03,260 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:58:03,261 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:58:03,261 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:58:03,261 [INFO]    âšª No signal - HOLD
+2025-11-13 06:58:03,261 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 06:59:03,302 [INFO] 
+============================================================
+2025-11-13 06:59:03,303 [INFO] ðŸ”„ LOOP #28 - 2025-11-13 06:59:03
+2025-11-13 06:59:03,303 [INFO] ============================================================
+2025-11-13 06:59:03,389 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 06:59:03,390 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 06:59:03,479 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 06:59:03,804 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:59:03,804 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:03,805 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:59:03,805 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:03,805 [INFO]    âšª No signal - HOLD
+2025-11-13 06:59:04,306 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 06:59:04,393 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 06:59:04,708 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 06:59:04,708 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:04,709 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 06:59:04,709 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:04,709 [INFO]    âšª No signal - HOLD
+2025-11-13 06:59:05,210 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 06:59:05,296 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 06:59:05,617 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 2/4)
+2025-11-13 06:59:05,617 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:05,618 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 06:59:05,618 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:05,618 [INFO]    âšª No signal - HOLD
+2025-11-13 06:59:06,119 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 06:59:06,207 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 06:59:06,535 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 06:59:06,536 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:59:06,536 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 06:59:06,536 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(2): ðŸ“Š Bearish FVG
+2025-11-13 06:59:06,536 [INFO]    âšª No signal - HOLD
+2025-11-13 06:59:07,037 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 06:59:07,126 [INFO]    Current position: LONG 6.0
+2025-11-13 06:59:07,126 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 06:59:07,126 [INFO]    PnL: 0.51% ($0.53)
+2025-11-13 06:59:07,126 [INFO]    Age: 1.2h / 36.0h
+2025-11-13 06:59:07,627 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 06:59:07,716 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 06:59:08,042 [INFO]    ðŸš« HTF trend not bearish (UP), filtering SHORT signal
+2025-11-13 06:59:08,043 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 4/4)
+2025-11-13 06:59:08,043 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:08,043 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 06:59:08,044 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 06:59:08,044 [INFO]    âšª No signal - HOLD
+2025-11-13 06:59:08,044 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:00:08,101 [INFO] 
+============================================================
+2025-11-13 07:00:08,102 [INFO] ðŸ”„ LOOP #29 - 2025-11-13 07:00:08
+2025-11-13 07:00:08,102 [INFO] ============================================================
+2025-11-13 07:00:08,190 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:00:08,191 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:00:08,282 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:00:08,732 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:00:08,733 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:00:08,738 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:00:08,738 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:00:08,738 [INFO]    âšª No signal - HOLD
+2025-11-13 07:00:09,239 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:00:09,326 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:00:09,802 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:00:09,803 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:00:09,803 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:00:09,803 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:00:09,803 [INFO]    âšª No signal - HOLD
+2025-11-13 07:00:10,305 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:00:10,396 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:00:10,865 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:00:10,866 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:00:10,866 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:00:10,866 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:00:10,866 [INFO]    âšª No signal - HOLD
+2025-11-13 07:00:11,367 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:00:11,456 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:00:11,917 [INFO]    ðŸš« ML Conviction too low: 0.578 (distance from 0.5: 0.078 < 0.1)
+2025-11-13 07:00:11,930 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 5/4)
+2025-11-13 07:00:11,930 [INFO]    Partial signals: ðŸ”€ Bullish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 07:00:11,930 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=5
+2025-11-13 07:00:11,931 [INFO]    ðŸ“ Signal reasons: ðŸ”€ Bullish RSI Divergence, ðŸ“ˆ Volume Spike
+2025-11-13 07:00:11,931 [INFO]    âšª No signal - HOLD
+2025-11-13 07:00:12,434 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:00:12,520 [INFO]    Current position: LONG 6.0
+2025-11-13 07:00:12,521 [INFO]    Entry: $17.52 | Mark: $17.59
+2025-11-13 07:00:12,521 [INFO]    PnL: 0.38% ($0.40)
+2025-11-13 07:00:12,521 [INFO]    Age: 1.2h / 36.0h
+2025-11-13 07:00:13,024 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:00:13,111 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:00:13,576 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:00:13,594 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:00:13,595 [INFO]    âšª No signal - HOLD
+2025-11-13 07:00:13,595 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:01:13,650 [INFO] 
+============================================================
+2025-11-13 07:01:13,650 [INFO] ðŸ”„ LOOP #30 - 2025-11-13 07:01:13
+2025-11-13 07:01:13,650 [INFO] ============================================================
+2025-11-13 07:01:14,308 [INFO] ðŸ’“ Bot alive - Loop #30 - Active positions: 1
+2025-11-13 07:01:14,395 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:01:14,395 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:01:14,485 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:01:14,810 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 07:01:14,810 [INFO]    Partial signals: SHORT(2): ðŸ“Œ Bearish Pin Bar
+2025-11-13 07:01:14,811 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 07:01:14,811 [INFO]    ðŸ“ Signal reasons: SHORT(2): ðŸ“Œ Bearish Pin Bar
+2025-11-13 07:01:14,811 [INFO]    âšª No signal - HOLD
+2025-11-13 07:01:15,312 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:01:15,398 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:01:15,720 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:01:15,720 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:01:15,721 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:01:15,721 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:01:15,721 [INFO]    âšª No signal - HOLD
+2025-11-13 07:01:16,222 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:01:16,306 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:01:16,654 [INFO]    ðŸš« ML Conviction too low: 0.578 (distance from 0.5: 0.078 < 0.1)
+2025-11-13 07:01:16,655 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 4/4)
+2025-11-13 07:01:16,655 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:01:16,656 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 07:01:16,656 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:01:16,656 [INFO]    âšª No signal - HOLD
+2025-11-13 07:01:17,157 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:01:17,243 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:01:17,557 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 3/4)
+2025-11-13 07:01:17,557 [INFO]    Partial signals: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ’§ Bearish Liquidity Sweep
+2025-11-13 07:01:17,558 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 07:01:17,558 [INFO]    ðŸ“ Signal reasons: LONG(3): ðŸ”€ Bullish RSI Divergence, SHORT(3): ðŸ’§ Bearish Liquidity Sweep
+2025-11-13 07:01:17,558 [INFO]    âšª No signal - HOLD
+2025-11-13 07:01:18,059 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:01:18,145 [INFO]    Current position: LONG 6.0
+2025-11-13 07:01:18,145 [INFO]    Entry: $17.52 | Mark: $17.59
+2025-11-13 07:01:18,146 [INFO]    PnL: 0.39% ($0.41)
+2025-11-13 07:01:18,146 [INFO]    Age: 1.3h / 36.0h
+2025-11-13 07:01:18,646 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:01:18,734 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:01:19,066 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:01:19,067 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:01:19,067 [INFO]    âšª No signal - HOLD
+2025-11-13 07:01:19,595 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:02:19,618 [INFO] 
+============================================================
+2025-11-13 07:02:19,618 [INFO] ðŸ”„ LOOP #31 - 2025-11-13 07:02:19
+2025-11-13 07:02:19,618 [INFO] ============================================================
+2025-11-13 07:02:19,706 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:02:19,706 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:02:19,791 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:02:20,113 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:02:20,113 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:02:20,114 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:02:20,114 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:02:20,115 [INFO]    âšª No signal - HOLD
+2025-11-13 07:02:20,615 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:02:20,705 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:02:21,035 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:02:21,036 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:02:21,036 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:02:21,036 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:02:21,036 [INFO]    âšª No signal - HOLD
+2025-11-13 07:02:21,537 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:02:21,624 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:02:22,087 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 07:02:22,088 [INFO]    Partial signals: LONG(3): â­ Morning Star, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:02:22,088 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 07:02:22,089 [INFO]    ðŸ“ Signal reasons: LONG(3): â­ Morning Star, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:02:22,089 [INFO]    âšª No signal - HOLD
+2025-11-13 07:02:22,589 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:02:22,677 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:02:22,997 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:02:22,997 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:02:22,998 [INFO]    âšª No signal - HOLD
+2025-11-13 07:02:23,498 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:02:23,584 [INFO]    Current position: LONG 6.0
+2025-11-13 07:02:23,585 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 07:02:23,585 [INFO]    PnL: 0.50% ($0.53)
+2025-11-13 07:02:23,585 [INFO]    Age: 1.3h / 36.0h
+2025-11-13 07:02:24,086 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:02:24,171 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:02:24,496 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:02:24,497 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:02:24,497 [INFO]    âšª No signal - HOLD
+2025-11-13 07:02:24,497 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:03:24,553 [INFO] 
+============================================================
+2025-11-13 07:03:24,554 [INFO] ðŸ”„ LOOP #32 - 2025-11-13 07:03:24
+2025-11-13 07:03:24,554 [INFO] ============================================================
+2025-11-13 07:03:24,657 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:03:24,657 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:03:24,739 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:03:25,148 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:03:25,149 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:03:25,149 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:03:25,154 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:03:25,154 [INFO]    âšª No signal - HOLD
+2025-11-13 07:03:25,655 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:03:25,744 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:03:26,050 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:03:26,050 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:03:26,053 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:03:26,053 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:03:26,053 [INFO]    âšª No signal - HOLD
+2025-11-13 07:03:26,554 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:03:26,639 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:03:27,089 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 3/4)
+2025-11-13 07:03:27,089 [INFO]    Partial signals: LONG(3): â­ Morning Star, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:03:27,089 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 07:03:27,090 [INFO]    ðŸ“ Signal reasons: LONG(3): â­ Morning Star, SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:03:27,090 [INFO]    âšª No signal - HOLD
+2025-11-13 07:03:27,590 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:03:27,675 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:03:27,992 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 07:03:27,992 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:03:27,993 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 07:03:27,993 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:03:27,993 [INFO]    âšª No signal - HOLD
+2025-11-13 07:03:28,494 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:03:28,581 [INFO]    Current position: LONG 6.0
+2025-11-13 07:03:28,581 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 07:03:28,581 [INFO]    PnL: 0.50% ($0.53)
+2025-11-13 07:03:28,581 [INFO]    Age: 1.3h / 36.0h
+2025-11-13 07:03:29,082 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:03:29,167 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:03:29,509 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:03:29,510 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:03:29,510 [INFO]    âšª No signal - HOLD
+2025-11-13 07:03:29,510 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:03:33,569 [INFO] 
+ðŸ›‘ Shutdown signal received...
+2025-11-13 07:04:29,522 [INFO] 
+============================================================
+2025-11-13 07:04:29,522 [INFO] ðŸ›‘ SHUTTING DOWN BOT
+2025-11-13 07:04:29,522 [INFO] ============================================================
+2025-11-13 07:04:29,522 [INFO] ðŸ“Š <b>DAILY STATS</b>
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+Trades: 0
+Volume: $0.00M
+PnL: 0.00%
+
+<b>Overall</b>
+Total Trades: 0
+Win Rate: 0.0%
+W/L: 0/0
+2025-11-13 07:04:30,287 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 07:04:30,289 [INFO] ðŸ‘‹ Bot stopped!
+2025-11-13 07:04:30,718 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+âœ… Using fixed position size: $10.0 USDT per trade
+âœ… Config validation passed!
+2025-11-13 07:04:34,233 [INFO] âœ… Telegram bot initialized
+2025-11-13 07:04:41,422 [INFO] ============================================================
+2025-11-13 07:04:41,424 [INFO] ðŸš€ ASTERDEX PERP FARM BOT - INITIALIZING
+2025-11-13 07:04:41,424 [INFO] ============================================================
+2025-11-13 07:04:41,915 [INFO] ðŸ”Œ AsterDEX Client initialized (MAINNET)
+2025-11-13 07:04:41,915 [INFO]    URL: https://fapi.asterdex.com/fapi
+2025-11-13 07:04:41,916 [INFO] ðŸ“‚ Loaded 1 position timestamps
+2025-11-13 07:04:41,916 [INFO] ðŸ“ˆ Trailing Stop enabled: Activation=1.0%, Trail=0.3%
+2025-11-13 07:04:41,916 [INFO] ðŸŽ­ Loading Ensemble models...
+2025-11-13 07:04:41,929 [INFO] ðŸ§  LSTM Model initialized on cpu
+2025-11-13 07:04:41,929 [INFO]    Input: 14, Hidden: 128, Layers: 3, Dropout: 0.3
+2025-11-13 07:04:41,929 [INFO] ðŸŽ­ Ensemble initialized with 2 models
+2025-11-13 07:04:41,929 [INFO]    Models: ['lstm', 'xgboost']
+2025-11-13 07:04:41,930 [INFO]    Weights: [0.3 0.7]
+2025-11-13 07:04:41,952 [INFO] âœ… Model loaded from models/lstm_model.pt
+2025-11-13 07:04:41,952 [INFO] âœ… LSTM loaded
+2025-11-13 07:04:42,025 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
+2025-11-13 07:04:42,026 [INFO] âœ… XGBoost loaded
+2025-11-13 07:04:42,026 [INFO] âœ… Ensemble loaded: 2/2 models
+2025-11-13 07:04:42,026 [INFO] ðŸŽ­ Using Ensemble predictor: ['lstm', 'xgboost']
+2025-11-13 07:04:42,026 [INFO]    Weights: [0.3, 0.7]
+2025-11-13 07:04:42,026 [INFO] ðŸŽ¯ Advanced Entry System enabled (min score: 4)
+2025-11-13 07:04:42,026 [INFO] ðŸš« Signal Cooldown enabled: 60 minutes
+2025-11-13 07:04:42,026 [INFO] âœ… Bot initialized successfully!
+2025-11-13 07:04:42,026 [INFO]    Symbols: ['BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'LTCUSDT', 'AVAXUSDT', 'XRPUSDT']
+2025-11-13 07:04:42,026 [INFO]    Leverage: 10x
+2025-11-13 07:04:42,026 [INFO]    Position Size: 20.0%
+2025-11-13 07:04:42,026 [INFO]    TP/SL: 1.00% / Disabled
+2025-11-13 07:04:42,027 [INFO]    Position Timeout: 36.0h
+2025-11-13 07:04:42,027 [INFO] ============================================================
+2025-11-13 07:04:42,027 [INFO] ðŸ BOT STARTED!
+2025-11-13 07:04:42,789 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 07:04:42,964 [INFO] ðŸ“Š Daily start balance: $18.75
+2025-11-13 07:04:42,964 [INFO] ðŸ’° Starting balance: $18.75
+2025-11-13 07:04:43,398 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-11-13 07:04:43,400 [INFO] 
+============================================================
+2025-11-13 07:04:43,400 [INFO] ðŸ”„ LOOP #1 - 2025-11-13 07:04:43
+2025-11-13 07:04:43,400 [INFO] ============================================================
+2025-11-13 07:04:43,486 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:04:43,486 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:04:43,580 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:04:43,967 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:04:43,968 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:04:43,968 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:04:43,968 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:04:43,968 [INFO]    âšª No signal - HOLD
+2025-11-13 07:04:44,469 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:04:44,560 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:04:44,925 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 3/4)
+2025-11-13 07:04:44,925 [INFO]    Partial signals: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 07:04:44,926 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=3
+2025-11-13 07:04:44,926 [INFO]    ðŸ“ Signal reasons: SHORT(3): ðŸ“Œ Bearish Pin Bar, SHORT(3): ðŸ“ˆ RSI Overbought
+2025-11-13 07:04:44,926 [INFO]    âšª No signal - HOLD
+2025-11-13 07:04:45,427 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:04:45,518 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:04:45,977 [INFO]    ðŸš« ML Conviction too low: 0.543 (distance from 0.5: 0.043 < 0.1)
+2025-11-13 07:04:45,978 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 4/4)
+2025-11-13 07:04:45,978 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:04:45,978 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 07:04:45,978 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:04:45,978 [INFO]    âšª No signal - HOLD
+2025-11-13 07:04:46,479 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:04:46,563 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:04:46,883 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 07:04:46,883 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:04:46,883 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 07:04:46,884 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:04:46,884 [INFO]    âšª No signal - HOLD
+2025-11-13 07:04:47,385 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:04:47,471 [INFO]    Current position: LONG 6.0
+2025-11-13 07:04:47,472 [INFO]    Entry: $17.52 | Mark: $17.60
+2025-11-13 07:04:47,472 [INFO]    PnL: 0.44% ($0.46)
+2025-11-13 07:04:47,472 [INFO]    Age: 1.3h / 36.0h
+2025-11-13 07:04:47,973 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:04:48,058 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:04:48,368 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:04:48,368 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:04:48,368 [INFO]    âšª No signal - HOLD
+2025-11-13 07:04:48,369 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:05:48,426 [INFO] 
+============================================================
+2025-11-13 07:05:48,427 [INFO] ðŸ”„ LOOP #2 - 2025-11-13 07:05:48
+2025-11-13 07:05:48,427 [INFO] ============================================================
+2025-11-13 07:05:48,514 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:05:48,514 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:05:48,600 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:05:48,922 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:05:48,922 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:05:48,923 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:05:48,923 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:05:48,923 [INFO]    âšª No signal - HOLD
+2025-11-13 07:05:49,424 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:05:49,511 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:05:49,827 [INFO]    ðŸš« ML Conviction too low: 0.544 (distance from 0.5: 0.044 < 0.1)
+2025-11-13 07:05:49,827 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 9/4)
+2025-11-13 07:05:49,827 [INFO]    Partial signals: ðŸ“Œ Bearish Pin Bar, â­ Evening Star
+2025-11-13 07:05:49,828 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=9
+2025-11-13 07:05:49,828 [INFO]    ðŸ“ Signal reasons: ðŸ“Œ Bearish Pin Bar, â­ Evening Star, ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:05:49,828 [INFO]    âšª No signal - HOLD
+2025-11-13 07:05:50,329 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:05:50,419 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:05:50,753 [INFO]    ðŸš« ML Conviction too low: 0.568 (distance from 0.5: 0.068 < 0.1)
+2025-11-13 07:05:50,753 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 4/4)
+2025-11-13 07:05:50,753 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:05:50,754 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 07:05:50,754 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:05:50,754 [INFO]    âšª No signal - HOLD
+2025-11-13 07:05:51,255 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:05:51,342 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:05:51,677 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 07:05:51,677 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:05:51,678 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 07:05:51,678 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:05:51,678 [INFO]    âšª No signal - HOLD
+2025-11-13 07:05:52,179 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:05:52,266 [INFO]    Current position: LONG 6.0
+2025-11-13 07:05:52,266 [INFO]    Entry: $17.52 | Mark: $17.60
+2025-11-13 07:05:52,266 [INFO]    PnL: 0.42% ($0.44)
+2025-11-13 07:05:52,266 [INFO]    Age: 1.3h / 36.0h
+2025-11-13 07:05:52,767 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:05:52,859 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:05:53,178 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:05:53,179 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:05:53,179 [INFO]    âšª No signal - HOLD
+2025-11-13 07:05:53,179 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:06:53,239 [INFO] 
+============================================================
+2025-11-13 07:06:53,239 [INFO] ðŸ”„ LOOP #3 - 2025-11-13 07:06:53
+2025-11-13 07:06:53,239 [INFO] ============================================================
+2025-11-13 07:06:53,330 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:06:53,330 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:06:53,415 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:06:53,729 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:06:53,729 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:06:53,730 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:06:53,730 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:06:53,730 [INFO]    âšª No signal - HOLD
+2025-11-13 07:06:54,231 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:06:54,315 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:06:54,623 [INFO]    ðŸš« ML Conviction too low: 0.565 (distance from 0.5: 0.065 < 0.1)
+2025-11-13 07:06:54,624 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 7/4)
+2025-11-13 07:06:54,624 [INFO]    Partial signals: â­ Evening Star, ðŸ’§ Bearish Liquidity Sweep
+2025-11-13 07:06:54,624 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 07:06:54,624 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:06:54,624 [INFO]    âšª No signal - HOLD
+2025-11-13 07:06:55,125 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:06:55,211 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:06:55,520 [INFO]    ðŸš« ML Conviction too low: 0.569 (distance from 0.5: 0.069 < 0.1)
+2025-11-13 07:06:55,521 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 4/4)
+2025-11-13 07:06:55,521 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:06:55,521 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 07:06:55,522 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:06:55,522 [INFO]    âšª No signal - HOLD
+2025-11-13 07:06:56,022 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:06:56,108 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:06:56,417 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:06:56,417 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:06:56,418 [INFO]    âšª No signal - HOLD
+2025-11-13 07:06:56,918 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:06:57,008 [INFO]    Current position: LONG 6.0
+2025-11-13 07:06:57,008 [INFO]    Entry: $17.52 | Mark: $17.60
+2025-11-13 07:06:57,008 [INFO]    PnL: 0.45% ($0.47)
+2025-11-13 07:06:57,008 [INFO]    Age: 1.4h / 36.0h
+2025-11-13 07:06:57,509 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:06:57,596 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:06:57,916 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:06:57,916 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:06:57,917 [INFO]    âšª No signal - HOLD
+2025-11-13 07:06:57,917 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:07:57,973 [INFO] 
+============================================================
+2025-11-13 07:07:57,974 [INFO] ðŸ”„ LOOP #4 - 2025-11-13 07:07:57
+2025-11-13 07:07:57,974 [INFO] ============================================================
+2025-11-13 07:07:58,068 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:07:58,068 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:07:58,164 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:07:58,474 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:07:58,474 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:07:58,475 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:07:58,475 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:07:58,475 [INFO]    âšª No signal - HOLD
+2025-11-13 07:07:58,976 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:07:59,060 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:07:59,369 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:07:59,369 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:07:59,370 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:07:59,370 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:07:59,370 [INFO]    âšª No signal - HOLD
+2025-11-13 07:07:59,871 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:07:59,958 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:08:00,270 [INFO]    ðŸš« ML Conviction too low: 0.568 (distance from 0.5: 0.068 < 0.1)
+2025-11-13 07:08:00,270 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 4/4)
+2025-11-13 07:08:00,270 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:08:00,271 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 07:08:00,271 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:08:00,271 [INFO]    âšª No signal - HOLD
+2025-11-13 07:08:00,771 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:08:00,862 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:08:01,181 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:08:01,182 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:08:01,182 [INFO]    âšª No signal - HOLD
+2025-11-13 07:08:01,683 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:08:01,768 [INFO]    Current position: LONG 6.0
+2025-11-13 07:08:01,768 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 07:08:01,768 [INFO]    PnL: 0.50% ($0.53)
+2025-11-13 07:08:01,768 [INFO]    Age: 1.4h / 36.0h
+2025-11-13 07:08:02,269 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:08:02,360 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:08:02,815 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:08:02,816 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:08:02,816 [INFO]    âšª No signal - HOLD
+2025-11-13 07:08:02,816 [INFO] 
+ðŸ’¤ Sleeping 60s...
+2025-11-13 07:09:02,841 [INFO] 
+============================================================
+2025-11-13 07:09:02,842 [INFO] ðŸ”„ LOOP #5 - 2025-11-13 07:09:02
+2025-11-13 07:09:02,842 [INFO] ============================================================
+2025-11-13 07:09:03,373 [INFO] ðŸ’“ Bot alive - Loop #5 - Active positions: 1
+2025-11-13 07:09:03,462 [INFO] ðŸ’° Current balance: $18.75
+2025-11-13 07:09:03,462 [INFO] 
+ðŸ“Š Processing BTCUSDT...
+2025-11-13 07:09:03,549 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-11-13 07:09:03,868 [INFO] ðŸ“¡ BTCUSDT Signal: HOLD (score: 1/4)
+2025-11-13 07:09:03,868 [INFO]    Partial signals: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:09:03,869 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=1
+2025-11-13 07:09:03,869 [INFO]    ðŸ“ Signal reasons: SHORT(1): ðŸ“ˆ RSI Overbought
+2025-11-13 07:09:03,869 [INFO]    âšª No signal - HOLD
+2025-11-13 07:09:04,370 [INFO] 
+ðŸ“Š Processing ETHUSDT...
+2025-11-13 07:09:04,457 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-11-13 07:09:04,772 [INFO]    ðŸš« ML Conviction too low: 0.568 (distance from 0.5: 0.068 < 0.1)
+2025-11-13 07:09:04,772 [INFO] ðŸ“¡ ETHUSDT Signal: HOLD (score: 7/4)
+2025-11-13 07:09:04,773 [INFO]    Partial signals: â­ Evening Star, ðŸ’§ Bearish Liquidity Sweep
+2025-11-13 07:09:04,774 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=7
+2025-11-13 07:09:04,774 [INFO]    ðŸ“ Signal reasons: â­ Evening Star, ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:09:04,774 [INFO]    âšª No signal - HOLD
+2025-11-13 07:09:05,275 [INFO] 
+ðŸ“Š Processing SOLUSDT...
+2025-11-13 07:09:05,367 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-11-13 07:09:05,686 [INFO]    ðŸš« ML Conviction too low: 0.560 (distance from 0.5: 0.060 < 0.1)
+2025-11-13 07:09:05,686 [INFO] ðŸ“¡ SOLUSDT Signal: HOLD (score: 4/4)
+2025-11-13 07:09:05,687 [INFO]    Partial signals: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:09:05,687 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=4
+2025-11-13 07:09:05,687 [INFO]    ðŸ“ Signal reasons: ðŸ’§ Bearish Liquidity Sweep, ðŸ“ˆ RSI Overbought
+2025-11-13 07:09:05,687 [INFO]    âšª No signal - HOLD
+2025-11-13 07:09:06,188 [INFO] 
+ðŸ“Š Processing LTCUSDT...
+2025-11-13 07:09:06,275 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-11-13 07:09:06,734 [INFO] ðŸ“¡ LTCUSDT Signal: HOLD (score: 2/4)
+2025-11-13 07:09:06,734 [INFO]    Partial signals: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:09:06,735 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=2
+2025-11-13 07:09:06,735 [INFO]    ðŸ“ Signal reasons: LONG(2): ðŸ•¯ï¸ Bullish Engulfing
+2025-11-13 07:09:06,735 [INFO]    âšª No signal - HOLD
+2025-11-13 07:09:07,236 [INFO] 
+ðŸ“Š Processing AVAXUSDT...
+2025-11-13 07:09:07,322 [INFO]    Current position: LONG 6.0
+2025-11-13 07:09:07,322 [INFO]    Entry: $17.52 | Mark: $17.61
+2025-11-13 07:09:07,322 [INFO]    PnL: 0.50% ($0.52)
+2025-11-13 07:09:07,322 [INFO]    Age: 1.4h / 36.0h
+2025-11-13 07:09:07,824 [INFO] 
+ðŸ“Š Processing XRPUSDT...
+2025-11-13 07:09:07,911 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-11-13 07:09:08,217 [INFO] ðŸ“¡ XRPUSDT Signal: HOLD (score: 0/4)
+2025-11-13 07:09:08,218 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-11-13 07:09:08,218 [INFO]    âšª No signal - HOLD
+2025-11-13 07:09:08,218 [INFO] 
+ðŸ’¤ Sleeping 60s...
