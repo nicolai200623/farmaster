@@ -22,7 +22,16 @@ class FeatureEngine:
         'open', 'high', 'low', 'close', 'volume',
         'rsi', 'macd', 'macd_signal', 'macd_hist',
         'bb_upper', 'bb_middle', 'bb_lower', 'bb_width',
-        'ob_imbalance'
+        'ob_imbalance',
+        # New features for better accuracy
+        'atr', 'atr_pct',
+        'volume_ma_ratio',
+        'price_distance_ema20',
+        'price_distance_ema50',
+        'rsi_divergence_score',
+        'higher_tf_trend',
+        'momentum_score',
+        'volatility_ratio'
     ]
 
     @staticmethod
@@ -125,10 +134,51 @@ class FeatureEngine:
         
         # OB Imbalance (placeholder - sẽ update realtime)
         df['ob_imbalance'] = 1.0
-        
+
+        # ============================================
+        # NEW FEATURES FOR BETTER ACCURACY
+        # ============================================
+
+        # 1. ATR (Average True Range) - Volatility indicator
+        high_low = df['high'] - df['low']
+        high_close = abs(df['high'] - df['close'].shift(1))
+        low_close = abs(df['low'] - df['close'].shift(1))
+        true_range = pd.concat([high_low, high_close, low_close], axis=1).max(axis=1)
+        df['atr'] = true_range.rolling(14).mean()
+        df['atr_pct'] = (df['atr'] / df['close']) * 100  # ATR as % of price
+
+        # 2. Volume MA Ratio - Volume strength
+        volume_ma_20 = df['volume'].rolling(20).mean()
+        df['volume_ma_ratio'] = df['volume'] / volume_ma_20.replace(0, 1)
+
+        # 3. Price Distance from EMAs
+        ema_20 = df['close'].ewm(span=20, adjust=False).mean()
+        ema_50 = df['close'].ewm(span=50, adjust=False).mean()
+        df['price_distance_ema20'] = ((df['close'] - ema_20) / ema_20) * 100
+        df['price_distance_ema50'] = ((df['close'] - ema_50) / ema_50) * 100
+
+        # 4. RSI Divergence Score
+        df['rsi_divergence_score'] = FeatureEngine._calculate_rsi_divergence_score(df)
+
+        # 5. Higher Timeframe Trend (placeholder - will be updated with actual HTF data)
+        # 1 = uptrend, 0 = ranging, -1 = downtrend
+        df['higher_tf_trend'] = 0
+
+        # 6. Momentum Score
+        # Combine ROC and price momentum
+        roc_10 = ((df['close'] - df['close'].shift(10)) / df['close'].shift(10)) * 100
+        roc_20 = ((df['close'] - df['close'].shift(20)) / df['close'].shift(20)) * 100
+        df['momentum_score'] = (roc_10 + roc_20) / 2
+
+        # 7. Volatility Ratio
+        # Compare current volatility to average
+        current_volatility = df['high'].rolling(10).std()
+        avg_volatility = df['high'].rolling(50).std()
+        df['volatility_ratio'] = current_volatility / avg_volatility.replace(0, 1)
+
         # Fill NaN (using bfill() instead of deprecated fillna(method='bfill'))
         df = df.bfill().fillna(0)
-        
+
         return df
     
     @staticmethod
@@ -180,24 +230,80 @@ class FeatureEngine:
         return np.array(X), np.array(y)
     
     @staticmethod
+    def _calculate_rsi_divergence_score(df, lookback=14):
+        """
+        Calculate RSI divergence score
+
+        Returns:
+            Series: Divergence score (-1 to 1)
+                -1 = bearish divergence
+                0 = no divergence
+                1 = bullish divergence
+        """
+        if 'rsi' not in df.columns or len(df) < lookback * 2:
+            return pd.Series(0, index=df.index)
+
+        scores = []
+
+        for i in range(len(df)):
+            if i < lookback * 2:
+                scores.append(0)
+                continue
+
+            # Look at recent window
+            price_window = df['close'].iloc[i-lookback:i]
+            rsi_window = df['rsi'].iloc[i-lookback:i]
+
+            # Find peaks and troughs
+            price_max_idx = price_window.idxmax()
+            price_min_idx = price_window.idxmin()
+            rsi_max_idx = rsi_window.idxmax()
+            rsi_min_idx = rsi_window.idxmin()
+
+            # Check for bullish divergence (price lower low, RSI higher low)
+            if i >= lookback * 2:
+                prev_price_min = df['close'].iloc[i-lookback*2:i-lookback].min()
+                curr_price_min = price_window.min()
+                prev_rsi_min = df['rsi'].iloc[i-lookback*2:i-lookback].min()
+                curr_rsi_min = rsi_window.min()
+
+                if curr_price_min < prev_price_min and curr_rsi_min > prev_rsi_min:
+                    scores.append(1)  # Bullish divergence
+                    continue
+
+                # Check for bearish divergence (price higher high, RSI lower high)
+                prev_price_max = df['close'].iloc[i-lookback*2:i-lookback].max()
+                curr_price_max = price_window.max()
+                prev_rsi_max = df['rsi'].iloc[i-lookback*2:i-lookback].max()
+                curr_rsi_max = rsi_window.max()
+
+                if curr_price_max > prev_price_max and curr_rsi_max < prev_rsi_max:
+                    scores.append(-1)  # Bearish divergence
+                    continue
+
+            scores.append(0)  # No divergence
+
+        return pd.Series(scores, index=df.index)
+
+    @staticmethod
     def calculate_ob_imbalance(bids, asks):
         """
         Tính Order Book imbalance
-        
+
         Args:
             bids: List of [price, quantity]
             asks: List of [price, quantity]
-            
+
         Returns:
             float: bid_volume / ask_volume
         """
         try:
             bid_vol = sum(float(b[1]) for b in bids)
             ask_vol = sum(float(a[1]) for a in asks)
-            
+
             if ask_vol == 0:
                 return 1.0
-            
+
             return bid_vol / ask_vol
         except Exception as e:
             logger.error(f"OB imbalance calculation error: {e}")

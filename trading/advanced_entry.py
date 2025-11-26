@@ -538,3 +538,386 @@ class AdvancedEntrySystem:
             entry_price = current_price
 
         return round(entry_price, 8)  # Round to 8 decimals for crypto
+
+
+# ============================================
+# 🎯 SMART ENTRY SYSTEM V2
+# Improved entry timing with better scoring
+# ============================================
+
+class SmartEntrySystemV2:
+    """
+    Smart Entry System V2 - Focus on TIMING and QUALITY
+
+    Principles:
+    1. Trend Alignment First - Never trade against the trend
+    2. Wait for Pullback - Don't entry at tops/bottoms
+    3. Confirm with Volume - Volume must confirm the move
+    4. Session Timing - Entry during high liquidity sessions
+    5. Risk/Reward Filter - Only entry when R:R > min ratio
+    """
+
+    def __init__(self, min_score=6, min_rr_ratio=2.0):
+        """
+        Initialize Smart Entry System V2
+
+        Args:
+            min_score: Minimum total score to enter (0-15)
+            min_rr_ratio: Minimum Risk:Reward ratio (default 2:1)
+        """
+        self.min_score = min_score
+        self.min_rr_ratio = min_rr_ratio
+
+    def evaluate_entry(self, symbol: str, df_primary: pd.DataFrame,
+                      df_higher: pd.DataFrame = None,
+                      df_4h: pd.DataFrame = None) -> Tuple[str, float, float, float, float, List[str]]:
+        """
+        Comprehensive entry evaluation
+
+        Args:
+            symbol: Trading symbol
+            df_primary: Primary timeframe data (e.g., 15m)
+            df_higher: Higher timeframe data (e.g., 1h)
+            df_4h: 4H timeframe for long-term trend
+
+        Returns:
+            signal: 'LONG', 'SHORT', 'HOLD'
+            score: Total score (0-15)
+            entry_price: Suggested entry
+            sl_price: Stop loss
+            tp_price: Take profit
+            reasons: List of reasons
+        """
+        try:
+            scores = {
+                'trend_alignment': 0,      # 0-3 (MOST IMPORTANT)
+                'pullback_quality': 0,     # 0-3
+                'key_level': 0,            # 0-2
+                'volume_confirmation': 0,  # 0-2
+                'momentum': 0,             # 0-2
+                'session_timing': 0,       # 0-2
+                'rr_ratio': 0,             # 0-1
+            }
+            reasons = []
+
+            # 1. TREND ALIGNMENT (Most Important - 3 points)
+            trend_primary = self._get_trend(df_primary)
+            trend_higher = self._get_trend(df_higher) if df_higher is not None else trend_primary
+            trend_4h = self._get_trend(df_4h) if df_4h is not None else trend_higher
+
+            if trend_4h == trend_higher == trend_primary:
+                scores['trend_alignment'] = 3
+                direction = trend_4h
+                reasons.append(f"✅ Perfect alignment: All TFs {direction}")
+            elif trend_4h == trend_higher:
+                scores['trend_alignment'] = 2
+                direction = trend_4h
+                reasons.append(f"⚠️ HTF aligned ({direction}), LTF diverging")
+            elif trend_4h == trend_primary:
+                scores['trend_alignment'] = 1
+                direction = trend_4h
+                reasons.append(f"⚠️ 4H & Primary aligned ({direction})")
+            else:
+                # No clear alignment - HOLD
+                reasons.append("❌ No trend alignment - too risky")
+                return 'HOLD', 0, None, None, None, reasons
+
+            # 2. PULLBACK QUALITY (3 points)
+            pullback_score, pullback_reason = self._evaluate_pullback(df_primary, direction)
+            scores['pullback_quality'] = pullback_score
+            reasons.append(pullback_reason)
+
+            # 3. KEY LEVELS (2 points)
+            level_score, level_reason = self._check_key_levels(df_primary, df_higher)
+            scores['key_level'] = level_score
+            if level_score > 0:
+                reasons.append(level_reason)
+
+            # 4. VOLUME CONFIRMATION (2 points)
+            vol_score, vol_reason = self._check_volume_confirmation(df_primary)
+            scores['volume_confirmation'] = vol_score
+            if vol_score > 0:
+                reasons.append(vol_reason)
+
+            # 5. MOMENTUM (2 points)
+            mom_score, mom_reason = self._check_momentum(df_primary, direction)
+            scores['momentum'] = mom_score
+            if mom_score > 0:
+                reasons.append(mom_reason)
+
+            # 6. SESSION TIMING (2 points)
+            session_score, session_reason = self._get_session_score()
+            scores['session_timing'] = session_score
+            reasons.append(session_reason)
+
+            # 7. CALCULATE R:R RATIO (1 point)
+            entry_price = df_primary['close'].iloc[-1]
+            sl_price = self._calculate_sl(df_primary, direction)
+            tp_price = self._calculate_tp(entry_price, sl_price, direction)
+
+            if sl_price and tp_price:
+                risk = abs(entry_price - sl_price)
+                reward = abs(tp_price - entry_price)
+                rr_ratio = reward / risk if risk > 0 else 0
+
+                if rr_ratio >= self.min_rr_ratio:
+                    scores['rr_ratio'] = 1
+                    reasons.append(f"✅ R:R = {rr_ratio:.1f}:1")
+                else:
+                    reasons.append(f"❌ R:R = {rr_ratio:.1f}:1 (need >{self.min_rr_ratio}:1)")
+            else:
+                reasons.append("❌ Cannot calculate R:R")
+
+            # TOTAL SCORE
+            total_score = sum(scores.values())
+
+            # DECISION
+            if total_score >= self.min_score and scores['trend_alignment'] >= 2:
+                signal = 'LONG' if direction == 'UP' else 'SHORT'
+                logger.info(f"🎯 {symbol} {signal} Signal | Score: {total_score}/15")
+                for reason in reasons:
+                    logger.info(f"   {reason}")
+                return signal, total_score, entry_price, sl_price, tp_price, reasons
+            else:
+                return 'HOLD', total_score, None, None, None, reasons
+
+        except Exception as e:
+            logger.error(f"SmartEntryV2 error for {symbol}: {e}")
+            return 'HOLD', 0, None, None, None, []
+
+    def _get_trend(self, df: pd.DataFrame) -> str:
+        """
+        Determine trend direction
+
+        Returns:
+            'UP', 'DOWN', or 'RANGING'
+        """
+        if df is None or len(df) < 50:
+            return 'RANGING'
+
+        # Calculate EMAs if not present
+        if 'ema_8' not in df.columns:
+            df['ema_8'] = df['close'].ewm(span=8, adjust=False).mean()
+        if 'ema_21' not in df.columns:
+            df['ema_21'] = df['close'].ewm(span=21, adjust=False).mean()
+        if 'ema_50' not in df.columns:
+            df['ema_50'] = df['close'].ewm(span=50, adjust=False).mean()
+
+        ema8 = df['ema_8'].iloc[-1]
+        ema21 = df['ema_21'].iloc[-1]
+        ema50 = df['ema_50'].iloc[-1]
+
+        if ema8 > ema21 > ema50:
+            return 'UP'
+        elif ema8 < ema21 < ema50:
+            return 'DOWN'
+        else:
+            return 'RANGING'
+
+    def _evaluate_pullback(self, df: pd.DataFrame, direction: str) -> Tuple[int, str]:
+        """
+        Evaluate pullback quality
+
+        Returns:
+            score: 0-3
+            reason: Description
+        """
+        if len(df) < 5:
+            return 0, "Not enough data"
+
+        current_price = df['close'].iloc[-1]
+        ema21 = df['ema_21'].iloc[-1] if 'ema_21' in df.columns else df['close'].ewm(span=21).mean().iloc[-1]
+
+        if direction == 'UP':
+            # Check if price pulled back to EMA21 and bouncing
+            recent_low = df['low'].iloc[-5:].min()
+            if recent_low <= ema21 * 1.02 and current_price > ema21:
+                return 3, "✅ Perfect pullback to EMA21"
+            elif current_price > ema21 * 0.98:
+                return 2, "⚠️ Near EMA21"
+            else:
+                return 1, "📍 Pullback in progress"
+
+        elif direction == 'DOWN':
+            # Check if price pulled up to EMA21 and rejecting
+            recent_high = df['high'].iloc[-5:].max()
+            if recent_high >= ema21 * 0.98 and current_price < ema21:
+                return 3, "✅ Perfect pullback to EMA21"
+            elif current_price < ema21 * 1.02:
+                return 2, "⚠️ Near EMA21"
+            else:
+                return 1, "📍 Pullback in progress"
+
+        return 0, "No clear pullback"
+
+    def _check_key_levels(self, df_primary: pd.DataFrame, df_higher: pd.DataFrame) -> Tuple[int, str]:
+        """
+        Check if price is at key support/resistance levels
+
+        Returns:
+            score: 0-2
+            reason: Description
+        """
+        if len(df_primary) < 20:
+            return 0, ""
+
+        current_price = df_primary['close'].iloc[-1]
+
+        # Check swing highs/lows on primary timeframe
+        swing_high = df_primary['high'].rolling(20).max().iloc[-1]
+        swing_low = df_primary['low'].rolling(20).min().iloc[-1]
+
+        # Check if at key level (within 1%)
+        if abs(current_price - swing_low) / current_price < 0.01:
+            return 2, "🔑 At swing low (support)"
+        elif abs(current_price - swing_high) / current_price < 0.01:
+            return 2, "🔑 At swing high (resistance)"
+
+        # Check higher timeframe levels if available
+        if df_higher is not None and len(df_higher) >= 20:
+            htf_swing_high = df_higher['high'].rolling(20).max().iloc[-1]
+            htf_swing_low = df_higher['low'].rolling(20).min().iloc[-1]
+
+            if abs(current_price - htf_swing_low) / current_price < 0.015:
+                return 1, "🔑 Near HTF support"
+            elif abs(current_price - htf_swing_high) / current_price < 0.015:
+                return 1, "🔑 Near HTF resistance"
+
+        return 0, ""
+
+    def _check_volume_confirmation(self, df: pd.DataFrame) -> Tuple[int, str]:
+        """
+        Check volume confirmation
+
+        Returns:
+            score: 0-2
+            reason: Description
+        """
+        if 'volume' not in df.columns or len(df) < 20:
+            return 0, ""
+
+        current_vol = df['volume'].iloc[-1]
+        avg_vol = df['volume'].rolling(20).mean().iloc[-1]
+
+        if current_vol > avg_vol * 2:
+            return 2, "📈 Strong volume spike (2x)"
+        elif current_vol > avg_vol * 1.5:
+            return 1, "📊 Above average volume"
+
+        return 0, ""
+
+    def _check_momentum(self, df: pd.DataFrame, direction: str) -> Tuple[int, str]:
+        """
+        Check momentum alignment
+
+        Returns:
+            score: 0-2
+            reason: Description
+        """
+        if 'rsi' not in df.columns or len(df) < 14:
+            return 0, ""
+
+        rsi = df['rsi'].iloc[-1]
+
+        if direction == 'UP':
+            if 40 < rsi < 60:
+                return 2, "⚡ RSI neutral (good for entry)"
+            elif 30 < rsi < 70:
+                return 1, "⚡ RSI acceptable range"
+        elif direction == 'DOWN':
+            if 40 < rsi < 60:
+                return 2, "⚡ RSI neutral (good for entry)"
+            elif 30 < rsi < 70:
+                return 1, "⚡ RSI acceptable range"
+
+        return 0, ""
+
+    def _get_session_score(self) -> Tuple[int, str]:
+        """
+        Score based on trading session (UTC+7 Vietnam time)
+
+        Returns:
+            score: 0-2
+            reason: Description
+        """
+        import datetime
+
+        # Get current UTC hour
+        utc_hour = datetime.datetime.utcnow().hour
+        # Convert to Vietnam time (UTC+7)
+        vn_hour = (utc_hour + 7) % 24
+
+        # London Open: 15:00-17:00 VN (08:00-10:00 UTC)
+        if 8 <= utc_hour <= 10:
+            return 2, "🌍 London session (high liquidity)"
+
+        # NY Open: 20:00-22:00 VN (13:00-15:00 UTC)
+        elif 13 <= utc_hour <= 15:
+            return 2, "🗽 NY session (high liquidity)"
+
+        # Asian Session: 08:00-12:00 VN (01:00-05:00 UTC)
+        elif 1 <= utc_hour <= 5:
+            return 1, "🌏 Asian session"
+
+        # Overlap: 20:00-00:00 VN (13:00-17:00 UTC)
+        elif 13 <= utc_hour <= 17:
+            return 2, "🔥 London-NY overlap (best liquidity)"
+
+        # Off-peak
+        else:
+            return 0, "💤 Off-peak hours"
+
+    def _calculate_sl(self, df: pd.DataFrame, direction: str) -> float:
+        """
+        Calculate stop loss based on ATR
+
+        Args:
+            df: DataFrame with price data
+            direction: 'UP' or 'DOWN'
+
+        Returns:
+            Stop loss price
+        """
+        current_price = df['close'].iloc[-1]
+
+        # Use ATR if available
+        if 'atr' in df.columns:
+            atr = df['atr'].iloc[-1]
+        else:
+            # Calculate simple ATR
+            high_low = df['high'] - df['low']
+            atr = high_low.rolling(14).mean().iloc[-1]
+
+        # Set SL at 1.5x ATR
+        atr_multiplier = 1.5
+
+        if direction == 'UP':
+            sl_price = current_price - (atr * atr_multiplier)
+        else:  # DOWN
+            sl_price = current_price + (atr * atr_multiplier)
+
+        return round(sl_price, 8)
+
+    def _calculate_tp(self, entry_price: float, sl_price: float, direction: str) -> float:
+        """
+        Calculate take profit based on R:R ratio
+
+        Args:
+            entry_price: Entry price
+            sl_price: Stop loss price
+            direction: 'UP' or 'DOWN'
+
+        Returns:
+            Take profit price
+        """
+        risk = abs(entry_price - sl_price)
+
+        # Use 2:1 R:R ratio
+        reward = risk * 2
+
+        if direction == 'UP':
+            tp_price = entry_price + reward
+        else:  # DOWN
+            tp_price = entry_price - reward
+
+        return round(tp_price, 8)

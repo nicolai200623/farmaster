@@ -92,7 +92,13 @@ class Config:
     # 🎯 ADVANCED ENTRY SETTINGS
     # ============================================
     USE_ADVANCED_ENTRY = os.getenv('USE_ADVANCED_ENTRY', 'True').lower() == 'true'
-    MIN_CONFLUENCE_SCORE = int(os.getenv('MIN_CONFLUENCE_SCORE', '7'))  # Minimum score để entry (7-10)
+    MIN_CONFLUENCE_SCORE = int(os.getenv('MIN_CONFLUENCE_SCORE', '5'))  # Giảm xuống 5 để tăng signal frequency
+
+    # Smart Entry System V2
+    USE_SMART_ENTRY_V2 = os.getenv('USE_SMART_ENTRY_V2', 'True').lower() == 'true'
+    MIN_ENTRY_SCORE = int(os.getenv('MIN_ENTRY_SCORE', '5'))  # Minimum score for SmartEntryV2
+    MIN_RR_RATIO = float(os.getenv('MIN_RR_RATIO', '2.0'))  # Minimum Risk:Reward ratio
+    REQUIRE_SESSION_TIMING = os.getenv('REQUIRE_SESSION_TIMING', 'False').lower() == 'true'
 
     # Entry Confirmation
     WAIT_FOR_CONFIRMATION = os.getenv('WAIT_FOR_CONFIRMATION', 'True').lower() == 'true'
@@ -172,6 +178,14 @@ class Config:
     # Symbol Optimization
     USE_SYMBOL_OPTIMIZER = os.getenv('USE_SYMBOL_OPTIMIZER', 'True').lower() == 'true'
     SYMBOL_PARAMS_FILE = os.getenv('SYMBOL_PARAMS_FILE', 'config/symbol_params.json')
+
+    # ============================================
+    # 🎲 ADVANCED RISK MANAGEMENT
+    # ============================================
+    USE_KELLY_SIZING = os.getenv('USE_KELLY_SIZING', 'True').lower() == 'true'
+    MAX_CORRELATED_POSITIONS = int(os.getenv('MAX_CORRELATED_POSITIONS', '2'))
+    MAX_POSITIONS = int(os.getenv('MAX_POSITIONS', '4'))
+    REDUCE_RISK_AFTER_LOSSES = os.getenv('REDUCE_RISK_AFTER_LOSSES', 'True').lower() == 'true'
 
     @classmethod
     def validate(cls):
