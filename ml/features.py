@@ -6,6 +6,12 @@
 import pandas as pd
 import numpy as np
 from utils.logger import logger
+import warnings
+
+# Suppress FutureWarnings for fillna/bfill downcasting
+warnings.filterwarnings('ignore', category=FutureWarning, message='.*Downcasting.*')
+warnings.filterwarnings('ignore', category=FutureWarning, message='.*idxmax.*')
+warnings.filterwarnings('ignore', category=FutureWarning, message='.*idxmin.*')
 
 # Try pandas-ta first, fallback to manual calculation
 try:
@@ -176,8 +182,12 @@ class FeatureEngine:
         avg_volatility = df['high'].rolling(50).std()
         df['volatility_ratio'] = current_volatility / avg_volatility.replace(0, 1)
 
-        # Fill NaN (using bfill() instead of deprecated fillna(method='bfill'))
-        df = df.bfill().fillna(0)
+        # Fill NaN - use infer_objects() to avoid downcasting warning
+        # First backward fill, then fill remaining with 0
+        df = df.infer_objects(copy=False)
+        df = df.bfill()
+        df = df.fillna(0)
+        df = df.infer_objects(copy=False)
 
         return df
     
@@ -201,7 +211,9 @@ class FeatureEngine:
             if col not in df.columns:
                 df[col] = 0
         
-        return df[feature_cols].fillna(0)
+        # Use infer_objects() to avoid downcasting warning
+        result = df[feature_cols].fillna(0)
+        return result.infer_objects(copy=False)
     
     @staticmethod
     def create_sequences(data, seq_length=60):
@@ -254,11 +266,21 @@ class FeatureEngine:
             price_window = df['close'].iloc[i-lookback:i]
             rsi_window = df['rsi'].iloc[i-lookback:i]
 
-            # Find peaks and troughs
-            price_max_idx = price_window.idxmax()
-            price_min_idx = price_window.idxmin()
-            rsi_max_idx = rsi_window.idxmax()
-            rsi_min_idx = rsi_window.idxmin()
+            # Skip if window has all NA values
+            if price_window.isna().all() or rsi_window.isna().all():
+                scores.append(0)
+                continue
+
+            # Find peaks and troughs (skipna=True to handle NA values)
+            price_max_idx = price_window.idxmax(skipna=True)
+            price_min_idx = price_window.idxmin(skipna=True)
+            rsi_max_idx = rsi_window.idxmax(skipna=True)
+            rsi_min_idx = rsi_window.idxmin(skipna=True)
+
+            # Skip if any index is NA (no valid values found)
+            if pd.isna(price_max_idx) or pd.isna(price_min_idx) or pd.isna(rsi_max_idx) or pd.isna(rsi_min_idx):
+                scores.append(0)
+                continue
 
             # Check for bullish divergence (price lower low, RSI higher low)
             if i >= lookback * 2:

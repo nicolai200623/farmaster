@@ -20,7 +20,7 @@ python ml/train_ensemble.py
 python scripts/test_volume_farming.py
 
 source venv/bin/activate
-
+python scripts/auto_retrain.py --days 180
 
 # 6. Chạy bot (testnet)
 python bot.py
