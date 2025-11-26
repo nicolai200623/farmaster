@@ -10,7 +10,7 @@ from ml.lstm_model import LSTMTrainer
 from ml.ensemble import EnsemblePredictor
 from config import Config
 from utils.logger import logger
-from trading.advanced_entry import AdvancedEntrySystem
+from trading.advanced_entry import AdvancedEntrySystem, SmartEntrySystemV2
 from trading.signal_cooldown import SignalCooldownTracker
 
 class SignalGenerator:
@@ -42,13 +42,22 @@ class SignalGenerator:
             logger.info("🧠 Using LSTM predictor")
 
         # Initialize Advanced Entry System if enabled
-        if Config.USE_ADVANCED_ENTRY:
+        if Config.USE_SMART_ENTRY_V2:
+            self.smart_entry_v2 = SmartEntrySystemV2(
+                min_score=Config.MIN_ENTRY_SCORE,
+                min_rr_ratio=Config.MIN_RR_RATIO
+            )
+            logger.info(f"🎯 SmartEntrySystemV2 enabled (min score: {Config.MIN_ENTRY_SCORE}, min R:R: {Config.MIN_RR_RATIO}:1)")
+            self.advanced_entry = None
+        elif Config.USE_ADVANCED_ENTRY:
             self.advanced_entry = AdvancedEntrySystem(
                 min_confluence_score=Config.MIN_CONFLUENCE_SCORE
             )
+            self.smart_entry_v2 = None
             logger.info(f"🎯 Advanced Entry System enabled (min score: {Config.MIN_CONFLUENCE_SCORE})")
         else:
             self.advanced_entry = None
+            self.smart_entry_v2 = None
 
         # Initialize Signal Cooldown Tracker
         if Config.USE_SIGNAL_COOLDOWN:
@@ -172,8 +181,66 @@ class SignalGenerator:
             confluence_score = 0
             reasons = []
 
+            # Use SmartEntrySystemV2 if enabled (priority over AdvancedEntry)
+            if Config.USE_SMART_ENTRY_V2 and self.smart_entry_v2:
+                # Get multi-timeframe data for SmartEntryV2
+                df_1h = None
+                df_4h = None
+
+                if Config.USE_MULTI_TIMEFRAME:
+                    try:
+                        # Get 1H data
+                        klines_1h = client.get_klines(symbol, interval='1h', limit=100)
+                        df_1h = self._parse_klines(klines_1h)
+                        df_1h = self.feature_engine.calculate_indicators(df_1h)
+
+                        # Get 4H data
+                        klines_4h = client.get_klines(symbol, interval='4h', limit=100)
+                        df_4h = self._parse_klines(klines_4h)
+                        df_4h = self.feature_engine.calculate_indicators(df_4h)
+                    except Exception as e:
+                        logger.warning(f"Could not get HTF data: {e}")
+
+                # Evaluate with SmartEntryV2
+                signal, score, entry_price, sl_price, tp_price, reasons = self.smart_entry_v2.evaluate_entry(
+                    symbol=symbol,
+                    df_primary=df,  # 15m
+                    df_higher=df_1h,  # 1h
+                    df_4h=df_4h  # 4h
+                )
+
+                confluence_score = score
+
+                # Apply additional ML filter
+                if signal != 'HOLD' and Config.USE_ML_CONVICTION_FILTER:
+                    ml_distance = abs(lstm_prob - 0.5)
+                    if ml_distance < Config.MIN_ML_CONVICTION:
+                        logger.info(f"   🚫 ML Conviction too low: {lstm_prob:.3f}")
+                        signal = 'HOLD'
+
+                # Signal Cooldown
+                if signal != 'HOLD' and self.cooldown_tracker is not None:
+                    can_signal, cooldown_reason = self.cooldown_tracker.can_signal(symbol, signal)
+                    if not can_signal:
+                        logger.info(f"   🚫 {cooldown_reason}")
+                        signal = 'HOLD'
+
+                # Log result
+                if signal != 'HOLD':
+                    logger.info(f"🎯 {symbol} SmartEntryV2 Signal: {signal}")
+                    logger.info(f"   📊 Score: {score}/15")
+                    logger.info(f"   💰 Entry: ${entry_price:.2f} | SL: ${sl_price:.2f} | TP: ${tp_price:.2f}")
+                    logger.info(f"   📈 ML: {lstm_prob:.3f} | RSI: {current_rsi:.1f}")
+                    logger.info(f"   📝 Reasons:")
+                    for i, reason in enumerate(reasons[:5], 1):
+                        logger.info(f"      {i}. {reason}")
+                else:
+                    logger.info(f"📡 {symbol} Signal: HOLD (score: {score}/15)")
+
+                return signal, confluence_score, reasons
+
             # Use Advanced Entry System if enabled
-            if Config.USE_ADVANCED_ENTRY and self.advanced_entry:
+            elif Config.USE_ADVANCED_ENTRY and self.advanced_entry:
                 # Get higher timeframe data for confirmation if enabled
                 if Config.USE_MULTI_TIMEFRAME:
                     try:

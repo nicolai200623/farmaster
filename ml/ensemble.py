@@ -6,6 +6,8 @@
 import numpy as np
 from ml.lstm_model import LSTMTrainer
 from ml.xgboost_model import XGBoostTrainer
+from ml.lightgbm_model import LightGBMTrainer
+from ml.catboost_model import CatBoostTrainer
 from utils.logger import logger
 from config import Config
 
@@ -15,12 +17,15 @@ class EnsemblePredictor:
 
     Supported models:
     - LSTM: Good for sequential patterns
-    - XGBoost: Good for feature-based patterns
+    - XGBoost: Fast gradient boosting
+    - LightGBM: Efficient gradient boosting (leaf-wise)
+    - CatBoost: Robust gradient boosting with categorical support
 
     Benefits:
     - Reduced overfitting
     - Better generalization
     - More robust predictions
+    - Diverse model architectures
     """
 
     def __init__(self, models=['lstm', 'xgboost'], weights=[0.4, 0.6], input_size=14):
@@ -49,6 +54,10 @@ class EnsemblePredictor:
                 self.models['lstm'] = LSTMTrainer(input_size=input_size)
             elif model_name == 'xgboost':
                 self.models['xgboost'] = XGBoostTrainer(input_size=input_size)
+            elif model_name == 'lightgbm':
+                self.models['lightgbm'] = LightGBMTrainer(input_size=input_size)
+            elif model_name == 'catboost':
+                self.models['catboost'] = CatBoostTrainer(input_size=input_size)
             else:
                 logger.warning(f"Unknown model: {model_name}")
 
@@ -78,6 +87,26 @@ class EnsemblePredictor:
                 else:
                     logger.warning(f"⚠️ XGBoost not loaded")
 
+            elif model_name == 'lightgbm':
+                lgb_model_path = Config.MODEL_PATH.replace('lstm_model.pt', 'lightgbm_model.txt')
+                lgb_scaler_path = Config.SCALER_PATH.replace('scaler.pkl', 'lightgbm_scaler.pkl')
+
+                if model.load(lgb_model_path, lgb_scaler_path):
+                    success_count += 1
+                    logger.info(f"✅ LightGBM loaded")
+                else:
+                    logger.warning(f"⚠️ LightGBM not loaded")
+
+            elif model_name == 'catboost':
+                cb_model_path = Config.MODEL_PATH.replace('lstm_model.pt', 'catboost_model.cbm')
+                cb_scaler_path = Config.SCALER_PATH.replace('scaler.pkl', 'catboost_scaler.pkl')
+
+                if model.load(cb_model_path, cb_scaler_path):
+                    success_count += 1
+                    logger.info(f"✅ CatBoost loaded")
+                else:
+                    logger.warning(f"⚠️ CatBoost not loaded")
+
         if success_count == 0:
             logger.error("❌ No models loaded!")
             return False
@@ -101,7 +130,7 @@ class EnsemblePredictor:
                 if model_name == 'lstm' and self.models[model_name].model is not None:
                     available_models.append(model_name)
                     available_weights.append(self.weights[i])
-                elif model_name == 'xgboost' and self.models[model_name].model is not None:
+                elif model_name in ['xgboost', 'lightgbm', 'catboost'] and self.models[model_name].model is not None:
                     available_models.append(model_name)
                     available_weights.append(self.weights[i])
 
@@ -262,6 +291,14 @@ class EnsemblePredictor:
                     xgb_model_path = Config.MODEL_PATH.replace('lstm_model.pt', 'xgboost_model.json')
                     xgb_scaler_path = Config.SCALER_PATH.replace('scaler.pkl', 'xgboost_scaler.pkl')
                     model.save(xgb_model_path, xgb_scaler_path)
+                elif model_name == 'lightgbm':
+                    lgb_model_path = Config.MODEL_PATH.replace('lstm_model.pt', 'lightgbm_model.txt')
+                    lgb_scaler_path = Config.SCALER_PATH.replace('scaler.pkl', 'lightgbm_scaler.pkl')
+                    model.save(lgb_model_path, lgb_scaler_path)
+                elif model_name == 'catboost':
+                    cb_model_path = Config.MODEL_PATH.replace('lstm_model.pt', 'catboost_model.cbm')
+                    cb_scaler_path = Config.SCALER_PATH.replace('scaler.pkl', 'catboost_scaler.pkl')
+                    model.save(cb_model_path, cb_scaler_path)
 
                 logger.info(f"✅ {model_name.upper()} saved")
             except Exception as e:
