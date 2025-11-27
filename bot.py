@@ -265,7 +265,8 @@ class AsterDEXBot:
                     signal_result = self.signal_generator.generate_signal(self.client, symbol)
 
                     # Handle both advanced (tuple) and legacy (str) return types
-                    if Config.USE_ADVANCED_ENTRY:
+                    # Check both USE_ADVANCED_ENTRY and USE_SMART_ENTRY_V2
+                    if Config.USE_ADVANCED_ENTRY or Config.USE_SMART_ENTRY_V2:
                         signal, confluence_score, reasons = signal_result
                         logger.info(f"   📊 Analysis complete: Signal={signal}, Score={confluence_score}")
                         if reasons:
@@ -335,7 +336,7 @@ class AsterDEXBot:
 
                             if order:
                                 # Log trade with confluence info if available
-                                if Config.USE_ADVANCED_ENTRY:
+                                if Config.USE_ADVANCED_ENTRY or Config.USE_SMART_ENTRY_V2:
                                     logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f} | Score: {confluence_score} | {reasons[0] if reasons else ''}")
                                 else:
                                     logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
