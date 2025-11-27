@@ -243,6 +243,41 @@ class AutoRetrainer:
         models = {}
         input_size = X_train.shape[2]
 
+        # ============================================
+        # 🔧 FIT SCALER TRƯỚC KHI TRAINING
+        # ============================================
+        from sklearn.preprocessing import MinMaxScaler
+        import pickle
+
+        logger.info("📊 Fitting scaler on training data...")
+
+        # Reshape X_train từ (n_samples, seq_len, features) thành (n_samples * seq_len, features)
+        n_samples, seq_len, n_features = X_train.shape
+        X_train_2d = X_train.reshape(-1, n_features)
+
+        # Fit scaler
+        scaler = MinMaxScaler()
+        scaler.fit(X_train_2d)
+
+        # Save scaler
+        scaler_path = Config.SCALER_PATH
+        os.makedirs(os.path.dirname(scaler_path), exist_ok=True)
+        with open(scaler_path, 'wb') as f:
+            pickle.dump(scaler, f)
+
+        logger.info(f"✅ Scaler fitted and saved to {scaler_path}")
+        logger.info(f"   n_features: {scaler.n_features_in_}")
+
+        # Normalize training data
+        X_train_normalized = scaler.transform(X_train_2d).reshape(n_samples, seq_len, n_features)
+
+        # Normalize validation data
+        n_val_samples = X_val.shape[0]
+        X_val_2d = X_val.reshape(-1, n_features)
+        X_val_normalized = scaler.transform(X_val_2d).reshape(n_val_samples, seq_len, n_features)
+
+        logger.info(f"✅ Data normalized: train={X_train_normalized.shape}, val={X_val_normalized.shape}\n")
+
         # 1. LSTM
         if 'lstm' in Config.ENSEMBLE_MODELS:
             logger.info("=" * 60)
@@ -250,7 +285,9 @@ class AutoRetrainer:
             logger.info("=" * 60)
 
             lstm_trainer = LSTMTrainer(input_size=input_size)
-            lstm_trainer.train(X_train, y_train, epochs=Config.LSTM_EPOCHS)
+            # Assign the fitted scaler to the trainer
+            lstm_trainer.scaler = scaler
+            lstm_trainer.train(X_train_normalized, y_train, epochs=Config.LSTM_EPOCHS)
             lstm_trainer.save(Config.MODEL_PATH, Config.SCALER_PATH)
             models['lstm'] = lstm_trainer
 

@@ -18,14 +18,18 @@ VPS_PATH = "/home/farmaster/farmaster/models"  # Đường dẫn models trên VP
 VPS_PORT = 22  # SSH port (thường là 22)
 
 # ============================================
-# MODELS CẦN UPLOAD
+# MODELS VÀ SCALERS CẦN UPLOAD
 # ============================================
 MODELS_DIR = "models"
 REQUIRED_MODELS = [
     "lstm_model.pt",
+    "scaler.pkl",           # LSTM scaler - BẮT BUỘC!
     "xgboost_model.json",
+    "xgboost_scaler.pkl",
     "lightgbm_model.txt",
-    "catboost_model.cbm"
+    "lightgbm_scaler.pkl",
+    "catboost_model.cbm",
+    "catboost_scaler.pkl"
 ]
 
 def check_models_exist():

@@ -23,9 +23,13 @@ Write-Host ""
 Write-Host "🔍 Checking local models..." -ForegroundColor Cyan
 $models = @(
     "lstm_model.pt",
+    "scaler.pkl",
     "xgboost_model.json",
+    "xgboost_scaler.pkl",
     "lightgbm_model.txt",
-    "catboost_model.cbm"
+    "lightgbm_scaler.pkl",
+    "catboost_model.cbm",
+    "catboost_scaler.pkl"
 )
 
 $allExist = $true
@@ -93,7 +97,7 @@ Write-Host "=" -NoNewline -ForegroundColor Cyan
 Write-Host ("=" * 69) -ForegroundColor Cyan
 Write-Host "From: $(Get-Location)\models" -ForegroundColor White
 Write-Host "To:   ${VPS_USER}@${VPS_HOST}:${VPS_PATH}" -ForegroundColor White
-Write-Host "Files: $($models.Count) models (~50 MB total)" -ForegroundColor White
+Write-Host "Files: $($models.Count) files (models + scalers)" -ForegroundColor White
 Write-Host ""
 
 $confirm = Read-Host "❓ Continue? (yes/no)"
