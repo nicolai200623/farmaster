@@ -19,6 +19,8 @@ python ml/train_ensemble.py
 # 5. Backtest
 python scripts/test_volume_farming.py
 
+
+# train cho 4 ML
 source venv/bin/activate
 python scripts/auto_retrain.py --days 180
 
@@ -31,16 +33,26 @@ python bot.py
 ## 🧠 Training Models
 
 ```bash
+# Auto retrain tất cả models (KHUYẾN NGHỊ)
+# 90 ngày (~45 phút)
+python scripts/auto_retrain.py --days 90
+
+# 180 ngày (~60 phút) - Tốt nhất cho accuracy
+python scripts/auto_retrain.py --days 180
+
+# Kiểm tra training đã xong chưa
+python check_training_status.py
+
 # Train LSTM only
 python ml/train.py
 
 # Train XGBoost only
 python ml/xgboost_model.py
 
-# Train Ensemble (khuyến nghị)
+# Train Ensemble (cũ)
 python ml/train_ensemble.py
 
-# Retrain tất cả
+# Retrain tất cả (cũ)
 python retrain_and_test.py
 ```
 
@@ -185,6 +197,33 @@ cp .env.backup_YYYYMMDD .env
 
 ## 🔍 Kiểm Tra
 
+### Kiểm tra training đã xong chưa (VPS)
+```bash
+# Cách 1: Dùng script tự động (KHUYẾN NGHỊ)
+python3 check_training_status.py
+
+# Cách 2: Kiểm tra process
+ps aux | grep auto_retrain.py
+# Nếu có kết quả = đang chạy
+# Nếu không có = đã xong hoặc chưa chạy
+
+# Cách 3: Kiểm tra log
+tail -50 logs/bot_*.log
+# Tìm dòng: "RETRAINING COMPLETED SUCCESSFULLY"
+
+# Cách 4: Kiểm tra models
+ls -lh models/
+# Phải có 4 files:
+# - lstm_model.pt
+# - xgboost_model.json
+# - lightgbm_model.txt
+# - catboost_model.cbm
+
+# Cách 5: Xem log realtime
+tail -f logs/bot_*.log
+# Ctrl+C để thoát
+```
+
 ### Kiểm tra models đã train
 ```bash
 # Windows
@@ -193,11 +232,11 @@ dir models
 # Linux/Mac
 ls -lh models/
 
-# Phải có:
+# Phải có 4 models:
 # - lstm_model.pt
-# - scaler.pkl
 # - xgboost_model.json
-# - xgboost_scaler.pkl
+# - lightgbm_model.txt
+# - catboost_model.cbm
 ```
 
 ### Kiểm tra config
