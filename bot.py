@@ -285,9 +285,15 @@ class AsterDEXBot:
 
                 if signal != 'HOLD':
                     logger.info(f"   🟢 Entry signal detected: {signal}")
-                    if Config.USE_ADVANCED_ENTRY:
+                    if Config.USE_ADVANCED_ENTRY or Config.USE_SMART_ENTRY_V2:
                         logger.info(f"   📊 Confluence score: {confluence_score}/{Config.MIN_CONFLUENCE_SCORE}")
                         logger.info(f"   📝 Top reasons: {', '.join(reasons[:3])}")
+
+                    # ⚠️ RECORD COOLDOWN IMMEDIATELY when signal is generated
+                    # This prevents spam signals when order fails (margin insufficient, etc.)
+                    if self.signal_generator.cooldown_tracker is not None:
+                        self.signal_generator.cooldown_tracker.record_signal(symbol, signal)
+                        logger.info(f"   🚫 Cooldown recorded for {symbol} ({Config.SIGNAL_COOLDOWN_MINUTES}m)")
 
                     try:
                         # Setup leverage and margin
@@ -344,9 +350,8 @@ class AsterDEXBot:
                                 # Track position opening time
                                 self.position_tracker.track_position_open(symbol)
 
-                                # Record signal for cooldown tracking
-                                if self.signal_generator.cooldown_tracker is not None:
-                                    self.signal_generator.cooldown_tracker.record_signal(symbol, signal)
+                                # Note: Cooldown is already recorded when signal was generated (before order)
+                                # This prevents spam when order fails
 
                                 # Record trade
                                 self.risk_manager.record_trade(
