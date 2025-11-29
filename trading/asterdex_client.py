@@ -73,20 +73,25 @@ class AsterDEXClient:
                     mark_price = float(pos['markPrice'])
                     unrealized_pnl = float(pos['unRealizedProfit'])
                     
-                    # Calculate PnL %
+                    # Calculate PnL % (WITH LEVERAGE for actual PnL)
+                    # pnl_pct now represents ACTUAL PnL after leverage
+                    leverage = Config.LEVERAGE
                     if amt > 0:  # LONG
-                        pnl_pct = (mark_price - entry_price) / entry_price
+                        price_change_pct = (mark_price - entry_price) / entry_price
                         side = 'LONG'
                     else:  # SHORT
-                        pnl_pct = (entry_price - mark_price) / entry_price
+                        price_change_pct = (entry_price - mark_price) / entry_price
                         side = 'SHORT'
-                    
+
+                    # PnL% = Price Change% * Leverage
+                    pnl_pct = price_change_pct * leverage
+
                     return {
                         'side': side,
                         'amount': abs(amt),
                         'entry_price': entry_price,
                         'mark_price': mark_price,
-                        'pnl_pct': pnl_pct,
+                        'pnl_pct': pnl_pct,  # Now includes leverage effect
                         'pnl_usdt': unrealized_pnl
                     }
             

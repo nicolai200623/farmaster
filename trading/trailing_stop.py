@@ -244,80 +244,91 @@ class ATRTrailingStop:
 
 class BreakevenStop:
     """
-    Move stop to breakeven after certain profit
+    Move stop to breakeven after certain profit (PnL-based with leverage)
     """
-    
+
     def __init__(self, activation_pct=0.5, breakeven_offset_pct=0.1):
         """
         Initialize breakeven stop
-        
+
         Args:
-            activation_pct: % profit để move to breakeven (default 0.5%)
-            breakeven_offset_pct: Offset from entry (default 0.1%)
+            activation_pct: % PnL (with leverage) để move to breakeven (default 0.5%)
+            breakeven_offset_pct: Offset PnL% from entry (default 0.1%)
         """
         self.activation_pct = activation_pct
         self.breakeven_offset_pct = breakeven_offset_pct
         self.breakeven_stops = {}
-        
-    def update_breakeven_stop(self, symbol, side, entry_price, current_price):
+
+    def update_breakeven_stop(self, symbol, side, entry_price, current_price, leverage=None):
         """
-        Update breakeven stop
-        
+        Update breakeven stop (PnL-based with leverage)
+
         Args:
             symbol: Trading pair
             side: 'LONG' hoặc 'SHORT'
             entry_price: Entry price
             current_price: Current price
-            
+            leverage: Leverage used (optional, defaults to Config.LEVERAGE)
+
         Returns:
             dict: {'should_close': bool, 'stop_price': float, 'reason': str}
         """
-        # Calculate profit
+        leverage = leverage or Config.LEVERAGE
+
+        # Calculate PnL % (with leverage)
         if side == 'LONG':
-            profit_pct = ((current_price - entry_price) / entry_price) * 100
+            price_change_pct = ((current_price - entry_price) / entry_price) * 100
         else:
-            profit_pct = ((entry_price - current_price) / entry_price) * 100
-        
+            price_change_pct = ((entry_price - current_price) / entry_price) * 100
+
+        pnl_pct = price_change_pct * leverage
+
         # Initialize
         if symbol not in self.breakeven_stops:
             self.breakeven_stops[symbol] = {
                 'stop_price': None,
                 'moved_to_breakeven': False
             }
-        
+
         bs = self.breakeven_stops[symbol]
-        
-        # Move to breakeven if profit threshold reached
-        if not bs['moved_to_breakeven'] and profit_pct >= self.activation_pct:
+
+        # Move to breakeven if PnL threshold reached
+        if not bs['moved_to_breakeven'] and pnl_pct >= self.activation_pct:
+            # Convert offset PnL% back to price
+            # offset_price_pct = offset_pnl_pct / leverage
+            offset_price_pct = self.breakeven_offset_pct / leverage / 100
+
             if side == 'LONG':
-                bs['stop_price'] = entry_price * (1 + self.breakeven_offset_pct / 100)
+                bs['stop_price'] = entry_price * (1 + offset_price_pct)
             else:
-                bs['stop_price'] = entry_price * (1 - self.breakeven_offset_pct / 100)
-            
+                bs['stop_price'] = entry_price * (1 - offset_price_pct)
+
             bs['moved_to_breakeven'] = True
-            logger.info(f"🎯 Stop moved to breakeven for {symbol} (profit: {profit_pct:.2f}%)")
-        
+            logger.info(f"🎯 Stop moved to breakeven for {symbol} (PnL: {pnl_pct:.2f}%)")
+
         # Check if hit
         if bs['moved_to_breakeven']:
             if side == 'LONG' and current_price <= bs['stop_price']:
                 return {
                     'should_close': True,
                     'stop_price': bs['stop_price'],
-                    'reason': 'Breakeven stop hit'
+                    'reason': f'Breakeven stop hit (PnL: {pnl_pct:.2f}%)'
                 }
             elif side == 'SHORT' and current_price >= bs['stop_price']:
                 return {
                     'should_close': True,
                     'stop_price': bs['stop_price'],
-                    'reason': 'Breakeven stop hit'
+                    'reason': f'Breakeven stop hit (PnL: {pnl_pct:.2f}%)'
                 }
-        
+
         return {
             'should_close': False,
             'stop_price': bs.get('stop_price'),
+            'pnl_pct': pnl_pct,
+            'moved_to_breakeven': bs.get('moved_to_breakeven', False),
             'reason': None
         }
-    
+
     def remove_breakeven_stop(self, symbol):
         """Remove breakeven stop"""
         if symbol in self.breakeven_stops:
