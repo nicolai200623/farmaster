@@ -39,13 +39,16 @@ class AsterDEXBot:
         self.risk_manager = RiskManager()
         self.position_tracker = PositionTracker()
 
-        # Initialize trailing stop manager
+        # Initialize trailing stop manager (PnL-based)
         if Config.USE_TRAILING_STOP:
+            use_pnl = getattr(Config, 'USE_PNL_BASED_TRAILING', True)
             self.trailing_stop_mgr = TrailingStopManager(
                 activation_pct=Config.TRAILING_ACTIVATION_PCT,
-                trail_pct=Config.TRAILING_DISTANCE_PCT
+                trail_pct=Config.TRAILING_DISTANCE_PCT,
+                use_pnl_based=use_pnl
             )
-            logger.info(f"📈 Trailing Stop enabled: Activation={Config.TRAILING_ACTIVATION_PCT}%, Trail={Config.TRAILING_DISTANCE_PCT}%")
+            mode = "PnL-based" if use_pnl else "Price-based"
+            logger.info(f"📈 Trailing Stop enabled ({mode}): Activation={Config.TRAILING_ACTIVATION_PCT}% PnL, Trail={Config.TRAILING_DISTANCE_PCT}% PnL")
         else:
             self.trailing_stop_mgr = None
             logger.info("📈 Trailing Stop disabled")
@@ -220,13 +223,17 @@ class AsterDEXBot:
                         symbol=symbol,
                         side=position['side'],
                         entry_price=position['entry_price'],
-                        current_price=position['mark_price']
+                        current_price=position['mark_price'],
+                        leverage=Config.LEVERAGE  # Pass leverage for PnL-based calculation
                     )
 
                     if ts_result['should_close']:
                         should_close = True
                         reason = ts_result['reason']
                         logger.info(f"   📈 {reason}")
+                    elif ts_result.get('activated'):
+                        # Log trailing stop status when active
+                        logger.info(f"   📈 Trailing active: PnL={ts_result.get('current_pnl', 0):.2f}%, Peak={ts_result.get('highest_pnl', 0):.2f}%")
 
                 # If not closed by trailing stop, check TP/SL/Timeout
                 if not should_close:
@@ -247,6 +254,24 @@ class AsterDEXBot:
                         # Clear trailing stop
                         if self.trailing_stop_mgr is not None:
                             self.trailing_stop_mgr.remove_trailing_stop(symbol)
+
+                        # Record POST-TRADE COOLDOWN (NEW!)
+                        if self.signal_generator.cooldown_tracker is not None and Config.USE_POST_TRADE_COOLDOWN:
+                            self.signal_generator.cooldown_tracker.record_trade_close(
+                                symbol=symbol,
+                                close_price=position['mark_price'],
+                                close_reason=reason
+                            )
+                            logger.info(f"   ⏳ Post-trade cooldown: {Config.POST_TRADE_COOLDOWN_MINUTES}m")
+
+                        # Record for Entry Quality Checker (NEW!)
+                        if hasattr(self.signal_generator, 'entry_quality_checker'):
+                            self.signal_generator.entry_quality_checker.record_close(
+                                symbol=symbol,
+                                close_price=position['mark_price'],
+                                close_reason=reason,
+                                side=position['side']
+                            )
 
                         # Record trade
                         self.risk_manager.record_trade(

@@ -116,6 +116,16 @@ class Config:
     USE_ML_CONVICTION_FILTER = os.getenv('USE_ML_CONVICTION_FILTER', 'True').lower() == 'true'
     MIN_ML_CONVICTION = float(os.getenv('MIN_ML_CONVICTION', '0.1'))  # LSTM must be >0.6 or <0.4 (distance from 0.5)
 
+    # Post-Trade Cooldown (after closing a position)
+    USE_POST_TRADE_COOLDOWN = os.getenv('USE_POST_TRADE_COOLDOWN', 'True').lower() == 'true'
+    POST_TRADE_COOLDOWN_MINUTES = int(os.getenv('POST_TRADE_COOLDOWN_MINUTES', '5'))  # Wait 5 min after closing before new entry
+    POST_TRADE_REQUIRE_PULLBACK = os.getenv('POST_TRADE_REQUIRE_PULLBACK', 'True').lower() == 'true'  # Require price pullback after TP
+    PULLBACK_PCT = float(os.getenv('PULLBACK_PCT', '0.3'))  # Require 0.3% pullback from close price
+
+    # Entry Quality Check (smart entry after closing)
+    USE_ENTRY_QUALITY_CHECK = os.getenv('USE_ENTRY_QUALITY_CHECK', 'True').lower() == 'true'
+    MIN_ENTRY_QUALITY_SCORE = int(os.getenv('MIN_ENTRY_QUALITY_SCORE', '2'))  # Min quality score (out of 5)
+
     # Smart Money Concepts
     USE_SMC = os.getenv('USE_SMC', 'True').lower() == 'true'  # Use Smart Money Concepts
     DETECT_ORDER_BLOCKS = os.getenv('DETECT_ORDER_BLOCKS', 'True').lower() == 'true'
@@ -160,11 +170,13 @@ class Config:
     MAX_ATR_PCT = float(os.getenv('MAX_ATR_PCT', '5.0'))
     MIN_SIGNAL_QUALITY_SCORE = float(os.getenv('MIN_SIGNAL_QUALITY_SCORE', '50'))
 
-    # Trailing Stop (percentage format: 1.0 = 1%, NOT 0.01)
-    # NOTE: Trailing stop uses percentage format (1.0 = 1%) because it calculates profit_pct * 100 internally
+    # Trailing Stop (NOW PnL-BASED! 0.5 = 0.5% PnL profit)
+    # NOTE: Trailing stop now uses PnL% (including leverage effect), NOT price movement%
+    # With 10x leverage: 0.5% PnL = 0.05% price movement
     USE_TRAILING_STOP = os.getenv('USE_TRAILING_STOP', 'True').lower() == 'true'
-    TRAILING_ACTIVATION_PCT = float(os.getenv('TRAILING_ACTIVATION_PCT', '0.5'))  # 0.5%
-    TRAILING_DISTANCE_PCT = float(os.getenv('TRAILING_DISTANCE_PCT', '0.3'))  # 0.3%
+    TRAILING_ACTIVATION_PCT = float(os.getenv('TRAILING_ACTIVATION_PCT', '0.5'))  # Activate at 0.5% PnL
+    TRAILING_DISTANCE_PCT = float(os.getenv('TRAILING_DISTANCE_PCT', '0.3'))  # Trail by 0.3% PnL from peak
+    USE_PNL_BASED_TRAILING = os.getenv('USE_PNL_BASED_TRAILING', 'True').lower() == 'true'  # Use PnL-based calculation
     USE_ATR_TRAILING = os.getenv('USE_ATR_TRAILING', 'False').lower() == 'true'
     ATR_TRAILING_MULTIPLIER = float(os.getenv('ATR_TRAILING_MULTIPLIER', '2.0'))
     USE_BREAKEVEN_STOP = os.getenv('USE_BREAKEVEN_STOP', 'True').lower() == 'true'

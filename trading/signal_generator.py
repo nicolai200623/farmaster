@@ -12,6 +12,7 @@ from config import Config
 from utils.logger import logger
 from trading.advanced_entry import AdvancedEntrySystem, SmartEntrySystemV2
 from trading.signal_cooldown import SignalCooldownTracker
+from trading.entry_quality import EntryQualityChecker
 
 class SignalGenerator:
     """
@@ -61,13 +62,19 @@ class SignalGenerator:
 
         # Initialize Signal Cooldown Tracker
         if Config.USE_SIGNAL_COOLDOWN:
+            post_trade_mins = Config.POST_TRADE_COOLDOWN_MINUTES if Config.USE_POST_TRADE_COOLDOWN else 0
             self.cooldown_tracker = SignalCooldownTracker(
-                cooldown_minutes=Config.SIGNAL_COOLDOWN_MINUTES
+                cooldown_minutes=Config.SIGNAL_COOLDOWN_MINUTES,
+                post_trade_cooldown_minutes=post_trade_mins
             )
-            logger.info(f"🚫 Signal Cooldown enabled: {Config.SIGNAL_COOLDOWN_MINUTES} minutes")
+            logger.info(f"🚫 Signal Cooldown enabled: {Config.SIGNAL_COOLDOWN_MINUTES}m signal, {post_trade_mins}m post-trade")
         else:
             self.cooldown_tracker = None
             logger.info("📡 Using legacy signal system")
+
+        # Initialize Entry Quality Checker
+        self.entry_quality_checker = EntryQualityChecker()
+        logger.info("🎯 Entry Quality Checker enabled")
     
     def generate_signal(self, client, symbol):
         """
@@ -225,6 +232,34 @@ class SignalGenerator:
                         logger.info(f"   🚫 {cooldown_reason}")
                         signal = 'HOLD'
 
+                # Post-Trade Cooldown (NEW!) - Check if we just closed a position
+                if signal != 'HOLD' and self.cooldown_tracker is not None and Config.USE_POST_TRADE_COOLDOWN:
+                    current_price = df['close'].iloc[-1]
+                    can_enter, post_trade_reason = self.cooldown_tracker.can_enter_after_close(
+                        symbol=symbol,
+                        current_price=current_price,
+                        require_pullback=Config.POST_TRADE_REQUIRE_PULLBACK,
+                        pullback_pct=Config.PULLBACK_PCT
+                    )
+                    if not can_enter:
+                        logger.info(f"   ⏳ {post_trade_reason}")
+                        signal = 'HOLD'
+
+                # Entry Quality Check (NEW!) - Check if entry is high quality after recent close
+                if signal != 'HOLD' and getattr(Config, 'USE_ENTRY_QUALITY_CHECK', True):
+                    current_price = df['close'].iloc[-1]
+                    is_quality, quality_reason, factors = self.entry_quality_checker.check_entry_quality(
+                        symbol=symbol,
+                        df=df,
+                        proposed_signal=signal,
+                        current_price=current_price
+                    )
+                    if not is_quality:
+                        logger.info(f"   🎯 {quality_reason}")
+                        signal = 'HOLD'
+                    else:
+                        logger.info(f"   ✅ {quality_reason}")
+
                 # Log result
                 if signal != 'HOLD':
                     logger.info(f"🎯 {symbol} SmartEntryV2 Signal: {signal}")
@@ -293,6 +328,34 @@ class SignalGenerator:
                         if not can_signal:
                             logger.info(f"   🚫 {cooldown_reason}")
                             signal = 'HOLD'
+
+                    # Filter 4: Post-Trade Cooldown (NEW!)
+                    if signal != 'HOLD' and self.cooldown_tracker is not None and Config.USE_POST_TRADE_COOLDOWN:
+                        current_price = df['close'].iloc[-1]
+                        can_enter, post_trade_reason = self.cooldown_tracker.can_enter_after_close(
+                            symbol=symbol,
+                            current_price=current_price,
+                            require_pullback=Config.POST_TRADE_REQUIRE_PULLBACK,
+                            pullback_pct=Config.PULLBACK_PCT
+                        )
+                        if not can_enter:
+                            logger.info(f"   ⏳ {post_trade_reason}")
+                            signal = 'HOLD'
+
+                    # Filter 5: Entry Quality Check (NEW!)
+                    if signal != 'HOLD' and getattr(Config, 'USE_ENTRY_QUALITY_CHECK', True):
+                        current_price = df['close'].iloc[-1]
+                        is_quality, quality_reason, factors = self.entry_quality_checker.check_entry_quality(
+                            symbol=symbol,
+                            df=df,
+                            proposed_signal=signal,
+                            current_price=current_price
+                        )
+                        if not is_quality:
+                            logger.info(f"   🎯 {quality_reason}")
+                            signal = 'HOLD'
+                        else:
+                            logger.info(f"   ✅ {quality_reason}")
 
                 # Log advanced signal
                 if signal != 'HOLD':
