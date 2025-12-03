@@ -17,12 +17,28 @@ from trading.symbol_optimizer import SymbolOptimizer
 
 class EnhancedBacktester:
     """Enhanced backtest với improvements"""
-    
-    def __init__(self, ensemble_predictor=None, lstm_trainer=None, initial_capital=1000):
+
+    # Trading costs configuration (realistic for crypto futures)
+    DEFAULT_SLIPPAGE_PCT = 0.05      # 0.05% slippage per trade (entry + exit)
+    DEFAULT_TAKER_FEE_PCT = 0.055    # 0.055% taker fee (AsterDEX typical)
+    DEFAULT_MAKER_FEE_PCT = 0.02     # 0.02% maker fee
+
+    def __init__(self, ensemble_predictor=None, lstm_trainer=None, initial_capital=1000,
+                 slippage_pct=None, taker_fee_pct=None, maker_fee_pct=None, use_maker=False):
         self.ensemble_predictor = ensemble_predictor
         self.lstm_trainer = lstm_trainer
         self.initial_capital = initial_capital
         self.feature_engine = FeatureEngine()
+
+        # Trading costs (can be customized)
+        self.slippage_pct = slippage_pct if slippage_pct is not None else self.DEFAULT_SLIPPAGE_PCT
+        self.taker_fee_pct = taker_fee_pct if taker_fee_pct is not None else self.DEFAULT_TAKER_FEE_PCT
+        self.maker_fee_pct = maker_fee_pct if maker_fee_pct is not None else self.DEFAULT_MAKER_FEE_PCT
+        self.use_maker = use_maker  # True = limit orders (maker), False = market orders (taker)
+
+        # Calculate total cost per trade (entry + exit)
+        fee_pct = self.maker_fee_pct if use_maker else self.taker_fee_pct
+        self.total_cost_per_trade = (self.slippage_pct + fee_pct) * 2  # x2 for entry + exit
         
         # Initialize improvements
         self.signal_filters = SignalFilters()
@@ -52,6 +68,7 @@ class EnhancedBacktester:
         logger.info(f"✅ Trailing Stop: {Config.USE_TRAILING_STOP}")
         logger.info(f"✅ Market Regime: {Config.USE_MARKET_REGIME}")
         logger.info(f"✅ Symbol Optimizer: {Config.USE_SYMBOL_OPTIMIZER}")
+        logger.info(f"💰 Slippage: {self.slippage_pct}% | Fee: {self.taker_fee_pct if not self.use_maker else self.maker_fee_pct}% | Total cost/trade: {self.total_cost_per_trade:.3f}%")
         
         # Fetch data
         logger.info(f"📊 Fetching data for {len(symbols)} symbols...")
@@ -260,18 +277,34 @@ class EnhancedBacktester:
         
         return trades, sum(t['pnl'] for t in trades), total_volume
     
-    def _calculate_pnl(self, position, current_price):
+    def _calculate_pnl(self, position, current_price, include_costs=True):
         """
-        Calculate PnL % (with leverage)
-        Returns PnL in percentage including leverage effect
+        Calculate PnL % (with leverage and trading costs)
+
+        Args:
+            position: Position dict with entry_price, side
+            current_price: Current market price
+            include_costs: Whether to deduct slippage + fees (default True)
+
+        Returns:
+            PnL in percentage including leverage effect and costs
         """
         if position['side'] == 'LONG':
             price_change_pct = ((current_price - position['entry_price']) / position['entry_price']) * 100
         else:
             price_change_pct = ((position['entry_price'] - current_price) / position['entry_price']) * 100
 
-        # Return PnL with leverage
-        return price_change_pct * Config.LEVERAGE
+        # Calculate raw PnL with leverage
+        raw_pnl = price_change_pct * Config.LEVERAGE
+
+        # Deduct trading costs (slippage + fees for both entry and exit)
+        if include_costs:
+            # Trading costs are calculated on leveraged position size
+            # total_cost_per_trade already includes entry + exit
+            cost_pct = self.total_cost_per_trade * Config.LEVERAGE
+            return raw_pnl - cost_pct
+
+        return raw_pnl
 
     def _check_tp_sl(self, position, current_price):
         """
@@ -292,43 +325,66 @@ class EnhancedBacktester:
         return False, None
     
     def _calculate_stats(self, trades, total_pnl, total_volume):
-        """Calculate statistics"""
+        """Calculate statistics including trading costs breakdown"""
         if not trades:
             return {
                 'total_trades': 0,
+                'winning_trades': 0,
+                'losing_trades': 0,
                 'win_rate': 0,
                 'total_pnl': 0,
-                'total_volume': 0
+                'total_pnl_gross': 0,
+                'total_costs': 0,
+                'total_volume': 0,
+                'avg_win': 0,
+                'avg_loss': 0,
+                'max_win': 0,
+                'max_loss': 0,
+                'profit_factor': 0,
+                'cost_per_trade': 0
             }
-        
+
         wins = [t for t in trades if t['pnl'] > 0]
         losses = [t for t in trades if t['pnl'] <= 0]
-        
+
+        # Calculate total costs (already deducted from PnL)
+        cost_per_trade = self.total_cost_per_trade * Config.LEVERAGE
+        total_costs = cost_per_trade * len(trades)
+        total_pnl_gross = total_pnl + total_costs  # PnL before costs
+
         return {
             'total_trades': len(trades),
             'winning_trades': len(wins),
             'losing_trades': len(losses),
             'win_rate': len(wins) / len(trades) * 100,
             'total_pnl': total_pnl,
+            'total_pnl_gross': total_pnl_gross,
+            'total_costs': total_costs,
             'total_volume': total_volume,
             'avg_win': np.mean([t['pnl'] for t in wins]) if wins else 0,
             'avg_loss': np.mean([t['pnl'] for t in losses]) if losses else 0,
             'max_win': max([t['pnl'] for t in wins]) if wins else 0,
             'max_loss': min([t['pnl'] for t in losses]) if losses else 0,
-            'profit_factor': abs(sum(t['pnl'] for t in wins) / sum(t['pnl'] for t in losses)) if losses and sum(t['pnl'] for t in losses) != 0 else 0
+            'profit_factor': abs(sum(t['pnl'] for t in wins) / sum(t['pnl'] for t in losses)) if losses and sum(t['pnl'] for t in losses) != 0 else 0,
+            'cost_per_trade': cost_per_trade
         }
     
     def _print_results(self, results):
-        """Print results"""
+        """Print results with costs breakdown"""
         logger.info("\n" + "=" * 60)
-        logger.info("📊 ENHANCED BACKTEST RESULTS")
+        logger.info("📊 ENHANCED BACKTEST RESULTS (WITH COSTS)")
         logger.info("=" * 60)
         logger.info(f"Total Trades: {results['total_trades']}")
         logger.info(f"Winning Trades: {results['winning_trades']}")
         logger.info(f"Losing Trades: {results['losing_trades']}")
         logger.info(f"Win Rate: {results['win_rate']:.2f}%")
         logger.info("")
-        logger.info(f"Total PnL: {results['total_pnl']:.2f}%")
+        logger.info(f"💰 PnL Breakdown:")
+        logger.info(f"   Gross PnL (before costs): {results.get('total_pnl_gross', results['total_pnl']):.2f}%")
+        logger.info(f"   Total Costs (slippage+fees): -{results.get('total_costs', 0):.2f}%")
+        logger.info(f"   Net PnL (after costs): {results['total_pnl']:.2f}%")
+        logger.info(f"   Cost per trade: {results.get('cost_per_trade', 0):.3f}%")
+        logger.info("")
         logger.info(f"Total Volume: ${results['total_volume']/1e6:.2f}M")
         logger.info("")
         logger.info(f"Avg Win: {results['avg_win']:.2f}%")

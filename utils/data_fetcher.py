@@ -65,7 +65,7 @@ class DataFetcher:
 
         params = {
             'symbol': symbol,
-            'interval': '15m',  # 15-minute candles
+            'interval': '1h',  # 1-hour candles (changed from 15m for quality signals)
             'startTime': start_time,
             'endTime': end_time,
             'limit': 1500  # Max per request

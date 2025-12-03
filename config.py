@@ -104,10 +104,10 @@ class Config:
     WAIT_FOR_CONFIRMATION = os.getenv('WAIT_FOR_CONFIRMATION', 'True').lower() == 'true'
     CONFIRMATION_CANDLES = int(os.getenv('CONFIRMATION_CANDLES', '2'))
 
-    # Multi-Timeframe Settings
+    # Multi-Timeframe Settings (1H Primary for quality signals)
     USE_MULTI_TIMEFRAME = os.getenv('USE_MULTI_TIMEFRAME', 'True').lower() == 'true'
-    PRIMARY_TIMEFRAME = os.getenv('PRIMARY_TIMEFRAME', '15m')
-    HIGHER_TIMEFRAME = os.getenv('HIGHER_TIMEFRAME', '1h')
+    PRIMARY_TIMEFRAME = os.getenv('PRIMARY_TIMEFRAME', '1h')  # Default: 1h candles
+    HIGHER_TIMEFRAME = os.getenv('HIGHER_TIMEFRAME', '4h')    # Default: 4h for HTF confirmation
 
     # Anti-Whipsaw Filters (Prevent rapid signal flipping)
     USE_SIGNAL_COOLDOWN = os.getenv('USE_SIGNAL_COOLDOWN', 'True').lower() == 'true'

@@ -13,6 +13,8 @@ from sklearn.model_selection import train_test_split
 
 from ml.lstm_model import LSTMTrainer
 from ml.xgboost_model import XGBoostTrainer
+from ml.lightgbm_model import LightGBMTrainer
+from ml.catboost_model import CatBoostTrainer
 from ml.features import FeatureEngine
 from utils.data_fetcher import DataFetcher
 from config import Config
@@ -148,6 +150,52 @@ def train_ensemble_models(symbols=None, days=360):
                     feature_names=FeatureEngine.FEATURE_COLUMNS,
                     top_n=10
                 )
+
+            elif model_name == 'lightgbm':
+                # Train LightGBM
+                lgb_trainer = LightGBMTrainer(input_size=X_train.shape[2])
+
+                lgb_trainer.train(
+                    X_train, y_train,
+                    X_val, y_val
+                )
+
+                # Save LightGBM
+                lgb_model_path = Config.MODEL_PATH.replace('lstm_model.pt', 'lightgbm_model.txt')
+                lgb_scaler_path = Config.SCALER_PATH.replace('scaler.pkl', 'lightgbm_scaler.pkl')
+                lgb_trainer.save(lgb_model_path, lgb_scaler_path)
+
+                # Calculate validation accuracy
+                y_val_pred = lgb_trainer.predict(X_val)
+                y_val_pred_binary = (y_val_pred > 0.5).astype(int)
+                val_acc = (y_val_pred_binary == y_val).sum() / len(y_val)
+                results['lightgbm'] = {'val_acc': val_acc}
+
+                logger.info(f"✅ LightGBM training complete!")
+                logger.info(f"   Val Acc: {val_acc:.4f}")
+
+            elif model_name == 'catboost':
+                # Train CatBoost
+                cb_trainer = CatBoostTrainer(input_size=X_train.shape[2])
+
+                cb_trainer.train(
+                    X_train, y_train,
+                    X_val, y_val
+                )
+
+                # Save CatBoost
+                cb_model_path = Config.MODEL_PATH.replace('lstm_model.pt', 'catboost_model.cbm')
+                cb_scaler_path = Config.SCALER_PATH.replace('scaler.pkl', 'catboost_scaler.pkl')
+                cb_trainer.save(cb_model_path, cb_scaler_path)
+
+                # Calculate validation accuracy
+                y_val_pred = cb_trainer.predict(X_val)
+                y_val_pred_binary = (y_val_pred > 0.5).astype(int)
+                val_acc = (y_val_pred_binary == y_val).sum() / len(y_val)
+                results['catboost'] = {'val_acc': val_acc}
+
+                logger.info(f"✅ CatBoost training complete!")
+                logger.info(f"   Val Acc: {val_acc:.4f}")
 
         except Exception as e:
             logger.error(f"❌ Failed to train {model_name}: {e}")

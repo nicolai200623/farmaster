@@ -202,21 +202,39 @@ class LSTMTrainer:
         """Load model và scaler"""
         model_path = model_path or Config.MODEL_PATH
         scaler_path = scaler_path or Config.SCALER_PATH
-        
+
         if not os.path.exists(model_path):
             logger.warning(f"Model file not found: {model_path}")
             return False
-        
-        # Load model
+
+        # Load checkpoint
         checkpoint = torch.load(model_path, map_location=self.device)
+
+        # Check if input_size changed - rebuild model if needed
+        saved_input_size = checkpoint.get('input_size', self.input_size)
+        if saved_input_size != self.input_size:
+            logger.warning(f"⚠️ Model input size mismatch: saved={saved_input_size}, current={self.input_size}")
+            logger.info(f"   Rebuilding model with saved input_size={saved_input_size}")
+
+            # Rebuild model with correct input size
+            self.input_size = saved_input_size
+            self.model = LSTMPredictor(
+                input_size=saved_input_size,
+                hidden_size=checkpoint.get('hidden_size', self.hidden_size),
+                num_layers=checkpoint.get('num_layers', self.num_layers),
+                dropout=self.dropout
+            )
+            self.model.to(self.device)
+
+        # Load state dict
         self.model.load_state_dict(checkpoint['model_state_dict'])
         self.model.eval()
-        
+
         # Load scaler
         if os.path.exists(scaler_path):
             with open(scaler_path, 'rb') as f:
                 self.scaler = pickle.load(f)
-        
-        logger.info(f"✅ Model loaded from {model_path}")
+
+        logger.info(f"✅ Model loaded from {model_path} (input_size={self.input_size})")
         return True
 
