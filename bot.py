@@ -92,6 +92,10 @@ class AsterDEXBot:
         sl_display = f"{Config.SL_PCT*100:.2f}%" if Config.SL_PCT is not None else "Disabled"
         logger.info(f"   TP/SL: {Config.TP_PCT*100:.2f}% / {sl_display}")
         logger.info(f"   Position Timeout: {Config.POSITION_TIMEOUT_HOURS}h")
+
+        # Log timeframe configuration
+        logger.info(f"   📊 Timeframe: PRIMARY={Config.PRIMARY_TIMEFRAME}, HIGHER={Config.HIGHER_TIMEFRAME}")
+        logger.info(f"   🔄 Loop Sleep: {Config.LOOP_SLEEP}s")
         logger.info("=" * 60)
     
     def _signal_handler(self, signum, frame):
