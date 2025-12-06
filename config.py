@@ -199,6 +199,45 @@ class Config:
     MAX_POSITIONS = int(os.getenv('MAX_POSITIONS', '4'))
     REDUCE_RISK_AFTER_LOSSES = os.getenv('REDUCE_RISK_AFTER_LOSSES', 'True').lower() == 'true'
 
+    # ============================================
+    # 🚀 ENTRY PIPELINE SETTINGS (NEW)
+    # 5-Stage Entry Validation System
+    # ============================================
+    USE_ENTRY_PIPELINE = os.getenv('USE_ENTRY_PIPELINE', 'True').lower() == 'true'
+
+    # Stage 1: ML Ensemble
+    USE_ML_ENSEMBLE = os.getenv('USE_ML_ENSEMBLE', 'True').lower() == 'true'
+    ML_CONFIDENCE_THRESHOLD = float(os.getenv('ML_CONFIDENCE_THRESHOLD', '0.62'))
+    ML_NEUTRAL_ZONE = float(os.getenv('ML_NEUTRAL_ZONE', '0.08'))  # 0.42-0.58 = neutral
+
+    # Stage 2: Smart Entry (uses existing MIN_ENTRY_SCORE)
+    USE_SMART_ENTRY = os.getenv('USE_SMART_ENTRY', 'True').lower() == 'true'
+
+    # Stage 3: Price Action Validation
+    USE_PRICE_ACTION = os.getenv('USE_PRICE_ACTION', 'True').lower() == 'true'
+    MIN_PRICE_ACTION_SCORE = int(os.getenv('MIN_PRICE_ACTION_SCORE', '5'))  # Min 5/8 points
+    SR_LOOKBACK_CANDLES = int(os.getenv('SR_LOOKBACK_CANDLES', '50'))
+    SR_PROXIMITY_PCT = float(os.getenv('SR_PROXIMITY_PCT', '0.5'))  # 0.5% proximity to S/R
+    VOLUME_CONFIRMATION_RATIO = float(os.getenv('VOLUME_CONFIRMATION_RATIO', '1.5'))
+
+    # Stage 4: HTF Trend Alignment
+    USE_HTF_ALIGNMENT = os.getenv('USE_HTF_ALIGNMENT', 'True').lower() == 'true'
+    HTF_TIMEFRAME = os.getenv('HTF_TIMEFRAME', '4h')
+    REQUIRE_HTF_ALIGNMENT = os.getenv('REQUIRE_HTF_ALIGNMENT', 'True').lower() == 'true'
+    HTF_STRICT_MODE = os.getenv('HTF_STRICT_MODE', 'False').lower() == 'true'  # Reject ranging markets
+
+    # Stage 5: AI Quick Check (Optional)
+    USE_AI_CHECK = os.getenv('USE_AI_CHECK', 'False').lower() == 'true'
+    AI_PROVIDER = os.getenv('AI_PROVIDER', 'grok')  # claude, grok, openai, gemini
+    AI_CHECK_BORDERLINE_ONLY = os.getenv('AI_CHECK_BORDERLINE_ONLY', 'True').lower() == 'true'
+    AI_MODEL = os.getenv('AI_MODEL', '')  # Empty = use default per provider
+
+    # AI Provider API Keys
+    ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')  # Claude
+    XAI_API_KEY = os.getenv('XAI_API_KEY', '')  # Grok
+    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '')  # GPT
+    GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', '')  # Gemini
+
     @classmethod
     def validate(cls):
         """Kiểm tra config hợp lệ"""

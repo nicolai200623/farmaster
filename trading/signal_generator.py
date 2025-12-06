@@ -1,6 +1,7 @@
 # ============================================
 # 📡 SIGNAL GENERATOR
 # Kết hợp LSTM + RSI + OB Imbalance + Advanced Entry
+# + NEW: Entry Pipeline 5-Stage Validation
 # ============================================
 
 import pandas as pd
@@ -13,6 +14,14 @@ from utils.logger import logger
 from trading.advanced_entry import AdvancedEntrySystem, SmartEntrySystemV2
 from trading.signal_cooldown import SignalCooldownTracker
 from trading.entry_quality import EntryQualityChecker
+
+# NEW: Entry Pipeline imports
+try:
+    from trading.entry_pipeline import EntryPipeline, SignalDirection
+    ENTRY_PIPELINE_AVAILABLE = True
+except ImportError:
+    ENTRY_PIPELINE_AVAILABLE = False
+    logger.warning("⚠️ Entry Pipeline not available")
 
 class SignalGenerator:
     """
@@ -75,6 +84,81 @@ class SignalGenerator:
         # Initialize Entry Quality Checker
         self.entry_quality_checker = EntryQualityChecker()
         logger.info("🎯 Entry Quality Checker enabled")
+
+        # NEW: Initialize Entry Pipeline if enabled
+        self.entry_pipeline = None
+        if getattr(Config, 'USE_ENTRY_PIPELINE', False) and ENTRY_PIPELINE_AVAILABLE:
+            try:
+                pipeline_config = self._build_pipeline_config()
+                self.entry_pipeline = EntryPipeline(
+                    config=pipeline_config,
+                    models=self._get_ml_models() if self.use_ensemble else None,
+                    smart_entry_v2=self.smart_entry_v2
+                )
+                logger.info("🚀 Entry Pipeline enabled (5-stage validation)")
+            except Exception as e:
+                logger.error(f"Failed to initialize Entry Pipeline: {e}")
+                self.entry_pipeline = None
+
+    def _build_pipeline_config(self) -> dict:
+        """Build config dict for Entry Pipeline"""
+        return {
+            # Stage 1: ML Ensemble
+            'USE_ML_ENSEMBLE': getattr(Config, 'USE_ML_ENSEMBLE', True),
+            'ML_CONFIDENCE_THRESHOLD': getattr(Config, 'ML_CONFIDENCE_THRESHOLD', 0.62),
+            'ML_NEUTRAL_ZONE': getattr(Config, 'ML_NEUTRAL_ZONE', 0.08),
+
+            # Stage 2: Smart Entry
+            'USE_SMART_ENTRY': getattr(Config, 'USE_SMART_ENTRY', True),
+            'MIN_ENTRY_SCORE': getattr(Config, 'MIN_ENTRY_SCORE', 7),
+            'MIN_RR_RATIO': getattr(Config, 'MIN_RR_RATIO', 2.0),
+
+            # Stage 3: Price Action
+            'USE_PRICE_ACTION': getattr(Config, 'USE_PRICE_ACTION', True),
+            'MIN_PRICE_ACTION_SCORE': getattr(Config, 'MIN_PRICE_ACTION_SCORE', 5),
+            'SR_LOOKBACK_CANDLES': getattr(Config, 'SR_LOOKBACK_CANDLES', 50),
+            'SR_PROXIMITY_PCT': getattr(Config, 'SR_PROXIMITY_PCT', 0.5),
+            'VOLUME_CONFIRMATION_RATIO': getattr(Config, 'VOLUME_CONFIRMATION_RATIO', 1.5),
+
+            # Stage 4: HTF Alignment
+            'USE_HTF_ALIGNMENT': getattr(Config, 'USE_HTF_ALIGNMENT', True),
+            'HTF_TIMEFRAME': getattr(Config, 'HTF_TIMEFRAME', '4h'),
+            'REQUIRE_HTF_ALIGNMENT': getattr(Config, 'REQUIRE_HTF_ALIGNMENT', True),
+            'HTF_STRICT_MODE': getattr(Config, 'HTF_STRICT_MODE', False),
+
+            # Stage 5: AI Check
+            'USE_AI_CHECK': getattr(Config, 'USE_AI_CHECK', False),
+            'AI_API_KEY': getattr(Config, 'AI_API_KEY', ''),
+            'AI_MODEL': getattr(Config, 'AI_MODEL', 'claude-3-haiku-20240307'),
+            'AI_TIMEOUT_SECONDS': getattr(Config, 'AI_TIMEOUT_SECONDS', 5),
+            'USE_AI_FOR_BORDERLINE': getattr(Config, 'USE_AI_FOR_BORDERLINE', True),
+        }
+
+    def _get_ml_models(self) -> dict:
+        """Get ML models from ensemble predictor
+
+        Returns dict of trainer objects that have .predict() method
+        (XGBoostTrainer, LightGBMTrainer, CatBoostTrainer)
+        """
+        if not self.use_ensemble or not hasattr(self.predictor, 'models'):
+            return {}
+
+        # self.predictor.models is a dict like:
+        # {'xgboost': XGBoostTrainer, 'lightgbm': LightGBMTrainer, 'catboost': CatBoostTrainer}
+        # Each trainer has a .predict() method
+        models = {}
+        for name, trainer in self.predictor.models.items():
+            # Check if trainer is loaded and has a model
+            if trainer is not None and hasattr(trainer, 'model') and trainer.model is not None:
+                models[name] = trainer
+                logger.debug(f"   ML model '{name}' added to Entry Pipeline")
+
+        if models:
+            logger.info(f"🎭 Entry Pipeline received {len(models)} ML models: {list(models.keys())}")
+        else:
+            logger.warning("⚠️ No ML models available for Entry Pipeline")
+
+        return models
     
     def generate_signal(self, client, symbol):
         """
@@ -187,6 +271,19 @@ class SignalGenerator:
             signal = 'HOLD'
             confluence_score = 0
             reasons = []
+
+            # ============================================
+            # NEW: Use Entry Pipeline if enabled (PRIORITY)
+            # ============================================
+            if self.entry_pipeline is not None:
+                return self._generate_signal_with_pipeline(
+                    client=client,
+                    symbol=symbol,
+                    df=df,
+                    ml_input=ml_input,
+                    lstm_prob=lstm_prob,
+                    current_rsi=current_rsi
+                )
 
             # Use SmartEntrySystemV2 if enabled (priority over AdvancedEntry)
             if Config.USE_SMART_ENTRY_V2 and self.smart_entry_v2:
@@ -461,4 +558,90 @@ class SignalGenerator:
             return True, f"TIMEOUT ({position_age_hours:.1f}h, PnL: {pnl_pct*100:.2f}%)"
 
         return False, ""
+
+    def _generate_signal_with_pipeline(
+        self,
+        client,
+        symbol: str,
+        df: pd.DataFrame,
+        ml_input: np.ndarray,
+        lstm_prob: float,
+        current_rsi: float
+    ):
+        """
+        Generate signal using Entry Pipeline (5-stage validation)
+
+        Args:
+            client: AsterDEXClient instance
+            symbol: Trading symbol
+            df: Primary timeframe DataFrame
+            ml_input: Normalized ML input features
+            lstm_prob: ML probability (for logging)
+            current_rsi: Current RSI value
+
+        Returns:
+            tuple: (signal, confluence_score, reasons)
+        """
+        try:
+            # Get multi-timeframe data
+            df_1h = None
+            df_4h = None
+
+            if Config.USE_MULTI_TIMEFRAME:
+                try:
+                    # Get 1H data
+                    klines_1h = client.get_klines(symbol, interval='1h', limit=100)
+                    df_1h = self._parse_klines(klines_1h)
+                    df_1h = self.feature_engine.calculate_indicators(df_1h)
+
+                    # Get 4H data
+                    klines_4h = client.get_klines(symbol, interval='4h', limit=100)
+                    df_4h = self._parse_klines(klines_4h)
+                    df_4h = self.feature_engine.calculate_indicators(df_4h)
+                except Exception as e:
+                    logger.warning(f"Could not get HTF data: {e}")
+
+            # Run Entry Pipeline
+            decision = self.entry_pipeline.evaluate(
+                symbol=symbol,
+                df=df,
+                X_features=ml_input,
+                df_higher=df_1h,
+                df_4h=df_4h
+            )
+
+            # Convert decision to signal format
+            if decision.should_enter:
+                signal = decision.direction.value  # 'LONG' or 'SHORT'
+                confluence_score = int(decision.confidence * 15)  # Scale to 15
+                reasons = [f"Pipeline: {s}" for s in decision.stages_passed]
+
+                # Apply cooldown checks
+                if self.cooldown_tracker is not None:
+                    can_signal, cooldown_reason = self.cooldown_tracker.can_signal(symbol, signal)
+                    if not can_signal:
+                        logger.info(f"   🚫 {cooldown_reason}")
+                        return 'HOLD', 0, []
+
+                # Log success
+                logger.info(f"🚀 {symbol} Pipeline APPROVED: {signal}")
+                logger.info(f"   📊 Confidence: {decision.confidence:.2%}")
+                logger.info(f"   💰 Entry: ${decision.entry_price:.4f}" if decision.entry_price else "")
+                logger.info(f"   📈 ML: {lstm_prob:.3f} | RSI: {current_rsi:.1f}")
+                logger.info(f"   ✅ Stages: {', '.join(decision.stages_passed)}")
+
+                return signal, confluence_score, reasons
+            else:
+                # Log rejection
+                logger.debug(f"📡 {symbol} Pipeline REJECTED: {decision.reason}")
+                if decision.stages_failed:
+                    logger.debug(f"   ❌ Failed: {', '.join(decision.stages_failed)}")
+
+                return 'HOLD', 0, []
+
+        except Exception as e:
+            logger.error(f"Entry Pipeline error for {symbol}: {e}")
+            import traceback
+            logger.debug(traceback.format_exc())
+            return 'HOLD', 0, []
 

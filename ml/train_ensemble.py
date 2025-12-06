@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # ============================================
 # 🎭 TRAIN ENSEMBLE MODELS
-# Train both LSTM and XGBoost for ensemble
+# Train XGBoost, LightGBM, CatBoost for ensemble
+# Models configured in .env: ENSEMBLE_MODELS
 # ============================================
 
 import sys
@@ -11,7 +12,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-from ml.lstm_model import LSTMTrainer
 from ml.xgboost_model import XGBoostTrainer
 from ml.lightgbm_model import LightGBMTrainer
 from ml.catboost_model import CatBoostTrainer
@@ -22,7 +22,7 @@ from utils.logger import logger
 
 def train_ensemble_models(symbols=None, days=360):
     """
-    Train both LSTM and XGBoost models
+    Train ensemble models (XGBoost, LightGBM, CatBoost)
 
     Args:
         symbols: List of symbols to train on (default: read from Config.SYMBOLS)
