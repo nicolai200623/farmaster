@@ -232,6 +232,19 @@ class Config:
     AI_CHECK_BORDERLINE_ONLY = os.getenv('AI_CHECK_BORDERLINE_ONLY', 'True').lower() == 'true'
     AI_MODEL = os.getenv('AI_MODEL', '')  # Empty = use default per provider
 
+    # AI Validator Settings (Enhanced)
+    USE_AI_VALIDATOR = os.getenv('USE_AI_VALIDATOR', 'False').lower() == 'true'
+    AI_VALIDATOR_MODE = os.getenv('AI_VALIDATOR_MODE', 'borderline')  # 'all', 'borderline', 'tiebreaker'
+    AI_MIN_SCORE_FOR_CHECK = int(os.getenv('AI_MIN_SCORE_FOR_CHECK', '7'))  # Min score to trigger AI (for borderline mode)
+    AI_MAX_SCORE_FOR_CHECK = int(os.getenv('AI_MAX_SCORE_FOR_CHECK', '10'))  # Max score to trigger AI (for borderline mode)
+    AI_TIMEOUT_SECONDS = int(os.getenv('AI_TIMEOUT_SECONDS', '5'))
+    AI_MAX_RETRIES = int(os.getenv('AI_MAX_RETRIES', '2'))
+    AI_MIN_CONFIDENCE = float(os.getenv('AI_MIN_CONFIDENCE', '0.6'))  # Min AI confidence to approve (0-1)
+
+    # AI Accuracy Tracking
+    TRACK_AI_ACCURACY = os.getenv('TRACK_AI_ACCURACY', 'True').lower() == 'true'
+    AI_HISTORY_FILE = os.getenv('AI_HISTORY_FILE', 'logs/ai_validator_history.json')
+
     # AI Provider API Keys
     ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', '')  # Claude
     XAI_API_KEY = os.getenv('XAI_API_KEY', '')  # Grok

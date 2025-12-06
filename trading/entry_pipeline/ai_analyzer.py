@@ -269,13 +269,41 @@ Guidelines:
             return GeminiClient(api_key, model)
 
         return None
-    def should_analyze(self, pa_score: int) -> bool:
-        """Check if AI analysis should be triggered"""
-        if not self.enabled or not self.use_for_borderline:
+    def should_analyze(self, pa_score: int, entry_score: int = 0) -> bool:
+        """
+        Check if AI analysis should be triggered
+
+        Args:
+            pa_score: Price action score (0-8)
+            entry_score: Smart entry score (0-15)
+
+        Returns:
+            bool: True if AI should analyze
+        """
+        if not self.enabled:
             return False
-        
-        # Only analyze borderline cases (score 5-6)
-        return pa_score in [5, 6]
+
+        # Get validator mode from config
+        validator_mode = self.config.get('AI_VALIDATOR_MODE', 'borderline')
+
+        if validator_mode == 'all':
+            # Analyze all signals
+            return True
+        elif validator_mode == 'tiebreaker':
+            # Only analyze when filters conflict or score borderline
+            # For now, use borderline logic
+            min_score = self.config.get('AI_MIN_SCORE_FOR_CHECK', 7)
+            max_score = self.config.get('AI_MAX_SCORE_FOR_CHECK', 10)
+            return min_score <= entry_score <= max_score
+        else:  # 'borderline' mode (default)
+            if self.use_for_borderline:
+                # Original logic: PA score 5-6
+                return pa_score in [5, 6]
+            else:
+                # Use entry score range
+                min_score = self.config.get('AI_MIN_SCORE_FOR_CHECK', 7)
+                max_score = self.config.get('AI_MAX_SCORE_FOR_CHECK', 10)
+                return min_score <= entry_score <= max_score
     
     def analyze(
         self,

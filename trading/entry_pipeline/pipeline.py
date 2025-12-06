@@ -200,7 +200,7 @@ class EntryPipeline:
             self.stage_pass_counts['htf_alignment'] += 1
 
         # ========== STAGE 5: AI QUICK CHECK (OPTIONAL) ==========
-        if self.use_ai and self.ai_stage and self.ai_stage.should_analyze(pa_score):
+        if self.use_ai and self.ai_stage and self.ai_stage.should_analyze(pa_score, entry_score):
             ai_result = self.ai_stage.analyze(
                 symbol, ml_prediction, entry_score, pa_score, df
             )

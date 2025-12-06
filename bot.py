@@ -22,6 +22,7 @@ from trading.trailing_stop import TrailingStopManager
 from ml.lstm_model import LSTMTrainer
 from ml.ensemble import EnsemblePredictor
 from ml.features import FeatureEngine
+from trading.ai_validator import AIAccuracyTracker
 
 class AsterDEXBot:
     """Main trading bot"""
@@ -74,11 +75,18 @@ class AsterDEXBot:
                 sys.exit(1)
 
         self.signal_generator = SignalGenerator(self.predictor)
-        
+
+        # Initialize AI Accuracy Tracker
+        if Config.TRACK_AI_ACCURACY and (Config.USE_AI_CHECK or Config.USE_AI_VALIDATOR):
+            self.ai_tracker = AIAccuracyTracker(log_file=Config.AI_HISTORY_FILE)
+            logger.info("📊 AI Accuracy Tracker enabled")
+        else:
+            self.ai_tracker = None
+
         # State
         self.running = True
         self.loop_count = 0
-        
+
         # Setup signal handlers
         signal.signal(signal.SIGINT, self._signal_handler)
         signal.signal(signal.SIGTERM, self._signal_handler)
