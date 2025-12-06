@@ -37,6 +37,10 @@ class BacktestTrade:
     confidence: float = 0.0
     stages_passed: List[str] = field(default_factory=list)
     duration_hours: float = 0.0
+    # Trailing stop tracking
+    max_pnl_pct: float = 0.0
+    trailing_activated: bool = False
+    trailing_stop_price: float = 0.0
 
 
 @dataclass 
@@ -76,7 +80,13 @@ class PipelineBacktester:
         leverage: int = 10,
         tp_pct: float = 0.02,
         sl_pct: float = 0.01,
-        custom_config: Dict = None
+        custom_config: Dict = None,
+        use_trailing_stop: bool = True,
+        trailing_activation_pct: float = 2.5,
+        trailing_distance_pct: float = 2.2,
+        use_breakeven: bool = True,
+        breakeven_activation_pct: float = 2.5,
+        breakeven_offset_pct: float = 0.4
     ):
         self.symbol = symbol
         self.timeframe = timeframe
@@ -86,6 +96,14 @@ class PipelineBacktester:
         self.leverage = leverage
         self.tp_pct = tp_pct
         self.sl_pct = sl_pct
+
+        # Trailing stop settings
+        self.use_trailing_stop = use_trailing_stop
+        self.trailing_activation_pct = trailing_activation_pct / 100  # Convert to decimal
+        self.trailing_distance_pct = trailing_distance_pct / 100
+        self.use_breakeven = use_breakeven
+        self.breakeven_activation_pct = breakeven_activation_pct / 100
+        self.breakeven_offset_pct = breakeven_offset_pct / 100
 
         # Initialize components
         self.client = AsterDEXClient()
@@ -103,6 +121,8 @@ class PipelineBacktester:
         logger.info(f"📊 PipelineBacktester initialized")
         logger.info(f"   Symbol: {symbol}, TF: {timeframe}, Days: {days}")
         logger.info(f"   Balance: ${initial_balance}, Leverage: {leverage}x")
+        if self.use_trailing_stop:
+            logger.info(f"   Trailing: {trailing_activation_pct}% activation, {trailing_distance_pct}% distance")
     
     def _build_pipeline_config(self, custom_config: Dict = None) -> Dict:
         """Build pipeline config from Config class or custom config"""
@@ -294,19 +314,70 @@ class PipelineBacktester:
         )
 
     def _check_exit(self, trade: BacktestTrade, current_price: float) -> Tuple[float, str]:
-        """Check if should exit position"""
+        """Check if should exit position with trailing stop support"""
+        # Calculate current PnL
         if trade.direction == 'LONG':
             pnl_pct = (current_price - trade.entry_price) / trade.entry_price * self.leverage
         else:
             pnl_pct = (trade.entry_price - current_price) / trade.entry_price * self.leverage
 
-        # Take Profit
-        if pnl_pct >= self.tp_pct:
-            return current_price, "TP"
+        # Update max PnL seen
+        if pnl_pct > trade.max_pnl_pct:
+            trade.max_pnl_pct = pnl_pct
 
-        # Stop Loss
-        if pnl_pct <= -self.sl_pct:
-            return current_price, "SL"
+        # === TRAILING STOP LOGIC ===
+        if self.use_trailing_stop:
+            # Check if trailing should be activated
+            if not trade.trailing_activated and pnl_pct >= self.trailing_activation_pct:
+                trade.trailing_activated = True
+                # Set trailing stop price
+                if trade.direction == 'LONG':
+                    # Trail from current high
+                    trade.trailing_stop_price = current_price * (1 - self.trailing_distance_pct / self.leverage)
+                else:
+                    trade.trailing_stop_price = current_price * (1 + self.trailing_distance_pct / self.leverage)
+
+            # Update trailing stop if activated
+            if trade.trailing_activated:
+                if trade.direction == 'LONG':
+                    # Move stop up if price moves up
+                    new_stop = current_price * (1 - self.trailing_distance_pct / self.leverage)
+                    if new_stop > trade.trailing_stop_price:
+                        trade.trailing_stop_price = new_stop
+
+                    # Check if hit trailing stop
+                    if current_price <= trade.trailing_stop_price:
+                        return current_price, "TRAIL"
+                else:
+                    # SHORT - move stop down if price moves down
+                    new_stop = current_price * (1 + self.trailing_distance_pct / self.leverage)
+                    if new_stop < trade.trailing_stop_price:
+                        trade.trailing_stop_price = new_stop
+
+                    # Check if hit trailing stop
+                    if current_price >= trade.trailing_stop_price:
+                        return current_price, "TRAIL"
+
+        # === BREAKEVEN LOGIC ===
+        if self.use_breakeven and not trade.trailing_activated:
+            if pnl_pct >= self.breakeven_activation_pct:
+                # Move SL to breakeven + offset
+                breakeven_price = trade.entry_price * (1 + self.breakeven_offset_pct / self.leverage) if trade.direction == 'LONG' else trade.entry_price * (1 - self.breakeven_offset_pct / self.leverage)
+
+                if trade.direction == 'LONG' and current_price <= breakeven_price:
+                    return current_price, "BE"
+                elif trade.direction == 'SHORT' and current_price >= breakeven_price:
+                    return current_price, "BE"
+
+        # === FIXED TP/SL (fallback if trailing not activated) ===
+        if not trade.trailing_activated:
+            # Take Profit (only if not using trailing or as max TP)
+            if self.tp_pct > 0 and pnl_pct >= self.tp_pct:
+                return current_price, "TP"
+
+            # Stop Loss
+            if self.sl_pct > 0 and pnl_pct <= -self.sl_pct:
+                return current_price, "SL"
 
         return None, ""
 
@@ -402,6 +473,16 @@ class PipelineBacktester:
         print(f"   Profit Factor: {result.profit_factor:.2f}")
         print(f"   Avg Duration: {result.avg_duration_hours:.1f}h")
 
+        # Exit reason breakdown
+        if result.trades:
+            exit_reasons = {}
+            for t in result.trades:
+                exit_reasons[t.exit_reason] = exit_reasons.get(t.exit_reason, 0) + 1
+            print(f"\n📊 EXIT REASONS:")
+            for reason, count in sorted(exit_reasons.items(), key=lambda x: -x[1]):
+                pct = count / len(result.trades) * 100
+                print(f"   {reason}: {count} ({pct:.1f}%)")
+
         print(f"\n🎯 PIPELINE STATISTICS:")
         print(f"   Signals Generated: {result.signals_generated}")
         print(f"   Signals Passed: {result.signals_passed_pipeline}")
@@ -422,22 +503,229 @@ class PipelineBacktester:
         print(f"{'='*60}\n")
 
 
+def run_all_symbols(days: int, balance: float = 1000, leverage: int = 10):
+    """Run backtest for all symbols in Config.SYMBOLS"""
+    from ml.ensemble import EnsemblePredictor
+    from ml.features import FeatureEngine
+
+    print("\n" + "="*70)
+    print("🚀 ENTRY PIPELINE BACKTEST - ALL SYMBOLS")
+    print("="*70)
+    print(f"Symbols: {len(Config.SYMBOLS)} symbols")
+    print(f"Period: {days} days")
+    print(f"Balance: ${balance} | Leverage: {leverage}x")
+    print(f"ML Threshold: {Config.ML_CONFIDENCE_THRESHOLD}")
+    print(f"Entry Score: {Config.MIN_ENTRY_SCORE} | PA Score: {Config.MIN_PRICE_ACTION_SCORE}")
+    print(f"Trailing: {Config.TRAILING_ACTIVATION_PCT}% activation, {Config.TRAILING_DISTANCE_PCT}% distance")
+    print("="*70 + "\n")
+
+    # Load ML models once
+    print("📥 Loading ML models...")
+    predictor = EnsemblePredictor(
+        models=Config.ENSEMBLE_MODELS,
+        weights=Config.ENSEMBLE_WEIGHTS,
+        input_size=len(FeatureEngine.FEATURE_COLUMNS)
+    )
+    if predictor.load_models():
+        print(f"   ✅ {len(predictor.models)} models loaded: {list(predictor.models.keys())}")
+        ml_models = {name: trainer for name, trainer in predictor.models.items() if trainer is not None}
+    else:
+        print("   ⚠️ ML models not loaded - running without ML stage")
+        ml_models = {}
+
+    # Build config from .env
+    pipeline_config = {
+        'USE_ML_ENSEMBLE': len(ml_models) > 0,
+        'ML_CONFIDENCE_THRESHOLD': Config.ML_CONFIDENCE_THRESHOLD,
+        'ML_NEUTRAL_ZONE': getattr(Config, 'ML_NEUTRAL_ZONE', 0.08),
+        'USE_SMART_ENTRY': True,
+        'MIN_ENTRY_SCORE': Config.MIN_ENTRY_SCORE,
+        'MIN_RR_RATIO': getattr(Config, 'MIN_RR_RATIO', 0),
+        'USE_PRICE_ACTION': getattr(Config, 'USE_PRICE_ACTION', True),
+        'MIN_PRICE_ACTION_SCORE': Config.MIN_PRICE_ACTION_SCORE,
+        'SR_LOOKBACK_CANDLES': getattr(Config, 'SR_LOOKBACK_CANDLES', 50),
+        'SR_PROXIMITY_PCT': getattr(Config, 'SR_PROXIMITY_PCT', 0.8),
+        'VOLUME_CONFIRMATION_RATIO': getattr(Config, 'VOLUME_CONFIRMATION_RATIO', 1.5),
+        'USE_HTF_ALIGNMENT': getattr(Config, 'USE_HTF_ALIGNMENT', True),
+        'HTF_TIMEFRAME': '4h',
+        'REQUIRE_HTF_ALIGNMENT': False,
+        'HTF_STRICT_MODE': getattr(Config, 'HTF_STRICT_MODE', False),
+        'USE_AI_CHECK': False,  # Disable AI for backtest
+    }
+
+    all_results = []
+    total_trades = 0
+    total_winning = 0
+    total_pnl_pct = 0
+
+    # Trailing stop settings from config
+    trailing_activation = getattr(Config, 'TRAILING_ACTIVATION_PCT', 2.5)
+    trailing_distance = getattr(Config, 'TRAILING_DISTANCE_PCT', 2.2)
+    use_trailing = getattr(Config, 'USE_TRAILING_STOP', True)
+    use_breakeven = getattr(Config, 'USE_BREAKEVEN_STOP', True)
+    breakeven_activation = getattr(Config, 'BREAKEVEN_ACTIVATION_PCT', 2.5)
+    breakeven_offset = getattr(Config, 'BREAKEVEN_OFFSET_PCT', 0.4)
+
+    for i, symbol in enumerate(Config.SYMBOLS):
+        print(f"\n[{i+1}/{len(Config.SYMBOLS)}] 📊 Backtesting {symbol}...")
+
+        try:
+            backtester = PipelineBacktester(
+                symbol=symbol,
+                days=days,
+                initial_balance=balance,
+                leverage=leverage,
+                tp_pct=0.10,  # 10% max TP (fallback if trailing not hit)
+                sl_pct=0.05,  # 5% max SL (emergency stop)
+                custom_config=pipeline_config,
+                use_trailing_stop=use_trailing,
+                trailing_activation_pct=trailing_activation,
+                trailing_distance_pct=trailing_distance,
+                use_breakeven=use_breakeven,
+                breakeven_activation_pct=breakeven_activation,
+                breakeven_offset_pct=breakeven_offset
+            )
+
+            # Inject ML models
+            if ml_models:
+                backtester.pipeline.ml_stage.models = ml_models
+                backtester.pipeline.ml_stage.predictor = predictor
+
+            result = backtester.run_backtest()
+            all_results.append(result)
+
+            total_trades += result.total_trades
+            total_winning += result.winning_trades
+            total_pnl_pct += result.total_pnl_pct
+
+            # Quick summary
+            wr = result.win_rate * 100 if result.total_trades > 0 else 0
+            print(f"   ✅ {symbol}: {result.total_trades} trades, {wr:.1f}% WR, {result.total_pnl_pct*100:.2f}% PnL")
+
+        except Exception as e:
+            print(f"   ❌ {symbol} error: {e}")
+            import traceback
+            traceback.print_exc()
+
+    # Print summary
+    print("\n" + "="*70)
+    print("📊 AGGREGATE RESULTS - ALL SYMBOLS")
+    print("="*70)
+
+    if all_results:
+        agg_win_rate = total_winning / total_trades * 100 if total_trades > 0 else 0
+
+        print(f"\n📈 OVERALL METRICS:")
+        print(f"   Total Symbols Tested: {len(all_results)}")
+        print(f"   Total Trades: {total_trades}")
+        print(f"   Total Winning: {total_winning}")
+        print(f"   Overall Win Rate: {agg_win_rate:.1f}%")
+        print(f"   Total PnL: {total_pnl_pct*100:.2f}%")
+        print(f"   Avg PnL/Symbol: {total_pnl_pct*100/len(all_results):.2f}%")
+
+        # Per-symbol breakdown
+        print(f"\n📋 PER-SYMBOL BREAKDOWN:")
+        print(f"{'Symbol':<12} {'Trades':>8} {'Wins':>6} {'WR%':>8} {'PnL%':>10} {'PF':>8} {'MaxDD%':>8}")
+        print("-"*70)
+
+        for r in all_results:
+            wr = r.win_rate * 100 if r.total_trades > 0 else 0
+            print(f"{r.symbol:<12} {r.total_trades:>8} {r.winning_trades:>6} {wr:>7.1f}% {r.total_pnl_pct*100:>9.2f}% {r.profit_factor:>8.2f} {r.max_drawdown*100:>7.2f}%")
+
+        # Stage analysis
+        print(f"\n🎯 PIPELINE STAGE ANALYSIS:")
+        total_signals = sum(r.signals_generated for r in all_results)
+        total_passed = sum(r.signals_passed_pipeline for r in all_results)
+        pass_rate = total_passed / total_signals * 100 if total_signals > 0 else 0
+
+        print(f"   Total Signals Analyzed: {total_signals}")
+        print(f"   Signals Passed Pipeline: {total_passed}")
+        print(f"   Pipeline Pass Rate: {pass_rate:.2f}%")
+
+        # Aggregate stage pass rates
+        stage_totals = {}
+        for r in all_results:
+            for stage, rate in r.stage_pass_rates.items():
+                if stage not in stage_totals:
+                    stage_totals[stage] = []
+                stage_totals[stage].append(rate)
+
+        print(f"\n   Stage Pass Rates (avg across symbols):")
+        for stage, rates in stage_totals.items():
+            avg_rate = np.mean(rates) * 100
+            print(f"      {stage}: {avg_rate:.1f}%")
+
+        # Exit reason analysis
+        print(f"\n📊 EXIT REASONS (aggregate):")
+        exit_totals = {}
+        for r in all_results:
+            for t in r.trades:
+                exit_totals[t.exit_reason] = exit_totals.get(t.exit_reason, 0) + 1
+
+        for reason, count in sorted(exit_totals.items(), key=lambda x: -x[1]):
+            pct = count / total_trades * 100 if total_trades > 0 else 0
+            avg_pnl = np.mean([t.pnl_pct for r in all_results for t in r.trades if t.exit_reason == reason]) * 100
+            print(f"   {reason:>6}: {count:>4} ({pct:>5.1f}%)  | Avg PnL: {avg_pnl:>+7.2f}%")
+
+        # Trading readiness assessment
+        print(f"\n" + "="*70)
+        print("🎯 TRADING READINESS ASSESSMENT")
+        print("="*70)
+
+        target_wr = 60
+        target_pf = 1.5
+
+        wr_ok = agg_win_rate >= target_wr
+        pf_ok = any(r.profit_factor >= target_pf for r in all_results if r.total_trades >= 5)
+        trades_ok = total_trades >= 20
+
+        print(f"\n   Target Win Rate ({target_wr}%): {'✅ PASS' if wr_ok else '❌ FAIL'} (Actual: {agg_win_rate:.1f}%)")
+        print(f"   Target Profit Factor ({target_pf}): {'✅ PASS' if pf_ok else '❌ FAIL'}")
+        print(f"   Sufficient Trades (20+): {'✅ PASS' if trades_ok else '❌ FAIL'} (Actual: {total_trades})")
+
+        if wr_ok and pf_ok and trades_ok:
+            print(f"\n   🟢 SYSTEM READY FOR LIVE TRADING")
+        elif wr_ok or pf_ok:
+            print(f"\n   🟡 SYSTEM PARTIALLY READY - Review settings")
+        else:
+            print(f"\n   🔴 SYSTEM NOT READY - Needs optimization")
+
+        # Recommendations
+        print(f"\n💡 RECOMMENDATIONS:")
+        if agg_win_rate < 55:
+            print(f"   - Increase ML_CONFIDENCE_THRESHOLD (current: {Config.ML_CONFIDENCE_THRESHOLD})")
+            print(f"   - Increase MIN_ENTRY_SCORE (current: {Config.MIN_ENTRY_SCORE})")
+        elif agg_win_rate > 70 and total_trades < 30:
+            print(f"   - Consider lowering thresholds for more trades")
+
+        if total_trades < 10:
+            print(f"   - Very few trades - consider running longer period or relaxing filters")
+
+    print("\n" + "="*70 + "\n")
+
+    return all_results
+
+
 def main():
     parser = argparse.ArgumentParser(description='Backtest Entry Pipeline')
-    parser.add_argument('--symbol', type=str, default='BTCUSDT', help='Trading symbol')
+    parser.add_argument('--symbol', type=str, default=None, help='Trading symbol (None = all symbols)')
     parser.add_argument('--days', type=int, default=30, help='Days of historical data')
     parser.add_argument('--balance', type=float, default=1000, help='Initial balance')
     parser.add_argument('--leverage', type=int, default=10, help='Leverage')
     parser.add_argument('--tp', type=float, default=0.02, help='Take profit %')
     parser.add_argument('--sl', type=float, default=0.01, help='Stop loss %')
     parser.add_argument('--optimize', action='store_true', help='Run threshold optimization')
+    parser.add_argument('--all', action='store_true', help='Run for all symbols')
 
     args = parser.parse_args()
 
     if args.optimize:
-        optimize_thresholds(args.symbol, args.days)
+        optimize_thresholds(args.symbol or 'BTCUSDT', args.days)
+    elif args.all or args.symbol is None:
+        # Run for all symbols
+        run_all_symbols(args.days, args.balance, args.leverage)
     else:
-        # Run backtest
+        # Run backtest for single symbol
         backtester = PipelineBacktester(
             symbol=args.symbol,
             days=args.days,

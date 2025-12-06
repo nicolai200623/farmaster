@@ -7,53 +7,118 @@
 pip install -r requirements.txt
 
 # 2. Cấu hình
-cp .env.volume_farming .env
-# Sửa API_KEY và API_SECRET trong .env
+cp .env.example .env
+# Sửa API_KEY, API_SECRET, và XAI_API_KEY trong .env
 
 # 3. Validate
 python -c "from config import Config; Config.validate()"
 
-# 4. Train models
-python ml/train_ensemble.py
+# 4. Train models (3 models: XGBoost, LightGBM, CatBoost)
+python ml/train_ensemble.py --days 180
 
-# 5. Backtest
-python scripts/test_volume_farming.py
+# 5. Backtest Entry Pipeline
+python backtest_pipeline.py --days 30
 
-
-# train cho 4 ML
-source venv/bin/activate
-python scripts/auto_retrain.py --days 180
-
-# 6. Chạy bot (testnet)
+# 6. Chạy bot
 python bot.py
 ```
 
 ---
 
-## 🧠 Training Models
+## 🧠 Training Models (3 Models)
+
+> **Lưu ý:** Hệ thống sử dụng 3 models: XGBoost (40%), LightGBM (35%), CatBoost (25%)
+> LSTM đã được loại bỏ để tối ưu hiệu suất.
 
 ```bash
-# Auto retrain tất cả models (KHUYẾN NGHỊ)
-# 90 ngày (~45 phút)
-python scripts/auto_retrain.py --days 90
+# Train 3 models ensemble (KHUYẾN NGHỊ)
+# 180 ngày (~10-15 phút) - Tốt nhất cho accuracy
+python ml/train_ensemble.py --days 180
 
-# 180 ngày (~60 phút) - Tốt nhất cho accuracy
-python scripts/auto_retrain.py --days 180
+# Train với ít data hơn (nhanh hơn)
+python ml/train_ensemble.py --days 90
 
-# Kiểm tra training đã xong chưa
-python check_training_status.py
+# Kiểm tra models đã train
+python -c "
+from ml.ensemble import EnsemblePredictor
+from config import Config
+from ml.features import FeatureEngine
 
-# Train LSTM only
-python ml/train.py
+p = EnsemblePredictor(
+    models=Config.ENSEMBLE_MODELS,
+    weights=Config.ENSEMBLE_WEIGHTS,
+    input_size=len(FeatureEngine.FEATURE_COLUMNS)
+)
+if p.load_models():
+    print('OK! Models loaded:', list(p.models.keys()))
+else:
+    print('FAILED! Models not found')
+"
 
-# Train XGBoost only
-python ml/xgboost_model.py
+# Verify model files exist
+# Windows
+dir models\*.json models\*.txt models\*.cbm models\*.pkl
 
-# Train Ensemble (cũ)
-python ml/train_ensemble.py
+# Linux/Mac
+ls -lh models/
+```
 
-# Retrain tất cả (cũ)
-python retrain_and_test.py
+### Expected Model Files:
+```
+models/
+├── xgboost_model.json      (~574 KB)
+├── xgboost_scaler.pkl      (~1 KB)
+├── lightgbm_model.txt      (~197 KB)
+├── lightgbm_scaler.pkl     (~1 KB)
+├── catboost_model.cbm      (~16 KB)
+└── catboost_scaler.pkl     (~1 KB)
+```
+
+---
+
+## � Entry Pipeline (5-Stage Validation)
+
+> **NEW!** Entry Pipeline thay thế SmartEntryV2 với 5 stages validation
+
+### Pipeline Flow:
+```
+Signal → Stage 1 (ML) → Stage 2 (Smart Entry) → Stage 3 (Price Action)
+      → Stage 4 (HTF) → Stage 5 (AI Check) → ENTRY
+```
+
+### 5 Stages:
+
+| Stage | Name | Description | Config |
+|-------|------|-------------|--------|
+| 1 | **ML Ensemble** | 3 models vote (XGBoost 40%, LightGBM 35%, CatBoost 25%) | `ML_CONFIDENCE_THRESHOLD=0.62` |
+| 2 | **Smart Entry** | Confluence scoring (EMA, RSI, volume, session) | `MIN_ENTRY_SCORE=5` |
+| 3 | **Price Action** | S/R levels, candlestick patterns, volume | `MIN_PRICE_ACTION_SCORE=5` |
+| 4 | **HTF Alignment** | Higher timeframe trend confirmation | `USE_HTF_ALIGNMENT=True` |
+| 5 | **AI Quick Check** | Grok/Claude/OpenAI/Gemini analysis | `AI_PROVIDER=grok` |
+
+### Test Entry Pipeline:
+```bash
+python -c "
+from trading.signal_generator import SignalGenerator
+from ml.ensemble import EnsemblePredictor
+from config import Config
+from ml.features import FeatureEngine
+
+predictor = EnsemblePredictor(
+    models=Config.ENSEMBLE_MODELS,
+    weights=Config.ENSEMBLE_WEIGHTS,
+    input_size=len(FeatureEngine.FEATURE_COLUMNS)
+)
+predictor.load_models()
+
+sg = SignalGenerator(predictor)
+if sg.entry_pipeline:
+    print('Entry Pipeline: OK')
+    print('  ML Stage models:', list(sg.entry_pipeline.ml_stage.models.keys()))
+    print('  Confidence threshold:', sg.entry_pipeline.ml_stage.confidence_threshold)
+else:
+    print('Entry Pipeline: NOT INITIALIZED')
+"
 ```
 
 ---
@@ -61,17 +126,29 @@ python retrain_and_test.py
 ## 📊 Backtest
 
 ```bash
-# Backtest cơ bản
-python run_backtest.py
+# Backtest Entry Pipeline (KHUYẾN NGHỊ)
+python backtest_pipeline.py --days 30
 
-# Backtest volume farming (chi tiết)
-python scripts/test_volume_farming.py
+# Backtest với optimization
+python backtest_pipeline.py --days 60 --optimize
 
-# Backtest 30 ngày
-python -c "from config import Config; Config.BACKTEST_DAYS=90" && python run_backtest.py
+# Quick test signal
+python -c "
+from trading.signal_generator import SignalGenerator
+from ml.ensemble import EnsemblePredictor
+from config import Config
+from ml.features import FeatureEngine
 
-# Quick test
-python quick_test.py
+predictor = EnsemblePredictor(
+    models=Config.ENSEMBLE_MODELS,
+    weights=Config.ENSEMBLE_WEIGHTS,
+    input_size=len(FeatureEngine.FEATURE_COLUMNS)
+)
+predictor.load_models()
+sg = SignalGenerator(predictor)
+print('Signal Generator ready!')
+print('Entry Pipeline:', 'Enabled' if sg.entry_pipeline else 'Disabled')
+"
 ```
 
 ---
@@ -79,22 +156,25 @@ python quick_test.py
 ## 🤖 Chạy Bot
 
 ```bash
-# Testnet
-python bot.py
-
-# Mainnet (sau khi sửa TESTNET_MODE=false)
+# Chạy bot (kiểm tra TESTNET_MODE trong .env trước!)
 python bot.py
 
 # Background (Linux/Mac)
 nohup python bot.py > bot.log 2>&1 &
 
-# Screen (Linux/Mac)
-screen -S asterdex-bot
+# Screen (Linux/Mac) - KHUYẾN NGHỊ cho VPS
+screen -S farmbot
 python bot.py
 # Ctrl+A, D để detach
-# screen -r asterdex-bot để attach lại
+# screen -r farmbot để attach lại
 
-# Systemd (VPS)
+# Tmux alternative
+tmux new -s farmbot
+python bot.py
+# Ctrl+B, D để detach
+# tmux attach -t farmbot để attach lại
+
+# Systemd (VPS production)
 sudo systemctl start asterdex-bot
 sudo systemctl stop asterdex-bot
 sudo systemctl restart asterdex-bot
@@ -195,48 +275,81 @@ cp .env.backup_YYYYMMDD .env
 
 ---
 
-## 🔍 Kiểm Tra
+## 🔍 System Readiness Check
 
-### Kiểm tra training đã xong chưa (VPS)
+### Kiểm tra toàn bộ hệ thống (KHUYẾN NGHỊ)
 ```bash
-# Cách 1: Dùng script tự động (KHUYẾN NGHỊ)
-python3 check_training_status.py
+# Check models + pipeline + API trong 1 command
+python -c "
+import os
+from datetime import datetime
 
-# Cách 2: Kiểm tra process
-ps aux | grep auto_retrain.py
-# Nếu có kết quả = đang chạy
-# Nếu không có = đã xong hoặc chưa chạy
+print('='*50)
+print('SYSTEM READINESS CHECK')
+print('='*50)
 
-# Cách 3: Kiểm tra log
-tail -50 logs/bot_*.log
-# Tìm dòng: "RETRAINING COMPLETED SUCCESSFULLY"
+# 1. Model files
+print('\n[1] MODEL FILES:')
+models = ['xgboost_model.json', 'xgboost_scaler.pkl',
+          'lightgbm_model.txt', 'lightgbm_scaler.pkl',
+          'catboost_model.cbm', 'catboost_scaler.pkl']
+all_ok = True
+for m in models:
+    path = os.path.join('models', m)
+    if os.path.exists(path):
+        size = os.path.getsize(path) / 1024
+        print(f'  OK: {m} ({size:.1f} KB)')
+    else:
+        print(f'  MISSING: {m}')
+        all_ok = False
+print(f'  Status: {\"READY\" if all_ok else \"INCOMPLETE\"}')
 
-# Cách 4: Kiểm tra models
-ls -lh models/
-# Phải có 4 files:
-# - lstm_model.pt
-# - xgboost_model.json
-# - lightgbm_model.txt
-# - catboost_model.cbm
+# 2. Load test
+print('\n[2] ML MODELS LOAD:')
+from config import Config
+from ml.ensemble import EnsemblePredictor
+from ml.features import FeatureEngine
+p = EnsemblePredictor(Config.ENSEMBLE_MODELS, Config.ENSEMBLE_WEIGHTS, len(FeatureEngine.FEATURE_COLUMNS))
+if p.load_models():
+    print(f'  OK: {len(p.models)} models loaded')
+else:
+    print('  FAILED!')
 
-# Cách 5: Xem log realtime
-tail -f logs/bot_*.log
-# Ctrl+C để thoát
+# 3. Entry Pipeline
+print('\n[3] ENTRY PIPELINE:')
+from trading.signal_generator import SignalGenerator
+sg = SignalGenerator(p)
+if sg.entry_pipeline:
+    ml_models = list(sg.entry_pipeline.ml_stage.models.keys())
+    print(f'  OK: Pipeline initialized with {len(ml_models)} ML models')
+else:
+    print('  FAILED!')
+
+# 4. API Connection
+print('\n[4] API CONNECTION:')
+from trading.asterdex_client import AsterDEXClient
+c = AsterDEXClient()
+balance = c.get_account_balance()
+print(f'  OK: Balance = \${balance:.2f} USDT')
+
+print('\n' + '='*50)
+print('ALL CHECKS PASSED!' if all_ok else 'SOME CHECKS FAILED!')
+print('='*50)
+"
 ```
 
-### Kiểm tra models đã train
+### Kiểm tra models đã train (3 models)
 ```bash
 # Windows
-dir models
+dir models\*.json models\*.txt models\*.cbm models\*.pkl
 
 # Linux/Mac
 ls -lh models/
 
-# Phải có 4 models:
-# - lstm_model.pt
-# - xgboost_model.json
-# - lightgbm_model.txt
-# - catboost_model.cbm
+# Phải có 6 files:
+# - xgboost_model.json + xgboost_scaler.pkl
+# - lightgbm_model.txt + lightgbm_scaler.pkl
+# - catboost_model.cbm + catboost_scaler.pkl
 ```
 
 ### Kiểm tra config
@@ -257,78 +370,96 @@ python -c "from trading.asterdex_client import AsterDEXClient; c=AsterDEXClient(
 
 ## 📈 Tối Ưu Hóa
 
-### Tăng số lượng trades
+### Tăng số lượng trades (giảm filter)
 ```env
 # Sửa .env:
-LSTM_THRESHOLD=0.35
-MIN_CONFLUENCE_SCORE=2
-LOOP_SLEEP=20
-USE_TREND_FILTER=False
-USE_VOLUME_FILTER=False
+ML_CONFIDENCE_THRESHOLD=0.55    # Giảm từ 0.62
+MIN_ENTRY_SCORE=4               # Giảm từ 5
+MIN_PRICE_ACTION_SCORE=4        # Giảm từ 5
+LOOP_SLEEP=120                  # Tăng tần suất check
 ```
 
-### Tăng win rate
+### Tăng win rate (strict filters)
 ```env
 # Sửa .env:
-LSTM_THRESHOLD=0.50
-MIN_CONFLUENCE_SCORE=5
-USE_TREND_FILTER=True
-MIN_SIGNAL_QUALITY_SCORE=60
+ML_CONFIDENCE_THRESHOLD=0.65    # Tăng từ 0.62
+MIN_ENTRY_SCORE=7               # Tăng từ 5
+MIN_PRICE_ACTION_SCORE=6        # Tăng từ 5
+USE_AI_CHECK=True               # Bật AI validation
 ```
 
 ### Giảm risk
 ```env
 # Sửa .env:
-POSITION_SIZE_USDT=5
-LEVERAGE=5
-DAILY_LOSS_LIMIT=0.1
+POSITION_SIZE_USDT=5            # Giảm từ 10
+LEVERAGE=5                      # Giảm từ 10
+DAILY_LOSS_LIMIT=0.1            # 10% max daily loss
+TRAILING_ACTIVATION_PCT=2.0     # Activate trailing sớm hơn
+```
+
+### Trailing Stop tối ưu
+```env
+# Conservative (bảo toàn profit)
+TRAILING_ACTIVATION_PCT=2.0     # Activate sớm
+TRAILING_DISTANCE_PCT=1.5       # Trail gần
+
+# Aggressive (maximize profit)
+TRAILING_ACTIVATION_PCT=3.5     # Activate muộn
+TRAILING_DISTANCE_PCT=2.5       # Trail xa
 ```
 
 ---
 
 ## 🐛 Troubleshooting
 
-### Không có tín hiệu
+### "All model predictions failed!"
 ```bash
-# Test signal
-python scripts/test_signal.py
+# Nguyên nhân: Models chưa load hoặc không có
+# Solution: Kiểm tra model files và reload
+python ml/train_ensemble.py --days 180
+```
 
-# Giảm threshold
-# Sửa .env: LSTM_THRESHOLD=0.35
+### Không có tín hiệu (No signals)
+```bash
+# Giảm ML threshold
+# Sửa .env: ML_CONFIDENCE_THRESHOLD=0.55
+
+# Hoặc giảm entry score requirements
+# Sửa .env: MIN_ENTRY_SCORE=4
+```
+
+### Entry Pipeline not working
+```bash
+# Kiểm tra pipeline đã khởi tạo
+python -c "
+from trading.signal_generator import SignalGenerator
+from ml.ensemble import EnsemblePredictor
+from config import Config
+from ml.features import FeatureEngine
+
+p = EnsemblePredictor(Config.ENSEMBLE_MODELS, Config.ENSEMBLE_WEIGHTS, len(FeatureEngine.FEATURE_COLUMNS))
+p.load_models()
+sg = SignalGenerator(p)
+print('Pipeline:', sg.entry_pipeline)
+print('ML Stage:', sg.entry_pipeline.ml_stage if sg.entry_pipeline else 'N/A')
+"
 ```
 
 ### Margin insufficient
 ```bash
-# Giảm symbols
-# Sửa .env: SYMBOLS=BTCUSDT,ETHUSDT,SOLUSDT,BNBUSDT
-
-# Hoặc tăng balance
-```
-
-### Lệnh đóng ngay
-```bash
-# Kiểm tra SL_PCT
-cat .env | grep SL_PCT
-# Phải = 0
-
-# Kiểm tra bug fix
-cat trading/signal_generator.py | grep -n "if sl_pct > 0"
-# Phải có dòng: if sl_pct > 0 and pnl_pct <= -sl_pct:
-```
-
-### Model chưa train
-```bash
-# Train lại
-python ml/train_ensemble.py
+# Giảm position size hoặc số symbols
+# Sửa .env:
+POSITION_SIZE_USDT=5
+SYMBOLS=BTCUSDT,ETHUSDT,SOLUSDT,BNBUSDT
 ```
 
 ### API error
 ```bash
 # Test connection
-python test_connections.py
+python -c "from trading.asterdex_client import AsterDEXClient; c=AsterDEXClient(); print('Balance:', c.get_account_balance())"
 
 # Kiểm tra API keys
-python -c "from config import Config; print(Config.API_KEY, Config.API_SECRET)"
+python -c "from config import Config; print('API_KEY:', Config.API_KEY[:10]+'...')"
 ```
 
 ---
@@ -337,31 +468,49 @@ python -c "from config import Config; print(Config.API_KEY, Config.API_SECRET)"
 
 ```
 FarmAster/
-├── .env                          # Cấu hình chính
-├── bot.py                        # Main bot
+├── .env                          # Cấu hình chính (API keys, settings)
+├── bot.py                        # Main bot entry point
 ├── config.py                     # Config loader
+├── backtest_pipeline.py          # Backtest Entry Pipeline
+├── paper_trade.py                # Paper trading script
 │
 ├── ml/
-│   ├── train.py                  # Train LSTM
-│   ├── xgboost_model.py          # Train XGBoost
-│   └── train_ensemble.py         # Train Ensemble
-│
-├── backtest/
-│   └── enhanced_backtester.py    # Backtest engine
+│   ├── ensemble.py               # Ensemble predictor (main)
+│   ├── train_ensemble.py         # Train 3 models
+│   ├── xgboost_model.py          # XGBoost trainer
+│   ├── lightgbm_model.py         # LightGBM trainer
+│   ├── catboost_model.py         # CatBoost trainer
+│   └── features.py               # Feature engineering
 │
 ├── trading/
-│   ├── asterdex_client.py        # API client
-│   ├── signal_generator.py       # Signal logic
-│   └── risk_manager.py           # Risk management
+│   ├── asterdex_client.py        # API client (Binance)
+│   ├── signal_generator.py       # Signal logic + Pipeline
+│   ├── risk_manager.py           # Risk management
+│   ├── trailing_stop.py          # Trailing stop manager
+│   └── position_tracker.py       # Position tracking
 │
-├── scripts/
-│   ├── check_balance.py          # Check balance
-│   ├── test_signal.py            # Test signals
-│   ├── close_all.py              # Close all positions
-│   └── test_volume_farming.py    # Test volume farming
+├── trading/entry_pipeline/       # 🚀 Entry Pipeline (NEW!)
+│   ├── __init__.py               # Pipeline exports
+│   ├── pipeline.py               # Main 5-stage pipeline
+│   ├── ml_ensemble.py            # Stage 1: ML Ensemble
+│   ├── smart_entry.py            # Stage 2: Smart Entry
+│   ├── price_action.py           # Stage 3: Price Action
+│   ├── htf_alignment.py          # Stage 4: HTF Alignment
+│   └── ai_check.py               # Stage 5: AI Check
 │
-├── logs/                         # Log files
-└── models/                       # Trained models
+├── models/                       # Trained ML models
+│   ├── xgboost_model.json        # XGBoost model
+│   ├── xgboost_scaler.pkl        # XGBoost scaler
+│   ├── lightgbm_model.txt        # LightGBM model
+│   ├── lightgbm_scaler.pkl       # LightGBM scaler
+│   ├── catboost_model.cbm        # CatBoost model
+│   └── catboost_scaler.pkl       # CatBoost scaler
+│
+├── utils/
+│   ├── logger.py                 # Logging + Telegram
+│   └── data_fetcher.py           # Historical data
+│
+└── logs/                         # Log files
 ```
 
 ---
@@ -370,33 +519,34 @@ FarmAster/
 
 ### Lần đầu setup
 ```bash
-1. cp .env.volume_farming .env
-2. # Sửa API keys
+1. cp .env.example .env
+2. # Sửa API_KEY, API_SECRET, XAI_API_KEY trong .env
 3. python -c "from config import Config; Config.validate()"
-4. python ml/train_ensemble.py
-5. python scripts/test_volume_farming.py
+4. python ml/train_ensemble.py --days 180
+5. python backtest_pipeline.py --days 30
 6. # Nếu OK -> python bot.py
 ```
 
 ### Hàng ngày
 ```bash
 1. tail -f logs/bot_*.log
-2. python scripts/check_balance.py
-3. # Kiểm tra Telegram
+2. # Kiểm tra Telegram notifications
+3. # Monitor open positions
 ```
 
 ### Hàng tuần
 ```bash
-1. python scripts/analyze_performance.py
-2. # Đánh giá win rate, volume
-3. # Điều chỉnh config nếu cần
+1. # Đánh giá win rate, PnL
+2. # Điều chỉnh thresholds nếu cần
+3. # Check model performance
 ```
 
 ### Khi cần retrain
 ```bash
-1. python ml/train_ensemble.py
-2. python scripts/test_volume_farming.py
-3. # Nếu tốt hơn -> restart bot
+1. python ml/train_ensemble.py --days 180
+2. python backtest_pipeline.py --days 30
+3. # So sánh với kết quả cũ
+4. # Nếu tốt hơn -> restart bot
 ```
 
 ---
@@ -446,7 +596,107 @@ pkill -f bot.py && sleep 2 && python bot.py &
 
 ---
 
-## 📞 Support Commands
+## �️ VPS Deployment
+
+### Files cần copy lên VPS:
+```bash
+# Minimum required files (~2-3 MB):
+FarmAster/
+├── .env                    # Config (UPDATE API KEYS!)
+├── bot.py
+├── config.py
+├── requirements.txt
+│
+├── models/                 # Trained models (~0.8 MB)
+│   ├── xgboost_model.json
+│   ├── xgboost_scaler.pkl
+│   ├── lightgbm_model.txt
+│   ├── lightgbm_scaler.pkl
+│   ├── catboost_model.cbm
+│   └── catboost_scaler.pkl
+│
+├── ml/                     # All files
+├── trading/                # All files (including entry_pipeline/)
+└── utils/                  # All files
+```
+
+### Deploy từ Windows lên VPS:
+```bash
+# 1. Compress project (Windows)
+# Zip toàn bộ folder FarmAster
+
+# 2. Upload lên VPS
+scp FarmAster.zip user@your-vps:/home/user/
+
+# 3. SSH vào VPS
+ssh user@your-vps
+
+# 4. Unzip và setup
+cd /home/user
+unzip FarmAster.zip
+cd FarmAster
+
+# 5. Install Python 3.11+ và dependencies
+sudo apt update
+sudo apt install python3.11 python3.11-venv python3-pip
+python3.11 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# 6. Update .env với API keys
+nano .env
+
+# 7. Test system
+python -c "from config import Config; Config.validate()"
+python -c "from ml.ensemble import EnsemblePredictor; print('ML OK')"
+
+# 8. Run bot với screen
+screen -S farmbot
+python bot.py
+# Ctrl+A, D để detach
+```
+
+### Copy models đã train (không cần train lại):
+```bash
+# Từ Windows, copy folder models/ lên VPS:
+scp -r models/ user@your-vps:/home/user/FarmAster/
+
+# Verify trên VPS:
+ls -lh models/
+# Phải có 6 files: xgboost_*, lightgbm_*, catboost_*
+```
+
+### Systemd service (production):
+```bash
+# Tạo service file
+sudo nano /etc/systemd/system/farmbot.service
+
+# Nội dung:
+[Unit]
+Description=FarmAster Trading Bot
+After=network.target
+
+[Service]
+Type=simple
+User=your-user
+WorkingDirectory=/home/user/FarmAster
+ExecStart=/home/user/FarmAster/venv/bin/python bot.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
+# Enable và start
+sudo systemctl daemon-reload
+sudo systemctl enable farmbot
+sudo systemctl start farmbot
+sudo systemctl status farmbot
+```
+
+---
+
+## �📞 Support Commands
 
 ```bash
 # Xem version Python
@@ -467,5 +717,63 @@ netstat -an | grep ESTABLISHED
 
 ---
 
+## ⚙️ Config Reference (.env)
+
+### Entry Pipeline Settings:
+```env
+# Master switch
+USE_ENTRY_PIPELINE=True
+
+# Stage 1: ML Ensemble
+ENSEMBLE_MODELS=xgboost,lightgbm,catboost
+ENSEMBLE_WEIGHTS=0.40,0.35,0.25
+ML_CONFIDENCE_THRESHOLD=0.62
+
+# Stage 2: Smart Entry
+MIN_ENTRY_SCORE=5
+MIN_RR_RATIO=0
+
+# Stage 3: Price Action
+USE_PRICE_ACTION=True
+MIN_PRICE_ACTION_SCORE=5
+SR_LOOKBACK_CANDLES=50
+VOLUME_CONFIRMATION_RATIO=1.5
+
+# Stage 4: HTF Alignment
+USE_HTF_ALIGNMENT=True
+HTF_STRICT_MODE=False
+
+# Stage 5: AI Check
+USE_AI_CHECK=True
+AI_PROVIDER=grok
+AI_CHECK_BORDERLINE_ONLY=True
+```
+
+### Trailing Stop Settings:
+```env
+USE_TRAILING_STOP=True
+USE_PNL_BASED_TRAILING=True
+TRAILING_ACTIVATION_PCT=2.5      # % PnL to activate
+TRAILING_DISTANCE_PCT=2.2        # % PnL trail distance
+USE_BREAKEVEN_STOP=True
+BREAKEVEN_ACTIVATION_PCT=2.5
+BREAKEVEN_OFFSET_PCT=0.4
+```
+
+### AI Provider API Keys:
+```env
+# Grok (recommended)
+XAI_API_KEY=xai-xxx...
+
+# Alternatives
+ANTHROPIC_API_KEY=sk-ant-xxx...
+OPENAI_API_KEY=sk-xxx...
+GOOGLE_API_KEY=xxx...
+```
+
+---
+
 **Lưu file này để tra cứu nhanh! 📌**
+
+*Last updated: 2025-12-06*
 
