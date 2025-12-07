@@ -1,0 +1,49 @@
+# ============================================
+# 🤖 AI VALIDATOR DEPENDENCIES
+# ============================================
+#
+# Install packages based on your AI provider choice:
+#
+# For Grok (xAI) - Recommended for crypto trading
+# Already included in main requirements.txt:
+# - requests (for API calls)
+#
+# For Claude (Anthropic) - Fast and accurate
+anthropic>=0.7.0
+#
+# For OpenAI (GPT) - Cost-effective
+openai>=1.0.0
+#
+# For Google (Gemini) - Cheapest option
+google-generativeai>=0.3.0
+#
+# ============================================
+# INSTALLATION INSTRUCTIONS
+# ============================================
+#
+# Option 1: Install all AI providers (recommended for testing)
+# pip install -r requirements-ai.txt
+#
+# Option 2: Install only what you need
+#
+# For Grok only (default):
+# pip install requests  # Already in main requirements
+#
+# For Claude only:
+# pip install anthropic
+#
+# For OpenAI only:
+# pip install openai
+#
+# For Gemini only:
+# pip install google-generativeai
+#
+# ============================================
+# NOTES
+# ============================================
+#
+# - You only need to install packages for providers you'll use
+# - Grok uses requests (already installed)
+# - Code will work with missing packages (just skip that provider)
+# - See docs/AI_VALIDATOR_GUIDE.md for more details
+#

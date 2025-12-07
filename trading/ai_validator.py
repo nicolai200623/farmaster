@@ -9,9 +9,16 @@ import time
 from typing import Dict, Tuple, Optional, List
 from datetime import datetime
 import requests
-from anthropic import Anthropic
 
 from utils.logger import logger
+
+# Optional imports - only needed for specific providers
+try:
+    from anthropic import Anthropic
+    ANTHROPIC_AVAILABLE = True
+except ImportError:
+    ANTHROPIC_AVAILABLE = False
+    Anthropic = None
 
 
 class AIValidator:
@@ -49,13 +56,15 @@ class AIValidator:
 
         # Setup API
         if self.provider == 'grok':
-            self.api_key = api_key or os.getenv('GROK_API_KEY', '')
-            self.model = model or os.getenv('GROK_MODEL', 'grok-beta')
+            self.api_key = api_key or os.getenv('GROK_API_KEY', '') or os.getenv('XAI_API_KEY', '')
+            self.model = model or os.getenv('GROK_MODEL', 'grok-4-1-fast-reasoning')
             self.api_url = 'https://api.x.ai/v1/chat/completions'
         elif self.provider == 'claude':
+            if not ANTHROPIC_AVAILABLE:
+                logger.warning("⚠️ Anthropic package not installed. Install with: pip install anthropic")
             self.api_key = api_key or os.getenv('ANTHROPIC_API_KEY', '')
             self.model = model or os.getenv('CLAUDE_MODEL', 'claude-3-haiku-20240307')
-            self.client = Anthropic(api_key=self.api_key) if self.api_key else None
+            self.client = Anthropic(api_key=self.api_key) if (self.api_key and ANTHROPIC_AVAILABLE) else None
         else:
             raise ValueError(f"Unknown provider: {provider}. Use 'grok' or 'claude'")
 
@@ -222,6 +231,9 @@ REASONING: [Your 1-2 sentence analysis]"""
 
     def _call_claude(self, prompt: str) -> str:
         """Call Claude API (Anthropic)"""
+        if not ANTHROPIC_AVAILABLE:
+            raise RuntimeError("Anthropic package not installed. Install with: pip install anthropic")
+
         if not self.client:
             raise RuntimeError("Claude client not initialized (missing API key)")
 

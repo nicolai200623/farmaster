@@ -184,7 +184,7 @@ class AIEntryAnalyzer:
     # Default models per provider
     DEFAULT_MODELS = {
         AIProvider.CLAUDE: "claude-3-haiku-20240307",
-        AIProvider.GROK: "grok-2-latest",
+        AIProvider.GROK: "grok-4-1-fast-reasoning",  # Fast reasoning model for crypto trading
         AIProvider.OPENAI: "gpt-4o-mini",
         AIProvider.GEMINI: "gemini-1.5-flash"
     }
