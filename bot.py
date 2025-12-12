@@ -15,6 +15,7 @@ import signal
 from config import Config
 from utils.logger import logger
 from trading.asterdex_client import AsterDEXClient
+from trading.binance_client import BinanceClient
 from trading.signal_generator import SignalGenerator
 from trading.risk_manager import RiskManager
 from trading.position_tracker import PositionTracker
@@ -25,18 +26,34 @@ from ml.features import FeatureEngine
 from trading.ai_validator import AIAccuracyTracker
 
 class AsterDEXBot:
-    """Main trading bot"""
+    """Main trading bot - Multi-exchange support"""
 
     def __init__(self):
         logger.info("=" * 60)
-        logger.info("🚀 ASTERDEX PERP FARM BOT - INITIALIZING")
+        logger.info("🚀 MULTI-EXCHANGE PERP FARM BOT - INITIALIZING")
         logger.info("=" * 60)
 
         # Validate config
         Config.validate()
 
+        # Initialize exchange clients
+        self.clients = {}
+        self.exchange_symbols = {}
+
+        if 'asterdex' in Config.EXCHANGES:
+            self.clients['asterdex'] = AsterDEXClient()
+            self.exchange_symbols['asterdex'] = Config.SYMBOLS
+            logger.info(f"✅ AsterDEX initialized with {len(Config.SYMBOLS)} symbols")
+
+        if 'binance' in Config.EXCHANGES:
+            self.clients['binance'] = BinanceClient()
+            self.exchange_symbols['binance'] = Config.BINANCE_SYMBOLS
+            logger.info(f"✅ Binance initialized with {len(Config.BINANCE_SYMBOLS)} symbols")
+
+        # Backward compatibility: giữ self.client cho code cũ (mặc định = exchange đầu tiên)
+        self.client = list(self.clients.values())[0] if self.clients else None
+
         # Initialize components
-        self.client = AsterDEXClient()
         self.risk_manager = RiskManager()
         self.position_tracker = PositionTracker()
 
@@ -92,8 +109,13 @@ class AsterDEXBot:
         signal.signal(signal.SIGTERM, self._signal_handler)
         
         logger.info("✅ Bot initialized successfully!")
-        logger.info(f"   Symbols: {Config.SYMBOLS}")
-        logger.info(f"   Leverage: {Config.LEVERAGE}x")
+
+        # Log configuration for each exchange
+        for exchange_name, symbols in self.exchange_symbols.items():
+            leverage = Config.BINANCE_LEVERAGE if exchange_name == 'binance' else Config.LEVERAGE
+            logger.info(f"   [{exchange_name.upper()}] Symbols: {symbols}")
+            logger.info(f"   [{exchange_name.upper()}] Leverage: {leverage}x")
+
         logger.info(f"   Position Size: {Config.SIZE_PCT*100}%")
 
         # Handle None for SL_PCT (TP_PCT and SL_PCT are in decimal: 0.01 = 1%)
@@ -116,11 +138,16 @@ class AsterDEXBot:
         try:
             logger.info("🏁 BOT STARTED!", send_tg=True)
 
-            # Get initial balance with error handling
+            # Get initial balance from all exchanges
             try:
-                balance = self.client.get_account_balance()
-                self.risk_manager.set_daily_start(balance)
-                logger.info(f"💰 Starting balance: ${balance:.2f}", send_tg=True)
+                total_balance = 0
+                for exchange_name, client in self.clients.items():
+                    balance = client.get_account_balance()
+                    total_balance += balance
+                    logger.info(f"💰 [{exchange_name.upper()}] Balance: ${balance:.2f}")
+
+                self.risk_manager.set_daily_start(total_balance)
+                logger.info(f"💰 Total starting balance: ${total_balance:.2f}", send_tg=True)
             except Exception as e:
                 logger.error(f"❌ Failed to get initial balance: {e}", send_tg=True)
                 logger.error("   Check API credentials and network connection")
@@ -136,13 +163,21 @@ class AsterDEXBot:
 
                     # Heartbeat logging every 5 loops
                     if self.loop_count % 5 == 0:
-                        positions_count = sum(1 for s in Config.SYMBOLS if self.client.get_position(s) is not None)
-                        logger.info(f"💓 Bot alive - Loop #{self.loop_count} - Active positions: {positions_count}")
+                        total_positions = 0
+                        for exchange_name, client in self.clients.items():
+                            symbols = self.exchange_symbols[exchange_name]
+                            positions_count = sum(1 for s in symbols if client.get_position(s) is not None)
+                            total_positions += positions_count
+                        logger.info(f"💓 Bot alive - Loop #{self.loop_count} - Active positions: {total_positions}")
 
-                    # Get current balance with retry
+                    # Get current balance from all exchanges
                     try:
-                        current_balance = self.client.get_account_balance()
-                        logger.info(f"💰 Current balance: ${current_balance:.2f}")
+                        total_balance = 0
+                        for exchange_name, client in self.clients.items():
+                            balance = client.get_account_balance()
+                            total_balance += balance
+                            logger.info(f"💰 [{exchange_name.upper()}] Balance: ${balance:.2f}")
+                        logger.info(f"💰 Total balance: ${total_balance:.2f}")
                     except Exception as e:
                         logger.error(f"⚠️ Failed to get balance: {e}")
                         logger.info("   Retrying in 60s...")
@@ -150,29 +185,43 @@ class AsterDEXBot:
                         continue
 
                     # Check if can trade
-                    can_trade, reason = self.risk_manager.should_trade(current_balance)
+                    can_trade, reason = self.risk_manager.should_trade(total_balance)
 
                     if not can_trade:
                         logger.warning(f"⚠️ Cannot trade: {reason}", send_tg=True)
                         break
 
-                    # Process each symbol (with small delay to avoid rate limiting)
-                    for i, symbol in enumerate(Config.SYMBOLS):
-                        try:
-                            self._process_symbol(symbol, current_balance)
-                        except Exception as e:
-                            logger.error(f"❌ Error processing {symbol}: {e}")
-                            logger.error(f"   Continuing with next symbol...")
-                            continue
+                    # Process each exchange and their symbols
+                    for exchange_name, client in self.clients.items():
+                        logger.info(f"\n{'='*50}")
+                        logger.info(f"🔄 Processing {exchange_name.upper()}")
+                        logger.info(f"{'='*50}")
 
-                        # Small delay between symbols (except last one)
-                        if i < len(Config.SYMBOLS) - 1:
-                            time.sleep(0.5)  # 500ms delay
+                        symbols = self.exchange_symbols[exchange_name]
+                        leverage = Config.BINANCE_LEVERAGE if exchange_name == 'binance' else Config.LEVERAGE
+
+                        # Process each symbol on this exchange
+                        for i, symbol in enumerate(symbols):
+                            try:
+                                self._process_symbol(exchange_name, client, symbol, total_balance, leverage)
+                            except Exception as e:
+                                logger.error(f"❌ [{exchange_name.upper()}] Error processing {symbol}: {e}")
+                                logger.error(f"   Continuing with next symbol...")
+                                continue
+
+                            # Small delay between symbols (except last one)
+                            if i < len(symbols) - 1:
+                                time.sleep(0.5)  # 500ms delay
 
                     # Cleanup stale position tracking (every 10 loops)
                     if self.loop_count % 10 == 0:
                         try:
-                            active_symbols = [s for s in Config.SYMBOLS if self.client.get_position(s) is not None]
+                            # Collect all active symbols from all exchanges
+                            active_symbols = []
+                            for exchange_name, client in self.clients.items():
+                                symbols = self.exchange_symbols[exchange_name]
+                                active = [s for s in symbols if client.get_position(s) is not None]
+                                active_symbols.extend(active)
                             self.position_tracker.cleanup_stale_positions(active_symbols)
                         except Exception as e:
                             logger.error(f"⚠️ Error during cleanup: {e}")
@@ -207,13 +256,13 @@ class AsterDEXBot:
             # Shutdown
             self._shutdown()
     
-    def _process_symbol(self, symbol, current_balance):
+    def _process_symbol(self, exchange_name, client, symbol, current_balance, leverage):
         """Xử lý 1 symbol với detailed logging"""
-        logger.info(f"\n📊 Processing {symbol}...")
+        logger.info(f"\n📊 [{exchange_name.upper()}] Processing {symbol}...")
 
         try:
             # Check current position
-            position = self.client.get_position(symbol)
+            position = client.get_position(symbol)
 
             if position:
                 # Get position age
@@ -236,7 +285,7 @@ class AsterDEXBot:
                         side=position['side'],
                         entry_price=position['entry_price'],
                         current_price=position['mark_price'],
-                        leverage=Config.LEVERAGE  # Pass leverage for PnL-based calculation
+                        leverage=leverage  # Pass leverage for PnL-based calculation
                     )
 
                     if ts_result['should_close']:
@@ -257,8 +306,8 @@ class AsterDEXBot:
                 if should_close:
                     logger.info(f"   🔴 Closing position: {reason}")
 
-                    if self.client.close_position(symbol):
-                        logger.trade(f"CLOSE {position['side']} {symbol} | {reason} | PnL: {position['pnl_pct']*100:.2f}%")
+                    if client.close_position(symbol):
+                        logger.trade(f"[{exchange_name.upper()}] CLOSE {position['side']} {symbol} | {reason} | PnL: {position['pnl_pct']*100:.2f}%")
 
                         # Clear position tracking
                         self.position_tracker.clear_position(symbol)
@@ -299,7 +348,7 @@ class AsterDEXBot:
                 logger.info(f"   🔍 Analyzing {symbol} for entry signal...")
 
                 try:
-                    signal_result = self.signal_generator.generate_signal(self.client, symbol)
+                    signal_result = self.signal_generator.generate_signal(client, symbol)
 
                     # Handle both advanced (tuple) and legacy (str) return types
                     # Check both USE_ADVANCED_ENTRY and USE_SMART_ENTRY_V2
@@ -334,21 +383,21 @@ class AsterDEXBot:
 
                     try:
                         # Setup leverage and margin
-                        logger.info(f"   ⚙️ Setting up leverage {Config.LEVERAGE}x and ISOLATED margin...")
-                        self.client.set_leverage(symbol, Config.LEVERAGE)
-                        self.client.set_margin_type(symbol, 'ISOLATED')
+                        logger.info(f"   ⚙️ Setting up leverage {leverage}x and ISOLATED margin...")
+                        client.set_leverage(symbol, leverage)
+                        client.set_margin_type(symbol, 'ISOLATED')
 
                         # Get price
-                        price = self.client.get_ticker_price(symbol)
+                        price = client.get_ticker_price(symbol)
                         logger.info(f"   💵 Current price: ${price:.2f}")
 
                         # Calculate position size
                         raw_quantity = self.risk_manager.calculate_position_size(
-                            current_balance, price, Config.LEVERAGE
+                            current_balance, price, leverage
                         )
 
                         # Format quantity according to exchange rules
-                        quantity = self.client.format_quantity(symbol, raw_quantity)
+                        quantity = client.format_quantity(symbol, raw_quantity)
 
                         # Log calculation details
                         logger.info(f"   💰 Position calculation:")
@@ -360,7 +409,7 @@ class AsterDEXBot:
                         else:
                             logger.info(f"      Capital ({Config.SIZE_PCT*100}%): ${current_balance * Config.SIZE_PCT:.2f}")
 
-                        logger.info(f"      Leverage: {Config.LEVERAGE}x")
+                        logger.info(f"      Leverage: {leverage}x")
                         logger.info(f"      Raw quantity: {raw_quantity:.8f}")
                         logger.info(f"      Formatted quantity: {quantity:.8f}")
 
@@ -371,7 +420,7 @@ class AsterDEXBot:
                             logger.info(f"   📤 Placing {side} order for {quantity} {symbol}...")
 
                             # Create order
-                            order = self.client.create_market_order(
+                            order = client.create_market_order(
                                 symbol=symbol,
                                 side=side,
                                 quantity=quantity
@@ -380,9 +429,9 @@ class AsterDEXBot:
                             if order:
                                 # Log trade with confluence info if available
                                 if Config.USE_ADVANCED_ENTRY or Config.USE_SMART_ENTRY_V2:
-                                    logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f} | Score: {confluence_score} | {reasons[0] if reasons else ''}")
+                                    logger.trade(f"[{exchange_name.upper()}] OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f} | Score: {confluence_score} | {reasons[0] if reasons else ''}")
                                 else:
-                                    logger.trade(f"OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
+                                    logger.trade(f"[{exchange_name.upper()}] OPEN {signal} {symbol} | Qty: {quantity} | Price: ${price:.2f}")
 
                                 # Track position opening time
                                 self.position_tracker.track_position_open(symbol)

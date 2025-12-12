@@ -10,23 +10,43 @@ load_dotenv()
 
 class Config:
     """Cấu hình toàn bộ bot"""
-    
-    # API Credentials
+
+    # ============================================
+    # 🔌 EXCHANGE CONFIGURATION
+    # ============================================
+    # Exchanges to use (comma-separated: asterdex, binance)
+    EXCHANGES = os.getenv('EXCHANGES', 'asterdex').lower().split(',')
+
+    # AsterDEX API Credentials
     API_KEY = os.getenv('API_KEY', '')
     API_SECRET = os.getenv('API_SECRET', '')
-    
+
     # AsterDEX URLs
     FUTURES_BASE_URL = 'https://fapi.asterdex.com/fapi'
     TESTNET_URL = 'https://testnet.asterdex.com/fapi'
-    
-    # Telegram
+    TESTNET_MODE = os.getenv('TESTNET_MODE', 'True').lower() == 'true'
+
+    # Binance API Credentials
+    BINANCE_API_KEY = os.getenv('BINANCE_API_KEY', '')
+    BINANCE_API_SECRET = os.getenv('BINANCE_API_SECRET', '')
+    BINANCE_TESTNET_MODE = os.getenv('BINANCE_TESTNET_MODE', 'False').lower() == 'true'
+
+    # ============================================
+    # 📱 TELEGRAM NOTIFICATION
+    # ============================================
     TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '')
     TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '')
-    
-    # Trading Parameters
-    TESTNET_MODE = os.getenv('TESTNET_MODE', 'True').lower() == 'true'
+
+    # ============================================
+    # 💰 TRADING PARAMETERS
+    # ============================================
+    # AsterDEX Symbols
     SYMBOLS = os.getenv('SYMBOLS', 'BTCUSDT,ETHUSDT').split(',')
     LEVERAGE = int(os.getenv('LEVERAGE', '5'))
+
+    # Binance Symbols (có thể khác với AsterDEX vì Binance có nhiều coin hơn)
+    BINANCE_SYMBOLS = os.getenv('BINANCE_SYMBOLS', 'BTCUSDT,ETHUSDT').split(',')
+    BINANCE_LEVERAGE = int(os.getenv('BINANCE_LEVERAGE', '5'))
 
     # Position Size Config
     SIZE_PCT = float(os.getenv('SIZE_PCT', '0.1'))  # 10% vốn mỗi lệnh (nếu không dùng POSITION_SIZE_USDT)
@@ -254,8 +274,26 @@ class Config:
     @classmethod
     def validate(cls):
         """Kiểm tra config hợp lệ"""
-        if not cls.API_KEY or not cls.API_SECRET:
-            raise ValueError("❌ API_KEY và API_SECRET bắt buộc phải có trong .env!")
+        # Validate exchanges
+        valid_exchanges = ['asterdex', 'binance']
+        for exchange in cls.EXCHANGES:
+            exchange = exchange.strip()
+            if exchange not in valid_exchanges:
+                raise ValueError(f"❌ Exchange không hợp lệ: {exchange}. Chỉ hỗ trợ: {valid_exchanges}")
+
+        print(f"📊 Enabled exchanges: {', '.join(cls.EXCHANGES)}")
+
+        # Validate AsterDEX credentials nếu sử dụng
+        if 'asterdex' in cls.EXCHANGES:
+            if not cls.API_KEY or not cls.API_SECRET:
+                raise ValueError("❌ AsterDEX API_KEY và API_SECRET bắt buộc phải có trong .env!")
+            print(f"✅ AsterDEX configured: {len(cls.SYMBOLS)} symbols")
+
+        # Validate Binance credentials nếu sử dụng
+        if 'binance' in cls.EXCHANGES:
+            if not cls.BINANCE_API_KEY or not cls.BINANCE_API_SECRET:
+                raise ValueError("❌ BINANCE_API_KEY và BINANCE_API_SECRET bắt buộc phải có trong .env khi sử dụng Binance!")
+            print(f"✅ Binance configured: {len(cls.BINANCE_SYMBOLS)} symbols")
 
         # Validate position size config
         if cls.POSITION_SIZE_USDT is not None:
@@ -267,8 +305,13 @@ class Config:
                 raise ValueError("❌ SIZE_PCT phải trong khoảng (0, 1]")
             print(f"✅ Using percentage position size: {cls.SIZE_PCT*100}% of balance per trade")
 
+        # Validate leverage
         if cls.LEVERAGE < 1 or cls.LEVERAGE > 125:
             raise ValueError("❌ LEVERAGE phải trong khoảng [1, 125]")
+
+        if 'binance' in cls.EXCHANGES:
+            if cls.BINANCE_LEVERAGE < 1 or cls.BINANCE_LEVERAGE > 125:
+                raise ValueError("❌ BINANCE_LEVERAGE phải trong khoảng [1, 125]")
 
         print("✅ Config validation passed!")
         return True
