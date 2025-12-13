@@ -1,6 +1,37 @@
-# 📱 Hướng dẫn cấu hình Telegram Notifications
+# 📱 Hướng dẫn khắc phục lỗi Bot
 
-## Vấn đề hiện tại
+## ⚠️ Nếu bot bị crash ngay khi start
+
+Bot có thể crash vì **thiếu dependencies** (đặc biệt là `python-binance`).
+
+### Kiểm tra và cài đặt dependencies:
+
+```bash
+cd /home/farmaster2/farmaster
+source venv/bin/activate  # nếu dùng virtual environment
+python3 check_dependencies.py
+```
+
+Script sẽ:
+- ✅ Kiểm tra tất cả packages cần thiết
+- ❌ Liệt kê packages bị thiếu
+- 🔧 Tự động cài đặt nếu bạn chọn 'y'
+
+**Hoặc cài đặt thủ công:**
+```bash
+pip install -r requirements-vps.txt
+```
+
+Sau khi cài đặt xong, restart bot:
+```bash
+sudo systemctl restart asterdex-bot2
+```
+
+---
+
+## 📱 Cấu hình Telegram Notifications
+
+### Vấn đề hiện tại
 Bot đã chạy được nhưng không gửi thông báo qua Telegram vì chưa cấu hình `TELEGRAM_TOKEN` và `TELEGRAM_CHAT_ID`.
 
 ## Cách khắc phục (5 bước đơn giản)
