@@ -6992,3 +6992,8518 @@
 2025-12-13 12:40:10,338 [INFO]    Age: 2.1h / 72.0h
 2025-12-13 12:40:10,338 [INFO] 
 ðŸ’¤ Sleeping 180s...
+2025-12-13 12:43:10,434 [INFO] 
+============================================================
+2025-12-13 12:43:10,434 [INFO] ðŸ”„ LOOP #49 - 2025-12-13 12:43:10
+2025-12-13 12:43:10,434 [INFO] ============================================================
+2025-12-13 12:43:10,525 [INFO] ðŸ’° [BINANCE] Balance: $110.84
+2025-12-13 12:43:10,526 [INFO] ðŸ’° Total balance: $110.84
+2025-12-13 12:43:10,526 [INFO] 
+==================================================
+2025-12-13 12:43:10,526 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 12:43:10,526 [INFO] ==================================================
+2025-12-13 12:43:10,526 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 12:43:10,616 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 12:43:11,288 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:11,288 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:11,789 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 12:43:11,874 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 12:43:12,631 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:12,632 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:13,132 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 12:43:13,213 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 12:43:13,878 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:13,878 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:14,379 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 12:43:14,461 [INFO]    Current position: SHORT 2.446
+2025-12-13 12:43:14,461 [INFO]    Entry: $81.76 | Mark: $81.45
+2025-12-13 12:43:14,461 [INFO]    PnL: 3.79% ($0.76)
+2025-12-13 12:43:14,462 [INFO]    Age: 2.3h / 72.0h
+2025-12-13 12:43:14,462 [INFO] ðŸŽ¯ Trailing stop activated for LTCUSDT at 3.79% PnL (price: $81.4500)
+2025-12-13 12:43:14,462 [INFO]    ðŸ“ˆ Trailing active: PnL=3.79%, Peak=3.79%
+2025-12-13 12:43:14,963 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 12:43:15,045 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 12:43:15,693 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:15,693 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:16,194 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 12:43:16,275 [INFO]    Current position: SHORT 1.5
+2025-12-13 12:43:16,275 [INFO]    Entry: $133.75 | Mark: $132.73
+2025-12-13 12:43:16,275 [INFO]    PnL: 7.63% ($1.53)
+2025-12-13 12:43:16,275 [INFO]    Age: 1.8h / 72.0h
+2025-12-13 12:43:16,275 [INFO]    ðŸ“ˆ Trailing active: PnL=7.63%, Peak=7.63%
+2025-12-13 12:43:16,776 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 12:43:16,858 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 12:43:17,504 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:17,504 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:18,005 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 12:43:18,086 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 12:43:18,802 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:18,802 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:19,303 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 12:43:19,386 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 12:43:20,032 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:43:20,032 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:43:20,032 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:43:20,032 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:43:20,033 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:43:20,033 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:43:20,033 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:43:20,037 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:20,037 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:20,538 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 12:43:20,619 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 12:43:21,244 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:21,245 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:21,745 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 12:43:21,829 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 12:43:22,577 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:22,577 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:23,078 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 12:43:23,159 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 12:43:23,833 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:23,833 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:24,334 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 12:43:24,414 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 12:43:25,110 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 6/15
+2025-12-13 12:43:25,110 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 12:43:25,110 [INFO]    No clear pullback
+2025-12-13 12:43:25,110 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:43:25,111 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:43:25,111 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:43:25,116 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:25,116 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:25,617 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 12:43:25,704 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 12:43:26,403 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:26,403 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:26,904 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 12:43:26,985 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 12:43:27,722 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:27,722 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:28,223 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 12:43:28,309 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 12:43:29,115 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:29,115 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:29,616 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 12:43:29,697 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 12:43:30,503 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:43:30,504 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:43:30,504 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:43:30,504 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:43:30,504 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:43:30,504 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:43:30,504 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:43:30,509 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:30,510 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:31,011 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 12:43:31,090 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 12:43:31,781 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:31,788 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:32,289 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 12:43:32,369 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 12:43:33,096 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:43:33,097 [INFO]    âšª No signal - HOLD
+2025-12-13 12:43:33,598 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 12:43:33,681 [INFO]    Current position: SHORT 120.5
+2025-12-13 12:43:33,682 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 12:43:33,682 [INFO]    PnL: -11.64% ($-2.33)
+2025-12-13 12:43:33,682 [INFO]    Age: 2.2h / 72.0h
+2025-12-13 12:43:33,682 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 12:46:33,712 [INFO] 
+============================================================
+2025-12-13 12:46:33,712 [INFO] ðŸ”„ LOOP #50 - 2025-12-13 12:46:33
+2025-12-13 12:46:33,713 [INFO] ============================================================
+2025-12-13 12:46:35,367 [INFO] ðŸ’“ Bot alive - Loop #50 - Active positions: 3
+2025-12-13 12:46:35,452 [INFO] ðŸ’° [BINANCE] Balance: $110.84
+2025-12-13 12:46:35,452 [INFO] ðŸ’° Total balance: $110.84
+2025-12-13 12:46:35,452 [INFO] 
+==================================================
+2025-12-13 12:46:35,453 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 12:46:35,453 [INFO] ==================================================
+2025-12-13 12:46:35,453 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 12:46:35,533 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 12:46:36,223 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:36,224 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:36,725 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 12:46:36,804 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 12:46:37,484 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:37,485 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:37,985 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 12:46:38,067 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 12:46:38,758 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:38,758 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:39,259 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 12:46:39,343 [INFO]    Current position: SHORT 2.446
+2025-12-13 12:46:39,343 [INFO]    Entry: $81.76 | Mark: $81.41
+2025-12-13 12:46:39,343 [INFO]    PnL: 4.23% ($0.85)
+2025-12-13 12:46:39,343 [INFO]    Age: 2.4h / 72.0h
+2025-12-13 12:46:39,343 [INFO]    ðŸ“ˆ Trailing active: PnL=4.23%, Peak=4.23%
+2025-12-13 12:46:39,844 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 12:46:39,924 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 12:46:40,691 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:40,691 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:41,192 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 12:46:41,279 [INFO]    Current position: SHORT 1.5
+2025-12-13 12:46:41,280 [INFO]    Entry: $133.75 | Mark: $132.69
+2025-12-13 12:46:41,280 [INFO]    PnL: 7.95% ($1.60)
+2025-12-13 12:46:41,280 [INFO]    Age: 1.8h / 72.0h
+2025-12-13 12:46:41,280 [INFO]    ðŸ“ˆ Trailing active: PnL=7.95%, Peak=7.95%
+2025-12-13 12:46:41,781 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 12:46:41,862 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 12:46:42,583 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:42,583 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:43,084 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 12:46:43,165 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 12:46:43,954 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:43,954 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:44,455 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 12:46:44,537 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 12:46:45,311 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:46:45,311 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:46:45,311 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:46:45,311 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:46:45,311 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:46:45,311 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:46:45,311 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:46:45,317 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:45,317 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:45,818 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 12:46:45,898 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 12:46:46,644 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:46,644 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:47,145 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 12:46:47,224 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 12:46:47,990 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:47,991 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:48,491 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 12:46:48,573 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 12:46:49,304 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:49,305 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:49,805 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 12:46:49,894 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 12:46:50,745 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 6/15
+2025-12-13 12:46:50,745 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 12:46:50,745 [INFO]    No clear pullback
+2025-12-13 12:46:50,745 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:46:50,746 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:46:50,746 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:46:50,752 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:50,752 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:51,253 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 12:46:51,337 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 12:46:52,087 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:52,087 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:52,588 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 12:46:52,669 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 12:46:53,416 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:53,417 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:53,917 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 12:46:53,999 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 12:46:54,713 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:54,713 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:55,214 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 12:46:55,296 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 12:46:56,134 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:46:56,134 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:46:56,134 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:46:56,134 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:46:56,134 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:46:56,134 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:46:56,134 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:46:56,140 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:56,140 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:56,641 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 12:46:56,722 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 12:46:57,457 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:57,457 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:57,958 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 12:46:58,040 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 12:46:58,809 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:46:58,809 [INFO]    âšª No signal - HOLD
+2025-12-13 12:46:59,309 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 12:46:59,389 [INFO]    Current position: SHORT 120.5
+2025-12-13 12:46:59,390 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 12:46:59,390 [INFO]    PnL: -12.06% ($-2.41)
+2025-12-13 12:46:59,390 [INFO]    Age: 2.3h / 72.0h
+2025-12-13 12:47:01,990 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 12:50:02,082 [INFO] 
+============================================================
+2025-12-13 12:50:02,082 [INFO] ðŸ”„ LOOP #51 - 2025-12-13 12:50:02
+2025-12-13 12:50:02,082 [INFO] ============================================================
+2025-12-13 12:50:02,167 [INFO] ðŸ’° [BINANCE] Balance: $110.84
+2025-12-13 12:50:02,167 [INFO] ðŸ’° Total balance: $110.84
+2025-12-13 12:50:02,168 [INFO] 
+==================================================
+2025-12-13 12:50:02,168 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 12:50:02,168 [INFO] ==================================================
+2025-12-13 12:50:02,168 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 12:50:02,250 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 12:50:02,955 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:02,956 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:03,457 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 12:50:03,536 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 12:50:04,221 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:04,221 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:04,722 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 12:50:04,802 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 12:50:05,514 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:05,514 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:06,015 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 12:50:06,097 [INFO]    Current position: SHORT 2.446
+2025-12-13 12:50:06,097 [INFO]    Entry: $81.76 | Mark: $81.43
+2025-12-13 12:50:06,097 [INFO]    PnL: 4.04% ($0.81)
+2025-12-13 12:50:06,097 [INFO]    Age: 2.4h / 72.0h
+2025-12-13 12:50:06,097 [INFO]    ðŸ“ˆ Trailing active: PnL=4.04%, Peak=4.23%
+2025-12-13 12:50:06,599 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 12:50:06,679 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 12:50:07,368 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:07,369 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:07,869 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 12:50:07,957 [INFO]    Current position: SHORT 1.5
+2025-12-13 12:50:07,958 [INFO]    Entry: $133.75 | Mark: $132.83
+2025-12-13 12:50:07,959 [INFO]    PnL: 6.88% ($1.38)
+2025-12-13 12:50:07,959 [INFO]    Age: 1.9h / 72.0h
+2025-12-13 12:50:07,959 [INFO]    ðŸ“ˆ Trailing active: PnL=6.88%, Peak=7.95%
+2025-12-13 12:50:08,460 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 12:50:08,545 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 12:50:09,207 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:09,207 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:09,708 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 12:50:09,790 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 12:50:10,454 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:10,455 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:10,955 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 12:50:11,036 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 12:50:11,725 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:50:11,726 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:50:11,726 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:50:11,726 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:50:11,726 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:50:11,726 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:50:11,726 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:50:11,732 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:11,732 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:12,233 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 12:50:12,315 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 12:50:12,997 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:12,998 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:13,499 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 12:50:13,580 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 12:50:14,285 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:14,285 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:14,786 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 12:50:14,868 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 12:50:15,541 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:15,541 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:16,042 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 12:50:16,120 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 12:50:16,824 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 6/15
+2025-12-13 12:50:16,825 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 12:50:16,825 [INFO]    No clear pullback
+2025-12-13 12:50:16,825 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:50:16,825 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:50:16,825 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:50:16,830 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:16,830 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:17,331 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 12:50:17,413 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 12:50:18,041 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:18,042 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:18,543 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 12:50:18,620 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 12:50:19,289 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:19,290 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:19,791 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 12:50:19,879 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 12:50:20,816 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:20,816 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:21,317 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 12:50:21,399 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 12:50:22,069 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:50:22,069 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:50:22,069 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:50:22,069 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:50:22,069 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:50:22,070 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:50:22,070 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:50:22,074 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:22,074 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:22,575 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 12:50:22,657 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 12:50:23,330 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:23,330 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:23,831 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 12:50:23,912 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 12:50:24,569 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:50:24,570 [INFO]    âšª No signal - HOLD
+2025-12-13 12:50:25,070 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 12:50:25,157 [INFO]    Current position: SHORT 120.5
+2025-12-13 12:50:25,157 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 12:50:25,158 [INFO]    PnL: -14.43% ($-2.88)
+2025-12-13 12:50:25,158 [INFO]    Age: 2.3h / 72.0h
+2025-12-13 12:50:25,158 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 12:53:25,258 [INFO] 
+============================================================
+2025-12-13 12:53:25,258 [INFO] ðŸ”„ LOOP #52 - 2025-12-13 12:53:25
+2025-12-13 12:53:25,259 [INFO] ============================================================
+2025-12-13 12:53:25,344 [INFO] ðŸ’° [BINANCE] Balance: $110.84
+2025-12-13 12:53:25,345 [INFO] ðŸ’° Total balance: $110.84
+2025-12-13 12:53:25,345 [INFO] 
+==================================================
+2025-12-13 12:53:25,345 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 12:53:25,345 [INFO] ==================================================
+2025-12-13 12:53:25,345 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 12:53:25,430 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 12:53:26,084 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:26,084 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:26,585 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 12:53:26,666 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 12:53:27,356 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:27,356 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:27,857 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 12:53:27,943 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 12:53:28,611 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:28,611 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:29,112 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 12:53:29,195 [INFO]    Current position: SHORT 2.446
+2025-12-13 12:53:29,195 [INFO]    Entry: $81.76 | Mark: $81.42
+2025-12-13 12:53:29,195 [INFO]    PnL: 4.16% ($0.83)
+2025-12-13 12:53:29,196 [INFO]    Age: 2.5h / 72.0h
+2025-12-13 12:53:29,196 [INFO]    ðŸ“ˆ Trailing active: PnL=4.16%, Peak=4.23%
+2025-12-13 12:53:29,696 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 12:53:29,779 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 12:53:30,448 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:30,448 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:30,949 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 12:53:31,033 [INFO]    Current position: SHORT 1.5
+2025-12-13 12:53:31,033 [INFO]    Entry: $133.75 | Mark: $132.85
+2025-12-13 12:53:31,033 [INFO]    PnL: 6.73% ($1.35)
+2025-12-13 12:53:31,033 [INFO]    Age: 1.9h / 72.0h
+2025-12-13 12:53:31,033 [INFO]    ðŸ“ˆ Trailing active: PnL=6.73%, Peak=7.95%
+2025-12-13 12:53:31,534 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 12:53:31,614 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 12:53:32,312 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:32,312 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:32,813 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 12:53:32,895 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 12:53:33,557 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:33,557 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:34,058 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 12:53:34,139 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 12:53:34,839 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:53:34,839 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:53:34,839 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:53:34,839 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:53:34,839 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:53:34,839 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:53:34,839 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:53:34,845 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:34,845 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:35,346 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 12:53:35,428 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 12:53:36,085 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:36,085 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:36,586 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 12:53:36,671 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 12:53:37,459 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:37,460 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:37,960 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 12:53:38,044 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 12:53:38,742 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:38,742 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:39,243 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 12:53:39,326 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 12:53:40,080 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 6/15
+2025-12-13 12:53:40,080 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 12:53:40,081 [INFO]    No clear pullback
+2025-12-13 12:53:40,081 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:53:40,081 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:53:40,081 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:53:40,087 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:40,087 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:40,588 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 12:53:40,670 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 12:53:41,543 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:41,543 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:42,044 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 12:53:42,130 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 12:53:42,792 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:42,793 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:43,294 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 12:53:43,510 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 12:53:44,163 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:44,164 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:44,665 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 12:53:44,745 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 12:53:45,431 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:53:45,431 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:53:45,431 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:53:45,431 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:53:45,431 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:53:45,432 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:53:45,432 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:53:45,436 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:45,436 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:45,937 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 12:53:46,021 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 12:53:46,852 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:46,853 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:47,354 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 12:53:47,432 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 12:53:48,251 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:53:48,252 [INFO]    âšª No signal - HOLD
+2025-12-13 12:53:48,752 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 12:53:48,839 [INFO]    Current position: SHORT 120.5
+2025-12-13 12:53:48,839 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 12:53:48,839 [INFO]    PnL: -13.39% ($-2.68)
+2025-12-13 12:53:48,840 [INFO]    Age: 2.4h / 72.0h
+2025-12-13 12:53:48,840 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 12:56:48,940 [INFO] 
+============================================================
+2025-12-13 12:56:48,940 [INFO] ðŸ”„ LOOP #53 - 2025-12-13 12:56:48
+2025-12-13 12:56:48,940 [INFO] ============================================================
+2025-12-13 12:56:49,103 [INFO] ðŸ’° [BINANCE] Balance: $110.84
+2025-12-13 12:56:49,103 [INFO] ðŸ’° Total balance: $110.84
+2025-12-13 12:56:49,103 [INFO] 
+==================================================
+2025-12-13 12:56:49,103 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 12:56:49,103 [INFO] ==================================================
+2025-12-13 12:56:49,103 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 12:56:49,259 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 12:56:49,952 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:56:49,952 [INFO]    âšª No signal - HOLD
+2025-12-13 12:56:50,453 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 12:56:50,546 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 12:56:51,187 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:56:51,187 [INFO]    âšª No signal - HOLD
+2025-12-13 12:56:51,688 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 12:56:51,769 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 12:56:52,399 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:56:52,400 [INFO]    âšª No signal - HOLD
+2025-12-13 12:56:52,901 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 12:56:52,987 [INFO]    Current position: SHORT 2.446
+2025-12-13 12:56:52,987 [INFO]    Entry: $81.76 | Mark: $81.54
+2025-12-13 12:56:52,987 [INFO]    PnL: 2.69% ($0.54)
+2025-12-13 12:56:52,987 [INFO]    Age: 2.5h / 72.0h
+2025-12-13 12:56:52,987 [INFO]    ðŸ“ˆ Trailing active: PnL=2.69%, Peak=4.23%
+2025-12-13 12:56:53,488 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 12:56:53,570 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 12:56:54,215 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:56:54,215 [INFO]    âšª No signal - HOLD
+2025-12-13 12:56:54,716 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 12:56:54,805 [INFO]    Current position: SHORT 1.5
+2025-12-13 12:56:54,805 [INFO]    Entry: $133.75 | Mark: $132.93
+2025-12-13 12:56:54,805 [INFO]    PnL: 6.13% ($1.23)
+2025-12-13 12:56:54,805 [INFO]    Age: 2.0h / 72.0h
+2025-12-13 12:56:54,805 [INFO]    ðŸ“ˆ Trailing active: PnL=6.13%, Peak=7.95%
+2025-12-13 12:56:55,306 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 12:56:55,387 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 12:56:56,064 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:56:56,064 [INFO]    âšª No signal - HOLD
+2025-12-13 12:56:56,565 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 12:56:56,648 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 12:56:57,317 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:56:57,317 [INFO]    âšª No signal - HOLD
+2025-12-13 12:56:57,818 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 12:56:57,901 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 12:56:58,688 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:56:58,689 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:56:58,689 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:56:58,689 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:56:58,689 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:56:58,689 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:56:58,689 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:56:58,695 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:56:58,695 [INFO]    âšª No signal - HOLD
+2025-12-13 12:56:59,196 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 12:56:59,283 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 12:57:00,021 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:00,021 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:00,522 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 12:57:00,604 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 12:57:01,256 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:01,257 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:01,757 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 12:57:01,838 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 12:57:02,807 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:02,807 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:03,308 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 12:57:03,389 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 12:57:04,329 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 6/15
+2025-12-13 12:57:04,330 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 12:57:04,330 [INFO]    No clear pullback
+2025-12-13 12:57:04,330 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:57:04,330 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:57:04,330 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:57:04,337 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:04,337 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:04,838 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 12:57:04,920 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 12:57:05,745 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:05,746 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:06,246 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 12:57:06,328 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 12:57:06,996 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:06,996 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:07,497 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 12:57:07,582 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 12:57:08,261 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:08,261 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:08,762 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 12:57:08,845 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 12:57:09,503 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 10/15
+2025-12-13 12:57:09,504 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 12:57:09,504 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 12:57:09,504 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 12:57:09,504 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 12:57:09,504 [INFO]    ðŸ’¤ Off-peak hours
+2025-12-13 12:57:09,504 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 12:57:09,509 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:09,509 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:10,010 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 12:57:10,108 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 12:57:10,932 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:10,933 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:11,434 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 12:57:11,514 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 12:57:12,213 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 12:57:12,214 [INFO]    âšª No signal - HOLD
+2025-12-13 12:57:12,714 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 12:57:12,795 [INFO]    Current position: SHORT 120.5
+2025-12-13 12:57:12,795 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 12:57:12,795 [INFO]    PnL: -15.86% ($-3.17)
+2025-12-13 12:57:12,795 [INFO]    Age: 2.4h / 72.0h
+2025-12-13 12:57:12,795 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:00:12,893 [INFO] 
+============================================================
+2025-12-13 13:00:12,894 [INFO] ðŸ”„ LOOP #54 - 2025-12-13 13:00:12
+2025-12-13 13:00:12,894 [INFO] ============================================================
+2025-12-13 13:00:12,983 [INFO] ðŸ’° [BINANCE] Balance: $110.84
+2025-12-13 13:00:12,983 [INFO] ðŸ’° Total balance: $110.84
+2025-12-13 13:00:12,983 [INFO] 
+==================================================
+2025-12-13 13:00:12,983 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:00:12,983 [INFO] ==================================================
+2025-12-13 13:00:12,983 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:00:13,296 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:00:14,590 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:14,590 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:15,091 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:00:15,220 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:00:16,168 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:16,168 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:16,669 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:00:16,812 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:00:17,486 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:17,486 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:17,987 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:00:18,062 [INFO]    Current position: SHORT 2.446
+2025-12-13 13:00:18,063 [INFO]    Entry: $81.76 | Mark: $81.57
+2025-12-13 13:00:18,063 [INFO]    PnL: 2.32% ($0.46)
+2025-12-13 13:00:18,063 [INFO]    Age: 2.6h / 72.0h
+2025-12-13 13:00:18,063 [INFO]    ðŸ“ˆ Trailing active: PnL=2.32%, Peak=4.23%
+2025-12-13 13:00:18,564 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:00:18,673 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:00:19,377 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:19,377 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:19,878 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:00:19,970 [INFO]    Current position: SHORT 1.5
+2025-12-13 13:00:19,970 [INFO]    Entry: $133.75 | Mark: $132.97
+2025-12-13 13:00:19,970 [INFO]    PnL: 5.83% ($1.17)
+2025-12-13 13:00:19,970 [INFO]    Age: 2.0h / 72.0h
+2025-12-13 13:00:19,970 [INFO]    ðŸ“ˆ Trailing active: PnL=5.83%, Peak=7.95%
+2025-12-13 13:00:20,471 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:00:20,548 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:00:21,290 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:21,290 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:21,793 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:00:21,873 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:00:22,590 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:22,590 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:23,091 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:00:23,168 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 13:00:23,826 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 11/15
+2025-12-13 13:00:23,826 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:00:23,826 [INFO]    âš ï¸ Near EMA21
+2025-12-13 13:00:23,826 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:00:23,826 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:00:23,826 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:00:23,826 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:00:23,832 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:23,832 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:24,333 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:00:24,407 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:00:25,028 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:25,029 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:25,529 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:00:25,606 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:00:26,298 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:26,299 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:26,799 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:00:26,875 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:00:27,489 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:27,489 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:27,989 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:00:28,066 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:00:28,726 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:00:28,726 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:00:28,726 [INFO]    No clear pullback
+2025-12-13 13:00:28,726 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:00:28,726 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:00:28,727 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:00:28,732 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:28,733 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:29,234 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:00:29,308 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:00:29,981 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:29,981 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:30,482 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:00:30,559 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:00:31,185 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:31,185 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:31,686 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:00:31,766 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:00:32,413 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:32,413 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:32,914 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:00:32,991 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:00:33,660 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:00:33,661 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:00:33,661 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:00:33,661 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:00:33,661 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:00:33,661 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:00:33,661 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:00:33,666 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:33,666 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:34,167 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:00:34,244 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:00:34,885 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:34,885 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:35,385 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:00:35,462 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:00:36,117 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:00:36,117 [INFO]    âšª No signal - HOLD
+2025-12-13 13:00:36,618 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:00:36,695 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:00:36,695 [INFO]    Entry: $1.66 | Mark: $1.69
+2025-12-13 13:00:36,695 [INFO]    PnL: -16.78% ($-3.35)
+2025-12-13 13:00:36,696 [INFO]    Age: 2.5h / 72.0h
+2025-12-13 13:00:36,696 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:03:36,796 [INFO] 
+============================================================
+2025-12-13 13:03:36,796 [INFO] ðŸ”„ LOOP #55 - 2025-12-13 13:03:36
+2025-12-13 13:03:36,796 [INFO] ============================================================
+2025-12-13 13:03:38,324 [INFO] ðŸ’“ Bot alive - Loop #55 - Active positions: 3
+2025-12-13 13:03:38,403 [INFO] ðŸ’° [BINANCE] Balance: $110.84
+2025-12-13 13:03:38,403 [INFO] ðŸ’° Total balance: $110.84
+2025-12-13 13:03:38,403 [INFO] 
+==================================================
+2025-12-13 13:03:38,404 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:03:38,404 [INFO] ==================================================
+2025-12-13 13:03:38,404 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:03:38,481 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:03:39,199 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:39,199 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:39,700 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:03:39,777 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:03:40,485 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:40,485 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:40,986 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:03:41,063 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:03:41,741 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:41,742 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:42,243 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:03:42,318 [INFO]    Current position: SHORT 2.446
+2025-12-13 13:03:42,319 [INFO]    Entry: $81.76 | Mark: $81.45
+2025-12-13 13:03:42,319 [INFO]    PnL: 3.79% ($0.76)
+2025-12-13 13:03:42,319 [INFO]    Age: 2.7h / 72.0h
+2025-12-13 13:03:42,319 [INFO]    ðŸ“ˆ Trailing active: PnL=3.79%, Peak=4.23%
+2025-12-13 13:03:42,820 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:03:42,897 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:03:43,568 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:43,568 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:44,069 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:03:44,146 [INFO]    Current position: SHORT 1.5
+2025-12-13 13:03:44,146 [INFO]    Entry: $133.75 | Mark: $133.06
+2025-12-13 13:03:44,146 [INFO]    PnL: 5.16% ($1.03)
+2025-12-13 13:03:44,146 [INFO]    Age: 2.1h / 72.0h
+2025-12-13 13:03:44,146 [INFO]    ðŸ“ˆ Trailing stop hit (PnL: 5.16%, peak: 7.95%)
+2025-12-13 13:03:44,146 [INFO]    ðŸ”´ Closing position: Trailing stop hit (PnL: 5.16%, peak: 7.95%)
+2025-12-13 13:03:44,223 [INFO] ðŸ“ [Binance] Order: BUY SOLUSDT
+2025-12-13 13:03:44,223 [INFO]    Raw qty: 1.50000000 -> Formatted: 1.5
+2025-12-13 13:03:44,302 [INFO] âœ… [Binance] Order created: BUY 1.5 SOLUSDT
+2025-12-13 13:03:44,302 [INFO] ðŸ’° TRADE: [BINANCE] CLOSE SHORT SOLUSDT | Trailing stop hit (PnL: 5.16%, peak: 7.95%) | PnL: 5.16%
+2025-12-13 13:03:45,049 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 13:03:45,052 [INFO] â±ï¸ Cleared position tracking for SOLUSDT
+2025-12-13 13:03:45,052 [INFO] ðŸ“ Post-trade cooldown recorded for SOLUSDT (reason: Trailing stop hit (PnL: 5.16%, peak: 7.95%))
+2025-12-13 13:03:45,053 [INFO]    â³ Post-trade cooldown: 15m
+2025-12-13 13:03:45,053 [INFO] ðŸ“ Trade recorded: CLOSE_SHORT 1.5 SOLUSDT @ $133.06
+2025-12-13 13:03:45,053 [INFO]    Daily trades: 8 | Volume: $16.0k
+2025-12-13 13:03:45,554 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:03:45,631 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:03:46,258 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:46,258 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:46,759 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:03:46,836 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:03:47,476 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:47,476 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:47,977 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:03:48,057 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 13:03:48,700 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 11/15
+2025-12-13 13:03:48,700 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:03:48,700 [INFO]    âš ï¸ Near EMA21
+2025-12-13 13:03:48,700 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:03:48,700 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:03:48,700 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:03:48,700 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:03:48,706 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:48,706 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:49,207 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:03:49,284 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:03:49,908 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:49,908 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:50,409 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:03:50,488 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:03:51,174 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:51,174 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:51,675 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:03:51,751 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:03:52,387 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:52,388 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:52,889 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:03:52,963 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:03:53,607 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:03:53,608 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:03:53,608 [INFO]    No clear pullback
+2025-12-13 13:03:53,608 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:03:53,608 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:03:53,608 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:03:53,614 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:53,614 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:54,115 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:03:54,193 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:03:54,791 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:54,792 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:55,292 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:03:55,368 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:03:55,977 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:55,977 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:56,478 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:03:56,553 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:03:57,168 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:57,169 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:57,669 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:03:57,745 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:03:58,406 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:03:58,406 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:03:58,406 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:03:58,406 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:03:58,406 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:03:58,406 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:03:58,406 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:03:58,411 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:58,411 [INFO]    âšª No signal - HOLD
+2025-12-13 13:03:58,912 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:03:58,990 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:03:59,642 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:03:59,642 [INFO]    âšª No signal - HOLD
+2025-12-13 13:04:00,143 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:04:00,220 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:04:00,884 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:04:00,885 [INFO]    âšª No signal - HOLD
+2025-12-13 13:04:01,386 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:04:01,460 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:04:01,460 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 13:04:01,461 [INFO]    PnL: -15.15% ($-3.03)
+2025-12-13 13:04:01,461 [INFO]    Age: 2.5h / 72.0h
+2025-12-13 13:04:01,461 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:07:01,529 [INFO] 
+============================================================
+2025-12-13 13:07:01,530 [INFO] ðŸ”„ LOOP #56 - 2025-12-13 13:07:01
+2025-12-13 13:07:01,530 [INFO] ============================================================
+2025-12-13 13:07:01,620 [INFO] ðŸ’° [BINANCE] Balance: $111.77
+2025-12-13 13:07:01,620 [INFO] ðŸ’° Total balance: $111.77
+2025-12-13 13:07:01,620 [INFO] 
+==================================================
+2025-12-13 13:07:01,620 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:07:01,621 [INFO] ==================================================
+2025-12-13 13:07:01,621 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:07:01,696 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:07:02,458 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:02,458 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:02,959 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:07:03,039 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:07:03,736 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:03,736 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:04,237 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:07:04,321 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:07:05,026 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:05,026 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:05,527 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:07:05,609 [INFO]    Current position: SHORT 2.446
+2025-12-13 13:07:05,609 [INFO]    Entry: $81.76 | Mark: $81.45
+2025-12-13 13:07:05,609 [INFO]    PnL: 3.79% ($0.76)
+2025-12-13 13:07:05,609 [INFO]    Age: 2.7h / 72.0h
+2025-12-13 13:07:05,609 [INFO]    ðŸ“ˆ Trailing active: PnL=3.79%, Peak=4.23%
+2025-12-13 13:07:06,110 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:07:06,188 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:07:06,851 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:06,852 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:07,353 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:07:07,428 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:07:08,091 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:07:08,091 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:07:08,092 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:07:08,092 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:07:08,092 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:07:08,092 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:07:08,092 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:07:08,097 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:08,098 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:08,598 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:07:08,674 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:07:09,328 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:09,328 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:09,829 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:07:09,905 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:07:10,579 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:10,580 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:11,081 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:07:11,158 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 13:07:11,955 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 11/15
+2025-12-13 13:07:11,955 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:07:11,955 [INFO]    âš ï¸ Near EMA21
+2025-12-13 13:07:11,955 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:07:11,955 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:07:11,955 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:07:11,955 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:07:11,962 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:11,962 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:12,463 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:07:12,540 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:07:13,241 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:13,241 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:13,742 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:07:13,821 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:07:14,568 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:14,568 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:15,069 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:07:15,145 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:07:15,881 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:15,882 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:16,383 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:07:16,459 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:07:17,160 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:07:17,161 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:07:17,161 [INFO]    No clear pullback
+2025-12-13 13:07:17,161 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:07:17,161 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:07:17,161 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:07:17,166 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:17,167 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:17,668 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:07:17,747 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:07:18,457 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:18,457 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:18,958 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:07:19,036 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:07:19,774 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:19,774 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:20,275 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:07:20,351 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:07:21,023 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:21,023 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:21,524 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:07:21,603 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:07:22,283 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:07:22,283 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:07:22,283 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:07:22,283 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:07:22,283 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:07:22,283 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:07:22,284 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:07:22,290 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:22,290 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:22,791 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:07:22,866 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:07:23,522 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:23,522 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:24,023 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:07:24,110 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:07:24,776 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:07:24,776 [INFO]    âšª No signal - HOLD
+2025-12-13 13:07:25,277 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:07:25,354 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:07:25,354 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 13:07:25,354 [INFO]    PnL: -15.02% ($-3.00)
+2025-12-13 13:07:25,354 [INFO]    Age: 2.6h / 72.0h
+2025-12-13 13:07:25,354 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:10:25,429 [INFO] 
+============================================================
+2025-12-13 13:10:25,430 [INFO] ðŸ”„ LOOP #57 - 2025-12-13 13:10:25
+2025-12-13 13:10:25,430 [INFO] ============================================================
+2025-12-13 13:10:25,558 [INFO] ðŸ’° [BINANCE] Balance: $111.77
+2025-12-13 13:10:25,558 [INFO] ðŸ’° Total balance: $111.77
+2025-12-13 13:10:25,558 [INFO] 
+==================================================
+2025-12-13 13:10:25,558 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:10:25,558 [INFO] ==================================================
+2025-12-13 13:10:25,559 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:10:25,635 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:10:26,742 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:26,742 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:27,243 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:10:27,372 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:10:28,113 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:28,114 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:28,615 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:10:28,691 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:10:29,405 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:29,406 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:29,907 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:10:29,984 [INFO]    Current position: SHORT 2.446
+2025-12-13 13:10:29,985 [INFO]    Entry: $81.76 | Mark: $81.41
+2025-12-13 13:10:29,985 [INFO]    PnL: 4.33% ($0.87)
+2025-12-13 13:10:29,985 [INFO]    Age: 2.8h / 72.0h
+2025-12-13 13:10:29,985 [INFO]    ðŸ“ˆ Trailing active: PnL=4.33%, Peak=4.33%
+2025-12-13 13:10:30,486 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:10:30,564 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:10:31,224 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:31,224 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:31,725 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:10:31,804 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:10:32,523 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 11/15
+2025-12-13 13:10:32,524 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:10:32,524 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:10:32,524 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:10:32,524 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:10:32,524 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:10:32,524 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:10:32,530 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:32,530 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:33,031 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:10:33,109 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:10:33,771 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:33,771 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:34,272 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:10:34,350 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:10:35,102 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:35,102 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:35,603 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:10:35,679 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 13:10:36,328 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:10:36,329 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:10:36,329 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:10:36,329 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:10:36,329 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:10:36,329 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:10:36,329 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:10:36,334 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 13:10:36,338 [INFO]    Confidence: 79.51%
+2025-12-13 13:10:36,338 [INFO]    Entry: 0.4120
+2025-12-13 13:10:36,338 [INFO]    SL: 0.4138, TP: 0.4076
+2025-12-13 13:10:36,338 [INFO]    Stages passed: ['ml_ensemble', 'smart_entry', 'price_action', 'htf_alignment']
+2025-12-13 13:10:36,338 [INFO] ðŸš€ ADAUSDT Pipeline APPROVED: SHORT
+2025-12-13 13:10:36,338 [INFO]    ðŸ“Š Confidence: 79.51%
+2025-12-13 13:10:36,338 [INFO]    ðŸ’° Entry: $0.4120
+2025-12-13 13:10:36,338 [INFO]    ðŸ“ˆ ML: 0.328 | RSI: 50.5
+2025-12-13 13:10:36,338 [INFO]    âœ… Stages: ml_ensemble, smart_entry, price_action, htf_alignment
+2025-12-13 13:10:36,339 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=11
+2025-12-13 13:10:36,339 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action, Pipeline: htf_alignment
+2025-12-13 13:10:36,339 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 13:10:36,339 [INFO]    ðŸ“Š Confluence score: 11/5
+2025-12-13 13:10:36,339 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action
+2025-12-13 13:10:36,340 [INFO]    ðŸš« Cooldown recorded for ADAUSDT (60m)
+2025-12-13 13:10:36,345 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 13:10:36,423 [INFO] âœ… [Binance] Set leverage 10x for ADAUSDT
+2025-12-13 13:10:36,574 [INFO]    ðŸ’µ Current price: $0.41
+2025-12-13 13:10:36,575 [INFO]    ðŸ’° Position calculation:
+2025-12-13 13:10:36,575 [INFO]       Balance: $111.77
+2025-12-13 13:10:36,575 [INFO]       Price: $0.41
+2025-12-13 13:10:36,575 [INFO]       Capital (fixed): $20.00
+2025-12-13 13:10:36,575 [INFO]       Leverage: 10x
+2025-12-13 13:10:36,575 [INFO]       Raw quantity: 485.55474630
+2025-12-13 13:10:36,575 [INFO]       Formatted quantity: 486.00000000
+2025-12-13 13:10:36,575 [INFO]    ðŸ“¤ Placing SELL order for 486.0 ADAUSDT...
+2025-12-13 13:10:36,575 [INFO] ðŸ“ [Binance] Order: SELL ADAUSDT
+2025-12-13 13:10:36,575 [INFO]    Raw qty: 486.00000000 -> Formatted: 486.0
+2025-12-13 13:10:36,650 [INFO] âœ… [Binance] Order created: SELL 486.0 ADAUSDT
+2025-12-13 13:10:36,650 [INFO] ðŸ’° TRADE: [BINANCE] OPEN SHORT ADAUSDT | Qty: 486.0 | Price: $0.41 | Score: 11 | Pipeline: ml_ensemble
+2025-12-13 13:10:37,354 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 13:10:37,356 [INFO] â±ï¸ Tracking position open time for ADAUSDT: 2025-12-13T13:10:37.355719
+2025-12-13 13:10:37,356 [INFO] ðŸ“ Trade recorded: SHORT 486.0 ADAUSDT @ $0.41
+2025-12-13 13:10:37,356 [INFO]    Daily trades: 9 | Volume: $18.0k
+2025-12-13 13:10:37,356 [INFO]    âœ… Order placed successfully!
+2025-12-13 13:10:37,857 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:10:37,932 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:10:38,642 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:38,643 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:39,144 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:10:39,222 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:10:39,837 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:39,837 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:40,342 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:10:40,471 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:10:41,111 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:41,111 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:41,612 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:10:41,689 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:10:42,402 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:10:42,402 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:10:42,402 [INFO]    No clear pullback
+2025-12-13 13:10:42,402 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:10:42,402 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:10:42,402 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:10:42,407 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:42,408 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:42,908 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:10:42,985 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:10:43,695 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:43,696 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:44,197 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:10:44,272 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:10:44,928 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:44,928 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:45,429 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:10:45,504 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:10:46,149 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:46,149 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:46,650 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:10:46,728 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:10:47,398 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:10:47,398 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:10:47,398 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:10:47,399 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:10:47,399 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:10:47,399 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:10:47,399 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:10:47,403 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:47,403 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:47,904 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:10:47,979 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:10:48,638 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:48,638 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:49,139 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:10:49,215 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:10:49,917 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:10:49,918 [INFO]    âšª No signal - HOLD
+2025-12-13 13:10:50,418 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:10:50,497 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:10:50,497 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 13:10:50,497 [INFO]    PnL: -14.35% ($-2.87)
+2025-12-13 13:10:50,497 [INFO]    Age: 2.7h / 72.0h
+2025-12-13 13:10:50,498 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:13:50,597 [INFO] 
+============================================================
+2025-12-13 13:13:50,597 [INFO] ðŸ”„ LOOP #58 - 2025-12-13 13:13:50
+2025-12-13 13:13:50,597 [INFO] ============================================================
+2025-12-13 13:13:50,681 [INFO] ðŸ’° [BINANCE] Balance: $111.67
+2025-12-13 13:13:50,681 [INFO] ðŸ’° Total balance: $111.67
+2025-12-13 13:13:50,681 [INFO] 
+==================================================
+2025-12-13 13:13:50,681 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:13:50,681 [INFO] ==================================================
+2025-12-13 13:13:50,681 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:13:50,762 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:13:51,442 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:13:51,442 [INFO]    âšª No signal - HOLD
+2025-12-13 13:13:51,943 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:13:52,021 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:13:52,691 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:13:52,691 [INFO]    âšª No signal - HOLD
+2025-12-13 13:13:53,192 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:13:53,271 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:13:54,047 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:13:54,047 [INFO]    âšª No signal - HOLD
+2025-12-13 13:13:54,548 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:13:54,628 [INFO]    Current position: SHORT 2.446
+2025-12-13 13:13:54,628 [INFO]    Entry: $81.76 | Mark: $81.40
+2025-12-13 13:13:54,628 [INFO]    PnL: 4.40% ($0.88)
+2025-12-13 13:13:54,628 [INFO]    Age: 2.8h / 72.0h
+2025-12-13 13:13:54,628 [INFO]    ðŸ“ˆ Trailing active: PnL=4.40%, Peak=4.40%
+2025-12-13 13:13:55,129 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:13:55,207 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:13:55,887 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:13:55,887 [INFO]    âšª No signal - HOLD
+2025-12-13 13:13:56,388 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:13:56,466 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:13:57,186 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 11/15
+2025-12-13 13:13:57,186 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:13:57,186 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:13:57,186 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:13:57,186 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:13:57,186 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:13:57,187 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:13:57,193 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:13:57,194 [INFO]    âšª No signal - HOLD
+2025-12-13 13:13:57,694 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:13:57,774 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:13:58,499 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:13:58,500 [INFO]    âšª No signal - HOLD
+2025-12-13 13:13:59,000 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:13:59,077 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:13:59,763 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:13:59,764 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:00,265 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:14:00,346 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:14:00,346 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:14:00,347 [INFO]    PnL: 2.31% ($0.46)
+2025-12-13 13:14:00,347 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 13:14:00,848 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:14:00,924 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:14:01,574 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:01,575 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:02,076 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:14:02,151 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:14:02,811 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:02,811 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:03,312 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:14:03,392 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:14:04,120 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:04,121 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:04,621 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:14:04,700 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:14:05,373 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:14:05,375 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:14:05,375 [INFO]    No clear pullback
+2025-12-13 13:14:05,375 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:14:05,375 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:14:05,375 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:14:05,382 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:05,382 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:05,883 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:14:05,962 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:14:06,650 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:06,650 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:07,151 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:14:07,228 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:14:07,913 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:07,914 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:08,415 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:14:08,492 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:14:09,150 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:09,151 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:09,652 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:14:09,737 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:14:10,397 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:14:10,397 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:14:10,398 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:14:10,398 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:14:10,398 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:14:10,398 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:14:10,398 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:14:10,404 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:10,405 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:10,905 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:14:10,982 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:14:11,679 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:11,679 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:12,180 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:14:12,260 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:14:12,965 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:14:12,966 [INFO]    âšª No signal - HOLD
+2025-12-13 13:14:13,466 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:14:13,544 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:14:13,545 [INFO]    Entry: $1.66 | Mark: $1.68
+2025-12-13 13:14:13,545 [INFO]    PnL: -13.02% ($-2.60)
+2025-12-13 13:14:13,545 [INFO]    Age: 2.7h / 72.0h
+2025-12-13 13:14:13,545 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:17:13,605 [INFO] 
+============================================================
+2025-12-13 13:17:13,606 [INFO] ðŸ”„ LOOP #59 - 2025-12-13 13:17:13
+2025-12-13 13:17:13,606 [INFO] ============================================================
+2025-12-13 13:17:13,686 [INFO] ðŸ’° [BINANCE] Balance: $111.67
+2025-12-13 13:17:13,686 [INFO] ðŸ’° Total balance: $111.67
+2025-12-13 13:17:13,686 [INFO] 
+==================================================
+2025-12-13 13:17:13,686 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:17:13,687 [INFO] ==================================================
+2025-12-13 13:17:13,687 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:17:13,768 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:17:14,464 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:14,464 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:14,965 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:17:15,045 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:17:15,766 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:15,767 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:16,267 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:17:16,347 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:17:17,086 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:17,087 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:17,588 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:17:17,667 [INFO]    Current position: SHORT 2.446
+2025-12-13 13:17:17,667 [INFO]    Entry: $81.76 | Mark: $81.43
+2025-12-13 13:17:17,667 [INFO]    PnL: 3.98% ($0.80)
+2025-12-13 13:17:17,667 [INFO]    Age: 2.9h / 72.0h
+2025-12-13 13:17:17,667 [INFO]    ðŸ“ˆ Trailing active: PnL=3.98%, Peak=4.40%
+2025-12-13 13:17:18,168 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:17:18,249 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:17:19,070 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:19,071 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:19,571 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:17:19,652 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:17:20,621 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:17:20,621 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:17:20,621 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:17:20,621 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:17:20,621 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:17:20,621 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:17:20,621 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:17:20,628 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:20,628 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:21,129 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:17:21,204 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:17:22,180 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:22,181 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:22,682 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:17:22,757 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:17:23,431 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:23,431 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:23,932 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:17:24,012 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:17:24,012 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:17:24,012 [INFO]    PnL: 1.32% ($0.26)
+2025-12-13 13:17:24,013 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 13:17:24,513 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:17:24,737 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:17:25,410 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:25,411 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:25,912 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:17:25,992 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:17:26,711 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:26,712 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:27,213 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:17:27,289 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:17:28,000 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:28,000 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:28,501 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:17:28,576 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:17:29,275 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:17:29,276 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:17:29,276 [INFO]    No clear pullback
+2025-12-13 13:17:29,276 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:17:29,276 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:17:29,276 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:17:29,282 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:29,283 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:29,783 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:17:29,859 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:17:30,684 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:30,684 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:31,185 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:17:31,270 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:17:32,045 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:32,045 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:32,546 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:17:32,622 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:17:33,410 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:33,411 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:33,911 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:17:33,992 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:17:34,640 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:17:34,641 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:17:34,641 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:17:34,641 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:17:34,641 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:17:34,641 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:17:34,641 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:17:34,647 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:34,647 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:35,148 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:17:35,223 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:17:35,898 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:35,898 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:36,399 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:17:36,479 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:17:37,134 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:17:37,134 [INFO]    âšª No signal - HOLD
+2025-12-13 13:17:37,635 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:17:37,710 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:17:37,711 [INFO]    Entry: $1.66 | Mark: $1.67
+2025-12-13 13:17:37,711 [INFO]    PnL: -9.21% ($-1.84)
+2025-12-13 13:17:37,711 [INFO]    Age: 2.8h / 72.0h
+2025-12-13 13:17:37,711 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:20:37,796 [INFO] 
+============================================================
+2025-12-13 13:20:37,796 [INFO] ðŸ”„ LOOP #60 - 2025-12-13 13:20:37
+2025-12-13 13:20:37,796 [INFO] ============================================================
+2025-12-13 13:20:39,461 [INFO] ðŸ’“ Bot alive - Loop #60 - Active positions: 3
+2025-12-13 13:20:39,542 [INFO] ðŸ’° [BINANCE] Balance: $111.67
+2025-12-13 13:20:39,542 [INFO] ðŸ’° Total balance: $111.67
+2025-12-13 13:20:39,542 [INFO] 
+==================================================
+2025-12-13 13:20:39,542 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:20:39,542 [INFO] ==================================================
+2025-12-13 13:20:39,542 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:20:39,617 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:20:40,272 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:40,273 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:40,774 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:20:40,849 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:20:41,548 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:41,548 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:42,049 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:20:42,124 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:20:42,891 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:42,891 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:43,392 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:20:43,468 [INFO]    Current position: SHORT 2.446
+2025-12-13 13:20:43,468 [INFO]    Entry: $81.76 | Mark: $81.59
+2025-12-13 13:20:43,468 [INFO]    PnL: 2.08% ($0.42)
+2025-12-13 13:20:43,468 [INFO]    Age: 2.9h / 72.0h
+2025-12-13 13:20:43,469 [INFO]    ðŸ“ˆ Trailing stop hit (PnL: 2.08%, peak: 4.40%)
+2025-12-13 13:20:43,469 [INFO]    ðŸ”´ Closing position: Trailing stop hit (PnL: 2.08%, peak: 4.40%)
+2025-12-13 13:20:43,545 [INFO] ðŸ“ [Binance] Order: BUY LTCUSDT
+2025-12-13 13:20:43,546 [INFO]    Raw qty: 2.44600000 -> Formatted: 2.446
+2025-12-13 13:20:43,623 [INFO] âœ… [Binance] Order created: BUY 2.446 LTCUSDT
+2025-12-13 13:20:43,623 [INFO] ðŸ’° TRADE: [BINANCE] CLOSE SHORT LTCUSDT | Trailing stop hit (PnL: 2.08%, peak: 4.40%) | PnL: 2.08%
+2025-12-13 13:20:44,308 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 13:20:44,310 [INFO] â±ï¸ Cleared position tracking for LTCUSDT
+2025-12-13 13:20:44,311 [INFO] ðŸ“ Post-trade cooldown recorded for LTCUSDT (reason: Trailing stop hit (PnL: 2.08%, peak: 4.40%))
+2025-12-13 13:20:44,311 [INFO]    â³ Post-trade cooldown: 15m
+2025-12-13 13:20:44,311 [INFO] ðŸ“ Trade recorded: CLOSE_SHORT 2.446 LTCUSDT @ $81.59
+2025-12-13 13:20:44,311 [INFO]    Daily trades: 10 | Volume: $20.0k
+2025-12-13 13:20:44,812 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:20:44,888 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:20:45,553 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:45,554 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:46,054 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:20:46,144 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:20:46,795 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:20:46,795 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:20:46,795 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:20:46,795 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:20:46,795 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:20:46,795 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:20:46,795 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:20:46,799 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:46,800 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:47,300 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:20:47,378 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:20:48,002 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:48,002 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:48,503 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:20:48,580 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:20:49,222 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:49,222 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:49,723 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:20:49,800 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:20:49,801 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:20:49,801 [INFO]    PnL: -0.67% ($-0.13)
+2025-12-13 13:20:49,801 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 13:20:50,302 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:20:50,381 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:20:51,027 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:51,027 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:51,528 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:20:51,605 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:20:52,194 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:52,194 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:52,695 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:20:52,774 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:20:53,378 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:53,378 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:53,879 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:20:53,953 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:20:54,606 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:20:54,606 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:20:54,606 [INFO]    No clear pullback
+2025-12-13 13:20:54,606 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:20:54,606 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:20:54,606 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:20:54,611 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:54,612 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:55,112 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:20:55,185 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:20:55,894 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:55,894 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:56,395 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:20:56,473 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:20:57,101 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:57,101 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:57,602 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:20:57,681 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:20:58,331 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:58,332 [INFO]    âšª No signal - HOLD
+2025-12-13 13:20:58,833 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:20:58,908 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:20:59,639 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:20:59,639 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:20:59,639 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:20:59,639 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:20:59,639 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:20:59,639 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:20:59,639 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:20:59,645 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:20:59,646 [INFO]    âšª No signal - HOLD
+2025-12-13 13:21:00,147 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:21:00,224 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:21:00,890 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:21:00,890 [INFO]    âšª No signal - HOLD
+2025-12-13 13:21:01,391 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:21:01,469 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:21:02,166 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:21:02,167 [INFO]    âšª No signal - HOLD
+2025-12-13 13:21:02,668 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:21:02,747 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:21:02,747 [INFO]    Entry: $1.66 | Mark: $1.67
+2025-12-13 13:21:02,747 [INFO]    PnL: -5.24% ($-1.05)
+2025-12-13 13:21:02,747 [INFO]    Age: 2.8h / 72.0h
+2025-12-13 13:21:04,295 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:24:04,388 [INFO] 
+============================================================
+2025-12-13 13:24:04,388 [INFO] ðŸ”„ LOOP #61 - 2025-12-13 13:24:04
+2025-12-13 13:24:04,388 [INFO] ============================================================
+2025-12-13 13:24:04,515 [INFO] ðŸ’° [BINANCE] Balance: $111.99
+2025-12-13 13:24:04,515 [INFO] ðŸ’° Total balance: $111.99
+2025-12-13 13:24:04,515 [INFO] 
+==================================================
+2025-12-13 13:24:04,515 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:24:04,515 [INFO] ==================================================
+2025-12-13 13:24:04,515 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:24:04,590 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:24:05,298 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:05,299 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:05,800 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:24:05,878 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:24:06,561 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:06,561 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:07,062 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:24:07,140 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:24:07,957 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:07,957 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:08,458 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:24:08,537 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:24:09,386 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:24:09,387 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:24:09,387 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:24:09,387 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:24:09,387 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:24:09,387 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:24:09,387 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:24:09,394 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:09,395 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:09,896 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:24:09,975 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:24:10,954 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:10,958 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:11,459 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:24:11,535 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:24:12,276 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:24:12,277 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:24:12,277 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:24:12,277 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:24:12,277 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:24:12,277 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:24:12,277 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:24:12,283 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:12,283 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:12,784 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:24:12,859 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:24:13,820 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:13,820 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:14,321 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:24:14,398 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:24:15,090 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:15,090 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:15,591 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:24:15,666 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:24:15,666 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:24:15,666 [INFO]    PnL: 0.00% ($0.00)
+2025-12-13 13:24:15,667 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 13:24:16,167 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:24:16,263 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:24:16,892 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:16,892 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:17,393 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:24:17,470 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:24:18,192 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:18,192 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:18,693 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:24:18,768 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:24:19,699 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:19,699 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:20,200 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:24:20,276 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:24:21,184 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:24:21,184 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:24:21,184 [INFO]    No clear pullback
+2025-12-13 13:24:21,184 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:24:21,184 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:24:21,184 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:24:21,199 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:21,199 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:21,700 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:24:21,784 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:24:22,774 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:22,775 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:23,275 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:24:23,354 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:24:24,307 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:24,308 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:24,809 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:24:24,886 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:24:25,566 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:25,566 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:26,067 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:24:26,143 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:24:26,956 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:24:26,956 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:24:26,956 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:24:26,956 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:24:26,956 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:24:26,956 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:24:26,956 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:24:26,963 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:26,964 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:27,465 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:24:27,543 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:24:28,374 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:28,374 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:28,875 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:24:28,951 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:24:30,082 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:24:30,083 [INFO]    âšª No signal - HOLD
+2025-12-13 13:24:30,584 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:24:30,661 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:24:30,662 [INFO]    Entry: $1.66 | Mark: $1.67
+2025-12-13 13:24:30,662 [INFO]    PnL: -4.16% ($-0.83)
+2025-12-13 13:24:30,662 [INFO]    Age: 2.9h / 72.0h
+2025-12-13 13:24:30,662 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:27:30,745 [INFO] 
+============================================================
+2025-12-13 13:27:30,746 [INFO] ðŸ”„ LOOP #62 - 2025-12-13 13:27:30
+2025-12-13 13:27:30,746 [INFO] ============================================================
+2025-12-13 13:27:30,826 [INFO] ðŸ’° [BINANCE] Balance: $111.99
+2025-12-13 13:27:30,826 [INFO] ðŸ’° Total balance: $111.99
+2025-12-13 13:27:30,826 [INFO] 
+==================================================
+2025-12-13 13:27:30,826 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:27:30,826 [INFO] ==================================================
+2025-12-13 13:27:30,826 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:27:30,902 [INFO]    ðŸ” Analyzing BTCUSDT for entry signal...
+2025-12-13 13:27:31,668 [INFO] ðŸŽ¯ BTCUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:27:31,668 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:27:31,669 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:27:31,669 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:27:31,669 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:27:31,669 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:27:31,669 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:27:31,675 [INFO] âœ… BTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 13:27:31,675 [INFO]    Confidence: 87.23%
+2025-12-13 13:27:31,676 [INFO]    Entry: 90233.9000
+2025-12-13 13:27:31,676 [INFO]    SL: 90370.8371, TP: 89891.5571
+2025-12-13 13:27:31,676 [INFO]    Stages passed: ['ml_ensemble', 'smart_entry', 'price_action', 'htf_alignment']
+2025-12-13 13:27:31,676 [INFO] ðŸš€ BTCUSDT Pipeline APPROVED: SHORT
+2025-12-13 13:27:31,676 [INFO]    ðŸ“Š Confidence: 87.23%
+2025-12-13 13:27:31,676 [INFO]    ðŸ’° Entry: $90233.9000
+2025-12-13 13:27:31,676 [INFO]    ðŸ“ˆ ML: 0.320 | RSI: 40.9
+2025-12-13 13:27:31,676 [INFO]    âœ… Stages: ml_ensemble, smart_entry, price_action, htf_alignment
+2025-12-13 13:27:31,677 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=13
+2025-12-13 13:27:31,677 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action, Pipeline: htf_alignment
+2025-12-13 13:27:31,678 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 13:27:31,678 [INFO]    ðŸ“Š Confluence score: 13/5
+2025-12-13 13:27:31,678 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action
+2025-12-13 13:27:31,679 [INFO]    ðŸš« Cooldown recorded for BTCUSDT (60m)
+2025-12-13 13:27:31,679 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 13:27:31,759 [INFO] âœ… [Binance] Set leverage 10x for BTCUSDT
+2025-12-13 13:27:31,915 [INFO]    ðŸ’µ Current price: $90234.00
+2025-12-13 13:27:32,041 [INFO]    ðŸ’° Position calculation:
+2025-12-13 13:27:32,042 [INFO]       Balance: $111.99
+2025-12-13 13:27:32,042 [INFO]       Price: $90234.00
+2025-12-13 13:27:32,042 [INFO]       Capital (fixed): $20.00
+2025-12-13 13:27:32,042 [INFO]       Leverage: 10x
+2025-12-13 13:27:32,042 [INFO]       Raw quantity: 0.00221646
+2025-12-13 13:27:32,042 [INFO]       Formatted quantity: 0.00200000
+2025-12-13 13:27:32,043 [INFO]    ðŸ“¤ Placing SELL order for 0.002 BTCUSDT...
+2025-12-13 13:27:32,043 [INFO] ðŸ“ [Binance] Order: SELL BTCUSDT
+2025-12-13 13:27:32,043 [INFO]    Raw qty: 0.00200000 -> Formatted: 0.002
+2025-12-13 13:27:32,121 [INFO] âœ… [Binance] Order created: SELL 0.002 BTCUSDT
+2025-12-13 13:27:32,122 [INFO] ðŸ’° TRADE: [BINANCE] OPEN SHORT BTCUSDT | Qty: 0.002 | Price: $90234.00 | Score: 13 | Pipeline: ml_ensemble
+2025-12-13 13:27:32,944 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 13:27:32,947 [INFO] â±ï¸ Tracking position open time for BTCUSDT: 2025-12-13T13:27:32.946994
+2025-12-13 13:27:32,947 [INFO] ðŸ“ Trade recorded: SHORT 0.002 BTCUSDT @ $90234.00
+2025-12-13 13:27:32,947 [INFO]    Daily trades: 11 | Volume: $21.8k
+2025-12-13 13:27:32,947 [INFO]    âœ… Order placed successfully!
+2025-12-13 13:27:33,448 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:27:33,530 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:27:34,265 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:34,265 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:34,770 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:27:34,856 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:27:35,647 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:35,647 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:36,148 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:27:36,235 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:27:37,191 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:27:37,191 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:27:37,191 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:27:37,191 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:27:37,191 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:27:37,191 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:27:37,192 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:27:37,197 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:37,198 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:37,699 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:27:37,782 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:27:39,347 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:39,348 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:39,848 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:27:39,925 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:27:40,998 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:27:40,998 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:27:40,998 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:27:40,998 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:27:40,998 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:27:40,999 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:27:40,999 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:27:41,004 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:41,004 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:41,505 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:27:41,584 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:27:42,613 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:42,613 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:43,114 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:27:43,190 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:27:44,353 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:44,358 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:44,858 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:27:44,935 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:27:44,935 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:27:44,935 [INFO]    PnL: -0.49% ($-0.10)
+2025-12-13 13:27:44,935 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 13:27:45,436 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:27:45,513 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:27:46,186 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:46,186 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:46,687 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:27:46,761 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:27:47,650 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:47,651 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:48,151 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:27:48,226 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:27:48,933 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:48,933 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:49,433 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:27:49,510 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:27:50,330 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:27:50,331 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:27:50,331 [INFO]    No clear pullback
+2025-12-13 13:27:50,331 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:27:50,331 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:27:50,331 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:27:50,337 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:50,337 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:50,838 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:27:50,915 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:27:52,031 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:52,032 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:52,533 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:27:52,611 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:27:53,284 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:53,286 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:53,786 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:27:53,864 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:27:54,514 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:54,514 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:55,015 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:27:55,091 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:27:55,723 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:27:55,723 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:27:55,723 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:27:55,724 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:27:55,724 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:27:55,724 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:27:55,724 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:27:55,728 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:55,728 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:56,229 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:27:56,307 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:27:56,924 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:56,924 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:57,425 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:27:57,501 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:27:58,144 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:27:58,144 [INFO]    âšª No signal - HOLD
+2025-12-13 13:27:58,645 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:27:58,720 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:27:58,720 [INFO]    Entry: $1.66 | Mark: $1.67
+2025-12-13 13:27:58,721 [INFO]    PnL: -4.56% ($-0.91)
+2025-12-13 13:27:58,721 [INFO]    Age: 2.9h / 72.0h
+2025-12-13 13:27:58,721 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:30:58,817 [INFO] 
+============================================================
+2025-12-13 13:30:58,818 [INFO] ðŸ”„ LOOP #63 - 2025-12-13 13:30:58
+2025-12-13 13:30:58,818 [INFO] ============================================================
+2025-12-13 13:30:58,896 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:30:58,896 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:30:58,896 [INFO] 
+==================================================
+2025-12-13 13:30:58,897 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:30:58,897 [INFO] ==================================================
+2025-12-13 13:30:58,897 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:30:58,971 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:30:58,972 [INFO]    Entry: $90233.90 | Mark: $90167.60
+2025-12-13 13:30:58,972 [INFO]    PnL: 0.73% ($0.13)
+2025-12-13 13:30:58,972 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 13:30:59,473 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:30:59,550 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:31:00,380 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:00,380 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:00,881 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:31:00,959 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:31:01,763 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:01,764 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:02,264 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:31:02,342 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:31:03,075 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:31:03,075 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:31:03,075 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:31:03,075 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:31:03,075 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:31:03,076 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:31:03,076 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:31:03,091 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:03,091 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:03,592 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:31:03,679 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:31:04,333 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:04,333 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:04,833 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:31:04,913 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:31:05,554 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:31:05,554 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:31:05,554 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:31:05,555 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:31:05,555 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:31:05,555 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:31:05,555 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:31:05,560 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:05,560 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:06,061 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:31:06,137 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:31:06,884 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:06,885 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:07,385 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:31:07,461 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:31:08,163 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:08,164 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:08,664 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:31:08,741 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:31:08,742 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:31:08,743 [INFO]    PnL: 1.46% ($0.29)
+2025-12-13 13:31:08,743 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 13:31:09,243 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:31:09,319 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:31:10,033 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:10,033 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:10,534 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:31:10,611 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:31:11,302 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:11,303 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:11,804 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:31:11,881 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:31:12,564 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:12,564 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:13,065 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:31:13,144 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:31:13,813 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:31:13,814 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:31:13,814 [INFO]    No clear pullback
+2025-12-13 13:31:13,815 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:31:13,815 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:31:13,815 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:31:13,820 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:13,821 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:14,322 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:31:14,398 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:31:15,116 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:15,117 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:15,617 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:31:15,693 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:31:16,375 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:16,375 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:16,876 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:31:16,952 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:31:17,614 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:17,615 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:18,123 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:31:18,200 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:31:18,818 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 11/15
+2025-12-13 13:31:18,819 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:31:18,819 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:31:18,819 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:31:18,819 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:31:18,819 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:31:18,819 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:31:18,824 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:18,825 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:19,325 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:31:19,400 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:31:20,082 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:20,083 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:20,584 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:31:20,660 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:31:21,367 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:31:21,367 [INFO]    âšª No signal - HOLD
+2025-12-13 13:31:21,868 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:31:21,943 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:31:21,944 [INFO]    Entry: $1.66 | Mark: $1.67
+2025-12-13 13:31:21,944 [INFO]    PnL: -5.19% ($-1.04)
+2025-12-13 13:31:21,944 [INFO]    Age: 3.0h / 72.0h
+2025-12-13 13:31:21,944 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:34:22,023 [INFO] 
+============================================================
+2025-12-13 13:34:22,024 [INFO] ðŸ”„ LOOP #64 - 2025-12-13 13:34:22
+2025-12-13 13:34:22,024 [INFO] ============================================================
+2025-12-13 13:34:22,108 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:34:22,108 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:34:22,108 [INFO] 
+==================================================
+2025-12-13 13:34:22,108 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:34:22,108 [INFO] ==================================================
+2025-12-13 13:34:22,108 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:34:22,185 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:34:22,185 [INFO]    Entry: $90233.90 | Mark: $90221.38
+2025-12-13 13:34:22,185 [INFO]    PnL: 0.14% ($0.03)
+2025-12-13 13:34:22,185 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 13:34:22,686 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:34:22,765 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:34:23,438 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:23,438 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:23,939 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:34:24,020 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:34:24,677 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:24,677 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:25,178 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:34:25,255 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:34:25,907 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:34:25,907 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:34:25,907 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:34:25,908 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:34:25,908 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:34:25,908 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:34:25,908 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:34:25,913 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:25,914 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:26,414 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:34:26,499 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:34:27,168 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:27,168 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:27,669 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:34:27,746 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:34:28,391 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:34:28,392 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:34:28,392 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:34:28,392 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:34:28,392 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:34:28,392 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:34:28,392 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:34:28,397 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:28,397 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:28,898 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:34:28,978 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:34:29,667 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:29,667 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:30,168 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:34:30,245 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:34:31,032 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:31,033 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:31,533 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:34:31,609 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:34:31,610 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:34:31,610 [INFO]    PnL: 0.00% ($0.00)
+2025-12-13 13:34:31,610 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 13:34:32,111 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:34:32,192 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:34:32,868 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:32,869 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:33,369 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:34:33,446 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:34:34,118 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:34,118 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:34,619 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:34:34,695 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:34:35,303 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:35,303 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:35,804 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:34:35,968 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:34:36,581 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:34:36,582 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:34:36,582 [INFO]    No clear pullback
+2025-12-13 13:34:36,582 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:34:36,582 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:34:36,582 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:34:36,589 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:36,589 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:37,090 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:34:37,165 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:34:37,980 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:37,980 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:38,481 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:34:38,583 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:34:39,252 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:39,253 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:39,754 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:34:39,831 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:34:40,671 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:40,672 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:41,172 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:34:41,257 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:34:42,262 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:34:42,262 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:34:42,262 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:34:42,262 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:34:42,262 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:34:42,262 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:34:42,262 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:34:42,268 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:42,268 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:42,769 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:34:42,846 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:34:43,523 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:43,523 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:44,024 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:34:44,110 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:34:44,773 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:34:44,773 [INFO]    âšª No signal - HOLD
+2025-12-13 13:34:45,274 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:34:45,350 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:34:45,351 [INFO]    Entry: $1.66 | Mark: $1.67
+2025-12-13 13:34:45,351 [INFO]    PnL: -4.82% ($-0.96)
+2025-12-13 13:34:45,351 [INFO]    Age: 3.1h / 72.0h
+2025-12-13 13:34:45,351 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:37:45,442 [INFO] 
+============================================================
+2025-12-13 13:37:45,443 [INFO] ðŸ”„ LOOP #65 - 2025-12-13 13:37:45
+2025-12-13 13:37:45,443 [INFO] ============================================================
+2025-12-13 13:37:47,023 [INFO] ðŸ’“ Bot alive - Loop #65 - Active positions: 3
+2025-12-13 13:37:47,106 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:37:47,106 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:37:47,106 [INFO] 
+==================================================
+2025-12-13 13:37:47,106 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:37:47,106 [INFO] ==================================================
+2025-12-13 13:37:47,106 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:37:47,182 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:37:47,183 [INFO]    Entry: $90233.90 | Mark: $90239.20
+2025-12-13 13:37:47,183 [INFO]    PnL: -0.06% ($-0.01)
+2025-12-13 13:37:47,183 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 13:37:47,684 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:37:47,762 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:37:48,432 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:48,432 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:48,933 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:37:49,009 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:37:49,776 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:49,776 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:50,277 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:37:50,490 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:37:51,487 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:37:51,487 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:37:51,487 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:37:51,487 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:37:51,487 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:37:51,487 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:37:51,487 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:37:51,493 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:51,493 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:51,994 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:37:52,069 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:37:52,727 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:52,728 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:53,229 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:37:53,306 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:37:53,956 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:37:53,956 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:37:53,956 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:37:53,956 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:37:53,956 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:37:53,956 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:37:53,956 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:37:53,963 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:53,963 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:54,464 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:37:54,675 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:37:55,340 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:55,340 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:55,841 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:37:55,918 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:37:56,629 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:56,629 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:57,130 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:37:57,206 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:37:57,206 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:37:57,206 [INFO]    PnL: 0.09% ($0.02)
+2025-12-13 13:37:57,206 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 13:37:57,707 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:37:57,785 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:37:58,466 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:58,467 [INFO]    âšª No signal - HOLD
+2025-12-13 13:37:58,969 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:37:59,045 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:37:59,724 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:37:59,725 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:00,226 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:38:00,305 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:38:00,965 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:00,967 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:01,468 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:38:01,545 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:38:02,253 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:38:02,257 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:38:02,258 [INFO]    No clear pullback
+2025-12-13 13:38:02,258 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:38:02,258 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:38:02,258 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:38:02,265 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:02,265 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:02,766 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:38:02,842 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:38:03,487 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:03,487 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:03,988 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:38:04,064 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:38:04,697 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:04,697 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:05,197 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:38:05,274 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:38:05,952 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:05,952 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:06,453 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:38:06,527 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:38:07,147 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:38:07,148 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:38:07,148 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:38:07,148 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:38:07,148 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:38:07,148 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:38:07,148 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:38:07,153 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:07,153 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:07,654 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:38:07,731 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:38:08,407 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:08,407 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:08,908 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:38:08,985 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:38:09,649 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:38:09,650 [INFO]    âšª No signal - HOLD
+2025-12-13 13:38:10,150 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:38:10,229 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:38:10,230 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 13:38:10,230 [INFO]    PnL: -3.50% ($-0.70)
+2025-12-13 13:38:10,230 [INFO]    Age: 3.1h / 72.0h
+2025-12-13 13:38:10,230 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:41:10,303 [INFO] 
+============================================================
+2025-12-13 13:41:10,304 [INFO] ðŸ”„ LOOP #66 - 2025-12-13 13:41:10
+2025-12-13 13:41:10,304 [INFO] ============================================================
+2025-12-13 13:41:10,389 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:41:10,389 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:41:10,389 [INFO] 
+==================================================
+2025-12-13 13:41:10,389 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:41:10,389 [INFO] ==================================================
+2025-12-13 13:41:10,389 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:41:10,529 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:41:10,530 [INFO]    Entry: $90233.90 | Mark: $90223.40
+2025-12-13 13:41:10,530 [INFO]    PnL: 0.12% ($0.02)
+2025-12-13 13:41:10,530 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 13:41:11,031 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:41:11,117 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:41:11,816 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:11,817 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:12,317 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:41:12,403 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:41:13,099 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:13,100 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:13,601 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:41:13,679 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:41:14,375 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:41:14,376 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:41:14,376 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:41:14,376 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:41:14,376 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:41:14,376 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:41:14,376 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:41:14,382 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:14,383 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:14,884 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:41:14,961 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:41:15,799 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:15,800 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:16,301 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:41:16,375 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:41:16,985 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:41:16,985 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:41:16,985 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:41:16,985 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:41:16,985 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:41:16,985 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:41:16,985 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:41:16,990 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:16,991 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:17,491 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:41:17,567 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:41:18,190 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:18,190 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:18,691 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:41:18,769 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:41:19,429 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:19,429 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:19,930 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:41:20,006 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:41:20,007 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:41:20,007 [INFO]    PnL: 0.24% ($0.05)
+2025-12-13 13:41:20,007 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 13:41:20,508 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:41:20,585 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:41:21,303 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:21,303 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:21,804 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:41:21,880 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:41:22,572 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:22,572 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:23,073 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:41:23,153 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:41:23,810 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:23,810 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:24,311 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:41:24,388 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:41:25,040 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:41:25,040 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:41:25,040 [INFO]    No clear pullback
+2025-12-13 13:41:25,040 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:41:25,040 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:41:25,040 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:41:25,046 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:25,046 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:25,547 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:41:25,625 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:41:26,312 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:26,312 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:26,813 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:41:26,888 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:41:27,558 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:27,558 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:28,059 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:41:28,135 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:41:28,810 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:28,810 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:29,311 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:41:29,391 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:41:30,156 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:41:30,156 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:41:30,157 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:41:30,157 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:41:30,157 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:41:30,157 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:41:30,157 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:41:30,162 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:30,162 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:30,663 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:41:30,739 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:41:31,432 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:31,432 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:31,933 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:41:32,010 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:41:32,626 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:41:32,627 [INFO]    âšª No signal - HOLD
+2025-12-13 13:41:33,127 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:41:33,209 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:41:33,209 [INFO]    Entry: $1.66 | Mark: $1.67
+2025-12-13 13:41:33,209 [INFO]    PnL: -8.38% ($-1.67)
+2025-12-13 13:41:33,209 [INFO]    Age: 3.2h / 72.0h
+2025-12-13 13:41:33,209 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:44:33,312 [INFO] 
+============================================================
+2025-12-13 13:44:33,313 [INFO] ðŸ”„ LOOP #67 - 2025-12-13 13:44:33
+2025-12-13 13:44:33,313 [INFO] ============================================================
+2025-12-13 13:44:33,392 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:44:33,392 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:44:33,392 [INFO] 
+==================================================
+2025-12-13 13:44:33,392 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:44:33,392 [INFO] ==================================================
+2025-12-13 13:44:33,393 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:44:33,476 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:44:33,476 [INFO]    Entry: $90233.90 | Mark: $90202.90
+2025-12-13 13:44:33,476 [INFO]    PnL: 0.34% ($0.06)
+2025-12-13 13:44:33,476 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 13:44:33,977 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:44:34,053 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:44:34,749 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:34,749 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:35,250 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:44:35,327 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:44:35,987 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:35,987 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:36,488 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:44:36,564 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:44:37,354 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:44:37,354 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:44:37,354 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:44:37,354 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:44:37,354 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:44:37,354 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:44:37,354 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:44:37,360 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:37,360 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:37,861 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:44:37,939 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:44:38,806 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:38,806 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:39,307 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:44:39,384 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:44:40,052 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:44:40,053 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:44:40,053 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:44:40,053 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:44:40,053 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:44:40,053 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:44:40,053 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:44:40,058 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:40,059 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:40,559 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:44:40,636 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:44:41,260 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:41,261 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:41,762 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:44:41,840 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:44:42,522 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:42,522 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:43,023 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:44:43,099 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:44:43,100 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:44:43,100 [INFO]    PnL: -0.22% ($-0.04)
+2025-12-13 13:44:43,100 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 13:44:43,601 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:44:43,677 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:44:44,357 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:44,358 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:44,859 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:44:44,936 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:44:45,626 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:45,626 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:46,127 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:44:46,202 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:44:46,866 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:46,866 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:47,367 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:44:47,450 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:44:48,200 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:44:48,201 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:44:48,201 [INFO]    No clear pullback
+2025-12-13 13:44:48,201 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:44:48,201 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:44:48,201 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:44:48,208 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:48,209 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:48,710 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:44:48,785 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:44:49,401 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:49,401 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:49,902 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:44:49,981 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:44:50,657 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:50,657 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:51,158 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:44:51,234 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:44:51,930 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:51,931 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:52,432 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:44:52,511 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:44:53,224 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 11/15
+2025-12-13 13:44:53,225 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 13:44:53,225 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:44:53,225 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:44:53,225 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:44:53,225 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:44:53,225 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:44:53,232 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:53,232 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:53,733 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:44:53,809 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:44:54,543 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:54,544 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:55,044 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:44:55,120 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:44:55,772 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:44:55,773 [INFO]    âšª No signal - HOLD
+2025-12-13 13:44:56,274 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:44:56,349 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:44:56,350 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 13:44:56,350 [INFO]    PnL: -1.87% ($-0.37)
+2025-12-13 13:44:56,350 [INFO]    Age: 3.2h / 72.0h
+2025-12-13 13:44:56,350 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:47:56,419 [INFO] 
+============================================================
+2025-12-13 13:47:56,419 [INFO] ðŸ”„ LOOP #68 - 2025-12-13 13:47:56
+2025-12-13 13:47:56,419 [INFO] ============================================================
+2025-12-13 13:47:56,504 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:47:56,504 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:47:56,505 [INFO] 
+==================================================
+2025-12-13 13:47:56,505 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:47:56,505 [INFO] ==================================================
+2025-12-13 13:47:56,505 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:47:56,585 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:47:56,586 [INFO]    Entry: $90233.90 | Mark: $90192.80
+2025-12-13 13:47:56,586 [INFO]    PnL: 0.46% ($0.08)
+2025-12-13 13:47:56,586 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 13:47:57,087 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:47:57,163 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:47:57,868 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:47:57,869 [INFO]    âšª No signal - HOLD
+2025-12-13 13:47:58,370 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:47:58,449 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:47:59,133 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:47:59,133 [INFO]    âšª No signal - HOLD
+2025-12-13 13:47:59,634 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:47:59,713 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:48:00,404 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:48:00,404 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:48:00,404 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:48:00,404 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:48:00,405 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:48:00,405 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:48:00,405 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:48:00,410 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:00,410 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:00,911 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:48:00,990 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:48:01,743 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:01,744 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:02,245 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:48:02,326 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:48:03,009 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:48:03,010 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:48:03,010 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:48:03,010 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:48:03,010 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:48:03,010 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:48:03,010 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:48:03,016 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:03,016 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:03,517 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:48:03,594 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:48:04,268 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:04,268 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:04,769 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:48:04,846 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:48:05,637 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:05,638 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:06,138 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:48:06,215 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:48:06,215 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:48:06,215 [INFO]    PnL: 0.49% ($0.10)
+2025-12-13 13:48:06,215 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 13:48:06,716 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:48:06,794 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:48:07,468 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:07,469 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:07,969 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:48:08,045 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:48:08,689 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:08,689 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:09,190 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:48:09,278 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:48:09,969 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:09,970 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:10,471 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:48:10,547 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:48:11,208 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:48:11,208 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:48:11,208 [INFO]    No clear pullback
+2025-12-13 13:48:11,208 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:48:11,208 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:48:11,208 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:48:11,212 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:11,213 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:11,713 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:48:11,790 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:48:12,418 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:12,418 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:12,919 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:48:12,995 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:48:13,654 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:13,654 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:14,156 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:48:14,233 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:48:14,842 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:14,843 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:15,343 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:48:15,575 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:48:16,272 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 13/15
+2025-12-13 13:48:16,272 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:48:16,272 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:48:16,272 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:48:16,272 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 13:48:16,272 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:48:16,272 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:48:16,277 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:16,277 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:16,778 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:48:16,855 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:48:17,487 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:17,487 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:17,988 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:48:18,067 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:48:18,688 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:48:18,688 [INFO]    âšª No signal - HOLD
+2025-12-13 13:48:19,189 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:48:19,263 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:48:19,263 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 13:48:19,264 [INFO]    PnL: -2.76% ($-0.55)
+2025-12-13 13:48:19,264 [INFO]    Age: 3.3h / 72.0h
+2025-12-13 13:48:19,264 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:51:19,349 [INFO] 
+============================================================
+2025-12-13 13:51:19,349 [INFO] ðŸ”„ LOOP #69 - 2025-12-13 13:51:19
+2025-12-13 13:51:19,349 [INFO] ============================================================
+2025-12-13 13:51:19,429 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:51:19,429 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:51:19,429 [INFO] 
+==================================================
+2025-12-13 13:51:19,429 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:51:19,430 [INFO] ==================================================
+2025-12-13 13:51:19,430 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:51:19,522 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:51:19,522 [INFO]    Entry: $90233.90 | Mark: $90260.76
+2025-12-13 13:51:19,522 [INFO]    PnL: -0.30% ($-0.05)
+2025-12-13 13:51:19,523 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 13:51:20,023 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:51:20,103 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:51:20,762 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:20,762 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:21,263 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:51:21,340 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:51:21,987 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:21,988 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:22,488 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:51:22,568 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:51:23,240 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:51:23,240 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:51:23,241 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:51:23,241 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:51:23,241 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:51:23,241 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:51:23,241 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:51:23,246 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:23,247 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:23,747 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:51:23,829 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:51:24,522 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:24,522 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:25,023 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:51:25,117 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:51:25,785 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:51:25,785 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:51:25,785 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:51:25,785 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:51:25,785 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:51:25,785 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:51:25,785 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:51:25,790 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:25,790 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:26,291 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:51:26,366 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:51:27,132 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:27,132 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:27,633 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:51:27,711 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:51:28,505 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:28,505 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:29,006 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:51:29,104 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:51:29,104 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:51:29,104 [INFO]    PnL: -1.21% ($-0.24)
+2025-12-13 13:51:29,104 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 13:51:29,605 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:51:29,683 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:51:30,444 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:30,445 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:30,945 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:51:31,051 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:51:31,710 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:31,711 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:32,212 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:51:32,287 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:51:33,032 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:33,032 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:33,533 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:51:33,610 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:51:34,273 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:51:34,273 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:51:34,273 [INFO]    No clear pullback
+2025-12-13 13:51:34,273 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:51:34,274 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:51:34,274 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:51:34,279 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:34,279 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:34,780 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:51:34,857 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:51:35,470 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:35,470 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:35,971 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:51:36,049 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:51:36,691 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:36,691 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:37,192 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:51:37,268 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:51:37,919 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:37,919 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:38,420 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:51:38,494 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:51:39,136 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:51:39,136 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:51:39,136 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:51:39,136 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:51:39,136 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:51:39,136 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:51:39,136 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:51:39,141 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:39,141 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:39,642 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:51:39,724 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:51:40,347 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:40,347 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:40,848 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:51:40,927 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:51:41,583 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:51:41,584 [INFO]    âšª No signal - HOLD
+2025-12-13 13:51:42,084 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:51:42,160 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:51:42,160 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 13:51:42,160 [INFO]    PnL: -3.97% ($-0.79)
+2025-12-13 13:51:42,160 [INFO]    Age: 3.3h / 72.0h
+2025-12-13 13:51:42,160 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:54:42,261 [INFO] 
+============================================================
+2025-12-13 13:54:42,262 [INFO] ðŸ”„ LOOP #70 - 2025-12-13 13:54:42
+2025-12-13 13:54:42,263 [INFO] ============================================================
+2025-12-13 13:54:43,942 [INFO] ðŸ’“ Bot alive - Loop #70 - Active positions: 3
+2025-12-13 13:54:44,158 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:54:44,158 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:54:44,159 [INFO] 
+==================================================
+2025-12-13 13:54:44,159 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:54:44,159 [INFO] ==================================================
+2025-12-13 13:54:44,159 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:54:44,368 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:54:44,368 [INFO]    Entry: $90233.90 | Mark: $90248.91
+2025-12-13 13:54:44,368 [INFO]    PnL: -0.17% ($-0.03)
+2025-12-13 13:54:44,368 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 13:54:44,869 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:54:45,079 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:54:45,852 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:45,852 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:46,353 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:54:46,431 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:54:47,211 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:47,211 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:47,712 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:54:47,791 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:54:48,478 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:54:48,478 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:54:48,478 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:54:48,478 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:54:48,478 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:54:48,478 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:54:48,478 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:54:48,483 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:48,484 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:48,984 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:54:49,061 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:54:49,697 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:49,697 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:50,198 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:54:50,272 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:54:51,012 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:54:51,013 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:54:51,013 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:54:51,013 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:54:51,013 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:54:51,013 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:54:51,013 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:54:51,017 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:51,017 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:51,518 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:54:51,594 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:54:52,232 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:52,233 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:52,734 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:54:52,810 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:54:53,425 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:53,425 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:53,926 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:54:54,003 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:54:54,003 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:54:54,003 [INFO]    PnL: -2.26% ($-0.45)
+2025-12-13 13:54:54,003 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 13:54:54,504 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:54:54,580 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:54:55,305 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:55,305 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:55,806 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:54:55,883 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:54:56,576 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:56,577 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:57,077 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:54:57,159 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:54:57,813 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:57,814 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:58,315 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:54:58,393 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:54:59,048 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:54:59,048 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:54:59,048 [INFO]    No clear pullback
+2025-12-13 13:54:59,048 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:54:59,048 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:54:59,048 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:54:59,053 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:54:59,054 [INFO]    âšª No signal - HOLD
+2025-12-13 13:54:59,554 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:54:59,631 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:55:00,390 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:55:00,391 [INFO]    âšª No signal - HOLD
+2025-12-13 13:55:00,892 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:55:00,981 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:55:01,647 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:55:01,647 [INFO]    âšª No signal - HOLD
+2025-12-13 13:55:02,148 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:55:02,251 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:55:02,977 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:55:02,978 [INFO]    âšª No signal - HOLD
+2025-12-13 13:55:03,478 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:55:03,555 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:55:04,207 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:55:04,207 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:55:04,207 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:55:04,207 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:55:04,207 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:55:04,207 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:55:04,207 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:55:04,213 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:55:04,213 [INFO]    âšª No signal - HOLD
+2025-12-13 13:55:04,714 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:55:04,792 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:55:05,518 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:55:05,518 [INFO]    âšª No signal - HOLD
+2025-12-13 13:55:06,019 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:55:06,096 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:55:06,716 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:55:06,716 [INFO]    âšª No signal - HOLD
+2025-12-13 13:55:07,217 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:55:07,295 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:55:07,295 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 13:55:07,295 [INFO]    PnL: -2.85% ($-0.57)
+2025-12-13 13:55:07,295 [INFO]    Age: 3.4h / 72.0h
+2025-12-13 13:55:08,830 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 13:58:08,898 [INFO] 
+============================================================
+2025-12-13 13:58:08,898 [INFO] ðŸ”„ LOOP #71 - 2025-12-13 13:58:08
+2025-12-13 13:58:08,898 [INFO] ============================================================
+2025-12-13 13:58:08,982 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 13:58:08,982 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 13:58:08,982 [INFO] 
+==================================================
+2025-12-13 13:58:08,982 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 13:58:08,982 [INFO] ==================================================
+2025-12-13 13:58:08,982 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 13:58:09,065 [INFO]    Current position: SHORT 0.002
+2025-12-13 13:58:09,065 [INFO]    Entry: $90233.90 | Mark: $90224.20
+2025-12-13 13:58:09,065 [INFO]    PnL: 0.11% ($0.02)
+2025-12-13 13:58:09,065 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 13:58:09,566 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 13:58:09,645 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 13:58:10,326 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:10,326 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:10,827 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 13:58:10,909 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 13:58:11,551 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:11,551 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:12,052 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 13:58:12,131 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 13:58:12,798 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:58:12,798 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:58:12,798 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:58:12,798 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:58:12,798 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:58:12,798 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:58:12,798 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:58:12,803 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:12,803 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:13,304 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 13:58:13,380 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 13:58:14,025 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:14,025 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:14,526 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 13:58:14,605 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 13:58:15,357 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:58:15,358 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:58:15,358 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:58:15,358 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:58:15,358 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:58:15,358 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:58:15,358 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:58:15,362 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:15,362 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:15,863 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 13:58:15,942 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 13:58:16,736 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:16,736 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:17,237 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 13:58:17,451 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 13:58:18,239 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:18,240 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:18,740 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 13:58:18,818 [INFO]    Current position: SHORT 486.0
+2025-12-13 13:58:18,818 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 13:58:18,818 [INFO]    PnL: -2.35% ($-0.47)
+2025-12-13 13:58:18,818 [INFO]    Age: 0.8h / 72.0h
+2025-12-13 13:58:19,319 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 13:58:19,396 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 13:58:20,040 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:20,040 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:20,541 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 13:58:20,618 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 13:58:21,243 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:21,243 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:21,744 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 13:58:21,821 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 13:58:22,435 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:22,436 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:22,936 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 13:58:23,012 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 13:58:23,700 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 13:58:23,700 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 13:58:23,700 [INFO]    No clear pullback
+2025-12-13 13:58:23,700 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:58:23,701 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:58:23,701 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:58:23,711 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:23,713 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:24,214 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 13:58:24,289 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 13:58:24,928 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:24,929 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:25,429 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 13:58:25,505 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 13:58:26,119 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:26,119 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:26,620 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 13:58:26,695 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 13:58:27,324 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:27,324 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:27,825 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 13:58:27,901 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 13:58:28,534 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 13:58:28,535 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 13:58:28,535 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 13:58:28,535 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 13:58:28,535 [INFO]    âš¡ RSI acceptable range
+2025-12-13 13:58:28,535 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 13:58:28,535 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 13:58:28,541 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:28,541 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:29,042 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 13:58:29,117 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 13:58:29,735 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:29,736 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:30,236 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 13:58:30,313 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 13:58:31,021 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 13:58:31,021 [INFO]    âšª No signal - HOLD
+2025-12-13 13:58:31,522 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 13:58:31,598 [INFO]    Current position: SHORT 120.5
+2025-12-13 13:58:31,599 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 13:58:31,599 [INFO]    PnL: -2.75% ($-0.55)
+2025-12-13 13:58:31,599 [INFO]    Age: 3.5h / 72.0h
+2025-12-13 13:58:31,599 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:01:31,673 [INFO] 
+============================================================
+2025-12-13 14:01:31,674 [INFO] ðŸ”„ LOOP #72 - 2025-12-13 14:01:31
+2025-12-13 14:01:31,674 [INFO] ============================================================
+2025-12-13 14:01:31,754 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:01:31,754 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:01:31,754 [INFO] 
+==================================================
+2025-12-13 14:01:31,754 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:01:31,754 [INFO] ==================================================
+2025-12-13 14:01:31,754 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:01:31,832 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:01:31,832 [INFO]    Entry: $90233.90 | Mark: $90258.00
+2025-12-13 14:01:31,832 [INFO]    PnL: -0.27% ($-0.05)
+2025-12-13 14:01:31,832 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 14:01:32,333 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:01:32,431 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:01:33,076 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:33,076 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:33,577 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:01:33,655 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:01:34,272 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:34,273 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:34,773 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:01:34,852 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:01:35,514 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:01:35,514 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:01:35,514 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:01:35,514 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:01:35,514 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:01:35,514 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:01:35,519 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:35,519 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:36,020 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:01:36,101 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:01:36,757 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:36,757 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:37,258 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:01:37,333 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:01:38,001 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:01:38,001 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:01:38,001 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:01:38,001 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:01:38,001 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:01:38,001 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:01:38,001 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:01:38,007 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:38,007 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:38,508 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:01:38,582 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:01:39,290 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:39,290 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:39,791 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:01:39,868 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:01:40,565 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:40,566 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:41,067 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:01:41,141 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:01:41,141 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:01:41,142 [INFO]    PnL: -3.16% ($-0.63)
+2025-12-13 14:01:41,142 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 14:01:41,642 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:01:41,722 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:01:42,465 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:42,466 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:42,967 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:01:43,042 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:01:43,769 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:43,770 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:44,271 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:01:44,347 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:01:45,013 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:45,013 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:45,514 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:01:45,590 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:01:46,318 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:46,319 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:46,820 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:01:46,897 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:01:47,539 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:47,539 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:48,040 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:01:48,117 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:01:48,755 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:48,755 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:49,256 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:01:49,333 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:01:49,978 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:49,978 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:50,479 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:01:50,556 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:01:51,249 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:01:51,249 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:01:51,249 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:01:51,250 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:01:51,250 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:01:51,250 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:01:51,250 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:01:51,255 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:51,256 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:51,762 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:01:51,844 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:01:52,613 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:52,613 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:53,114 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:01:53,191 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:01:53,860 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:01:53,861 [INFO]    âšª No signal - HOLD
+2025-12-13 14:01:54,361 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:01:54,440 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:01:54,440 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:01:54,440 [INFO]    PnL: -1.97% ($-0.39)
+2025-12-13 14:01:54,440 [INFO]    Age: 3.5h / 72.0h
+2025-12-13 14:01:54,441 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:04:54,500 [INFO] 
+============================================================
+2025-12-13 14:04:54,500 [INFO] ðŸ”„ LOOP #73 - 2025-12-13 14:04:54
+2025-12-13 14:04:54,500 [INFO] ============================================================
+2025-12-13 14:04:54,582 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:04:54,582 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:04:54,582 [INFO] 
+==================================================
+2025-12-13 14:04:54,582 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:04:54,582 [INFO] ==================================================
+2025-12-13 14:04:54,582 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:04:54,660 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:04:54,660 [INFO]    Entry: $90233.90 | Mark: $90219.12
+2025-12-13 14:04:54,660 [INFO]    PnL: 0.16% ($0.03)
+2025-12-13 14:04:54,660 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 14:04:55,161 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:04:55,244 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:04:55,911 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:04:55,911 [INFO]    âšª No signal - HOLD
+2025-12-13 14:04:56,412 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:04:56,504 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:04:57,184 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:04:57,185 [INFO]    âšª No signal - HOLD
+2025-12-13 14:04:57,686 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:04:57,763 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:04:58,565 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:04:58,565 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:04:58,565 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:04:58,565 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:04:58,565 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:04:58,565 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:04:58,571 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:04:58,571 [INFO]    âšª No signal - HOLD
+2025-12-13 14:04:59,072 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:04:59,150 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:04:59,864 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:04:59,864 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:00,365 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:05:00,674 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:05:01,832 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:05:01,832 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:05:01,832 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:05:01,832 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:05:01,832 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:05:01,832 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:05:01,832 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:05:01,839 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:01,840 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:02,340 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:05:02,516 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:05:04,276 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:04,277 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:04,778 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:05:05,214 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:05:06,380 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:06,381 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:06,882 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:05:06,962 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:05:06,963 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:05:06,963 [INFO]    PnL: -1.70% ($-0.34)
+2025-12-13 14:05:06,963 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 14:05:07,464 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:05:07,877 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:05:08,894 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:08,894 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:09,395 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:05:09,561 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:05:10,310 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:10,311 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:10,812 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:05:10,892 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:05:11,725 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:11,726 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:12,227 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:05:12,317 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:05:12,988 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:12,989 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:13,489 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:05:13,571 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:05:14,277 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:14,277 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:14,778 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:05:14,856 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:05:15,586 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:15,586 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:16,087 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:05:16,164 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:05:16,850 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:16,852 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:17,353 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:05:17,433 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:05:18,410 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:18,410 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:18,911 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:05:18,992 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:05:19,681 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:19,681 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:20,181 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:05:20,262 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:05:20,980 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:05:20,980 [INFO]    âšª No signal - HOLD
+2025-12-13 14:05:21,481 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:05:21,570 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:05:21,570 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:05:21,570 [INFO]    PnL: -2.31% ($-0.46)
+2025-12-13 14:05:21,570 [INFO]    Age: 3.6h / 72.0h
+2025-12-13 14:05:21,571 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:08:21,667 [INFO] 
+============================================================
+2025-12-13 14:08:21,668 [INFO] ðŸ”„ LOOP #74 - 2025-12-13 14:08:21
+2025-12-13 14:08:21,668 [INFO] ============================================================
+2025-12-13 14:08:21,754 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:08:21,754 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:08:21,755 [INFO] 
+==================================================
+2025-12-13 14:08:21,755 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:08:21,755 [INFO] ==================================================
+2025-12-13 14:08:21,755 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:08:21,832 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:08:21,832 [INFO]    Entry: $90233.90 | Mark: $90217.50
+2025-12-13 14:08:21,832 [INFO]    PnL: 0.18% ($0.03)
+2025-12-13 14:08:21,832 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 14:08:22,333 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:08:22,410 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:08:23,050 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:23,050 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:23,551 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:08:23,629 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:08:24,293 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:24,293 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:24,794 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:08:24,875 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:08:25,519 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:08:25,520 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:08:25,520 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:08:25,520 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:08:25,520 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:08:25,520 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:08:25,526 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:25,526 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:26,027 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:08:26,103 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:08:26,742 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:26,742 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:27,243 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:08:27,321 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:08:27,994 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:08:27,995 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:08:27,995 [INFO]    âš ï¸ Near EMA21
+2025-12-13 14:08:27,995 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:08:27,995 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:08:27,995 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:08:27,995 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:08:28,000 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:28,000 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:28,501 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:08:28,578 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:08:29,472 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:29,473 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:29,973 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:08:30,051 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:08:30,805 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:30,805 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:31,306 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:08:31,384 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:08:31,384 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:08:31,384 [INFO]    PnL: -1.22% ($-0.24)
+2025-12-13 14:08:31,384 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 14:08:31,885 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:08:31,962 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:08:32,608 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:32,609 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:33,110 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:08:33,190 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:08:33,860 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:33,860 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:34,361 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:08:34,437 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:08:35,164 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:35,164 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:35,665 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:08:35,742 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:08:36,379 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:36,379 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:36,882 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:08:36,958 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:08:37,577 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:37,577 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:38,077 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:08:38,153 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:08:38,778 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:38,778 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:39,279 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:08:39,355 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:08:39,983 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:39,983 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:40,484 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:08:40,559 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:08:41,179 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:08:41,180 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:08:41,180 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:08:41,180 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:08:41,180 [INFO]    ðŸ“Š Above average volume
+2025-12-13 14:08:41,180 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:08:41,180 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:08:41,180 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:08:41,187 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:41,187 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:41,688 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:08:41,763 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:08:42,437 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:42,438 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:42,939 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:08:43,016 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:08:43,659 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:08:43,659 [INFO]    âšª No signal - HOLD
+2025-12-13 14:08:44,160 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:08:44,245 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:08:44,245 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:08:44,246 [INFO]    PnL: -1.72% ($-0.34)
+2025-12-13 14:08:44,246 [INFO]    Age: 3.6h / 72.0h
+2025-12-13 14:08:44,246 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:11:44,335 [INFO] 
+============================================================
+2025-12-13 14:11:44,336 [INFO] ðŸ”„ LOOP #75 - 2025-12-13 14:11:44
+2025-12-13 14:11:44,336 [INFO] ============================================================
+2025-12-13 14:11:46,203 [INFO] ðŸ’“ Bot alive - Loop #75 - Active positions: 3
+2025-12-13 14:11:46,417 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:11:46,418 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:11:46,418 [INFO] 
+==================================================
+2025-12-13 14:11:46,418 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:11:46,418 [INFO] ==================================================
+2025-12-13 14:11:46,418 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:11:46,630 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:11:46,631 [INFO]    Entry: $90233.90 | Mark: $90203.07
+2025-12-13 14:11:46,631 [INFO]    PnL: 0.34% ($0.06)
+2025-12-13 14:11:46,631 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 14:11:47,132 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:11:47,209 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:11:48,030 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:48,030 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:48,531 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:11:48,742 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:11:49,566 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:49,567 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:50,068 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:11:50,148 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:11:50,846 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:11:50,846 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:11:50,846 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:11:50,847 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:11:50,847 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:11:50,847 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:11:50,853 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:50,854 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:51,354 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:11:51,434 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:11:52,106 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:52,106 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:52,607 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:11:52,685 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:11:53,383 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:11:53,383 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:11:53,384 [INFO]    âš ï¸ Near EMA21
+2025-12-13 14:11:53,384 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:11:53,384 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:11:53,384 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:11:53,384 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:11:53,399 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:53,400 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:53,901 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:11:53,980 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:11:54,778 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:54,779 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:55,280 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:11:55,355 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:11:56,087 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:56,087 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:56,588 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:11:56,664 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:11:56,665 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:11:56,665 [INFO]    PnL: -1.94% ($-0.39)
+2025-12-13 14:11:56,665 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 14:11:57,166 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:11:57,249 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:11:57,929 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:57,929 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:58,430 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:11:58,506 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:11:59,163 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:11:59,164 [INFO]    âšª No signal - HOLD
+2025-12-13 14:11:59,664 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:11:59,741 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:12:00,410 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:00,410 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:00,911 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:12:00,986 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:12:01,726 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 8/15
+2025-12-13 14:12:01,726 [INFO]    âœ… Perfect alignment: All TFs RANGING
+2025-12-13 14:12:01,726 [INFO]    No clear pullback
+2025-12-13 14:12:01,726 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:12:01,726 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:12:01,726 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:12:01,733 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:01,733 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:02,234 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:12:02,313 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:12:03,003 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:03,003 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:03,504 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:12:03,585 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:12:04,347 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:04,348 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:04,848 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:12:04,926 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:12:05,595 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:05,596 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:06,097 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:12:06,174 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:12:06,864 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 14/15
+2025-12-13 14:12:06,864 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:12:06,864 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:12:06,864 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:12:06,864 [INFO]    ðŸ“ˆ Strong volume spike (2x)
+2025-12-13 14:12:06,864 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:12:06,864 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:12:06,864 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:12:06,870 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:06,870 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:07,371 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:12:07,447 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:12:08,183 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:08,183 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:08,684 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:12:08,761 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:12:09,482 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:12:09,482 [INFO]    âšª No signal - HOLD
+2025-12-13 14:12:09,983 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:12:10,061 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:12:10,061 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:12:10,061 [INFO]    PnL: -2.59% ($-0.52)
+2025-12-13 14:12:10,061 [INFO]    Age: 3.7h / 72.0h
+2025-12-13 14:12:10,062 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:15:10,123 [INFO] 
+============================================================
+2025-12-13 14:15:10,124 [INFO] ðŸ”„ LOOP #76 - 2025-12-13 14:15:10
+2025-12-13 14:15:10,124 [INFO] ============================================================
+2025-12-13 14:15:10,204 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:15:10,205 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:15:10,205 [INFO] 
+==================================================
+2025-12-13 14:15:10,205 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:15:10,205 [INFO] ==================================================
+2025-12-13 14:15:10,205 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:15:10,281 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:15:10,281 [INFO]    Entry: $90233.90 | Mark: $90259.30
+2025-12-13 14:15:10,281 [INFO]    PnL: -0.28% ($-0.05)
+2025-12-13 14:15:10,282 [INFO]    Age: 0.8h / 72.0h
+2025-12-13 14:15:10,782 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:15:10,860 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:15:11,553 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:11,554 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:12,055 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:15:12,134 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:15:12,947 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:12,947 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:13,448 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:15:13,524 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:15:14,183 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:15:14,184 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:15:14,184 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:15:14,184 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:15:14,184 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:15:14,184 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:15:14,184 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:15:14,188 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:14,188 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:14,689 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:15:14,766 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:15:15,517 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:15,517 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:16,018 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:15:16,094 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:15:16,846 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:15:16,846 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:15:16,846 [INFO]    âš ï¸ Near EMA21
+2025-12-13 14:15:16,846 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:15:16,846 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:15:16,846 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:15:16,846 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:15:16,852 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:16,852 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:17,353 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:15:17,431 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:15:18,120 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:18,120 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:18,621 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:15:18,697 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:15:19,427 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:19,427 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:19,928 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:15:20,009 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:15:20,009 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:15:20,009 [INFO]    PnL: -2.37% ($-0.47)
+2025-12-13 14:15:20,009 [INFO]    Age: 1.1h / 72.0h
+2025-12-13 14:15:20,510 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:15:20,585 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:15:21,271 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:21,271 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:21,772 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:15:21,847 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:15:22,605 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:22,606 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:23,107 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:15:23,191 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:15:23,875 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:23,876 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:24,377 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:15:24,453 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:15:25,095 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 7/15
+2025-12-13 14:15:25,096 [INFO]    âš ï¸ HTF aligned (RANGING), LTF diverging
+2025-12-13 14:15:25,096 [INFO]    No clear pullback
+2025-12-13 14:15:25,096 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:15:25,096 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:15:25,096 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:15:25,103 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:25,103 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:25,604 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:15:25,682 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:15:26,331 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:26,331 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:26,832 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:15:26,906 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:15:27,604 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:27,605 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:28,106 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:15:28,183 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:15:28,906 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:28,906 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:29,407 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:15:29,484 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:15:30,122 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:15:30,123 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:15:30,124 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:15:30,124 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:15:30,124 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:15:30,124 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:15:30,124 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:15:30,131 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:30,131 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:30,632 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:15:30,724 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:15:31,354 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:31,354 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:31,855 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:15:31,934 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:15:32,580 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:15:32,581 [INFO]    âšª No signal - HOLD
+2025-12-13 14:15:33,081 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:15:33,157 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:15:33,157 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:15:33,158 [INFO]    PnL: -2.59% ($-0.52)
+2025-12-13 14:15:33,158 [INFO]    Age: 3.7h / 72.0h
+2025-12-13 14:15:33,158 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:18:33,237 [INFO] 
+============================================================
+2025-12-13 14:18:33,237 [INFO] ðŸ”„ LOOP #77 - 2025-12-13 14:18:33
+2025-12-13 14:18:33,237 [INFO] ============================================================
+2025-12-13 14:18:33,324 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:18:33,324 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:18:33,324 [INFO] 
+==================================================
+2025-12-13 14:18:33,324 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:18:33,324 [INFO] ==================================================
+2025-12-13 14:18:33,324 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:18:33,403 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:18:33,404 [INFO]    Entry: $90233.90 | Mark: $90234.66
+2025-12-13 14:18:33,404 [INFO]    PnL: -0.01% ($-0.00)
+2025-12-13 14:18:33,404 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 14:18:33,905 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:18:33,992 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:18:34,666 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:34,667 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:35,168 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:18:35,246 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:18:35,971 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:35,972 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:36,473 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:18:36,551 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:18:37,244 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:18:37,245 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:18:37,245 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:18:37,245 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:18:37,245 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:18:37,245 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:18:37,245 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:18:37,249 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:37,250 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:37,750 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:18:37,827 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:18:38,479 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:38,479 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:38,980 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:18:39,055 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:18:39,718 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:18:39,719 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:18:39,719 [INFO]    âš ï¸ Near EMA21
+2025-12-13 14:18:39,719 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:18:39,719 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:18:39,719 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:18:39,719 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:18:39,723 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:39,724 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:40,225 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:18:40,301 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:18:40,993 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:40,994 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:41,495 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:18:41,574 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:18:42,247 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:42,248 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:42,749 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:18:42,827 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:18:42,827 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:18:42,827 [INFO]    PnL: -2.48% ($-0.50)
+2025-12-13 14:18:42,827 [INFO]    Age: 1.1h / 72.0h
+2025-12-13 14:18:43,328 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:18:43,402 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:18:44,055 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:44,055 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:44,556 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:18:44,633 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:18:45,307 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:45,308 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:45,808 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:18:45,883 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:18:46,533 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:46,533 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:47,034 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:18:47,111 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:18:47,883 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 7/15
+2025-12-13 14:18:47,883 [INFO]    âš ï¸ HTF aligned (RANGING), LTF diverging
+2025-12-13 14:18:47,883 [INFO]    No clear pullback
+2025-12-13 14:18:47,883 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:18:47,883 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:18:47,883 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:18:47,890 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:47,891 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:48,392 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:18:48,470 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:18:49,161 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:49,161 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:49,662 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:18:49,739 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:18:50,436 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:50,437 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:50,938 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:18:51,015 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:18:51,699 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:51,699 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:52,200 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:18:52,275 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:18:52,900 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:18:52,900 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:18:52,901 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:18:52,901 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:18:52,901 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:18:52,901 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:18:52,901 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:18:52,906 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:52,906 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:53,407 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:18:53,482 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:18:54,140 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:54,140 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:54,641 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:18:54,720 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:18:55,400 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:18:55,400 [INFO]    âšª No signal - HOLD
+2025-12-13 14:18:55,901 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:18:55,980 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:18:55,980 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:18:55,980 [INFO]    PnL: -2.79% ($-0.56)
+2025-12-13 14:18:55,980 [INFO]    Age: 3.8h / 72.0h
+2025-12-13 14:18:55,980 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:21:56,077 [INFO] 
+============================================================
+2025-12-13 14:21:56,078 [INFO] ðŸ”„ LOOP #78 - 2025-12-13 14:21:56
+2025-12-13 14:21:56,078 [INFO] ============================================================
+2025-12-13 14:21:56,157 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:21:56,157 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:21:56,157 [INFO] 
+==================================================
+2025-12-13 14:21:56,157 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:21:56,157 [INFO] ==================================================
+2025-12-13 14:21:56,157 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:21:56,235 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:21:56,235 [INFO]    Entry: $90233.90 | Mark: $90153.70
+2025-12-13 14:21:56,236 [INFO]    PnL: 0.89% ($0.16)
+2025-12-13 14:21:56,236 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 14:21:56,736 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:21:56,814 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:21:57,444 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:21:57,445 [INFO]    âšª No signal - HOLD
+2025-12-13 14:21:57,945 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:21:58,023 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:21:58,671 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:21:58,671 [INFO]    âšª No signal - HOLD
+2025-12-13 14:21:59,172 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:21:59,251 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:21:59,894 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:21:59,894 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:21:59,894 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:21:59,894 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:21:59,894 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:21:59,894 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:21:59,894 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:21:59,900 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:21:59,900 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:00,401 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:22:00,482 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:22:01,246 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:01,247 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:01,747 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:22:01,823 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:22:02,467 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:22:02,467 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:22:02,467 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:22:02,467 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:22:02,467 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:22:02,468 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:22:02,468 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:22:02,477 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:02,490 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:02,991 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:22:03,068 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:22:03,728 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:03,728 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:04,229 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:22:04,307 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:22:05,132 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:05,132 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:05,633 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:22:05,709 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:22:05,710 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:22:05,710 [INFO]    PnL: -1.21% ($-0.24)
+2025-12-13 14:22:05,710 [INFO]    Age: 1.2h / 72.0h
+2025-12-13 14:22:06,211 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:22:06,431 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:22:07,081 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:07,081 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:07,582 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:22:07,665 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:22:08,314 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:08,314 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:08,815 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:22:08,892 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:22:09,524 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:09,524 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:10,025 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:22:10,101 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:22:10,789 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:10,789 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:11,290 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:22:11,366 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:22:11,992 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:11,993 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:12,493 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:22:12,571 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:22:13,268 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:13,268 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:13,769 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:22:13,844 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:22:14,454 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:14,455 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:14,955 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:22:15,031 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:22:15,677 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:22:15,677 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:22:15,677 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:22:15,677 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:22:15,677 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:22:15,677 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:22:15,677 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:22:15,682 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:15,682 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:16,183 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:22:16,259 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:22:16,907 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:16,908 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:17,408 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:22:17,492 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:22:18,150 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:22:18,150 [INFO]    âšª No signal - HOLD
+2025-12-13 14:22:18,651 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:22:18,727 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:22:18,727 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:22:18,727 [INFO]    PnL: -2.23% ($-0.45)
+2025-12-13 14:22:18,727 [INFO]    Age: 3.9h / 72.0h
+2025-12-13 14:22:18,728 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:25:18,815 [INFO] 
+============================================================
+2025-12-13 14:25:18,815 [INFO] ðŸ”„ LOOP #79 - 2025-12-13 14:25:18
+2025-12-13 14:25:18,815 [INFO] ============================================================
+2025-12-13 14:25:18,896 [INFO] ðŸ’° [BINANCE] Balance: $111.90
+2025-12-13 14:25:18,897 [INFO] ðŸ’° Total balance: $111.90
+2025-12-13 14:25:18,897 [INFO] 
+==================================================
+2025-12-13 14:25:18,897 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:25:18,897 [INFO] ==================================================
+2025-12-13 14:25:18,897 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:25:18,973 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:25:18,973 [INFO]    Entry: $90233.90 | Mark: $90100.37
+2025-12-13 14:25:18,973 [INFO]    PnL: 1.48% ($0.27)
+2025-12-13 14:25:18,973 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 14:25:19,474 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:25:19,554 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:25:20,226 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:20,227 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:20,727 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:25:20,807 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:25:21,432 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:21,433 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:21,934 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:25:22,010 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:25:22,627 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:25:22,627 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:25:22,627 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:25:22,627 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:25:22,627 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:25:22,628 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:25:22,628 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:25:22,633 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:22,633 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:23,134 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:25:23,212 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:25:23,837 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:23,838 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:24,338 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:25:24,415 [INFO]    ðŸ” Analyzing SOLUSDT for entry signal...
+2025-12-13 14:25:25,076 [INFO] ðŸŽ¯ SOLUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:25:25,076 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:25:25,076 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:25:25,076 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:25:25,076 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:25:25,077 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:25:25,077 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:25:25,081 [INFO] âœ… SOLUSDT ENTRY APPROVED: SHORT
+2025-12-13 14:25:25,082 [INFO]    Confidence: 79.55%
+2025-12-13 14:25:25,082 [INFO]    Entry: 132.9700
+2025-12-13 14:25:25,082 [INFO]    SL: 133.5091, TP: 131.6221
+2025-12-13 14:25:25,082 [INFO]    Stages passed: ['ml_ensemble', 'smart_entry', 'price_action', 'htf_alignment']
+2025-12-13 14:25:25,082 [INFO] ðŸš€ SOLUSDT Pipeline APPROVED: SHORT
+2025-12-13 14:25:25,082 [INFO]    ðŸ“Š Confidence: 79.55%
+2025-12-13 14:25:25,082 [INFO]    ðŸ’° Entry: $132.9700
+2025-12-13 14:25:25,082 [INFO]    ðŸ“ˆ ML: 0.318 | RSI: 37.3
+2025-12-13 14:25:25,082 [INFO]    âœ… Stages: ml_ensemble, smart_entry, price_action, htf_alignment
+2025-12-13 14:25:25,083 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=11
+2025-12-13 14:25:25,083 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action, Pipeline: htf_alignment
+2025-12-13 14:25:25,083 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 14:25:25,083 [INFO]    ðŸ“Š Confluence score: 11/5
+2025-12-13 14:25:25,083 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action
+2025-12-13 14:25:25,084 [INFO]    ðŸš« Cooldown recorded for SOLUSDT (60m)
+2025-12-13 14:25:25,084 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 14:25:25,173 [INFO] âœ… [Binance] Set leverage 10x for SOLUSDT
+2025-12-13 14:25:25,336 [INFO]    ðŸ’µ Current price: $132.97
+2025-12-13 14:25:25,336 [INFO]    ðŸ’° Position calculation:
+2025-12-13 14:25:25,336 [INFO]       Balance: $111.90
+2025-12-13 14:25:25,336 [INFO]       Price: $132.97
+2025-12-13 14:25:25,336 [INFO]       Capital (fixed): $20.00
+2025-12-13 14:25:25,336 [INFO]       Leverage: 10x
+2025-12-13 14:25:25,336 [INFO]       Raw quantity: 1.50409867
+2025-12-13 14:25:25,337 [INFO]       Formatted quantity: 1.50000000
+2025-12-13 14:25:25,337 [INFO]    ðŸ“¤ Placing SELL order for 1.5 SOLUSDT...
+2025-12-13 14:25:25,337 [INFO] ðŸ“ [Binance] Order: SELL SOLUSDT
+2025-12-13 14:25:25,337 [INFO]    Raw qty: 1.50000000 -> Formatted: 1.5
+2025-12-13 14:25:25,416 [INFO] âœ… [Binance] Order created: SELL 1.5 SOLUSDT
+2025-12-13 14:25:25,416 [INFO] ðŸ’° TRADE: [BINANCE] OPEN SHORT SOLUSDT | Qty: 1.5 | Price: $132.97 | Score: 11 | Pipeline: ml_ensemble
+2025-12-13 14:25:26,111 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 14:25:26,114 [INFO] â±ï¸ Tracking position open time for SOLUSDT: 2025-12-13T14:25:26.114208
+2025-12-13 14:25:26,115 [INFO] ðŸ“ Trade recorded: SHORT 1.5 SOLUSDT @ $132.97
+2025-12-13 14:25:26,115 [INFO]    Daily trades: 12 | Volume: $23.8k
+2025-12-13 14:25:26,115 [INFO]    âœ… Order placed successfully!
+2025-12-13 14:25:26,616 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:25:26,692 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:25:27,327 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:27,327 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:27,828 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:25:27,907 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:25:28,536 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:28,537 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:29,037 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:25:29,115 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:25:29,115 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:25:29,115 [INFO]    PnL: 0.64% ($0.13)
+2025-12-13 14:25:29,115 [INFO]    Age: 1.2h / 72.0h
+2025-12-13 14:25:29,616 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:25:29,697 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:25:30,395 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:30,395 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:30,896 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:25:30,973 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:25:31,622 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:31,622 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:32,123 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:25:32,201 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:25:32,813 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:32,813 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:33,313 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:25:33,389 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:25:33,998 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:25:33,998 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:25:33,998 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:25:33,998 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:25:33,998 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:25:33,998 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:25:34,003 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:34,003 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:34,504 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:25:34,579 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:25:35,221 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:35,221 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:35,722 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:25:35,798 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:25:36,464 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:36,464 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:36,965 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:25:37,043 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:25:37,621 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:37,621 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:38,122 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:25:38,198 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:25:38,859 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:25:38,859 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:25:38,859 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:25:38,859 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:25:38,859 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:25:38,859 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:25:38,859 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:25:38,864 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:38,864 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:39,365 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:25:39,442 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:25:40,048 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:40,049 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:40,550 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:25:40,625 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:25:41,243 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:25:41,243 [INFO]    âšª No signal - HOLD
+2025-12-13 14:25:41,744 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:25:41,818 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:25:41,818 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:25:41,818 [INFO]    PnL: -0.83% ($-0.17)
+2025-12-13 14:25:41,818 [INFO]    Age: 3.9h / 72.0h
+2025-12-13 14:25:41,818 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:28:41,858 [INFO] 
+============================================================
+2025-12-13 14:28:41,858 [INFO] ðŸ”„ LOOP #80 - 2025-12-13 14:28:41
+2025-12-13 14:28:41,858 [INFO] ============================================================
+2025-12-13 14:28:44,006 [INFO] ðŸ’“ Bot alive - Loop #80 - Active positions: 4
+2025-12-13 14:28:44,225 [INFO] ðŸ’° [BINANCE] Balance: $111.80
+2025-12-13 14:28:44,225 [INFO] ðŸ’° Total balance: $111.80
+2025-12-13 14:28:44,225 [INFO] 
+==================================================
+2025-12-13 14:28:44,225 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:28:44,225 [INFO] ==================================================
+2025-12-13 14:28:44,225 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:28:44,311 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:28:44,311 [INFO]    Entry: $90233.90 | Mark: $90001.20
+2025-12-13 14:28:44,311 [INFO]    PnL: 2.58% ($0.47)
+2025-12-13 14:28:44,311 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 14:28:44,311 [INFO] ðŸŽ¯ Trailing stop activated for BTCUSDT at 2.58% PnL (price: $90001.2000)
+2025-12-13 14:28:44,311 [INFO]    ðŸ“ˆ Trailing active: PnL=2.58%, Peak=2.58%
+2025-12-13 14:28:44,812 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:28:44,894 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:28:45,588 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:45,589 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:46,089 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:28:46,177 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:28:46,955 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:46,955 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:47,456 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:28:47,568 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:28:48,302 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:28:48,303 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:28:48,303 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:28:48,303 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:28:48,303 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:28:48,303 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:28:48,303 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:28:48,310 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:48,311 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:48,811 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:28:48,897 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:28:49,568 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:49,568 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:50,069 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:28:50,148 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:28:50,148 [INFO]    Entry: $132.97 | Mark: $132.67
+2025-12-13 14:28:50,148 [INFO]    PnL: 2.25% ($0.45)
+2025-12-13 14:28:50,148 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 14:28:50,649 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:28:50,725 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:28:51,420 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:51,421 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:51,921 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:28:52,000 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:28:52,681 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:52,681 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:53,182 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:28:53,263 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:28:53,263 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:28:53,263 [INFO]    PnL: 2.58% ($0.52)
+2025-12-13 14:28:53,263 [INFO]    Age: 1.3h / 72.0h
+2025-12-13 14:28:53,263 [INFO] ðŸŽ¯ Trailing stop activated for ADAUSDT at 2.58% PnL (price: $0.4108)
+2025-12-13 14:28:53,264 [INFO]    ðŸ“ˆ Trailing active: PnL=2.58%, Peak=2.58%
+2025-12-13 14:28:53,764 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:28:53,840 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:28:54,550 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:54,550 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:55,051 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:28:55,127 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:28:55,787 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:55,788 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:56,288 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:28:56,364 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:28:57,091 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:28:57,091 [INFO]    âšª No signal - HOLD
+2025-12-13 14:28:57,592 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:28:57,670 [INFO]    ðŸ” Analyzing LINKUSDT for entry signal...
+2025-12-13 14:28:58,351 [INFO] ðŸŽ¯ LINKUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:28:58,352 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:28:58,352 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:28:58,352 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:28:58,352 [INFO]    ðŸ“Š Above average volume
+2025-12-13 14:28:58,352 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:28:58,352 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:28:58,359 [INFO] âœ… LINKUSDT ENTRY APPROVED: SHORT
+2025-12-13 14:28:58,359 [INFO]    Confidence: 79.47%
+2025-12-13 14:28:58,359 [INFO]    Entry: 13.6560
+2025-12-13 14:28:58,360 [INFO]    SL: 13.7165, TP: 13.5047
+2025-12-13 14:28:58,360 [INFO]    Stages passed: ['ml_ensemble', 'smart_entry', 'price_action', 'htf_alignment']
+2025-12-13 14:28:58,360 [INFO] ðŸš€ LINKUSDT Pipeline APPROVED: SHORT
+2025-12-13 14:28:58,360 [INFO]    ðŸ“Š Confidence: 79.47%
+2025-12-13 14:28:58,360 [INFO]    ðŸ’° Entry: $13.6560
+2025-12-13 14:28:58,360 [INFO]    ðŸ“ˆ ML: 0.338 | RSI: 19.7
+2025-12-13 14:28:58,360 [INFO]    âœ… Stages: ml_ensemble, smart_entry, price_action, htf_alignment
+2025-12-13 14:28:58,361 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=11
+2025-12-13 14:28:58,361 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action, Pipeline: htf_alignment
+2025-12-13 14:28:58,361 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 14:28:58,362 [INFO]    ðŸ“Š Confluence score: 11/5
+2025-12-13 14:28:58,362 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action
+2025-12-13 14:28:58,363 [INFO]    ðŸš« Cooldown recorded for LINKUSDT (60m)
+2025-12-13 14:28:58,363 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 14:28:58,447 [INFO] âœ… [Binance] Set leverage 10x for LINKUSDT
+2025-12-13 14:28:58,530 [INFO] âœ… [Binance] Set margin type ISOLATED for LINKUSDT
+2025-12-13 14:28:58,604 [INFO]    ðŸ’µ Current price: $13.66
+2025-12-13 14:28:58,718 [INFO]    ðŸ’° Position calculation:
+2025-12-13 14:28:58,718 [INFO]       Balance: $111.80
+2025-12-13 14:28:58,718 [INFO]       Price: $13.66
+2025-12-13 14:28:58,719 [INFO]       Capital (fixed): $20.00
+2025-12-13 14:28:58,719 [INFO]       Leverage: 10x
+2025-12-13 14:28:58,719 [INFO]       Raw quantity: 14.64557704
+2025-12-13 14:28:58,719 [INFO]       Formatted quantity: 14.65000000
+2025-12-13 14:28:58,719 [INFO]    ðŸ“¤ Placing SELL order for 14.65 LINKUSDT...
+2025-12-13 14:28:58,719 [INFO] ðŸ“ [Binance] Order: SELL LINKUSDT
+2025-12-13 14:28:58,719 [INFO]    Raw qty: 14.65000000 -> Formatted: 14.65
+2025-12-13 14:28:58,796 [INFO] âœ… [Binance] Order created: SELL 14.65 LINKUSDT
+2025-12-13 14:28:58,796 [INFO] ðŸ’° TRADE: [BINANCE] OPEN SHORT LINKUSDT | Qty: 14.65 | Price: $13.66 | Score: 11 | Pipeline: ml_ensemble
+2025-12-13 14:28:59,494 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 14:28:59,497 [INFO] â±ï¸ Tracking position open time for LINKUSDT: 2025-12-13T14:28:59.496699
+2025-12-13 14:28:59,497 [INFO] ðŸ“ Trade recorded: SHORT 14.65 LINKUSDT @ $13.66
+2025-12-13 14:28:59,497 [INFO]    Daily trades: 13 | Volume: $25.8k
+2025-12-13 14:28:59,497 [INFO]    âœ… Order placed successfully!
+2025-12-13 14:28:59,998 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:29:00,075 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:29:00,792 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:29:00,792 [INFO]    âšª No signal - HOLD
+2025-12-13 14:29:01,293 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:29:01,369 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:29:02,091 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:29:02,092 [INFO]    âšª No signal - HOLD
+2025-12-13 14:29:02,593 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:29:02,667 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:29:03,316 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:29:03,317 [INFO]    âšª No signal - HOLD
+2025-12-13 14:29:03,818 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:29:03,899 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:29:04,763 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:29:04,763 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:29:04,763 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:29:04,763 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:29:04,763 [INFO]    ðŸ“Š Above average volume
+2025-12-13 14:29:04,764 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:29:04,764 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:29:04,764 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:29:04,769 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 14:29:04,770 [INFO]    Confidence: 83.29%
+2025-12-13 14:29:04,770 [INFO]    Entry: 1.3350
+2025-12-13 14:29:04,770 [INFO]    SL: 1.3415, TP: 1.3187
+2025-12-13 14:29:04,770 [INFO]    Stages passed: ['ml_ensemble', 'smart_entry', 'price_action', 'htf_alignment']
+2025-12-13 14:29:04,770 [INFO] ðŸš€ FILUSDT Pipeline APPROVED: SHORT
+2025-12-13 14:29:04,770 [INFO]    ðŸ“Š Confidence: 83.29%
+2025-12-13 14:29:04,770 [INFO]    ðŸ’° Entry: $1.3350
+2025-12-13 14:29:04,770 [INFO]    ðŸ“ˆ ML: 0.345 | RSI: 33.3
+2025-12-13 14:29:04,770 [INFO]    âœ… Stages: ml_ensemble, smart_entry, price_action, htf_alignment
+2025-12-13 14:29:04,771 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=12
+2025-12-13 14:29:04,771 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action, Pipeline: htf_alignment
+2025-12-13 14:29:04,771 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 14:29:04,771 [INFO]    ðŸ“Š Confluence score: 12/5
+2025-12-13 14:29:04,771 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble, Pipeline: smart_entry, Pipeline: price_action
+2025-12-13 14:29:04,772 [INFO]    ðŸš« Cooldown recorded for FILUSDT (60m)
+2025-12-13 14:29:04,772 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 14:29:04,856 [INFO] âœ… [Binance] Set leverage 10x for FILUSDT
+2025-12-13 14:29:05,011 [INFO]    ðŸ’µ Current price: $1.33
+2025-12-13 14:29:05,011 [INFO]    ðŸ’° Position calculation:
+2025-12-13 14:29:05,011 [INFO]       Balance: $111.80
+2025-12-13 14:29:05,011 [INFO]       Price: $1.33
+2025-12-13 14:29:05,012 [INFO]       Capital (fixed): $20.00
+2025-12-13 14:29:05,012 [INFO]       Leverage: 10x
+2025-12-13 14:29:05,012 [INFO]       Raw quantity: 149.81273408
+2025-12-13 14:29:05,012 [INFO]       Formatted quantity: 149.80000000
+2025-12-13 14:29:05,012 [INFO]    ðŸ“¤ Placing SELL order for 149.8 FILUSDT...
+2025-12-13 14:29:05,012 [INFO] ðŸ“ [Binance] Order: SELL FILUSDT
+2025-12-13 14:29:05,012 [INFO]    Raw qty: 149.80000000 -> Formatted: 149.8
+2025-12-13 14:29:05,087 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 14:29:05,781 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 14:29:05,783 [ERROR]    Symbol: FILUSDT, Side: SELL, Qty: 149.8
+2025-12-13 14:29:06,158 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 14:29:06,160 [ERROR]    âŒ Order placement failed!
+2025-12-13 14:29:06,519 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 14:29:07,021 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:29:07,107 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:29:07,892 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:29:07,893 [INFO]    âšª No signal - HOLD
+2025-12-13 14:29:08,394 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:29:08,472 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:29:09,205 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:29:09,205 [INFO]    âšª No signal - HOLD
+2025-12-13 14:29:09,706 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:29:09,792 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:29:09,793 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:29:09,793 [INFO]    PnL: 1.03% ($0.20)
+2025-12-13 14:29:09,793 [INFO]    Age: 4.0h / 72.0h
+2025-12-13 14:29:11,406 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:32:11,490 [INFO] 
+============================================================
+2025-12-13 14:32:11,490 [INFO] ðŸ”„ LOOP #81 - 2025-12-13 14:32:11
+2025-12-13 14:32:11,490 [INFO] ============================================================
+2025-12-13 14:32:11,571 [INFO] ðŸ’° [BINANCE] Balance: $111.70
+2025-12-13 14:32:11,572 [INFO] ðŸ’° Total balance: $111.70
+2025-12-13 14:32:11,572 [INFO] 
+==================================================
+2025-12-13 14:32:11,572 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:32:11,572 [INFO] ==================================================
+2025-12-13 14:32:11,572 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:32:11,649 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:32:11,649 [INFO]    Entry: $90233.90 | Mark: $90027.98
+2025-12-13 14:32:11,650 [INFO]    PnL: 2.28% ($0.41)
+2025-12-13 14:32:11,650 [INFO]    Age: 1.1h / 72.0h
+2025-12-13 14:32:11,650 [INFO]    ðŸ“ˆ Trailing active: PnL=2.28%, Peak=2.58%
+2025-12-13 14:32:12,150 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:32:12,227 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:32:12,864 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:12,864 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:13,365 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:32:13,442 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:32:14,128 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:14,128 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:14,629 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:32:14,705 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:32:15,570 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:32:15,571 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:32:15,571 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:32:15,571 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:32:15,571 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:32:15,571 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:32:15,571 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:32:15,578 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:15,579 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:16,080 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:32:16,290 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:32:17,013 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:17,013 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:17,514 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:32:17,593 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:32:17,593 [INFO]    Entry: $132.97 | Mark: $132.75
+2025-12-13 14:32:17,593 [INFO]    PnL: 1.65% ($0.33)
+2025-12-13 14:32:17,593 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 14:32:18,094 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:32:18,168 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:32:18,866 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:18,866 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:19,367 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:32:19,443 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:32:20,133 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:20,134 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:20,634 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:32:20,710 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:32:20,710 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:32:20,710 [INFO]    PnL: 3.02% ($0.60)
+2025-12-13 14:32:20,710 [INFO]    Age: 1.4h / 72.0h
+2025-12-13 14:32:20,711 [INFO]    ðŸ“ˆ Trailing active: PnL=3.02%, Peak=3.02%
+2025-12-13 14:32:21,211 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:32:21,296 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:32:22,126 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:22,126 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:22,631 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:32:22,708 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:32:23,392 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:23,392 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:23,893 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:32:23,971 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:32:24,756 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:24,756 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:25,257 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:32:25,334 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:32:25,335 [INFO]    Entry: $13.66 | Mark: $13.65
+2025-12-13 14:32:25,335 [INFO]    PnL: 0.45% ($0.09)
+2025-12-13 14:32:25,335 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 14:32:25,836 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:32:25,910 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:32:26,573 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:26,578 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:27,078 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:32:27,154 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:32:27,785 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:27,785 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:28,286 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:32:28,361 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:32:29,008 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:29,009 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:29,509 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:32:29,584 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:32:30,216 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:32:30,216 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:32:30,216 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:32:30,216 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:32:30,216 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:32:30,216 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:32:30,216 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:32:30,222 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:30,222 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:30,723 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:32:30,803 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:32:31,475 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:31,476 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:31,977 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:32:32,052 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:32:32,832 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:32:32,832 [INFO]    âšª No signal - HOLD
+2025-12-13 14:32:33,333 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:32:33,410 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:32:33,410 [INFO]    Entry: $1.66 | Mark: $1.65
+2025-12-13 14:32:33,411 [INFO]    PnL: 2.35% ($0.47)
+2025-12-13 14:32:33,411 [INFO]    Age: 4.0h / 72.0h
+2025-12-13 14:32:33,411 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:35:33,442 [INFO] 
+============================================================
+2025-12-13 14:35:33,442 [INFO] ðŸ”„ LOOP #82 - 2025-12-13 14:35:33
+2025-12-13 14:35:33,442 [INFO] ============================================================
+2025-12-13 14:35:33,525 [INFO] ðŸ’° [BINANCE] Balance: $111.70
+2025-12-13 14:35:33,525 [INFO] ðŸ’° Total balance: $111.70
+2025-12-13 14:35:33,525 [INFO] 
+==================================================
+2025-12-13 14:35:33,525 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:35:33,525 [INFO] ==================================================
+2025-12-13 14:35:33,525 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:35:33,602 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:35:33,603 [INFO]    Entry: $90233.90 | Mark: $90081.51
+2025-12-13 14:35:33,603 [INFO]    PnL: 1.69% ($0.30)
+2025-12-13 14:35:33,603 [INFO]    Age: 1.1h / 72.0h
+2025-12-13 14:35:33,603 [INFO]    ðŸ“ˆ Trailing active: PnL=1.69%, Peak=2.58%
+2025-12-13 14:35:34,104 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:35:34,180 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:35:34,850 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:34,850 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:35,351 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:35:35,427 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:35:36,100 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:36,100 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:36,601 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:35:36,682 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:35:37,308 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:35:37,308 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:35:37,309 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:35:37,309 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:35:37,309 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:35:37,309 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:35:37,309 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:35:37,314 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:37,314 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:37,815 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:35:37,893 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:35:38,570 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:38,570 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:39,071 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:35:39,149 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:35:39,149 [INFO]    Entry: $132.97 | Mark: $132.90
+2025-12-13 14:35:39,149 [INFO]    PnL: 0.50% ($0.10)
+2025-12-13 14:35:39,149 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 14:35:39,650 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:35:39,731 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:35:40,481 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:40,482 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:40,982 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:35:41,059 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:35:41,711 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:41,711 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:42,212 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:35:42,287 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:35:42,287 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:35:42,288 [INFO]    PnL: 1.25% ($0.25)
+2025-12-13 14:35:42,288 [INFO]    Age: 1.4h / 72.0h
+2025-12-13 14:35:42,288 [INFO]    ðŸ“ˆ Trailing active: PnL=1.25%, Peak=3.02%
+2025-12-13 14:35:42,788 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:35:42,867 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:35:43,517 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:43,517 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:44,018 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:35:44,092 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:35:44,774 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:44,774 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:45,275 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:35:45,352 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:35:45,985 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:45,985 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:46,486 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:35:46,563 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:35:46,563 [INFO]    Entry: $13.66 | Mark: $13.69
+2025-12-13 14:35:46,563 [INFO]    PnL: -1.77% ($-0.35)
+2025-12-13 14:35:46,564 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 14:35:47,064 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:35:47,143 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:35:47,766 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:47,766 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:48,267 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:35:48,342 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:35:49,008 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:49,009 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:49,509 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:35:49,585 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:35:50,454 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:50,455 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:50,956 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:35:51,033 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:35:51,781 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:35:51,781 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:35:51,781 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:35:51,781 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:35:51,781 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:35:51,781 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:35:51,781 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:35:51,786 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:51,786 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:52,287 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:35:52,369 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:35:53,213 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:53,214 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:53,715 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:35:53,790 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:35:54,673 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:35:54,673 [INFO]    âšª No signal - HOLD
+2025-12-13 14:35:55,174 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:35:55,249 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:35:55,250 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:35:55,250 [INFO]    PnL: 1.85% ($0.37)
+2025-12-13 14:35:55,250 [INFO]    Age: 4.1h / 72.0h
+2025-12-13 14:35:55,250 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:38:55,322 [INFO] 
+============================================================
+2025-12-13 14:38:55,322 [INFO] ðŸ”„ LOOP #83 - 2025-12-13 14:38:55
+2025-12-13 14:38:55,322 [INFO] ============================================================
+2025-12-13 14:38:55,409 [INFO] ðŸ’° [BINANCE] Balance: $111.70
+2025-12-13 14:38:55,410 [INFO] ðŸ’° Total balance: $111.70
+2025-12-13 14:38:55,410 [INFO] 
+==================================================
+2025-12-13 14:38:55,410 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:38:55,410 [INFO] ==================================================
+2025-12-13 14:38:55,410 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:38:55,488 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:38:55,489 [INFO]    Entry: $90233.90 | Mark: $90084.90
+2025-12-13 14:38:55,489 [INFO]    PnL: 1.65% ($0.30)
+2025-12-13 14:38:55,489 [INFO]    Age: 1.2h / 72.0h
+2025-12-13 14:38:55,489 [INFO]    ðŸ“ˆ Trailing active: PnL=1.65%, Peak=2.58%
+2025-12-13 14:38:55,990 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:38:56,068 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:38:56,722 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:38:56,722 [INFO]    âšª No signal - HOLD
+2025-12-13 14:38:57,223 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:38:57,301 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:38:58,092 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:38:58,092 [INFO]    âšª No signal - HOLD
+2025-12-13 14:38:58,593 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:38:58,808 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:38:59,589 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:38:59,589 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:38:59,589 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:38:59,589 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:38:59,589 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:38:59,589 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:38:59,589 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:38:59,595 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:38:59,595 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:00,096 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:39:00,173 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:39:00,888 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:00,888 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:01,389 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:39:01,465 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:39:01,465 [INFO]    Entry: $132.97 | Mark: $132.84
+2025-12-13 14:39:01,465 [INFO]    PnL: 0.98% ($0.20)
+2025-12-13 14:39:01,465 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 14:39:01,966 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:39:02,045 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:39:02,717 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:02,717 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:03,218 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:39:03,293 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:39:04,032 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:04,032 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:04,533 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:39:04,613 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:39:04,613 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:39:04,613 [INFO]    PnL: 2.67% ($0.53)
+2025-12-13 14:39:04,613 [INFO]    Age: 1.5h / 72.0h
+2025-12-13 14:39:04,613 [INFO]    ðŸ“ˆ Trailing active: PnL=2.67%, Peak=3.02%
+2025-12-13 14:39:05,114 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:39:05,197 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:39:05,940 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:05,940 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:06,441 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:39:06,523 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:39:07,415 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:07,415 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:07,916 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:39:07,994 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:39:08,765 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:08,765 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:09,266 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:39:09,340 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:39:09,341 [INFO]    Entry: $13.66 | Mark: $13.68
+2025-12-13 14:39:09,341 [INFO]    PnL: -1.74% ($-0.35)
+2025-12-13 14:39:09,341 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 14:39:09,842 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:39:09,918 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:39:10,748 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:10,749 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:11,249 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:39:11,326 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:39:12,218 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:12,218 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:12,719 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:39:12,796 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:39:13,746 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:13,746 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:14,247 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:39:14,339 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:39:15,190 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:39:15,190 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:39:15,191 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:39:15,191 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:39:15,191 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:39:15,191 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:39:15,191 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:39:15,196 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:15,196 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:15,697 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:39:15,781 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:39:16,655 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:16,655 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:17,156 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:39:17,232 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:39:18,018 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:39:18,018 [INFO]    âšª No signal - HOLD
+2025-12-13 14:39:18,519 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:39:18,595 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:39:18,596 [INFO]    Entry: $1.66 | Mark: $1.65
+2025-12-13 14:39:18,596 [INFO]    PnL: 3.08% ($0.61)
+2025-12-13 14:39:18,596 [INFO]    Age: 4.1h / 72.0h
+2025-12-13 14:39:18,596 [INFO] ðŸŽ¯ Trailing stop activated for APTUSDT at 3.08% PnL (price: $1.6533)
+2025-12-13 14:39:18,596 [INFO]    ðŸ“ˆ Trailing active: PnL=3.08%, Peak=3.08%
+2025-12-13 14:39:18,596 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:42:18,693 [INFO] 
+============================================================
+2025-12-13 14:42:18,694 [INFO] ðŸ”„ LOOP #84 - 2025-12-13 14:42:18
+2025-12-13 14:42:18,694 [INFO] ============================================================
+2025-12-13 14:42:18,774 [INFO] ðŸ’° [BINANCE] Balance: $111.70
+2025-12-13 14:42:18,775 [INFO] ðŸ’° Total balance: $111.70
+2025-12-13 14:42:18,775 [INFO] 
+==================================================
+2025-12-13 14:42:18,775 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:42:18,775 [INFO] ==================================================
+2025-12-13 14:42:18,775 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:42:18,857 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:42:18,857 [INFO]    Entry: $90233.90 | Mark: $90174.30
+2025-12-13 14:42:18,857 [INFO]    PnL: 0.66% ($0.12)
+2025-12-13 14:42:18,857 [INFO]    Age: 1.2h / 72.0h
+2025-12-13 14:42:18,857 [INFO]    ðŸ“ˆ Trailing active: PnL=0.66%, Peak=2.58%
+2025-12-13 14:42:19,358 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:42:19,435 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:42:20,131 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:20,131 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:20,632 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:42:20,712 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:42:21,522 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:21,523 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:22,023 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:42:22,103 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:42:23,161 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:42:23,162 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:42:23,162 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:42:23,162 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:42:23,162 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:42:23,162 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:42:23,162 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:42:23,168 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:23,168 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:23,669 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:42:24,022 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:42:24,907 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:24,907 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:25,408 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:42:25,484 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:42:25,484 [INFO]    Entry: $132.97 | Mark: $133.13
+2025-12-13 14:42:25,484 [INFO]    PnL: -1.22% ($-0.24)
+2025-12-13 14:42:25,485 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 14:42:25,985 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:42:26,062 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:42:26,755 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:26,755 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:27,256 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:42:27,333 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:42:28,051 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:28,051 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:28,552 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:42:28,636 [INFO]    Current position: SHORT 486.0
+2025-12-13 14:42:28,636 [INFO]    Entry: $0.41 | Mark: $0.41
+2025-12-13 14:42:28,636 [INFO]    PnL: 0.63% ($0.13)
+2025-12-13 14:42:28,636 [INFO]    Age: 1.5h / 72.0h
+2025-12-13 14:42:28,636 [INFO]    ðŸ“ˆ Trailing stop hit (PnL: 0.63%, peak: 3.02%)
+2025-12-13 14:42:28,637 [INFO]    ðŸ”´ Closing position: Trailing stop hit (PnL: 0.63%, peak: 3.02%)
+2025-12-13 14:42:28,731 [INFO] ðŸ“ [Binance] Order: BUY ADAUSDT
+2025-12-13 14:42:28,731 [INFO]    Raw qty: 486.00000000 -> Formatted: 486.0
+2025-12-13 14:42:28,810 [INFO] âœ… [Binance] Order created: BUY 486.0 ADAUSDT
+2025-12-13 14:42:28,810 [INFO] ðŸ’° TRADE: [BINANCE] CLOSE SHORT ADAUSDT | Trailing stop hit (PnL: 0.63%, peak: 3.02%) | PnL: 0.63%
+2025-12-13 14:42:29,715 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 14:42:29,717 [INFO] â±ï¸ Cleared position tracking for ADAUSDT
+2025-12-13 14:42:29,722 [INFO] ðŸ“ Post-trade cooldown recorded for ADAUSDT (reason: Trailing stop hit (PnL: 0.63%, peak: 3.02%))
+2025-12-13 14:42:29,723 [INFO]    â³ Post-trade cooldown: 15m
+2025-12-13 14:42:29,723 [INFO] ðŸ“ Trade recorded: CLOSE_SHORT 486.0 ADAUSDT @ $0.41
+2025-12-13 14:42:29,723 [INFO]    Daily trades: 14 | Volume: $27.8k
+2025-12-13 14:42:30,224 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:42:30,329 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:42:31,120 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:31,120 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:31,621 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:42:31,698 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:42:32,425 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:32,429 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:32,929 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:42:33,008 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:42:33,683 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:33,683 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:34,184 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:42:34,258 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:42:34,259 [INFO]    Entry: $13.66 | Mark: $13.70
+2025-12-13 14:42:34,259 [INFO]    PnL: -2.56% ($-0.51)
+2025-12-13 14:42:34,259 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 14:42:34,760 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:42:34,836 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:42:35,484 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:35,485 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:35,986 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:42:36,105 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:42:36,773 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:36,773 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:37,274 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:42:37,349 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:42:37,947 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:37,948 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:38,448 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:42:38,526 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:42:39,158 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:39,158 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:39,659 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:42:39,734 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:42:40,373 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:40,374 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:40,874 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:42:40,949 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:42:41,637 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:42:41,638 [INFO]    âšª No signal - HOLD
+2025-12-13 14:42:42,138 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:42:42,214 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:42:42,214 [INFO]    Entry: $1.66 | Mark: $1.65
+2025-12-13 14:42:42,214 [INFO]    PnL: 2.46% ($0.49)
+2025-12-13 14:42:42,214 [INFO]    Age: 4.2h / 72.0h
+2025-12-13 14:42:42,214 [INFO]    ðŸ“ˆ Trailing active: PnL=2.46%, Peak=3.08%
+2025-12-13 14:42:42,214 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:45:42,273 [INFO] 
+============================================================
+2025-12-13 14:45:42,274 [INFO] ðŸ”„ LOOP #85 - 2025-12-13 14:45:42
+2025-12-13 14:45:42,274 [INFO] ============================================================
+2025-12-13 14:45:43,801 [INFO] ðŸ’“ Bot alive - Loop #85 - Active positions: 4
+2025-12-13 14:45:43,881 [INFO] ðŸ’° [BINANCE] Balance: $111.74
+2025-12-13 14:45:43,882 [INFO] ðŸ’° Total balance: $111.74
+2025-12-13 14:45:43,882 [INFO] 
+==================================================
+2025-12-13 14:45:43,882 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:45:43,882 [INFO] ==================================================
+2025-12-13 14:45:43,882 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:45:43,958 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:45:43,958 [INFO]    Entry: $90233.90 | Mark: $90123.70
+2025-12-13 14:45:43,958 [INFO]    PnL: 1.22% ($0.22)
+2025-12-13 14:45:43,958 [INFO]    Age: 1.3h / 72.0h
+2025-12-13 14:45:43,959 [INFO]    ðŸ“ˆ Trailing active: PnL=1.22%, Peak=2.58%
+2025-12-13 14:45:44,459 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:45:44,536 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:45:45,316 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:45,317 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:45,817 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:45:45,892 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:45:46,743 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:46,743 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:47,244 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:45:47,324 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:45:48,269 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:45:48,274 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:45:48,274 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:45:48,274 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:45:48,274 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:45:48,274 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:45:48,274 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:45:48,283 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:48,284 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:48,784 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:45:48,859 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:45:49,660 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:49,660 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:50,161 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:45:50,236 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:45:50,236 [INFO]    Entry: $132.97 | Mark: $133.06
+2025-12-13 14:45:50,236 [INFO]    PnL: -0.68% ($-0.14)
+2025-12-13 14:45:50,236 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 14:45:50,737 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:45:50,812 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:45:51,430 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:51,431 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:51,931 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:45:52,006 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:45:52,672 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:52,672 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:53,173 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:45:53,255 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 14:45:53,965 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:45:53,965 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 14:45:53,965 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:45:53,965 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:45:53,965 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:45:53,965 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:45:53,965 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:45:53,971 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:53,971 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:54,472 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:45:54,551 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:45:55,249 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:55,251 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:55,752 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:45:55,828 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:45:56,529 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:56,529 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:57,030 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:45:57,106 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:45:57,792 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:57,793 [INFO]    âšª No signal - HOLD
+2025-12-13 14:45:58,294 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:45:58,369 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:45:58,369 [INFO]    Entry: $13.66 | Mark: $13.70
+2025-12-13 14:45:58,370 [INFO]    PnL: -3.10% ($-0.62)
+2025-12-13 14:45:58,370 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 14:45:58,870 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:45:58,948 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:45:59,609 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:45:59,610 [INFO]    âšª No signal - HOLD
+2025-12-13 14:46:00,111 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:46:00,187 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:46:00,983 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:46:00,983 [INFO]    âšª No signal - HOLD
+2025-12-13 14:46:01,484 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:46:01,560 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:46:02,278 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:46:02,278 [INFO]    âšª No signal - HOLD
+2025-12-13 14:46:02,779 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:46:02,855 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:46:03,518 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:46:03,519 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:46:03,519 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:46:03,519 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:46:03,519 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:46:03,519 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:46:03,519 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:46:03,524 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:46:03,525 [INFO]    âšª No signal - HOLD
+2025-12-13 14:46:04,026 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:46:04,151 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:46:04,881 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:46:04,882 [INFO]    âšª No signal - HOLD
+2025-12-13 14:46:05,383 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:46:05,459 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:46:06,134 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:46:06,134 [INFO]    âšª No signal - HOLD
+2025-12-13 14:46:06,635 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:46:06,714 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:46:06,715 [INFO]    Entry: $1.66 | Mark: $1.65
+2025-12-13 14:46:06,715 [INFO]    PnL: 2.41% ($0.48)
+2025-12-13 14:46:06,715 [INFO]    Age: 4.2h / 72.0h
+2025-12-13 14:46:06,715 [INFO]    ðŸ“ˆ Trailing active: PnL=2.41%, Peak=3.08%
+2025-12-13 14:46:06,715 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:49:06,802 [INFO] 
+============================================================
+2025-12-13 14:49:06,803 [INFO] ðŸ”„ LOOP #86 - 2025-12-13 14:49:06
+2025-12-13 14:49:06,803 [INFO] ============================================================
+2025-12-13 14:49:06,888 [INFO] ðŸ’° [BINANCE] Balance: $111.74
+2025-12-13 14:49:06,889 [INFO] ðŸ’° Total balance: $111.74
+2025-12-13 14:49:06,889 [INFO] 
+==================================================
+2025-12-13 14:49:06,889 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:49:06,889 [INFO] ==================================================
+2025-12-13 14:49:06,889 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:49:06,969 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:49:06,969 [INFO]    Entry: $90233.90 | Mark: $90140.50
+2025-12-13 14:49:06,969 [INFO]    PnL: 1.04% ($0.19)
+2025-12-13 14:49:06,969 [INFO]    Age: 1.4h / 72.0h
+2025-12-13 14:49:06,969 [INFO]    ðŸ“ˆ Trailing active: PnL=1.04%, Peak=2.58%
+2025-12-13 14:49:07,470 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:49:07,548 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:49:08,223 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:08,223 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:08,724 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:49:08,812 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:49:09,471 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:09,471 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:09,972 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:49:10,049 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:49:10,738 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:49:10,738 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:49:10,738 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:49:10,738 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:49:10,739 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:49:10,739 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:49:10,739 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:49:10,743 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:10,744 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:11,245 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:49:11,332 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:49:12,075 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:12,076 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:12,577 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:49:12,685 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:49:12,685 [INFO]    Entry: $132.97 | Mark: $133.24
+2025-12-13 14:49:12,685 [INFO]    PnL: -2.03% ($-0.41)
+2025-12-13 14:49:12,685 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 14:49:13,186 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:49:13,261 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:49:13,931 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:13,931 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:14,432 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:49:14,511 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:49:15,175 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:15,176 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:15,676 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:49:15,754 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 14:49:16,443 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:49:16,443 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 14:49:16,443 [INFO]    âš ï¸ Near EMA21
+2025-12-13 14:49:16,443 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:49:16,443 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:49:16,443 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:49:16,443 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:49:16,449 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:16,449 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:16,950 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:49:17,034 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:49:17,764 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:17,764 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:18,265 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:49:18,340 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:49:18,994 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:18,994 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:19,495 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:49:19,570 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:49:20,230 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:20,231 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:20,731 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:49:20,811 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:49:20,811 [INFO]    Entry: $13.66 | Mark: $13.71
+2025-12-13 14:49:20,811 [INFO]    PnL: -3.81% ($-0.76)
+2025-12-13 14:49:20,811 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 14:49:21,312 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:49:21,389 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:49:22,064 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:22,065 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:22,566 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:49:22,642 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:49:23,295 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:23,295 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:23,796 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:49:23,879 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:49:24,533 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:24,534 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:25,034 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:49:25,111 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:49:25,750 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:49:25,750 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:49:25,750 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:49:25,750 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:49:25,751 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:49:25,751 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:49:25,751 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:49:25,755 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:25,756 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:26,256 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:49:26,330 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:49:26,968 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:26,968 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:27,469 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:49:27,545 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:49:28,201 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:49:28,202 [INFO]    âšª No signal - HOLD
+2025-12-13 14:49:28,702 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:49:28,782 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:49:28,782 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:49:28,782 [INFO]    PnL: 1.15% ($0.23)
+2025-12-13 14:49:28,782 [INFO]    Age: 4.3h / 72.0h
+2025-12-13 14:49:28,782 [INFO]    ðŸ“ˆ Trailing active: PnL=1.15%, Peak=3.08%
+2025-12-13 14:49:28,782 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:52:28,879 [INFO] 
+============================================================
+2025-12-13 14:52:28,879 [INFO] ðŸ”„ LOOP #87 - 2025-12-13 14:52:28
+2025-12-13 14:52:28,879 [INFO] ============================================================
+2025-12-13 14:52:28,959 [INFO] ðŸ’° [BINANCE] Balance: $111.74
+2025-12-13 14:52:28,959 [INFO] ðŸ’° Total balance: $111.74
+2025-12-13 14:52:28,959 [INFO] 
+==================================================
+2025-12-13 14:52:28,959 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:52:28,959 [INFO] ==================================================
+2025-12-13 14:52:28,960 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:52:29,035 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:52:29,035 [INFO]    Entry: $90233.90 | Mark: $90162.22
+2025-12-13 14:52:29,035 [INFO]    PnL: 0.79% ($0.14)
+2025-12-13 14:52:29,035 [INFO]    Age: 1.4h / 72.0h
+2025-12-13 14:52:29,035 [INFO]    ðŸ“ˆ Trailing active: PnL=0.79%, Peak=2.58%
+2025-12-13 14:52:29,536 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:52:29,614 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:52:30,297 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:30,297 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:30,797 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:52:31,008 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:52:31,927 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:31,927 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:32,428 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:52:32,503 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:52:33,183 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:52:33,183 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:52:33,183 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:52:33,183 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:52:33,183 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:52:33,184 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:52:33,184 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:52:33,189 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:33,189 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:33,690 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:52:33,770 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:52:34,426 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:34,426 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:34,927 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:52:35,002 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:52:35,002 [INFO]    Entry: $132.97 | Mark: $133.30
+2025-12-13 14:52:35,003 [INFO]    PnL: -2.48% ($-0.49)
+2025-12-13 14:52:35,003 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 14:52:35,503 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:52:35,583 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:52:36,257 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:36,257 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:36,758 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:52:36,834 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:52:37,472 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:37,472 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:37,973 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:52:38,049 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 14:52:38,708 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:52:38,709 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 14:52:38,709 [INFO]    âš ï¸ Near EMA21
+2025-12-13 14:52:38,709 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:52:38,709 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:52:38,709 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:52:38,709 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:52:38,715 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:38,715 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:39,216 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:52:39,312 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:52:40,035 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:40,035 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:40,536 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:52:40,614 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:52:41,248 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:41,248 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:41,749 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:52:41,826 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:52:42,504 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:42,504 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:43,005 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:52:43,082 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:52:43,082 [INFO]    Entry: $13.66 | Mark: $13.72
+2025-12-13 14:52:43,082 [INFO]    PnL: -4.63% ($-0.93)
+2025-12-13 14:52:43,082 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 14:52:43,583 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:52:43,657 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:52:44,264 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:44,265 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:44,766 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:52:44,839 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:52:45,452 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:45,452 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:45,953 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:52:46,031 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:52:46,748 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:46,748 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:47,249 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:52:47,323 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:52:47,969 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:52:47,970 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:52:47,970 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:52:47,970 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:52:47,970 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:52:47,970 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:52:47,970 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:52:47,977 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:47,977 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:48,478 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:52:48,555 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:52:49,235 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:49,236 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:49,737 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:52:49,826 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:52:50,484 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:52:50,484 [INFO]    âšª No signal - HOLD
+2025-12-13 14:52:50,985 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:52:51,062 [INFO]    Current position: SHORT 120.5
+2025-12-13 14:52:51,062 [INFO]    Entry: $1.66 | Mark: $1.66
+2025-12-13 14:52:51,063 [INFO]    PnL: -0.48% ($-0.10)
+2025-12-13 14:52:51,063 [INFO]    Age: 4.4h / 72.0h
+2025-12-13 14:52:51,063 [INFO]    ðŸ“ˆ Trailing stop hit (PnL: -0.48%, peak: 3.08%)
+2025-12-13 14:52:51,063 [INFO]    ðŸ”´ Closing position: Trailing stop hit (PnL: -0.48%, peak: 3.08%)
+2025-12-13 14:52:51,136 [INFO] ðŸ“ [Binance] Order: BUY APTUSDT
+2025-12-13 14:52:51,137 [INFO]    Raw qty: 120.50000000 -> Formatted: 120.5
+2025-12-13 14:52:51,212 [INFO] âœ… [Binance] Order created: BUY 120.5 APTUSDT
+2025-12-13 14:52:51,213 [INFO] ðŸ’° TRADE: [BINANCE] CLOSE SHORT APTUSDT | Trailing stop hit (PnL: -0.48%, peak: 3.08%) | PnL: -0.48%
+2025-12-13 14:52:51,922 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 14:52:51,924 [INFO] â±ï¸ Cleared position tracking for APTUSDT
+2025-12-13 14:52:51,924 [INFO] ðŸ“ Post-trade cooldown recorded for APTUSDT (reason: Trailing stop hit (PnL: -0.48%, peak: 3.08%))
+2025-12-13 14:52:51,924 [INFO]    â³ Post-trade cooldown: 15m
+2025-12-13 14:52:51,925 [INFO] ðŸ“ Trade recorded: CLOSE_SHORT 120.5 APTUSDT @ $1.66
+2025-12-13 14:52:51,925 [INFO]    Daily trades: 15 | Volume: $29.8k
+2025-12-13 14:52:51,925 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:55:52,017 [INFO] 
+============================================================
+2025-12-13 14:55:52,018 [INFO] ðŸ”„ LOOP #88 - 2025-12-13 14:55:52
+2025-12-13 14:55:52,018 [INFO] ============================================================
+2025-12-13 14:55:52,097 [INFO] ðŸ’° [BINANCE] Balance: $111.57
+2025-12-13 14:55:52,098 [INFO] ðŸ’° Total balance: $111.57
+2025-12-13 14:55:52,098 [INFO] 
+==================================================
+2025-12-13 14:55:52,098 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:55:52,098 [INFO] ==================================================
+2025-12-13 14:55:52,098 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:55:52,174 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:55:52,174 [INFO]    Entry: $90233.90 | Mark: $90122.50
+2025-12-13 14:55:52,174 [INFO]    PnL: 1.23% ($0.22)
+2025-12-13 14:55:52,174 [INFO]    Age: 1.5h / 72.0h
+2025-12-13 14:55:52,174 [INFO]    ðŸ“ˆ Trailing active: PnL=1.23%, Peak=2.58%
+2025-12-13 14:55:52,675 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:55:52,754 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:55:53,422 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:55:53,423 [INFO]    âšª No signal - HOLD
+2025-12-13 14:55:53,924 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:55:53,998 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:55:54,615 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:55:54,616 [INFO]    âšª No signal - HOLD
+2025-12-13 14:55:55,117 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:55:55,193 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:55:55,817 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:55:55,818 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:55:55,818 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:55:55,818 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:55:55,818 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:55:55,818 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:55:55,818 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:55:55,823 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:55:55,823 [INFO]    âšª No signal - HOLD
+2025-12-13 14:55:56,324 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:55:56,401 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:55:57,052 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:55:57,052 [INFO]    âšª No signal - HOLD
+2025-12-13 14:55:57,553 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:55:57,631 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:55:57,631 [INFO]    Entry: $132.97 | Mark: $133.23
+2025-12-13 14:55:57,631 [INFO]    PnL: -1.96% ($-0.39)
+2025-12-13 14:55:57,631 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 14:55:58,132 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:55:58,208 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:55:58,845 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:55:58,850 [INFO]    âšª No signal - HOLD
+2025-12-13 14:55:59,351 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:55:59,426 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:56:00,053 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:00,054 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:00,555 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:56:00,631 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 14:56:01,281 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 11/15
+2025-12-13 14:56:01,281 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 14:56:01,281 [INFO]    âš ï¸ Near EMA21
+2025-12-13 14:56:01,282 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:56:01,282 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:56:01,282 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:56:01,282 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:56:01,287 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:01,288 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:01,789 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:56:01,866 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:56:02,498 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:02,498 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:02,999 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:56:03,076 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:56:03,715 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:03,716 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:04,216 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:56:04,293 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:56:05,017 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:05,018 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:05,519 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:56:05,597 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:56:05,597 [INFO]    Entry: $13.66 | Mark: $13.72
+2025-12-13 14:56:05,597 [INFO]    PnL: -4.25% ($-0.85)
+2025-12-13 14:56:05,597 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 14:56:06,100 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:56:06,177 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:56:06,831 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:06,831 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:07,332 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:56:07,412 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:56:08,046 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:08,046 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:08,547 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:56:08,623 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:56:09,287 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:09,288 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:09,788 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:56:09,864 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:56:10,511 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:56:10,512 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:56:10,512 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:56:10,513 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:56:10,513 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:56:10,513 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:56:10,513 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:56:10,519 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:10,519 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:11,020 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:56:11,103 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:56:11,781 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:11,782 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:12,283 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:56:12,358 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:56:13,016 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:13,016 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:13,517 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:56:13,593 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 14:56:14,275 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:56:14,275 [INFO]    âšª No signal - HOLD
+2025-12-13 14:56:14,276 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 14:59:14,370 [INFO] 
+============================================================
+2025-12-13 14:59:14,370 [INFO] ðŸ”„ LOOP #89 - 2025-12-13 14:59:14
+2025-12-13 14:59:14,370 [INFO] ============================================================
+2025-12-13 14:59:14,723 [INFO] ðŸ’° [BINANCE] Balance: $111.57
+2025-12-13 14:59:14,723 [INFO] ðŸ’° Total balance: $111.57
+2025-12-13 14:59:14,723 [INFO] 
+==================================================
+2025-12-13 14:59:14,723 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 14:59:14,723 [INFO] ==================================================
+2025-12-13 14:59:14,724 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 14:59:14,887 [INFO]    Current position: SHORT 0.002
+2025-12-13 14:59:14,888 [INFO]    Entry: $90233.90 | Mark: $90045.51
+2025-12-13 14:59:14,888 [INFO]    PnL: 2.09% ($0.38)
+2025-12-13 14:59:14,888 [INFO]    Age: 1.5h / 72.0h
+2025-12-13 14:59:14,888 [INFO]    ðŸ“ˆ Trailing active: PnL=2.09%, Peak=2.58%
+2025-12-13 14:59:15,389 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 14:59:15,478 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 14:59:16,326 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:16,326 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:16,827 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 14:59:16,905 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 14:59:17,971 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:17,972 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:18,473 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 14:59:18,558 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 14:59:19,229 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 13/15
+2025-12-13 14:59:19,229 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:59:19,230 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:59:19,230 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:59:19,230 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:59:19,230 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:59:19,230 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:59:19,235 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:19,235 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:19,736 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 14:59:19,811 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 14:59:20,497 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:20,498 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:20,998 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 14:59:21,348 [INFO]    Current position: SHORT 1.5
+2025-12-13 14:59:21,348 [INFO]    Entry: $132.97 | Mark: $133.12
+2025-12-13 14:59:21,348 [INFO]    PnL: -1.13% ($-0.23)
+2025-12-13 14:59:21,348 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 14:59:21,849 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 14:59:21,944 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 14:59:22,671 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:22,671 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:23,172 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 14:59:23,327 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 14:59:24,038 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:24,038 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:24,539 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 14:59:24,615 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 14:59:25,307 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:59:25,308 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 14:59:25,308 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:59:25,308 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:59:25,308 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 14:59:25,308 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:59:25,308 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:59:25,312 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:25,312 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:25,813 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 14:59:25,898 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 14:59:26,543 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:26,543 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:27,044 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 14:59:27,119 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 14:59:27,953 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:27,953 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:28,454 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 14:59:28,548 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 14:59:29,547 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:29,547 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:30,048 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 14:59:30,133 [INFO]    Current position: SHORT 14.65
+2025-12-13 14:59:30,134 [INFO]    Entry: $13.66 | Mark: $13.71
+2025-12-13 14:59:30,134 [INFO]    PnL: -3.66% ($-0.73)
+2025-12-13 14:59:30,134 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 14:59:30,635 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 14:59:30,714 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 14:59:31,525 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:31,526 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:32,026 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 14:59:32,127 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 14:59:32,983 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:32,983 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:33,484 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 14:59:33,559 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 14:59:34,188 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:34,189 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:34,689 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 14:59:34,768 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 14:59:35,424 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 12/15
+2025-12-13 14:59:35,424 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 14:59:35,425 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 14:59:35,425 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 14:59:35,425 [INFO]    âš¡ RSI acceptable range
+2025-12-13 14:59:35,425 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 14:59:35,425 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 14:59:35,429 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:35,429 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:35,930 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 14:59:36,006 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 14:59:36,637 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:36,638 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:37,139 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 14:59:37,214 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 14:59:37,869 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:37,869 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:38,369 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 14:59:38,444 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 14:59:39,092 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 14:59:39,092 [INFO]    âšª No signal - HOLD
+2025-12-13 14:59:39,093 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:02:39,138 [INFO] 
+============================================================
+2025-12-13 15:02:39,138 [INFO] ðŸ”„ LOOP #90 - 2025-12-13 15:02:39
+2025-12-13 15:02:39,138 [INFO] ============================================================
+2025-12-13 15:02:40,706 [INFO] ðŸ’“ Bot alive - Loop #90 - Active positions: 3
+2025-12-13 15:02:40,790 [INFO] ðŸ’° [BINANCE] Balance: $111.57
+2025-12-13 15:02:40,790 [INFO] ðŸ’° Total balance: $111.57
+2025-12-13 15:02:40,791 [INFO] 
+==================================================
+2025-12-13 15:02:40,791 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:02:40,791 [INFO] ==================================================
+2025-12-13 15:02:40,791 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:02:40,867 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:02:40,867 [INFO]    Entry: $90233.90 | Mark: $90130.29
+2025-12-13 15:02:40,867 [INFO]    PnL: 1.15% ($0.21)
+2025-12-13 15:02:40,868 [INFO]    Age: 1.6h / 72.0h
+2025-12-13 15:02:40,868 [INFO]    ðŸ“ˆ Trailing active: PnL=1.15%, Peak=2.58%
+2025-12-13 15:02:41,368 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:02:41,443 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 15:02:42,110 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:42,110 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:42,611 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:02:42,688 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 15:02:43,361 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:43,362 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:43,862 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:02:43,939 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:02:44,574 [INFO] ðŸŽ¯ LTCUSDT SHORT Signal | Score: 13/15
+2025-12-13 15:02:44,575 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 15:02:44,575 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 15:02:44,575 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 15:02:44,575 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 15:02:44,575 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 15:02:44,575 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 15:02:44,580 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:44,581 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:45,082 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:02:45,158 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:02:45,778 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:45,778 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:46,279 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:02:46,353 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:02:46,354 [INFO]    Entry: $132.97 | Mark: $133.24
+2025-12-13 15:02:46,354 [INFO]    PnL: -2.03% ($-0.41)
+2025-12-13 15:02:46,354 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 15:02:46,855 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:02:46,932 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:02:47,609 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:47,609 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:48,110 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:02:48,186 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:02:48,836 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:48,836 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:49,337 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:02:49,412 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:02:50,046 [INFO] ðŸŽ¯ ADAUSDT SHORT Signal | Score: 11/15
+2025-12-13 15:02:50,046 [INFO]    âš ï¸ HTF aligned (DOWN), LTF diverging
+2025-12-13 15:02:50,046 [INFO]    âš ï¸ Near EMA21
+2025-12-13 15:02:50,046 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 15:02:50,046 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 15:02:50,046 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 15:02:50,046 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 15:02:50,051 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:50,051 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:50,552 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:02:50,630 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:02:51,343 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:51,344 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:51,844 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:02:51,921 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:02:52,593 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:52,593 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:53,094 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:02:53,173 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:02:53,806 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:53,806 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:54,307 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:02:54,382 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:02:54,382 [INFO]    Entry: $13.66 | Mark: $13.72
+2025-12-13 15:02:54,382 [INFO]    PnL: -4.17% ($-0.83)
+2025-12-13 15:02:54,382 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 15:02:54,883 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:02:54,966 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:02:55,583 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:55,584 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:56,084 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:02:56,159 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:02:56,793 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:56,794 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:57,295 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:02:57,370 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:02:57,984 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:57,985 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:58,485 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:02:58,563 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:02:59,177 [INFO] ðŸŽ¯ FILUSDT SHORT Signal | Score: 13/15
+2025-12-13 15:02:59,177 [INFO]    âœ… Perfect alignment: All TFs DOWN
+2025-12-13 15:02:59,177 [INFO]    âœ… Perfect pullback to EMA21
+2025-12-13 15:02:59,177 [INFO]    ðŸ”‘ At swing low (support)
+2025-12-13 15:02:59,177 [INFO]    âš¡ RSI neutral (good for entry)
+2025-12-13 15:02:59,177 [INFO]    ðŸ—½ NY session (high liquidity)
+2025-12-13 15:02:59,177 [INFO]    âœ… R:R = 2.0:1
+2025-12-13 15:02:59,183 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:02:59,183 [INFO]    âšª No signal - HOLD
+2025-12-13 15:02:59,684 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:02:59,761 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:03:00,382 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:03:00,382 [INFO]    âšª No signal - HOLD
+2025-12-13 15:03:00,883 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:03:00,960 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:03:01,724 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:03:01,724 [INFO]    âšª No signal - HOLD
+2025-12-13 15:03:02,225 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:03:02,300 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:03:02,966 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:03:02,966 [INFO]    âšª No signal - HOLD
+2025-12-13 15:03:04,493 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:03:39,161 [INFO] 
+ðŸ›‘ Shutdown signal received...
+2025-12-13 15:05:11,025 [INFO] âœ… Telegram bot initialized
+2025-12-13 15:05:24,715 [INFO] ============================================================
+2025-12-13 15:05:24,721 [INFO] ðŸš€ MULTI-EXCHANGE PERP FARM BOT - INITIALIZING
+2025-12-13 15:05:24,722 [INFO] ============================================================
+2025-12-13 15:05:25,017 [INFO] ðŸ”Œ Binance Client initialized (MAINNET)
+2025-12-13 15:05:25,017 [INFO]    URL: https://fapi.binance.com
+2025-12-13 15:05:25,017 [INFO] âœ… Binance initialized with 20 symbols
+2025-12-13 15:05:25,018 [INFO] ðŸ“‚ Loaded 3 position timestamps
+2025-12-13 15:05:25,018 [INFO] ðŸ“ˆ Trailing Stop enabled (PnL-based): Activation=2.5% PnL, Trail=2.2% PnL
+2025-12-13 15:05:25,018 [INFO] ðŸŽ­ Loading Ensemble models...
+2025-12-13 15:05:25,019 [INFO] ðŸ’¡ LightGBM Trainer initialized with 23 features
+2025-12-13 15:05:25,019 [INFO] ðŸ± CatBoost Trainer initialized with 23 features
+2025-12-13 15:05:25,019 [INFO] ðŸŽ­ Ensemble initialized with 3 models
+2025-12-13 15:05:25,019 [INFO]    Models: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:05:25,019 [INFO]    Weights: [0.4  0.35 0.25]
+2025-12-13 15:05:25,104 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
+2025-12-13 15:05:25,105 [INFO] âœ… XGBoost loaded
+2025-12-13 15:05:25,158 [INFO] âœ… LightGBM loaded from models/lightgbm_model.txt
+2025-12-13 15:05:25,158 [INFO] âœ… LightGBM loaded
+2025-12-13 15:05:25,169 [INFO] âœ… CatBoost loaded from models/catboost_model.cbm
+2025-12-13 15:05:25,169 [INFO] âœ… CatBoost loaded
+2025-12-13 15:05:25,169 [INFO] âœ… Ensemble loaded: 3/3 models
+2025-12-13 15:05:25,169 [INFO] ðŸŽ­ Using Ensemble predictor: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:05:25,169 [INFO]    Weights: [0.4, 0.35, 0.25]
+2025-12-13 15:05:25,170 [INFO] ðŸŽ¯ SmartEntrySystemV2 enabled (min score: 6, min R:R: 0.0:1)
+2025-12-13 15:05:25,170 [INFO] ðŸš« Signal Cooldown enabled: 60m signal, 15m post-trade
+2025-12-13 15:05:25,171 [INFO] ðŸŽ¯ Entry Quality Checker enabled
+2025-12-13 15:05:25,171 [INFO] ðŸŽ­ Entry Pipeline received 3 ML models: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:05:25,171 [INFO] ðŸŽ­ MLEnsembleSignal initialized
+2025-12-13 15:05:25,171 [INFO]    Models: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:05:25,171 [INFO]    Weights: {'xgboost': 0.4, 'lightgbm': 0.35, 'catboost': 0.25}
+2025-12-13 15:05:25,171 [INFO]    Confidence threshold: 0.65
+2025-12-13 15:05:25,171 [WARNING] âš ï¸ AI Check enabled but claude client not available
+2025-12-13 15:05:26,527 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:26,529 [INFO] ðŸš€ EntryPipeline initialized
+2025-12-13 15:05:26,529 [INFO]    Stages enabled: ML=True, SmartEntry=False, PA=False, HTF=False, AI=True
+2025-12-13 15:05:26,529 [INFO] ðŸš€ Entry Pipeline enabled (5-stage validation)
+2025-12-13 15:05:26,529 [INFO] ðŸ“Š AI Accuracy Tracker enabled
+2025-12-13 15:05:26,530 [INFO] âœ… Bot initialized successfully!
+2025-12-13 15:05:26,530 [INFO]    [BINANCE] Symbols: ['BTCUSDT', 'ETHUSDT', 'BCHUSDT', 'LTCUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT', 'ETCUSDT', 'ADAUSDT', 'DOGEUSDT', 'AVAXUSDT', 'DOTUSDT', 'LINKUSDT', 'UNIUSDT', 'NEARUSDT', 'ATOMUSDT', 'FILUSDT', 'ARBUSDT', 'OPUSDT', 'APTUSDT']
+2025-12-13 15:05:26,530 [INFO]    [BINANCE] Leverage: 10x
+2025-12-13 15:05:26,530 [INFO]    Position Size: 20.0%
+2025-12-13 15:05:26,530 [INFO]    TP/SL: 10.00% / Disabled
+2025-12-13 15:05:26,530 [INFO]    Position Timeout: 72.0h
+2025-12-13 15:05:26,530 [INFO]    ðŸ“Š Timeframe: PRIMARY=1h, HIGHER=4h
+2025-12-13 15:05:26,530 [INFO]    ðŸ”„ Loop Sleep: 180s
+2025-12-13 15:05:26,530 [INFO] ============================================================
+2025-12-13 15:05:26,530 [INFO] ðŸ BOT STARTED!
+2025-12-13 15:05:26,925 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:27,223 [INFO] ðŸ’° [BINANCE] Balance: $111.57
+2025-12-13 15:05:27,224 [INFO] ðŸ“Š Daily start balance: $111.57
+2025-12-13 15:05:27,224 [INFO] ðŸ’° Total starting balance: $111.57
+2025-12-13 15:05:27,590 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:27,593 [INFO] 
+============================================================
+2025-12-13 15:05:27,593 [INFO] ðŸ”„ LOOP #1 - 2025-12-13 15:05:27
+2025-12-13 15:05:27,593 [INFO] ============================================================
+2025-12-13 15:05:27,677 [INFO] ðŸ’° [BINANCE] Balance: $111.57
+2025-12-13 15:05:27,677 [INFO] ðŸ’° Total balance: $111.57
+2025-12-13 15:05:27,678 [INFO] 
+==================================================
+2025-12-13 15:05:27,678 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:05:27,678 [INFO] ==================================================
+2025-12-13 15:05:27,678 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:05:27,755 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:05:27,755 [INFO]    Entry: $90233.90 | Mark: $90198.19
+2025-12-13 15:05:27,755 [INFO]    PnL: 0.40% ($0.07)
+2025-12-13 15:05:27,755 [INFO]    Age: 1.6h / 72.0h
+2025-12-13 15:05:28,256 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:05:28,336 [INFO]    ðŸ” Analyzing ETHUSDT for entry signal...
+2025-12-13 15:05:29,173 [INFO] âœ… ETHUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:29,173 [INFO]    Confidence: 68.00%
+2025-12-13 15:05:29,173 [INFO]    Entry: 3116.0500
+2025-12-13 15:05:29,173 [INFO]    SL: 3129.0469, TP: 3088.9732
+2025-12-13 15:05:29,173 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:29,173 [INFO] ðŸš€ ETHUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:29,174 [INFO]    ðŸ“Š Confidence: 68.00%
+2025-12-13 15:05:29,174 [INFO]    ðŸ’° Entry: $3116.0500
+2025-12-13 15:05:29,174 [INFO]    ðŸ“ˆ ML: 0.320 | RSI: 49.1
+2025-12-13 15:05:29,174 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:29,174 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:29,174 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:29,175 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:29,175 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:29,175 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:29,175 [INFO]    ðŸš« Cooldown recorded for ETHUSDT (60m)
+2025-12-13 15:05:29,176 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:29,256 [INFO] âœ… [Binance] Set leverage 10x for ETHUSDT
+2025-12-13 15:05:29,339 [INFO] âœ… [Binance] Set margin type ISOLATED for ETHUSDT
+2025-12-13 15:05:29,415 [INFO]    ðŸ’µ Current price: $3116.16
+2025-12-13 15:05:29,529 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:29,530 [INFO]       Balance: $111.57
+2025-12-13 15:05:29,530 [INFO]       Price: $3116.16
+2025-12-13 15:05:29,530 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:29,530 [INFO]       Leverage: 10x
+2025-12-13 15:05:29,530 [INFO]       Raw quantity: 0.06418156
+2025-12-13 15:05:29,530 [INFO]       Formatted quantity: 0.06400000
+2025-12-13 15:05:29,530 [INFO]    ðŸ“¤ Placing SELL order for 0.064 ETHUSDT...
+2025-12-13 15:05:29,530 [INFO] ðŸ“ [Binance] Order: SELL ETHUSDT
+2025-12-13 15:05:29,530 [INFO]    Raw qty: 0.06400000 -> Formatted: 0.064
+2025-12-13 15:05:29,608 [INFO] âœ… [Binance] Order created: SELL 0.064 ETHUSDT
+2025-12-13 15:05:29,608 [INFO] ðŸ’° TRADE: [BINANCE] OPEN SHORT ETHUSDT | Qty: 0.064 | Price: $3116.16 | Score: 10 | Pipeline: ml_ensemble
+2025-12-13 15:05:30,016 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:30,019 [INFO] â±ï¸ Tracking position open time for ETHUSDT: 2025-12-13T15:05:30.019004
+2025-12-13 15:05:30,019 [INFO] ðŸ“ Trade recorded: SHORT 0.064 ETHUSDT @ $3116.16
+2025-12-13 15:05:30,019 [INFO]    Daily trades: 1 | Volume: $2.0k
+2025-12-13 15:05:30,019 [INFO]    âœ… Order placed successfully!
+2025-12-13 15:05:30,520 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:05:30,599 [INFO]    ðŸ” Analyzing BCHUSDT for entry signal...
+2025-12-13 15:05:31,256 [INFO] âœ… BCHUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:31,257 [INFO]    Confidence: 68.88%
+2025-12-13 15:05:31,257 [INFO]    Entry: 575.9500
+2025-12-13 15:05:31,257 [INFO]    SL: 578.2600, TP: 571.1375
+2025-12-13 15:05:31,257 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:31,257 [INFO] ðŸš€ BCHUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:31,257 [INFO]    ðŸ“Š Confidence: 68.88%
+2025-12-13 15:05:31,257 [INFO]    ðŸ’° Entry: $575.9500
+2025-12-13 15:05:31,257 [INFO]    ðŸ“ˆ ML: 0.311 | RSI: 47.6
+2025-12-13 15:05:31,258 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:31,258 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:31,258 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:31,259 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:31,259 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:31,259 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:31,260 [INFO]    ðŸš« Cooldown recorded for BCHUSDT (60m)
+2025-12-13 15:05:31,260 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:31,344 [INFO] âœ… [Binance] Set leverage 10x for BCHUSDT
+2025-12-13 15:05:31,424 [INFO] âœ… [Binance] Set margin type ISOLATED for BCHUSDT
+2025-12-13 15:05:31,498 [INFO]    ðŸ’µ Current price: $575.78
+2025-12-13 15:05:31,616 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:31,616 [INFO]       Balance: $111.57
+2025-12-13 15:05:31,616 [INFO]       Price: $575.78
+2025-12-13 15:05:31,616 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:31,616 [INFO]       Leverage: 10x
+2025-12-13 15:05:31,616 [INFO]       Raw quantity: 0.34735489
+2025-12-13 15:05:31,616 [INFO]       Formatted quantity: 0.34700000
+2025-12-13 15:05:31,616 [INFO]    ðŸ“¤ Placing SELL order for 0.347 BCHUSDT...
+2025-12-13 15:05:31,616 [INFO] ðŸ“ [Binance] Order: SELL BCHUSDT
+2025-12-13 15:05:31,617 [INFO]    Raw qty: 0.34700000 -> Formatted: 0.347
+2025-12-13 15:05:31,694 [INFO] âœ… [Binance] Order created: SELL 0.347 BCHUSDT
+2025-12-13 15:05:31,694 [INFO] ðŸ’° TRADE: [BINANCE] OPEN SHORT BCHUSDT | Qty: 0.347 | Price: $575.78 | Score: 10 | Pipeline: ml_ensemble
+2025-12-13 15:05:32,047 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:32,049 [INFO] â±ï¸ Tracking position open time for BCHUSDT: 2025-12-13T15:05:32.048968
+2025-12-13 15:05:32,049 [INFO] ðŸ“ Trade recorded: SHORT 0.347 BCHUSDT @ $575.78
+2025-12-13 15:05:32,050 [INFO]    Daily trades: 2 | Volume: $4.0k
+2025-12-13 15:05:32,050 [INFO]    âœ… Order placed successfully!
+2025-12-13 15:05:32,550 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:05:32,630 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:05:33,317 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:33,319 [INFO]    Confidence: 67.16%
+2025-12-13 15:05:33,319 [INFO]    Entry: 81.5200
+2025-12-13 15:05:33,319 [INFO]    SL: 81.7926, TP: 80.9521
+2025-12-13 15:05:33,319 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:33,319 [INFO] ðŸš€ LTCUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:33,319 [INFO]    ðŸ“Š Confidence: 67.16%
+2025-12-13 15:05:33,319 [INFO]    ðŸ’° Entry: $81.5200
+2025-12-13 15:05:33,319 [INFO]    ðŸ“ˆ ML: 0.328 | RSI: 46.6
+2025-12-13 15:05:33,319 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:33,320 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:33,320 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:33,320 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:33,321 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:33,321 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:33,322 [INFO]    ðŸš« Cooldown recorded for LTCUSDT (60m)
+2025-12-13 15:05:33,322 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:33,397 [INFO] âœ… [Binance] Set leverage 10x for LTCUSDT
+2025-12-13 15:05:33,553 [INFO]    ðŸ’µ Current price: $81.52
+2025-12-13 15:05:33,691 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:33,691 [INFO]       Balance: $111.57
+2025-12-13 15:05:33,691 [INFO]       Price: $81.52
+2025-12-13 15:05:33,691 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:33,691 [INFO]       Leverage: 10x
+2025-12-13 15:05:33,691 [INFO]       Raw quantity: 2.45338567
+2025-12-13 15:05:33,691 [INFO]       Formatted quantity: 2.45300000
+2025-12-13 15:05:33,691 [INFO]    ðŸ“¤ Placing SELL order for 2.453 LTCUSDT...
+2025-12-13 15:05:33,692 [INFO] ðŸ“ [Binance] Order: SELL LTCUSDT
+2025-12-13 15:05:33,692 [INFO]    Raw qty: 2.45300000 -> Formatted: 2.453
+2025-12-13 15:05:33,770 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:34,569 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:34,571 [ERROR]    Symbol: LTCUSDT, Side: SELL, Qty: 2.453
+2025-12-13 15:05:34,923 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:34,925 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:35,287 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:35,789 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:05:35,865 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:05:36,575 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:36,576 [INFO]    Confidence: 67.63%
+2025-12-13 15:05:36,576 [INFO]    Entry: 895.8700
+2025-12-13 15:05:36,576 [INFO]    SL: 898.8400, TP: 889.6825
+2025-12-13 15:05:36,576 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:36,576 [INFO] ðŸš€ BNBUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:36,576 [INFO]    ðŸ“Š Confidence: 67.63%
+2025-12-13 15:05:36,576 [INFO]    ðŸ’° Entry: $895.8700
+2025-12-13 15:05:36,576 [INFO]    ðŸ“ˆ ML: 0.324 | RSI: 57.0
+2025-12-13 15:05:36,577 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:36,577 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:36,578 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:36,578 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:36,578 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:36,578 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:36,579 [INFO]    ðŸš« Cooldown recorded for BNBUSDT (60m)
+2025-12-13 15:05:36,579 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:36,657 [INFO] âœ… [Binance] Set leverage 10x for BNBUSDT
+2025-12-13 15:05:36,737 [INFO] âœ… [Binance] Set margin type ISOLATED for BNBUSDT
+2025-12-13 15:05:36,813 [INFO]    ðŸ’µ Current price: $895.94
+2025-12-13 15:05:36,926 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:36,926 [INFO]       Balance: $111.57
+2025-12-13 15:05:36,926 [INFO]       Price: $895.94
+2025-12-13 15:05:36,926 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:36,926 [INFO]       Leverage: 10x
+2025-12-13 15:05:36,926 [INFO]       Raw quantity: 0.22322923
+2025-12-13 15:05:36,926 [INFO]       Formatted quantity: 0.22000000
+2025-12-13 15:05:36,927 [INFO]    ðŸ“¤ Placing SELL order for 0.22 BNBUSDT...
+2025-12-13 15:05:36,927 [INFO] ðŸ“ [Binance] Order: SELL BNBUSDT
+2025-12-13 15:05:36,927 [INFO]    Raw qty: 0.22000000 -> Formatted: 0.22
+2025-12-13 15:05:37,002 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:37,368 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:37,370 [ERROR]    Symbol: BNBUSDT, Side: SELL, Qty: 0.22
+2025-12-13 15:05:37,727 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:37,729 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:38,182 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:38,684 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:05:38,763 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:05:38,763 [INFO]    Entry: $132.97 | Mark: $133.25
+2025-12-13 15:05:38,763 [INFO]    PnL: -2.09% ($-0.42)
+2025-12-13 15:05:38,763 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 15:05:39,264 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:05:39,341 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:05:39,992 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:39,993 [INFO]    Confidence: 67.29%
+2025-12-13 15:05:39,993 [INFO]    Entry: 2.0379
+2025-12-13 15:05:39,993 [INFO]    SL: 2.0449, TP: 2.0233
+2025-12-13 15:05:39,993 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:39,993 [INFO] ðŸš€ XRPUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:39,993 [INFO]    ðŸ“Š Confidence: 67.29%
+2025-12-13 15:05:39,993 [INFO]    ðŸ’° Entry: $2.0379
+2025-12-13 15:05:39,993 [INFO]    ðŸ“ˆ ML: 0.327 | RSI: 55.6
+2025-12-13 15:05:39,994 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:39,994 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:39,994 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:39,995 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:39,995 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:39,995 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:39,996 [INFO]    ðŸš« Cooldown recorded for XRPUSDT (60m)
+2025-12-13 15:05:39,996 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:40,075 [INFO] âœ… [Binance] Set leverage 10x for XRPUSDT
+2025-12-13 15:05:40,152 [INFO] âœ… [Binance] Set margin type ISOLATED for XRPUSDT
+2025-12-13 15:05:40,234 [INFO]    ðŸ’µ Current price: $2.04
+2025-12-13 15:05:40,343 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:40,344 [INFO]       Balance: $111.57
+2025-12-13 15:05:40,344 [INFO]       Price: $2.04
+2025-12-13 15:05:40,344 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:40,344 [INFO]       Leverage: 10x
+2025-12-13 15:05:40,344 [INFO]       Raw quantity: 98.13061184
+2025-12-13 15:05:40,344 [INFO]       Formatted quantity: 98.10000000
+2025-12-13 15:05:40,344 [INFO]    ðŸ“¤ Placing SELL order for 98.1 XRPUSDT...
+2025-12-13 15:05:40,344 [INFO] ðŸ“ [Binance] Order: SELL XRPUSDT
+2025-12-13 15:05:40,344 [INFO]    Raw qty: 98.10000000 -> Formatted: 98.1
+2025-12-13 15:05:40,422 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:40,791 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:40,792 [ERROR]    Symbol: XRPUSDT, Side: SELL, Qty: 98.1
+2025-12-13 15:05:41,155 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:41,157 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:44,687 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:45,190 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:05:45,273 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:05:45,910 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:45,910 [INFO]    Confidence: 68.54%
+2025-12-13 15:05:45,911 [INFO]    Entry: 13.1660
+2025-12-13 15:05:45,911 [INFO]    SL: 13.2126, TP: 13.0689
+2025-12-13 15:05:45,911 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:45,911 [INFO] ðŸš€ ETCUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:45,911 [INFO]    ðŸ“Š Confidence: 68.54%
+2025-12-13 15:05:45,911 [INFO]    ðŸ’° Entry: $13.1660
+2025-12-13 15:05:45,911 [INFO]    ðŸ“ˆ ML: 0.315 | RSI: 48.6
+2025-12-13 15:05:45,911 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:45,912 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:45,912 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:45,912 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:45,912 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:45,912 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:45,913 [INFO]    ðŸš« Cooldown recorded for ETCUSDT (60m)
+2025-12-13 15:05:45,913 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:45,991 [INFO] âœ… [Binance] Set leverage 10x for ETCUSDT
+2025-12-13 15:05:46,073 [INFO] âœ… [Binance] Set margin type ISOLATED for ETCUSDT
+2025-12-13 15:05:46,150 [INFO]    ðŸ’µ Current price: $13.17
+2025-12-13 15:05:46,264 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:46,264 [INFO]       Balance: $111.57
+2025-12-13 15:05:46,264 [INFO]       Price: $13.17
+2025-12-13 15:05:46,264 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:46,264 [INFO]       Leverage: 10x
+2025-12-13 15:05:46,264 [INFO]       Raw quantity: 15.19064256
+2025-12-13 15:05:46,264 [INFO]       Formatted quantity: 15.19000000
+2025-12-13 15:05:46,265 [INFO]    ðŸ“¤ Placing SELL order for 15.19 ETCUSDT...
+2025-12-13 15:05:46,265 [INFO] ðŸ“ [Binance] Order: SELL ETCUSDT
+2025-12-13 15:05:46,265 [INFO]    Raw qty: 15.19000000 -> Formatted: 15.19
+2025-12-13 15:05:46,342 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:46,697 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:46,699 [ERROR]    Symbol: ETCUSDT, Side: SELL, Qty: 15.19
+2025-12-13 15:05:47,055 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:47,058 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:47,447 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:47,950 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:05:48,030 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:05:48,698 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:48,698 [INFO]    Confidence: 67.62%
+2025-12-13 15:05:48,699 [INFO]    Entry: 0.4128
+2025-12-13 15:05:48,699 [INFO]    SL: 0.4150, TP: 0.4083
+2025-12-13 15:05:48,699 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:48,699 [INFO] ðŸš€ ADAUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:48,699 [INFO]    ðŸ“Š Confidence: 67.62%
+2025-12-13 15:05:48,699 [INFO]    ðŸ’° Entry: $0.4128
+2025-12-13 15:05:48,699 [INFO]    ðŸ“ˆ ML: 0.324 | RSI: 53.7
+2025-12-13 15:05:48,699 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:48,700 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:48,700 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:48,700 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:48,700 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:48,700 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:48,702 [INFO]    ðŸš« Cooldown recorded for ADAUSDT (60m)
+2025-12-13 15:05:48,702 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:48,778 [INFO] âœ… [Binance] Set leverage 10x for ADAUSDT
+2025-12-13 15:05:48,930 [INFO]    ðŸ’µ Current price: $0.41
+2025-12-13 15:05:49,044 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:49,045 [INFO]       Balance: $111.57
+2025-12-13 15:05:49,045 [INFO]       Price: $0.41
+2025-12-13 15:05:49,045 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:49,045 [INFO]       Leverage: 10x
+2025-12-13 15:05:49,045 [INFO]       Raw quantity: 484.37878421
+2025-12-13 15:05:49,045 [INFO]       Formatted quantity: 484.00000000
+2025-12-13 15:05:49,045 [INFO]    ðŸ“¤ Placing SELL order for 484.0 ADAUSDT...
+2025-12-13 15:05:49,045 [INFO] ðŸ“ [Binance] Order: SELL ADAUSDT
+2025-12-13 15:05:49,045 [INFO]    Raw qty: 484.00000000 -> Formatted: 484.0
+2025-12-13 15:05:49,123 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:49,507 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:49,509 [ERROR]    Symbol: ADAUSDT, Side: SELL, Qty: 484.0
+2025-12-13 15:05:49,878 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:49,880 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:50,239 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:05:50,742 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:05:50,819 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:05:51,499 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:51,500 [INFO]    Confidence: 68.03%
+2025-12-13 15:05:51,500 [INFO]    Entry: 0.1395
+2025-12-13 15:05:51,500 [INFO]    SL: 0.1402, TP: 0.1382
+2025-12-13 15:05:51,500 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:51,500 [INFO] ðŸš€ DOGEUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:51,500 [INFO]    ðŸ“Š Confidence: 68.03%
+2025-12-13 15:05:51,500 [INFO]    ðŸ’° Entry: $0.1395
+2025-12-13 15:05:51,500 [INFO]    ðŸ“ˆ ML: 0.320 | RSI: 59.1
+2025-12-13 15:05:51,500 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:51,501 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:51,501 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:51,502 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:51,502 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:51,502 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:51,503 [INFO]    ðŸš« Cooldown recorded for DOGEUSDT (60m)
+2025-12-13 15:05:51,503 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:51,580 [INFO] âœ… [Binance] Set leverage 10x for DOGEUSDT
+2025-12-13 15:05:51,656 [INFO] âœ… [Binance] Set margin type ISOLATED for DOGEUSDT
+2025-12-13 15:05:51,731 [INFO]    ðŸ’µ Current price: $0.14
+2025-12-13 15:05:51,844 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:51,844 [INFO]       Balance: $111.57
+2025-12-13 15:05:51,844 [INFO]       Price: $0.14
+2025-12-13 15:05:51,844 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:51,844 [INFO]       Leverage: 10x
+2025-12-13 15:05:51,844 [INFO]       Raw quantity: 1433.79453724
+2025-12-13 15:05:51,844 [INFO]       Formatted quantity: 1434.00000000
+2025-12-13 15:05:51,844 [INFO]    ðŸ“¤ Placing SELL order for 1434.0 DOGEUSDT...
+2025-12-13 15:05:51,845 [INFO] ðŸ“ [Binance] Order: SELL DOGEUSDT
+2025-12-13 15:05:51,845 [INFO]    Raw qty: 1434.00000000 -> Formatted: 1434.0
+2025-12-13 15:05:51,920 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:52,656 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:52,658 [ERROR]    Symbol: DOGEUSDT, Side: SELL, Qty: 1434.0
+2025-12-13 15:05:52,995 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:52,996 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:53,738 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:54,240 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:05:54,317 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:05:55,030 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:55,030 [INFO]    Confidence: 67.19%
+2025-12-13 15:05:55,030 [INFO]    Entry: 13.3550
+2025-12-13 15:05:55,030 [INFO]    SL: 13.4133, TP: 13.2336
+2025-12-13 15:05:55,030 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:55,031 [INFO] ðŸš€ AVAXUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:55,031 [INFO]    ðŸ“Š Confidence: 67.19%
+2025-12-13 15:05:55,031 [INFO]    ðŸ’° Entry: $13.3550
+2025-12-13 15:05:55,031 [INFO]    ðŸ“ˆ ML: 0.328 | RSI: 45.8
+2025-12-13 15:05:55,031 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:55,032 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:05:55,032 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:55,032 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:55,032 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:05:55,032 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:55,033 [INFO]    ðŸš« Cooldown recorded for AVAXUSDT (60m)
+2025-12-13 15:05:55,034 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:55,110 [INFO] âœ… [Binance] Set leverage 10x for AVAXUSDT
+2025-12-13 15:05:55,187 [INFO] âœ… [Binance] Set margin type ISOLATED for AVAXUSDT
+2025-12-13 15:05:55,263 [INFO]    ðŸ’µ Current price: $13.36
+2025-12-13 15:05:55,381 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:55,382 [INFO]       Balance: $111.57
+2025-12-13 15:05:55,382 [INFO]       Price: $13.36
+2025-12-13 15:05:55,382 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:55,382 [INFO]       Leverage: 10x
+2025-12-13 15:05:55,382 [INFO]       Raw quantity: 14.97566455
+2025-12-13 15:05:55,382 [INFO]       Formatted quantity: 15.00000000
+2025-12-13 15:05:55,382 [INFO]    ðŸ“¤ Placing SELL order for 15.0 AVAXUSDT...
+2025-12-13 15:05:55,382 [INFO] ðŸ“ [Binance] Order: SELL AVAXUSDT
+2025-12-13 15:05:55,382 [INFO]    Raw qty: 15.00000000 -> Formatted: 15.0
+2025-12-13 15:05:55,458 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:55,792 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:55,793 [ERROR]    Symbol: AVAXUSDT, Side: SELL, Qty: 15.0
+2025-12-13 15:05:56,155 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:56,156 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:56,869 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:57,372 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:05:57,448 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:05:58,099 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:05:58,099 [INFO]    Confidence: 65.14%
+2025-12-13 15:05:58,099 [INFO]    Entry: 2.0360
+2025-12-13 15:05:58,099 [INFO]    SL: 2.0458, TP: 2.0156
+2025-12-13 15:05:58,099 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:05:58,099 [INFO] ðŸš€ DOTUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:05:58,099 [INFO]    ðŸ“Š Confidence: 65.14%
+2025-12-13 15:05:58,100 [INFO]    ðŸ’° Entry: $2.0360
+2025-12-13 15:05:58,100 [INFO]    ðŸ“ˆ ML: 0.349 | RSI: 47.5
+2025-12-13 15:05:58,100 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:05:58,100 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=9
+2025-12-13 15:05:58,101 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:58,101 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:05:58,101 [INFO]    ðŸ“Š Confluence score: 9/5
+2025-12-13 15:05:58,101 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:05:58,102 [INFO]    ðŸš« Cooldown recorded for DOTUSDT (60m)
+2025-12-13 15:05:58,102 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:05:58,181 [INFO] âœ… [Binance] Set leverage 10x for DOTUSDT
+2025-12-13 15:05:58,258 [INFO] âœ… [Binance] Set margin type ISOLATED for DOTUSDT
+2025-12-13 15:05:58,333 [INFO]    ðŸ’µ Current price: $2.04
+2025-12-13 15:05:58,448 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:05:58,449 [INFO]       Balance: $111.57
+2025-12-13 15:05:58,449 [INFO]       Price: $2.04
+2025-12-13 15:05:58,449 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:05:58,449 [INFO]       Leverage: 10x
+2025-12-13 15:05:58,449 [INFO]       Raw quantity: 98.18360334
+2025-12-13 15:05:58,449 [INFO]       Formatted quantity: 98.20000000
+2025-12-13 15:05:58,449 [INFO]    ðŸ“¤ Placing SELL order for 98.2 DOTUSDT...
+2025-12-13 15:05:58,449 [INFO] ðŸ“ [Binance] Order: SELL DOTUSDT
+2025-12-13 15:05:58,449 [INFO]    Raw qty: 98.20000000 -> Formatted: 98.2
+2025-12-13 15:05:58,526 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:05:59,309 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:59,311 [ERROR]    Symbol: DOTUSDT, Side: SELL, Qty: 98.2
+2025-12-13 15:05:59,652 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:05:59,654 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:05:59,997 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:00,502 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:06:00,578 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:06:00,578 [INFO]    Entry: $13.66 | Mark: $13.76
+2025-12-13 15:06:00,578 [INFO]    PnL: -7.03% ($-1.41)
+2025-12-13 15:06:00,578 [INFO]    Age: 0.6h / 72.0h
+2025-12-13 15:06:01,079 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:06:01,155 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:06:01,813 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:06:01,813 [INFO]    Confidence: 67.40%
+2025-12-13 15:06:01,813 [INFO]    Entry: 5.4460
+2025-12-13 15:06:01,813 [INFO]    SL: 5.4711, TP: 5.3937
+2025-12-13 15:06:01,813 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:06:01,813 [INFO] ðŸš€ UNIUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:06:01,814 [INFO]    ðŸ“Š Confidence: 67.40%
+2025-12-13 15:06:01,814 [INFO]    ðŸ’° Entry: $5.4460
+2025-12-13 15:06:01,814 [INFO]    ðŸ“ˆ ML: 0.326 | RSI: 46.4
+2025-12-13 15:06:01,814 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:06:01,814 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:06:01,814 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:01,815 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:06:01,815 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:06:01,815 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:01,816 [INFO]    ðŸš« Cooldown recorded for UNIUSDT (60m)
+2025-12-13 15:06:01,816 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:06:01,892 [INFO] âœ… [Binance] Set leverage 10x for UNIUSDT
+2025-12-13 15:06:01,970 [INFO] âœ… [Binance] Set margin type ISOLATED for UNIUSDT
+2025-12-13 15:06:02,046 [INFO]    ðŸ’µ Current price: $5.45
+2025-12-13 15:06:02,159 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:06:02,159 [INFO]       Balance: $111.57
+2025-12-13 15:06:02,159 [INFO]       Price: $5.45
+2025-12-13 15:06:02,159 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:06:02,159 [INFO]       Leverage: 10x
+2025-12-13 15:06:02,159 [INFO]       Raw quantity: 36.72420125
+2025-12-13 15:06:02,159 [INFO]       Formatted quantity: 37.00000000
+2025-12-13 15:06:02,159 [INFO]    ðŸ“¤ Placing SELL order for 37.0 UNIUSDT...
+2025-12-13 15:06:02,160 [INFO] ðŸ“ [Binance] Order: SELL UNIUSDT
+2025-12-13 15:06:02,160 [INFO]    Raw qty: 37.00000000 -> Formatted: 37.0
+2025-12-13 15:06:02,236 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:06:02,573 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:02,575 [ERROR]    Symbol: UNIUSDT, Side: SELL, Qty: 37.0
+2025-12-13 15:06:02,914 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:02,915 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:06:03,254 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:03,756 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:06:03,832 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:06:04,483 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:06:04,484 [INFO]    Confidence: 66.82%
+2025-12-13 15:06:04,484 [INFO]    Entry: 1.6550
+2025-12-13 15:06:04,484 [INFO]    SL: 1.6635, TP: 1.6373
+2025-12-13 15:06:04,484 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:06:04,484 [INFO] ðŸš€ NEARUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:06:04,484 [INFO]    ðŸ“Š Confidence: 66.82%
+2025-12-13 15:06:04,484 [INFO]    ðŸ’° Entry: $1.6550
+2025-12-13 15:06:04,484 [INFO]    ðŸ“ˆ ML: 0.332 | RSI: 25.6
+2025-12-13 15:06:04,484 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:06:04,485 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:06:04,486 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:04,486 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:06:04,486 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:06:04,486 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:04,487 [INFO]    ðŸš« Cooldown recorded for NEARUSDT (60m)
+2025-12-13 15:06:04,487 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:06:04,569 [INFO] âœ… [Binance] Set leverage 10x for NEARUSDT
+2025-12-13 15:06:04,647 [INFO] âœ… [Binance] Set margin type ISOLATED for NEARUSDT
+2025-12-13 15:06:04,724 [INFO]    ðŸ’µ Current price: $1.66
+2025-12-13 15:06:04,839 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:06:04,839 [INFO]       Balance: $111.57
+2025-12-13 15:06:04,840 [INFO]       Price: $1.66
+2025-12-13 15:06:04,840 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:06:04,840 [INFO]       Leverage: 10x
+2025-12-13 15:06:04,840 [INFO]       Raw quantity: 120.77294686
+2025-12-13 15:06:04,840 [INFO]       Formatted quantity: 121.00000000
+2025-12-13 15:06:04,840 [INFO]    ðŸ“¤ Placing SELL order for 121.0 NEARUSDT...
+2025-12-13 15:06:04,840 [INFO] ðŸ“ [Binance] Order: SELL NEARUSDT
+2025-12-13 15:06:04,840 [INFO]    Raw qty: 121.00000000 -> Formatted: 121.0
+2025-12-13 15:06:04,917 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:06:05,263 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:05,265 [ERROR]    Symbol: NEARUSDT, Side: SELL, Qty: 121.0
+2025-12-13 15:06:05,605 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:05,606 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:06:05,945 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:06,447 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:06:06,524 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:06:07,226 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:06:07,227 [INFO]    Confidence: 67.86%
+2025-12-13 15:06:07,227 [INFO]    Entry: 2.1800
+2025-12-13 15:06:07,227 [INFO]    SL: 2.1892, TP: 2.1609
+2025-12-13 15:06:07,227 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:06:07,227 [INFO] ðŸš€ ATOMUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:06:07,227 [INFO]    ðŸ“Š Confidence: 67.86%
+2025-12-13 15:06:07,227 [INFO]    ðŸ’° Entry: $2.1800
+2025-12-13 15:06:07,227 [INFO]    ðŸ“ˆ ML: 0.321 | RSI: 53.6
+2025-12-13 15:06:07,227 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:06:07,228 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:06:07,228 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:07,228 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:06:07,228 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:06:07,228 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:07,229 [INFO]    ðŸš« Cooldown recorded for ATOMUSDT (60m)
+2025-12-13 15:06:07,229 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:06:07,307 [INFO] âœ… [Binance] Set leverage 10x for ATOMUSDT
+2025-12-13 15:06:07,385 [INFO] âœ… [Binance] Set margin type ISOLATED for ATOMUSDT
+2025-12-13 15:06:07,459 [INFO]    ðŸ’µ Current price: $2.18
+2025-12-13 15:06:07,569 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:06:07,569 [INFO]       Balance: $111.57
+2025-12-13 15:06:07,569 [INFO]       Price: $2.18
+2025-12-13 15:06:07,570 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:06:07,570 [INFO]       Leverage: 10x
+2025-12-13 15:06:07,570 [INFO]       Raw quantity: 91.70105456
+2025-12-13 15:06:07,570 [INFO]       Formatted quantity: 91.70000000
+2025-12-13 15:06:07,570 [INFO]    ðŸ“¤ Placing SELL order for 91.7 ATOMUSDT...
+2025-12-13 15:06:07,570 [INFO] ðŸ“ [Binance] Order: SELL ATOMUSDT
+2025-12-13 15:06:07,570 [INFO]    Raw qty: 91.70000000 -> Formatted: 91.7
+2025-12-13 15:06:07,647 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:06:07,981 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:07,983 [ERROR]    Symbol: ATOMUSDT, Side: SELL, Qty: 91.7
+2025-12-13 15:06:08,339 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:08,341 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:06:08,811 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:09,313 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:06:09,391 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:06:10,011 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:06:10,011 [INFO]    Confidence: 67.12%
+2025-12-13 15:06:10,011 [INFO]    Entry: 1.3440
+2025-12-13 15:06:10,011 [INFO]    SL: 1.3507, TP: 1.3301
+2025-12-13 15:06:10,011 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:06:10,012 [INFO]    ðŸš« Cooldown active: 22.9m remaining (last: SHORT at 14:29)
+2025-12-13 15:06:10,012 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:06:10,013 [INFO]    âšª No signal - HOLD
+2025-12-13 15:06:10,513 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:06:10,591 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:06:11,284 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:06:11,284 [INFO]    Confidence: 67.16%
+2025-12-13 15:06:11,284 [INFO]    Entry: 0.2100
+2025-12-13 15:06:11,284 [INFO]    SL: 0.2111, TP: 0.2077
+2025-12-13 15:06:11,285 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:06:11,285 [INFO] ðŸš€ ARBUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:06:11,285 [INFO]    ðŸ“Š Confidence: 67.16%
+2025-12-13 15:06:11,285 [INFO]    ðŸ’° Entry: $0.2100
+2025-12-13 15:06:11,285 [INFO]    ðŸ“ˆ ML: 0.328 | RSI: 52.2
+2025-12-13 15:06:11,285 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:06:11,285 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:06:11,286 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:11,286 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:06:11,286 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:06:11,286 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:11,287 [INFO]    ðŸš« Cooldown recorded for ARBUSDT (60m)
+2025-12-13 15:06:11,287 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:06:11,371 [INFO] âœ… [Binance] Set leverage 10x for ARBUSDT
+2025-12-13 15:06:11,449 [INFO] âœ… [Binance] Set margin type ISOLATED for ARBUSDT
+2025-12-13 15:06:11,525 [INFO]    ðŸ’µ Current price: $0.21
+2025-12-13 15:06:11,871 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:06:11,871 [INFO]       Balance: $111.57
+2025-12-13 15:06:11,871 [INFO]       Price: $0.21
+2025-12-13 15:06:11,871 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:06:11,871 [INFO]       Leverage: 10x
+2025-12-13 15:06:11,871 [INFO]       Raw quantity: 952.38095238
+2025-12-13 15:06:11,872 [INFO]       Formatted quantity: 952.40000000
+2025-12-13 15:06:11,872 [INFO]    ðŸ“¤ Placing SELL order for 952.4 ARBUSDT...
+2025-12-13 15:06:11,872 [INFO] ðŸ“ [Binance] Order: SELL ARBUSDT
+2025-12-13 15:06:11,872 [INFO]    Raw qty: 952.40000000 -> Formatted: 952.4
+2025-12-13 15:06:11,947 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:06:12,283 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:12,285 [ERROR]    Symbol: ARBUSDT, Side: SELL, Qty: 952.4
+2025-12-13 15:06:12,617 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:12,618 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:06:12,952 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:13,454 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:06:13,530 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:06:14,152 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:06:14,152 [INFO]    Confidence: 65.93%
+2025-12-13 15:06:14,152 [INFO]    Entry: 0.3136
+2025-12-13 15:06:14,152 [INFO]    SL: 0.3156, TP: 0.3094
+2025-12-13 15:06:14,153 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:06:14,153 [INFO] ðŸš€ OPUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:06:14,153 [INFO]    ðŸ“Š Confidence: 65.93%
+2025-12-13 15:06:14,153 [INFO]    ðŸ’° Entry: $0.3136
+2025-12-13 15:06:14,153 [INFO]    ðŸ“ˆ ML: 0.341 | RSI: 50.3
+2025-12-13 15:06:14,153 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:06:14,154 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=9
+2025-12-13 15:06:14,154 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:14,154 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:06:14,154 [INFO]    ðŸ“Š Confluence score: 9/5
+2025-12-13 15:06:14,154 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:14,155 [INFO]    ðŸš« Cooldown recorded for OPUSDT (60m)
+2025-12-13 15:06:14,155 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:06:14,236 [INFO] âœ… [Binance] Set leverage 10x for OPUSDT
+2025-12-13 15:06:14,312 [INFO] âœ… [Binance] Set margin type ISOLATED for OPUSDT
+2025-12-13 15:06:14,386 [INFO]    ðŸ’µ Current price: $0.31
+2025-12-13 15:06:14,500 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:06:14,500 [INFO]       Balance: $111.57
+2025-12-13 15:06:14,500 [INFO]       Price: $0.31
+2025-12-13 15:06:14,500 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:06:14,500 [INFO]       Leverage: 10x
+2025-12-13 15:06:14,500 [INFO]       Raw quantity: 637.95853270
+2025-12-13 15:06:14,500 [INFO]       Formatted quantity: 638.00000000
+2025-12-13 15:06:14,501 [INFO]    ðŸ“¤ Placing SELL order for 638.0 OPUSDT...
+2025-12-13 15:06:14,501 [INFO] ðŸ“ [Binance] Order: SELL OPUSDT
+2025-12-13 15:06:14,501 [INFO]    Raw qty: 638.00000000 -> Formatted: 638.0
+2025-12-13 15:06:14,576 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:06:14,922 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:14,924 [ERROR]    Symbol: OPUSDT, Side: SELL, Qty: 638.0
+2025-12-13 15:06:15,259 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:15,261 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:06:15,599 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:16,102 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:06:16,179 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:06:16,836 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:06:16,836 [INFO]    Confidence: 66.54%
+2025-12-13 15:06:16,836 [INFO]    Entry: 1.6687
+2025-12-13 15:06:16,837 [INFO]    SL: 1.6815, TP: 1.6420
+2025-12-13 15:06:16,837 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:06:16,837 [INFO] ðŸš€ APTUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:06:16,837 [INFO]    ðŸ“Š Confidence: 66.54%
+2025-12-13 15:06:16,837 [INFO]    ðŸ’° Entry: $1.6687
+2025-12-13 15:06:16,837 [INFO]    ðŸ“ˆ ML: 0.335 | RSI: 43.4
+2025-12-13 15:06:16,837 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:06:16,838 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=9
+2025-12-13 15:06:16,838 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:16,838 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:06:16,838 [INFO]    ðŸ“Š Confluence score: 9/5
+2025-12-13 15:06:16,838 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:06:16,839 [INFO]    ðŸš« Cooldown recorded for APTUSDT (60m)
+2025-12-13 15:06:16,840 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:06:16,915 [INFO] âœ… [Binance] Set leverage 10x for APTUSDT
+2025-12-13 15:06:17,075 [INFO]    ðŸ’µ Current price: $1.67
+2025-12-13 15:06:17,185 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:06:17,185 [INFO]       Balance: $111.57
+2025-12-13 15:06:17,185 [INFO]       Price: $1.67
+2025-12-13 15:06:17,185 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:06:17,185 [INFO]       Leverage: 10x
+2025-12-13 15:06:17,185 [INFO]       Raw quantity: 119.87532966
+2025-12-13 15:06:17,185 [INFO]       Formatted quantity: 119.90000000
+2025-12-13 15:06:17,185 [INFO]    ðŸ“¤ Placing SELL order for 119.9 APTUSDT...
+2025-12-13 15:06:17,186 [INFO] ðŸ“ [Binance] Order: SELL APTUSDT
+2025-12-13 15:06:17,186 [INFO]    Raw qty: 119.90000000 -> Formatted: 119.9
+2025-12-13 15:06:17,260 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:06:18,001 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 429 Too Many Requests"
+2025-12-13 15:06:18,002 [ERROR]    Symbol: APTUSDT, Side: SELL, Qty: 119.9
+2025-12-13 15:06:23,010 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:06:26,741 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:06:26,743 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:09:26,817 [INFO] 
+============================================================
+2025-12-13 15:09:26,818 [INFO] ðŸ”„ LOOP #2 - 2025-12-13 15:09:26
+2025-12-13 15:09:26,818 [INFO] ============================================================
+2025-12-13 15:09:26,969 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:09:26,970 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:09:26,970 [INFO] 
+==================================================
+2025-12-13 15:09:26,970 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:09:26,970 [INFO] ==================================================
+2025-12-13 15:09:26,970 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:09:27,053 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:09:27,053 [INFO]    Entry: $90233.90 | Mark: $90165.60
+2025-12-13 15:09:27,053 [INFO]    PnL: 0.76% ($0.14)
+2025-12-13 15:09:27,053 [INFO]    Age: 1.7h / 72.0h
+2025-12-13 15:09:27,554 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:09:27,765 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:09:27,765 [INFO]    Entry: $3115.35 | Mark: $3117.75
+2025-12-13 15:09:27,765 [INFO]    PnL: -0.77% ($-0.15)
+2025-12-13 15:09:27,765 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 15:09:28,266 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:09:28,350 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:09:28,350 [INFO]    Entry: $575.57 | Mark: $576.20
+2025-12-13 15:09:28,350 [INFO]    PnL: -1.09% ($-0.22)
+2025-12-13 15:09:28,350 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 15:09:28,851 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:09:29,063 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:09:29,839 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:29,839 [INFO]    Confidence: 68.54%
+2025-12-13 15:09:29,839 [INFO]    Entry: 81.6600
+2025-12-13 15:09:29,839 [INFO]    SL: 81.9514, TP: 81.0529
+2025-12-13 15:09:29,839 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:29,839 [INFO]    ðŸš« Cooldown active: 56.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:29,840 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:29,841 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:30,341 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:09:30,671 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:09:31,370 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:31,370 [INFO]    Confidence: 67.37%
+2025-12-13 15:09:31,370 [INFO]    Entry: 898.2800
+2025-12-13 15:09:31,370 [INFO]    SL: 901.5491, TP: 891.4693
+2025-12-13 15:09:31,370 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:31,371 [INFO]    ðŸš« Cooldown active: 56.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:31,371 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:31,372 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:31,873 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:09:31,960 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:09:31,960 [INFO]    Entry: $132.97 | Mark: $133.38
+2025-12-13 15:09:31,961 [INFO]    PnL: -3.08% ($-0.61)
+2025-12-13 15:09:31,961 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 15:09:32,461 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:09:32,549 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:09:33,248 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:33,248 [INFO]    Confidence: 67.62%
+2025-12-13 15:09:33,248 [INFO]    Entry: 2.0369
+2025-12-13 15:09:33,248 [INFO]    SL: 2.0440, TP: 2.0221
+2025-12-13 15:09:33,249 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:33,249 [INFO]    ðŸš« Cooldown active: 56.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:33,249 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:33,249 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:33,750 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:09:33,836 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:09:34,480 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:34,481 [INFO]    Confidence: 67.25%
+2025-12-13 15:09:34,481 [INFO]    Entry: 13.1820
+2025-12-13 15:09:34,481 [INFO]    SL: 13.2303, TP: 13.0813
+2025-12-13 15:09:34,481 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:34,481 [INFO]    ðŸš« Cooldown active: 56.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:34,482 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:34,482 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:34,983 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:09:35,082 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:09:35,746 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:35,746 [INFO]    Confidence: 67.77%
+2025-12-13 15:09:35,746 [INFO]    Entry: 0.4135
+2025-12-13 15:09:35,746 [INFO]    SL: 0.4157, TP: 0.4088
+2025-12-13 15:09:35,747 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:35,747 [INFO]    ðŸš« Cooldown active: 56.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:35,747 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:35,747 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:36,248 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:09:36,326 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:09:37,017 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:37,017 [INFO]    Confidence: 66.74%
+2025-12-13 15:09:37,017 [INFO]    Entry: 0.1397
+2025-12-13 15:09:37,018 [INFO]    SL: 0.1404, TP: 0.1382
+2025-12-13 15:09:37,018 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:37,018 [INFO]    ðŸš« Cooldown active: 56.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:37,019 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:37,019 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:37,520 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:09:37,598 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:09:38,341 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:38,341 [INFO]    Confidence: 66.19%
+2025-12-13 15:09:38,342 [INFO]    Entry: 13.3470
+2025-12-13 15:09:38,342 [INFO]    SL: 13.4067, TP: 13.2227
+2025-12-13 15:09:38,342 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:38,342 [INFO]    ðŸš« Cooldown active: 56.3m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:38,343 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:38,343 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:38,843 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:09:38,922 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:09:39,565 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:39,565 [INFO]    Confidence: 66.75%
+2025-12-13 15:09:39,565 [INFO]    Entry: 2.0400
+2025-12-13 15:09:39,565 [INFO]    SL: 2.0502, TP: 2.0187
+2025-12-13 15:09:39,566 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:39,566 [INFO]    ðŸš« Cooldown active: 56.3m remaining (last: SHORT at 15:05)
+2025-12-13 15:09:39,566 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:39,566 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:40,067 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:09:40,144 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:09:40,144 [INFO]    Entry: $13.66 | Mark: $13.78
+2025-12-13 15:09:40,144 [INFO]    PnL: -8.93% ($-1.79)
+2025-12-13 15:09:40,144 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 15:09:40,645 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:09:40,940 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:09:41,800 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:41,800 [INFO]    Confidence: 67.95%
+2025-12-13 15:09:41,800 [INFO]    Entry: 5.4540
+2025-12-13 15:09:41,800 [INFO]    SL: 5.4799, TP: 5.4001
+2025-12-13 15:09:41,800 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:41,800 [INFO]    ðŸš« Cooldown active: 56.3m remaining (last: SHORT at 15:06)
+2025-12-13 15:09:41,801 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:41,801 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:42,302 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:09:42,379 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:09:43,062 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:43,062 [INFO]    Confidence: 65.72%
+2025-12-13 15:09:43,063 [INFO]    Entry: 1.6610
+2025-12-13 15:09:43,063 [INFO]    SL: 1.6698, TP: 1.6426
+2025-12-13 15:09:43,063 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:43,063 [INFO]    ðŸš« Cooldown active: 56.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:09:43,064 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:43,064 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:43,565 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:09:43,642 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:09:44,356 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:44,356 [INFO]    Confidence: 67.97%
+2025-12-13 15:09:44,356 [INFO]    Entry: 2.1840
+2025-12-13 15:09:44,357 [INFO]    SL: 2.1933, TP: 2.1647
+2025-12-13 15:09:44,357 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:44,357 [INFO]    ðŸš« Cooldown active: 56.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:09:44,358 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:44,358 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:44,859 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:09:44,943 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:09:45,601 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:45,602 [INFO]    Confidence: 66.75%
+2025-12-13 15:09:45,602 [INFO]    Entry: 1.3470
+2025-12-13 15:09:45,602 [INFO]    SL: 1.3540, TP: 1.3324
+2025-12-13 15:09:45,602 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:45,602 [INFO]    ðŸš« Cooldown active: 19.3m remaining (last: SHORT at 14:29)
+2025-12-13 15:09:45,603 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:45,603 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:46,106 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:09:46,273 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:09:48,058 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:48,059 [INFO]    Confidence: 67.35%
+2025-12-13 15:09:48,059 [INFO]    Entry: 0.2101
+2025-12-13 15:09:48,059 [INFO]    SL: 0.2112, TP: 0.2077
+2025-12-13 15:09:48,059 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:48,059 [INFO]    ðŸš« Cooldown active: 56.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:09:48,060 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:48,060 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:48,561 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:09:48,650 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:09:49,415 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:49,415 [INFO]    Confidence: 66.44%
+2025-12-13 15:09:49,415 [INFO]    Entry: 0.3144
+2025-12-13 15:09:49,416 [INFO]    SL: 0.3165, TP: 0.3101
+2025-12-13 15:09:49,416 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:49,416 [INFO]    ðŸš« Cooldown active: 56.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:09:49,417 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:49,417 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:49,918 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:09:50,032 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:09:50,793 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:09:50,793 [INFO]    Confidence: 66.48%
+2025-12-13 15:09:50,793 [INFO]    Entry: 1.6722
+2025-12-13 15:09:50,793 [INFO]    SL: 1.6854, TP: 1.6446
+2025-12-13 15:09:50,794 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:09:50,794 [INFO]    ðŸš« Cooldown active: 56.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:09:50,794 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:09:50,794 [INFO]    âšª No signal - HOLD
+2025-12-13 15:09:50,794 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:12:50,862 [INFO] 
+============================================================
+2025-12-13 15:12:50,862 [INFO] ðŸ”„ LOOP #3 - 2025-12-13 15:12:50
+2025-12-13 15:12:50,862 [INFO] ============================================================
+2025-12-13 15:12:50,944 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:12:50,944 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:12:50,944 [INFO] 
+==================================================
+2025-12-13 15:12:50,944 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:12:50,944 [INFO] ==================================================
+2025-12-13 15:12:50,944 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:12:51,027 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:12:51,027 [INFO]    Entry: $90233.90 | Mark: $90116.30
+2025-12-13 15:12:51,027 [INFO]    PnL: 1.30% ($0.24)
+2025-12-13 15:12:51,027 [INFO]    Age: 1.8h / 72.0h
+2025-12-13 15:12:51,528 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:12:51,607 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:12:51,607 [INFO]    Entry: $3115.35 | Mark: $3116.40
+2025-12-13 15:12:51,607 [INFO]    PnL: -0.34% ($-0.07)
+2025-12-13 15:12:51,607 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 15:12:52,108 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:12:52,189 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:12:52,189 [INFO]    Entry: $575.57 | Mark: $575.60
+2025-12-13 15:12:52,189 [INFO]    PnL: -0.05% ($-0.01)
+2025-12-13 15:12:52,189 [INFO]    Age: 0.1h / 72.0h
+2025-12-13 15:12:52,690 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:12:52,772 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:12:53,390 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:12:53,390 [INFO]    Confidence: 67.10%
+2025-12-13 15:12:53,390 [INFO]    Entry: 81.6200
+2025-12-13 15:12:53,390 [INFO]    SL: 81.9114, TP: 81.0129
+2025-12-13 15:12:53,390 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:12:53,390 [INFO]    ðŸš« Cooldown active: 52.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:12:53,391 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:12:53,391 [INFO]    âšª No signal - HOLD
+2025-12-13 15:12:53,892 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:12:53,970 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:12:54,649 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:12:54,649 [INFO]    Confidence: 67.25%
+2025-12-13 15:12:54,649 [INFO]    Entry: 898.2200
+2025-12-13 15:12:54,649 [INFO]    SL: 901.4891, TP: 891.4093
+2025-12-13 15:12:54,649 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:12:54,649 [INFO]    ðŸš« Cooldown active: 52.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:12:54,650 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:12:54,650 [INFO]    âšª No signal - HOLD
+2025-12-13 15:12:55,151 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:12:55,363 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:12:55,364 [INFO]    Entry: $132.97 | Mark: $133.29
+2025-12-13 15:12:55,364 [INFO]    PnL: -2.37% ($-0.47)
+2025-12-13 15:12:55,364 [INFO]    Age: 0.8h / 72.0h
+2025-12-13 15:12:55,865 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:12:56,077 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:12:56,802 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:12:56,803 [INFO]    Confidence: 67.62%
+2025-12-13 15:12:56,803 [INFO]    Entry: 2.0360
+2025-12-13 15:12:56,803 [INFO]    SL: 2.0431, TP: 2.0211
+2025-12-13 15:12:56,803 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:12:56,803 [INFO]    ðŸš« Cooldown active: 52.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:12:56,804 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:12:56,804 [INFO]    âšª No signal - HOLD
+2025-12-13 15:12:57,305 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:12:57,382 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:12:58,022 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:12:58,022 [INFO]    Confidence: 66.69%
+2025-12-13 15:12:58,022 [INFO]    Entry: 13.1660
+2025-12-13 15:12:58,022 [INFO]    SL: 13.2143, TP: 13.0653
+2025-12-13 15:12:58,022 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:12:58,022 [INFO]    ðŸš« Cooldown active: 52.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:12:58,023 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:12:58,023 [INFO]    âšª No signal - HOLD
+2025-12-13 15:12:58,524 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:12:58,605 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:12:59,249 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:12:59,252 [INFO]    Confidence: 68.06%
+2025-12-13 15:12:59,252 [INFO]    Entry: 0.4130
+2025-12-13 15:12:59,253 [INFO]    SL: 0.4152, TP: 0.4083
+2025-12-13 15:12:59,253 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:12:59,253 [INFO]    ðŸš« Cooldown active: 52.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:12:59,254 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:12:59,254 [INFO]    âšª No signal - HOLD
+2025-12-13 15:12:59,755 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:12:59,834 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:13:00,527 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:00,528 [INFO]    Confidence: 66.65%
+2025-12-13 15:13:00,528 [INFO]    Entry: 0.1396
+2025-12-13 15:13:00,528 [INFO]    SL: 0.1403, TP: 0.1381
+2025-12-13 15:13:00,528 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:00,528 [INFO]    ðŸš« Cooldown active: 52.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:13:00,529 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:00,529 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:01,030 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:13:01,107 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:13:01,815 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:01,815 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:02,319 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:13:02,405 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:13:03,173 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:03,173 [INFO]    Confidence: 66.75%
+2025-12-13 15:13:03,173 [INFO]    Entry: 2.0400
+2025-12-13 15:13:03,173 [INFO]    SL: 2.0502, TP: 2.0187
+2025-12-13 15:13:03,173 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:03,174 [INFO]    ðŸš« Cooldown active: 52.9m remaining (last: SHORT at 15:05)
+2025-12-13 15:13:03,174 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:03,174 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:03,675 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:13:03,755 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:13:03,755 [INFO]    Entry: $13.66 | Mark: $13.79
+2025-12-13 15:13:03,755 [INFO]    PnL: -9.22% ($-1.85)
+2025-12-13 15:13:03,756 [INFO]    Age: 0.7h / 72.0h
+2025-12-13 15:13:04,256 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:13:04,332 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:13:05,080 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:05,080 [INFO]    Confidence: 67.70%
+2025-12-13 15:13:05,080 [INFO]    Entry: 5.4480
+2025-12-13 15:13:05,080 [INFO]    SL: 5.4739, TP: 5.3941
+2025-12-13 15:13:05,081 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:05,081 [INFO]    ðŸš« Cooldown active: 52.9m remaining (last: SHORT at 15:06)
+2025-12-13 15:13:05,082 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:05,082 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:05,583 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:13:05,664 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:13:06,367 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:06,368 [INFO]    Confidence: 66.34%
+2025-12-13 15:13:06,368 [INFO]    Entry: 1.6570
+2025-12-13 15:13:06,368 [INFO]    SL: 1.6659, TP: 1.6384
+2025-12-13 15:13:06,368 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:06,368 [INFO]    ðŸš« Cooldown active: 53.0m remaining (last: SHORT at 15:06)
+2025-12-13 15:13:06,369 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:06,369 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:06,870 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:13:06,947 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:13:07,631 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:07,631 [INFO]    Confidence: 66.43%
+2025-12-13 15:13:07,631 [INFO]    Entry: 2.1840
+2025-12-13 15:13:07,632 [INFO]    SL: 2.1933, TP: 2.1645
+2025-12-13 15:13:07,632 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:07,632 [INFO]    ðŸš« Cooldown active: 53.0m remaining (last: SHORT at 15:06)
+2025-12-13 15:13:07,633 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:07,633 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:08,134 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:13:08,214 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:13:08,940 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:08,940 [INFO]    Confidence: 66.32%
+2025-12-13 15:13:08,940 [INFO]    Entry: 1.3470
+2025-12-13 15:13:08,940 [INFO]    SL: 1.3540, TP: 1.3324
+2025-12-13 15:13:08,940 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:08,941 [INFO]    ðŸš« Cooldown active: 15.9m remaining (last: SHORT at 14:29)
+2025-12-13 15:13:08,941 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:08,941 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:09,442 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:13:09,524 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:13:10,223 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:10,224 [INFO]    Confidence: 65.89%
+2025-12-13 15:13:10,224 [INFO]    Entry: 0.2101
+2025-12-13 15:13:10,224 [INFO]    SL: 0.2112, TP: 0.2077
+2025-12-13 15:13:10,224 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:10,224 [INFO]    ðŸš« Cooldown active: 53.0m remaining (last: SHORT at 15:06)
+2025-12-13 15:13:10,225 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:10,225 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:10,726 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:13:10,802 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:13:11,516 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:11,516 [INFO]    Confidence: 66.46%
+2025-12-13 15:13:11,516 [INFO]    Entry: 0.3147
+2025-12-13 15:13:11,516 [INFO]    SL: 0.3168, TP: 0.3103
+2025-12-13 15:13:11,516 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:11,517 [INFO]    ðŸš« Cooldown active: 53.0m remaining (last: SHORT at 15:06)
+2025-12-13 15:13:11,517 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:11,517 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:12,018 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:13:12,094 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:13:12,816 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:13:12,816 [INFO]    Confidence: 66.48%
+2025-12-13 15:13:12,816 [INFO]    Entry: 1.6716
+2025-12-13 15:13:12,816 [INFO]    SL: 1.6848, TP: 1.6440
+2025-12-13 15:13:12,816 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:13:12,816 [INFO]    ðŸš« Cooldown active: 53.1m remaining (last: SHORT at 15:06)
+2025-12-13 15:13:12,817 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:13:12,818 [INFO]    âšª No signal - HOLD
+2025-12-13 15:13:12,818 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:15:44,747 [INFO] 
+ðŸ›‘ Shutdown signal received...
+2025-12-13 15:16:12,829 [INFO] 
+============================================================
+2025-12-13 15:16:12,830 [INFO] ðŸ›‘ SHUTTING DOWN BOT
+2025-12-13 15:16:12,830 [INFO] ============================================================
+2025-12-13 15:16:12,830 [INFO] ðŸ“Š <b>DAILY STATS</b>
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+Trades: 2
+Volume: $0.00M
+PnL: 0.00%
+
+<b>Overall</b>
+Total Trades: 2
+Win Rate: 0.0%
+W/L: 0/0
+2025-12-13 15:16:13,720 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:16:13,721 [INFO] ðŸ‘‹ Bot stopped!
+2025-12-13 15:16:14,122 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+ðŸ“Š Enabled exchanges: binance
+âœ… Binance configured: 20 symbols
+âœ… Using fixed position size: $20.0 USDT per trade
+âœ… Config validation passed!
+2025-12-13 15:16:18,344 [INFO] âœ… Telegram bot initialized
+2025-12-13 15:16:27,243 [INFO] ============================================================
+2025-12-13 15:16:27,244 [INFO] ðŸš€ MULTI-EXCHANGE PERP FARM BOT - INITIALIZING
+2025-12-13 15:16:27,244 [INFO] ============================================================
+2025-12-13 15:16:27,427 [INFO] ðŸ”Œ Binance Client initialized (MAINNET)
+2025-12-13 15:16:27,427 [INFO]    URL: https://fapi.binance.com
+2025-12-13 15:16:27,427 [INFO] âœ… Binance initialized with 20 symbols
+2025-12-13 15:16:27,429 [INFO] ðŸ“‚ Loaded 5 position timestamps
+2025-12-13 15:16:27,429 [INFO] ðŸ“ˆ Trailing Stop enabled (PnL-based): Activation=2.5% PnL, Trail=2.2% PnL
+2025-12-13 15:16:27,429 [INFO] ðŸŽ­ Loading Ensemble models...
+2025-12-13 15:16:27,429 [INFO] ðŸ’¡ LightGBM Trainer initialized with 23 features
+2025-12-13 15:16:27,430 [INFO] ðŸ± CatBoost Trainer initialized with 23 features
+2025-12-13 15:16:27,430 [INFO] ðŸŽ­ Ensemble initialized with 3 models
+2025-12-13 15:16:27,430 [INFO]    Models: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:16:27,430 [INFO]    Weights: [0.4  0.35 0.25]
+2025-12-13 15:16:27,498 [INFO] âœ… XGBoost model loaded from models/xgboost_model.json
+2025-12-13 15:16:27,498 [INFO] âœ… XGBoost loaded
+2025-12-13 15:16:27,555 [INFO] âœ… LightGBM loaded from models/lightgbm_model.txt
+2025-12-13 15:16:27,555 [INFO] âœ… LightGBM loaded
+2025-12-13 15:16:27,562 [INFO] âœ… CatBoost loaded from models/catboost_model.cbm
+2025-12-13 15:16:27,562 [INFO] âœ… CatBoost loaded
+2025-12-13 15:16:27,562 [INFO] âœ… Ensemble loaded: 3/3 models
+2025-12-13 15:16:27,562 [INFO] ðŸŽ­ Using Ensemble predictor: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:16:27,562 [INFO]    Weights: [0.4, 0.35, 0.25]
+2025-12-13 15:16:27,562 [INFO] ðŸŽ¯ SmartEntrySystemV2 enabled (min score: 6, min R:R: 0.0:1)
+2025-12-13 15:16:27,564 [INFO] ðŸš« Signal Cooldown enabled: 60m signal, 15m post-trade
+2025-12-13 15:16:27,565 [INFO] ðŸŽ¯ Entry Quality Checker enabled
+2025-12-13 15:16:27,565 [INFO] ðŸŽ­ Entry Pipeline received 3 ML models: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:16:27,565 [INFO] ðŸŽ­ MLEnsembleSignal initialized
+2025-12-13 15:16:27,565 [INFO]    Models: ['xgboost', 'lightgbm', 'catboost']
+2025-12-13 15:16:27,565 [INFO]    Weights: {'xgboost': 0.4, 'lightgbm': 0.35, 'catboost': 0.25}
+2025-12-13 15:16:27,565 [INFO]    Confidence threshold: 0.65
+2025-12-13 15:16:27,566 [WARNING] âš ï¸ AI Check enabled but grok client not available
+2025-12-13 15:16:28,303 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:16:28,306 [INFO] ðŸš€ EntryPipeline initialized
+2025-12-13 15:16:28,306 [INFO]    Stages enabled: ML=True, SmartEntry=False, PA=False, HTF=False, AI=True
+2025-12-13 15:16:28,306 [INFO] ðŸš€ Entry Pipeline enabled (5-stage validation)
+2025-12-13 15:16:28,306 [INFO] ðŸ“Š AI Accuracy Tracker enabled
+2025-12-13 15:16:28,307 [INFO] âœ… Bot initialized successfully!
+2025-12-13 15:16:28,307 [INFO]    [BINANCE] Symbols: ['BTCUSDT', 'ETHUSDT', 'BCHUSDT', 'LTCUSDT', 'BNBUSDT', 'SOLUSDT', 'XRPUSDT', 'ETCUSDT', 'ADAUSDT', 'DOGEUSDT', 'AVAXUSDT', 'DOTUSDT', 'LINKUSDT', 'UNIUSDT', 'NEARUSDT', 'ATOMUSDT', 'FILUSDT', 'ARBUSDT', 'OPUSDT', 'APTUSDT']
+2025-12-13 15:16:28,307 [INFO]    [BINANCE] Leverage: 10x
+2025-12-13 15:16:28,307 [INFO]    Position Size: 20.0%
+2025-12-13 15:16:28,307 [INFO]    TP/SL: 10.00% / Disabled
+2025-12-13 15:16:28,307 [INFO]    Position Timeout: 72.0h
+2025-12-13 15:16:28,307 [INFO]    ðŸ“Š Timeframe: PRIMARY=1h, HIGHER=4h
+2025-12-13 15:16:28,307 [INFO]    ðŸ”„ Loop Sleep: 180s
+2025-12-13 15:16:28,307 [INFO] ============================================================
+2025-12-13 15:16:28,307 [INFO] ðŸ BOT STARTED!
+2025-12-13 15:16:28,713 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:16:28,910 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:16:28,911 [INFO] ðŸ“Š Daily start balance: $111.37
+2025-12-13 15:16:28,911 [INFO] ðŸ’° Total starting balance: $111.37
+2025-12-13 15:16:29,294 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:16:29,296 [INFO] 
+============================================================
+2025-12-13 15:16:29,296 [INFO] ðŸ”„ LOOP #1 - 2025-12-13 15:16:29
+2025-12-13 15:16:29,296 [INFO] ============================================================
+2025-12-13 15:16:29,379 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:16:29,379 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:16:29,379 [INFO] 
+==================================================
+2025-12-13 15:16:29,379 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:16:29,379 [INFO] ==================================================
+2025-12-13 15:16:29,379 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:16:29,460 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:16:29,460 [INFO]    Entry: $90233.90 | Mark: $90128.77
+2025-12-13 15:16:29,460 [INFO]    PnL: 1.17% ($0.21)
+2025-12-13 15:16:29,460 [INFO]    Age: 1.8h / 72.0h
+2025-12-13 15:16:29,961 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:16:30,041 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:16:30,041 [INFO]    Entry: $3115.35 | Mark: $3116.31
+2025-12-13 15:16:30,041 [INFO]    PnL: -0.31% ($-0.06)
+2025-12-13 15:16:30,042 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 15:16:30,542 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:16:30,622 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:16:30,622 [INFO]    Entry: $575.57 | Mark: $575.43
+2025-12-13 15:16:30,622 [INFO]    PnL: 0.23% ($0.05)
+2025-12-13 15:16:30,622 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 15:16:31,123 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:16:31,204 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:16:31,979 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:31,979 [INFO]    Confidence: 68.60%
+2025-12-13 15:16:31,979 [INFO]    Entry: 81.6000
+2025-12-13 15:16:31,980 [INFO]    SL: 81.8829, TP: 81.0107
+2025-12-13 15:16:31,980 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:31,980 [INFO]    ðŸš« Cooldown active: 49.0m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:31,980 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:31,980 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:32,481 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:16:32,562 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:16:33,269 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:33,269 [INFO]    Confidence: 69.13%
+2025-12-13 15:16:33,269 [INFO]    Entry: 899.2600
+2025-12-13 15:16:33,269 [INFO]    SL: 902.4537, TP: 892.6064
+2025-12-13 15:16:33,269 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:33,269 [INFO]    ðŸš« Cooldown active: 49.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:33,270 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:33,270 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:33,773 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:16:33,858 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:16:33,858 [INFO]    Entry: $132.97 | Mark: $133.24
+2025-12-13 15:16:33,858 [INFO]    PnL: -2.00% ($-0.40)
+2025-12-13 15:16:33,858 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 15:16:34,359 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:16:34,444 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:16:35,183 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:35,184 [INFO]    Confidence: 67.25%
+2025-12-13 15:16:35,184 [INFO]    Entry: 2.0318
+2025-12-13 15:16:35,184 [INFO]    SL: 2.0389, TP: 2.0170
+2025-12-13 15:16:35,184 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:35,184 [INFO]    ðŸš« Cooldown active: 49.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:35,185 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:35,185 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:35,686 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:16:35,769 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:16:36,649 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:36,650 [INFO]    Confidence: 68.60%
+2025-12-13 15:16:36,650 [INFO]    Entry: 13.1660
+2025-12-13 15:16:36,650 [INFO]    SL: 13.2120, TP: 13.0701
+2025-12-13 15:16:36,650 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:36,650 [INFO]    ðŸš« Cooldown active: 49.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:36,651 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:36,651 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:37,152 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:16:37,233 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:16:37,928 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:37,929 [INFO]    Confidence: 66.84%
+2025-12-13 15:16:37,929 [INFO]    Entry: 0.4133
+2025-12-13 15:16:37,929 [INFO]    SL: 0.4155, TP: 0.4088
+2025-12-13 15:16:37,929 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:37,929 [INFO]    ðŸš« Cooldown active: 49.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:37,930 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:37,930 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:38,431 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:16:38,512 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:16:39,233 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:39,234 [INFO]    Confidence: 67.77%
+2025-12-13 15:16:39,234 [INFO]    Entry: 0.1395
+2025-12-13 15:16:39,234 [INFO]    SL: 0.1401, TP: 0.1381
+2025-12-13 15:16:39,234 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:39,234 [INFO]    ðŸš« Cooldown active: 49.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:39,235 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:39,235 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:39,736 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:16:39,820 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:16:40,590 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:40,590 [INFO]    Confidence: 68.61%
+2025-12-13 15:16:40,590 [INFO]    Entry: 13.3510
+2025-12-13 15:16:40,590 [INFO]    SL: 13.4092, TP: 13.2298
+2025-12-13 15:16:40,590 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:40,590 [INFO]    ðŸš« Cooldown active: 49.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:40,591 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:40,591 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:41,095 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:16:41,206 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:16:42,005 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:42,005 [INFO]    Confidence: 66.70%
+2025-12-13 15:16:42,005 [INFO]    Entry: 2.0390
+2025-12-13 15:16:42,006 [INFO]    SL: 2.0489, TP: 2.0185
+2025-12-13 15:16:42,006 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:42,006 [INFO]    ðŸš« Cooldown active: 49.3m remaining (last: SHORT at 15:05)
+2025-12-13 15:16:42,007 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:42,007 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:42,508 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:16:42,590 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:16:42,590 [INFO]    Entry: $13.66 | Mark: $13.81
+2025-12-13 15:16:42,590 [INFO]    PnL: -10.98% ($-2.20)
+2025-12-13 15:16:42,590 [INFO]    Age: 0.8h / 72.0h
+2025-12-13 15:16:43,091 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:16:43,172 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:16:43,861 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:43,861 [INFO]    Confidence: 68.61%
+2025-12-13 15:16:43,861 [INFO]    Entry: 5.4560
+2025-12-13 15:16:43,861 [INFO]    SL: 5.4815, TP: 5.4028
+2025-12-13 15:16:43,862 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:43,862 [INFO]    ðŸš« Cooldown active: 49.3m remaining (last: SHORT at 15:06)
+2025-12-13 15:16:43,862 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:43,863 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:44,363 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:16:44,445 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:16:45,231 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:45,231 [INFO]    Confidence: 67.76%
+2025-12-13 15:16:45,231 [INFO]    Entry: 1.6540
+2025-12-13 15:16:45,232 [INFO]    SL: 1.6627, TP: 1.6358
+2025-12-13 15:16:45,232 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:45,232 [INFO]    ðŸš« Cooldown active: 49.3m remaining (last: SHORT at 15:06)
+2025-12-13 15:16:45,232 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:45,237 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:45,739 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:16:45,819 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:16:46,594 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:46,594 [INFO]    Confidence: 67.85%
+2025-12-13 15:16:46,595 [INFO]    Entry: 2.1850
+2025-12-13 15:16:46,595 [INFO]    SL: 2.1941, TP: 2.1661
+2025-12-13 15:16:46,595 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:46,595 [INFO]    ðŸš« Cooldown active: 49.3m remaining (last: SHORT at 15:06)
+2025-12-13 15:16:46,596 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:46,596 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:47,097 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:16:47,182 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:16:47,885 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:47,885 [INFO]    Confidence: 66.81%
+2025-12-13 15:16:47,885 [INFO]    Entry: 1.3460
+2025-12-13 15:16:47,885 [INFO]    SL: 1.3527, TP: 1.3321
+2025-12-13 15:16:47,885 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:47,885 [INFO]    ðŸš« Cooldown active: 12.3m remaining (last: SHORT at 14:29)
+2025-12-13 15:16:47,886 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:47,886 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:48,387 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:16:48,470 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:16:49,153 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:49,153 [INFO]    Confidence: 66.90%
+2025-12-13 15:16:49,153 [INFO]    Entry: 0.2103
+2025-12-13 15:16:49,153 [INFO]    SL: 0.2114, TP: 0.2080
+2025-12-13 15:16:49,153 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:49,154 [INFO]    ðŸš« Cooldown active: 49.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:16:49,154 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:49,154 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:49,655 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:16:49,737 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:16:50,691 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:50,692 [INFO]    Confidence: 65.84%
+2025-12-13 15:16:50,692 [INFO]    Entry: 0.3146
+2025-12-13 15:16:50,692 [INFO]    SL: 0.3166, TP: 0.3103
+2025-12-13 15:16:50,692 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:50,692 [INFO]    ðŸš« Cooldown active: 49.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:16:50,693 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:50,693 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:51,193 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:16:51,274 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:16:52,299 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:16:52,299 [INFO]    Confidence: 67.93%
+2025-12-13 15:16:52,300 [INFO]    Entry: 1.6725
+2025-12-13 15:16:52,300 [INFO]    SL: 1.6852, TP: 1.6460
+2025-12-13 15:16:52,300 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:16:52,300 [INFO]    ðŸš« Cooldown active: 49.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:16:52,301 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:16:52,301 [INFO]    âšª No signal - HOLD
+2025-12-13 15:16:52,301 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:19:52,402 [INFO] 
+============================================================
+2025-12-13 15:19:52,403 [INFO] ðŸ”„ LOOP #2 - 2025-12-13 15:19:52
+2025-12-13 15:19:52,403 [INFO] ============================================================
+2025-12-13 15:19:52,497 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:19:52,497 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:19:52,497 [INFO] 
+==================================================
+2025-12-13 15:19:52,497 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:19:52,497 [INFO] ==================================================
+2025-12-13 15:19:52,497 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:19:52,577 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:19:52,577 [INFO]    Entry: $90233.90 | Mark: $90115.49
+2025-12-13 15:19:52,577 [INFO]    PnL: 1.31% ($0.24)
+2025-12-13 15:19:52,578 [INFO]    Age: 1.9h / 72.0h
+2025-12-13 15:19:53,079 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:19:53,165 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:19:53,165 [INFO]    Entry: $3115.35 | Mark: $3117.00
+2025-12-13 15:19:53,165 [INFO]    PnL: -0.53% ($-0.11)
+2025-12-13 15:19:53,166 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 15:19:53,666 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:19:53,748 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:19:53,749 [INFO]    Entry: $575.57 | Mark: $575.41
+2025-12-13 15:19:53,749 [INFO]    PnL: 0.28% ($0.06)
+2025-12-13 15:19:53,749 [INFO]    Age: 0.2h / 72.0h
+2025-12-13 15:19:54,249 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:19:54,330 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:19:55,624 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:19:55,624 [INFO]    Confidence: 68.60%
+2025-12-13 15:19:55,624 [INFO]    Entry: 81.6500
+2025-12-13 15:19:55,624 [INFO]    SL: 81.9380, TP: 81.0500
+2025-12-13 15:19:55,625 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:19:55,625 [INFO]    ðŸš« Cooldown active: 45.6m remaining (last: SHORT at 15:05)
+2025-12-13 15:19:55,627 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:19:55,627 [INFO]    âšª No signal - HOLD
+2025-12-13 15:19:56,128 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:19:56,218 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:19:57,548 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:19:57,548 [INFO]    Confidence: 67.98%
+2025-12-13 15:19:57,549 [INFO]    Entry: 898.8600
+2025-12-13 15:19:57,549 [INFO]    SL: 902.1257, TP: 892.0564
+2025-12-13 15:19:57,549 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:19:57,549 [INFO]    ðŸš« Cooldown active: 45.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:19:57,551 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:19:57,551 [INFO]    âšª No signal - HOLD
+2025-12-13 15:19:58,052 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:19:58,139 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:19:58,140 [INFO]    Entry: $132.97 | Mark: $133.29
+2025-12-13 15:19:58,140 [INFO]    PnL: -2.41% ($-0.48)
+2025-12-13 15:19:58,140 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 15:19:58,640 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:19:58,725 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:19:59,883 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:19:59,884 [INFO]    Confidence: 67.58%
+2025-12-13 15:19:59,884 [INFO]    Entry: 2.0316
+2025-12-13 15:19:59,885 [INFO]    SL: 2.0387, TP: 2.0168
+2025-12-13 15:19:59,885 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:19:59,885 [INFO]    ðŸš« Cooldown active: 45.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:19:59,889 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:19:59,889 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:00,389 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:20:00,471 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:20:02,154 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:02,154 [INFO]    Confidence: 67.97%
+2025-12-13 15:20:02,154 [INFO]    Entry: 13.1790
+2025-12-13 15:20:02,154 [INFO]    SL: 13.2261, TP: 13.0810
+2025-12-13 15:20:02,154 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:02,155 [INFO]    ðŸš« Cooldown active: 45.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:20:02,155 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:02,156 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:02,657 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:20:02,745 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:20:03,660 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:03,661 [INFO]    Confidence: 67.35%
+2025-12-13 15:20:03,661 [INFO]    Entry: 0.4136
+2025-12-13 15:20:03,661 [INFO]    SL: 0.4158, TP: 0.4091
+2025-12-13 15:20:03,661 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:03,661 [INFO]    ðŸš« Cooldown active: 45.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:20:03,666 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:03,666 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:04,167 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:20:04,248 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:20:04,914 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:04,914 [INFO]    Confidence: 67.98%
+2025-12-13 15:20:04,914 [INFO]    Entry: 0.1395
+2025-12-13 15:20:04,914 [INFO]    SL: 0.1402, TP: 0.1381
+2025-12-13 15:20:04,914 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:04,915 [INFO]    ðŸš« Cooldown active: 45.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:20:04,915 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:04,915 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:05,416 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:20:05,498 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:20:06,287 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:06,288 [INFO]    Confidence: 67.65%
+2025-12-13 15:20:06,288 [INFO]    Entry: 13.3420
+2025-12-13 15:20:06,288 [INFO]    SL: 13.4005, TP: 13.2200
+2025-12-13 15:20:06,288 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:06,288 [INFO]    ðŸš« Cooldown active: 45.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:20:06,289 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:06,289 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:06,790 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:20:06,882 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:20:07,721 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:07,726 [INFO]    Confidence: 66.81%
+2025-12-13 15:20:07,726 [INFO]    Entry: 2.0400
+2025-12-13 15:20:07,726 [INFO]    SL: 2.0499, TP: 2.0195
+2025-12-13 15:20:07,726 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:07,726 [INFO]    ðŸš« Cooldown active: 45.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:20:07,727 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:07,727 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:08,228 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:20:08,312 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:20:08,312 [INFO]    Entry: $13.66 | Mark: $13.81
+2025-12-13 15:20:08,312 [INFO]    PnL: -10.76% ($-2.15)
+2025-12-13 15:20:08,312 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 15:20:08,813 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:20:08,905 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:20:09,737 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:09,737 [INFO]    Confidence: 67.71%
+2025-12-13 15:20:09,737 [INFO]    Entry: 5.4550
+2025-12-13 15:20:09,737 [INFO]    SL: 5.4805, TP: 5.4018
+2025-12-13 15:20:09,737 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:09,738 [INFO]    ðŸš« Cooldown active: 45.9m remaining (last: SHORT at 15:06)
+2025-12-13 15:20:09,738 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:09,738 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:10,239 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:20:10,325 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:20:11,657 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:11,658 [INFO]    Confidence: 67.47%
+2025-12-13 15:20:11,658 [INFO]    Entry: 1.6540
+2025-12-13 15:20:11,658 [INFO]    SL: 1.6627, TP: 1.6358
+2025-12-13 15:20:11,658 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:11,658 [INFO]    ðŸš« Cooldown active: 45.9m remaining (last: SHORT at 15:06)
+2025-12-13 15:20:11,659 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:11,659 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:12,160 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:20:12,242 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:20:13,075 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:13,075 [INFO]    Confidence: 67.78%
+2025-12-13 15:20:13,075 [INFO]    Entry: 2.1840
+2025-12-13 15:20:13,076 [INFO]    SL: 2.1932, TP: 2.1649
+2025-12-13 15:20:13,076 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:13,076 [INFO]    ðŸš« Cooldown active: 45.9m remaining (last: SHORT at 15:06)
+2025-12-13 15:20:13,077 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:13,077 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:13,578 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:20:13,659 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:20:14,430 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:14,430 [INFO]    Confidence: 66.43%
+2025-12-13 15:20:14,430 [INFO]    Entry: 1.3460
+2025-12-13 15:20:14,430 [INFO]    SL: 1.3527, TP: 1.3321
+2025-12-13 15:20:14,430 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:14,430 [INFO]    ðŸš« Cooldown active: 8.8m remaining (last: SHORT at 14:29)
+2025-12-13 15:20:14,431 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:14,431 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:14,932 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:20:15,013 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:20:15,941 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:15,941 [INFO]    Confidence: 66.84%
+2025-12-13 15:20:15,941 [INFO]    Entry: 0.2102
+2025-12-13 15:20:15,941 [INFO]    SL: 0.2113, TP: 0.2079
+2025-12-13 15:20:15,942 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:15,942 [INFO]    ðŸš« Cooldown active: 45.9m remaining (last: SHORT at 15:06)
+2025-12-13 15:20:15,942 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:15,943 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:16,443 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:20:16,530 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:20:17,441 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:17,441 [INFO]    Confidence: 65.68%
+2025-12-13 15:20:17,441 [INFO]    Entry: 0.3143
+2025-12-13 15:20:17,442 [INFO]    SL: 0.3163, TP: 0.3100
+2025-12-13 15:20:17,442 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:17,442 [INFO]    ðŸš« Cooldown active: 45.9m remaining (last: SHORT at 15:06)
+2025-12-13 15:20:17,443 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:17,443 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:17,944 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:20:18,027 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:20:18,742 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:20:18,742 [INFO]    Confidence: 67.62%
+2025-12-13 15:20:18,742 [INFO]    Entry: 1.6715
+2025-12-13 15:20:18,742 [INFO]    SL: 1.6843, TP: 1.6449
+2025-12-13 15:20:18,742 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:20:18,742 [INFO]    ðŸš« Cooldown active: 46.0m remaining (last: SHORT at 15:06)
+2025-12-13 15:20:18,743 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:20:18,743 [INFO]    âšª No signal - HOLD
+2025-12-13 15:20:18,743 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:23:18,789 [INFO] 
+============================================================
+2025-12-13 15:23:18,789 [INFO] ðŸ”„ LOOP #3 - 2025-12-13 15:23:18
+2025-12-13 15:23:18,789 [INFO] ============================================================
+2025-12-13 15:23:18,873 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:23:18,873 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:23:18,873 [INFO] 
+==================================================
+2025-12-13 15:23:18,874 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:23:18,874 [INFO] ==================================================
+2025-12-13 15:23:18,874 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:23:18,955 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:23:18,955 [INFO]    Entry: $90233.90 | Mark: $90130.29
+2025-12-13 15:23:18,955 [INFO]    PnL: 1.15% ($0.21)
+2025-12-13 15:23:18,955 [INFO]    Age: 1.9h / 72.0h
+2025-12-13 15:23:19,456 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:23:19,540 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:23:19,540 [INFO]    Entry: $3115.35 | Mark: $3118.87
+2025-12-13 15:23:19,540 [INFO]    PnL: -1.13% ($-0.23)
+2025-12-13 15:23:19,540 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 15:23:20,041 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:23:20,124 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:23:20,125 [INFO]    Entry: $575.57 | Mark: $575.90
+2025-12-13 15:23:20,125 [INFO]    PnL: -0.58% ($-0.12)
+2025-12-13 15:23:20,125 [INFO]    Age: 0.3h / 72.0h
+2025-12-13 15:23:20,626 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:23:20,708 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:23:21,362 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:21,362 [INFO]    Confidence: 67.16%
+2025-12-13 15:23:21,362 [INFO]    Entry: 81.6800
+2025-12-13 15:23:21,362 [INFO]    SL: 81.9697, TP: 81.0764
+2025-12-13 15:23:21,362 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:21,362 [INFO]    ðŸš« Cooldown active: 42.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:21,363 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:21,363 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:21,864 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:23:21,942 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:23:22,690 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:22,690 [INFO]    Confidence: 68.31%
+2025-12-13 15:23:22,690 [INFO]    Entry: 899.4400
+2025-12-13 15:23:22,690 [INFO]    SL: 902.7057, TP: 892.6364
+2025-12-13 15:23:22,690 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:22,690 [INFO]    ðŸš« Cooldown active: 42.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:22,691 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:22,691 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:23,192 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:23:23,275 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:23:23,275 [INFO]    Entry: $132.97 | Mark: $133.39
+2025-12-13 15:23:23,275 [INFO]    PnL: -3.17% ($-0.63)
+2025-12-13 15:23:23,275 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 15:23:23,776 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:23:23,858 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:23:24,664 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:24,664 [INFO]    Confidence: 67.62%
+2025-12-13 15:23:24,664 [INFO]    Entry: 2.0325
+2025-12-13 15:23:24,665 [INFO]    SL: 2.0396, TP: 2.0177
+2025-12-13 15:23:24,665 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:24,665 [INFO]    ðŸš« Cooldown active: 42.3m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:24,665 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:24,669 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:25,170 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:23:25,253 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:23:26,121 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:26,121 [INFO]    Confidence: 68.61%
+2025-12-13 15:23:26,121 [INFO]    Entry: 13.1960
+2025-12-13 15:23:26,121 [INFO]    SL: 13.2449, TP: 13.0942
+2025-12-13 15:23:26,121 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:26,121 [INFO]    ðŸš« Cooldown active: 42.3m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:26,122 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:26,122 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:26,623 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:23:26,716 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:23:27,501 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:27,501 [INFO]    Confidence: 67.69%
+2025-12-13 15:23:27,502 [INFO]    Entry: 0.4136
+2025-12-13 15:23:27,502 [INFO]    SL: 0.4158, TP: 0.4091
+2025-12-13 15:23:27,502 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:27,502 [INFO]    ðŸš« Cooldown active: 42.4m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:27,502 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:27,503 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:28,003 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:23:28,085 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:23:28,885 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:28,885 [INFO]    Confidence: 68.03%
+2025-12-13 15:23:28,885 [INFO]    Entry: 0.1396
+2025-12-13 15:23:28,885 [INFO]    SL: 0.1403, TP: 0.1382
+2025-12-13 15:23:28,885 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:28,885 [INFO]    ðŸš« Cooldown active: 42.4m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:28,886 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:28,886 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:29,387 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:23:29,466 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:23:30,276 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:30,277 [INFO]    Confidence: 67.56%
+2025-12-13 15:23:30,277 [INFO]    Entry: 13.3550
+2025-12-13 15:23:30,277 [INFO]    SL: 13.4140, TP: 13.2321
+2025-12-13 15:23:30,277 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:30,277 [INFO]    ðŸš« Cooldown active: 42.4m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:30,278 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:30,278 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:30,778 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:23:30,858 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:23:31,705 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:31,705 [INFO]    Confidence: 65.24%
+2025-12-13 15:23:31,705 [INFO]    Entry: 2.0420
+2025-12-13 15:23:31,709 [INFO]    SL: 2.0522, TP: 2.0207
+2025-12-13 15:23:31,709 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:31,710 [INFO]    ðŸš« Cooldown active: 42.4m remaining (last: SHORT at 15:05)
+2025-12-13 15:23:31,710 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:31,710 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:32,211 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:23:32,290 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:23:32,290 [INFO]    Entry: $13.66 | Mark: $13.80
+2025-12-13 15:23:32,290 [INFO]    PnL: -10.45% ($-2.09)
+2025-12-13 15:23:32,290 [INFO]    Age: 0.9h / 72.0h
+2025-12-13 15:23:32,791 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:23:32,876 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:23:33,613 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:33,613 [INFO]    Confidence: 67.92%
+2025-12-13 15:23:33,614 [INFO]    Entry: 5.4590
+2025-12-13 15:23:33,614 [INFO]    SL: 5.4851, TP: 5.4047
+2025-12-13 15:23:33,614 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:33,614 [INFO]    ðŸš« Cooldown active: 42.5m remaining (last: SHORT at 15:06)
+2025-12-13 15:23:33,615 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:33,615 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:34,115 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:23:34,205 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:23:34,916 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:34,916 [INFO]    Confidence: 66.88%
+2025-12-13 15:23:34,916 [INFO]    Entry: 1.6560
+2025-12-13 15:23:34,916 [INFO]    SL: 1.6648, TP: 1.6376
+2025-12-13 15:23:34,916 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:34,916 [INFO]    ðŸš« Cooldown active: 42.5m remaining (last: SHORT at 15:06)
+2025-12-13 15:23:34,917 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:34,917 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:35,417 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:23:35,499 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:23:36,148 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:36,148 [INFO]    Confidence: 67.56%
+2025-12-13 15:23:36,148 [INFO]    Entry: 2.1870
+2025-12-13 15:23:36,148 [INFO]    SL: 2.1963, TP: 2.1675
+2025-12-13 15:23:36,149 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:36,149 [INFO]    ðŸš« Cooldown active: 42.5m remaining (last: SHORT at 15:06)
+2025-12-13 15:23:36,149 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:36,150 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:36,650 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:23:36,730 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:23:37,439 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:37,439 [INFO]    Confidence: 71.49%
+2025-12-13 15:23:37,439 [INFO]    Entry: 1.3500
+2025-12-13 15:23:37,439 [INFO]    SL: 1.3570, TP: 1.3324
+2025-12-13 15:23:37,439 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:37,439 [INFO]    ðŸš« Cooldown active: 5.5m remaining (last: SHORT at 14:29)
+2025-12-13 15:23:37,440 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:37,440 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:37,941 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:23:38,029 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:23:38,675 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:38,677 [INFO]    Confidence: 67.35%
+2025-12-13 15:23:38,677 [INFO]    Entry: 0.2108
+2025-12-13 15:23:38,677 [INFO]    SL: 0.2119, TP: 0.2085
+2025-12-13 15:23:38,677 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:38,677 [INFO]    ðŸš« Cooldown active: 42.5m remaining (last: SHORT at 15:06)
+2025-12-13 15:23:38,678 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:38,678 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:39,178 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:23:39,256 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:23:39,894 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:39,895 [INFO]    Confidence: 65.79%
+2025-12-13 15:23:39,895 [INFO]    Entry: 0.3148
+2025-12-13 15:23:39,895 [INFO]    SL: 0.3169, TP: 0.3105
+2025-12-13 15:23:39,895 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:39,895 [INFO]    ðŸš« Cooldown active: 42.6m remaining (last: SHORT at 15:06)
+2025-12-13 15:23:39,895 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:39,896 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:40,396 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:23:40,477 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:23:41,114 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:23:41,114 [INFO]    Confidence: 66.42%
+2025-12-13 15:23:41,114 [INFO]    Entry: 1.6759
+2025-12-13 15:23:41,115 [INFO]    SL: 1.6890, TP: 1.6487
+2025-12-13 15:23:41,115 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:23:41,115 [INFO]    ðŸš« Cooldown active: 42.6m remaining (last: SHORT at 15:06)
+2025-12-13 15:23:41,116 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:23:41,116 [INFO]    âšª No signal - HOLD
+2025-12-13 15:23:41,116 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:26:41,191 [INFO] 
+============================================================
+2025-12-13 15:26:41,191 [INFO] ðŸ”„ LOOP #4 - 2025-12-13 15:26:41
+2025-12-13 15:26:41,192 [INFO] ============================================================
+2025-12-13 15:26:41,276 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:26:41,276 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:26:41,276 [INFO] 
+==================================================
+2025-12-13 15:26:41,276 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:26:41,276 [INFO] ==================================================
+2025-12-13 15:26:41,276 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:26:41,358 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:26:41,359 [INFO]    Entry: $90233.90 | Mark: $90082.90
+2025-12-13 15:26:41,359 [INFO]    PnL: 1.67% ($0.30)
+2025-12-13 15:26:41,359 [INFO]    Age: 2.0h / 72.0h
+2025-12-13 15:26:41,860 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:26:41,939 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:26:41,939 [INFO]    Entry: $3115.35 | Mark: $3114.69
+2025-12-13 15:26:41,939 [INFO]    PnL: 0.21% ($0.04)
+2025-12-13 15:26:41,939 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 15:26:42,440 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:26:42,520 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:26:42,521 [INFO]    Entry: $575.57 | Mark: $575.30
+2025-12-13 15:26:42,521 [INFO]    PnL: 0.47% ($0.09)
+2025-12-13 15:26:42,521 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 15:26:43,022 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:26:43,107 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:26:43,956 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:43,957 [INFO]    Confidence: 67.97%
+2025-12-13 15:26:43,957 [INFO]    Entry: 81.6000
+2025-12-13 15:26:43,957 [INFO]    SL: 81.8897, TP: 80.9964
+2025-12-13 15:26:43,957 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:43,957 [INFO]    ðŸš« Cooldown active: 38.8m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:43,962 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:43,962 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:44,463 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:26:44,553 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:26:45,374 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:45,374 [INFO]    Confidence: 67.96%
+2025-12-13 15:26:45,374 [INFO]    Entry: 897.9900
+2025-12-13 15:26:45,374 [INFO]    SL: 901.2909, TP: 891.1132
+2025-12-13 15:26:45,375 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:45,375 [INFO]    ðŸš« Cooldown active: 38.9m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:45,375 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:45,376 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:45,876 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:26:45,959 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:26:45,960 [INFO]    Entry: $132.97 | Mark: $133.11
+2025-12-13 15:26:45,960 [INFO]    PnL: -1.05% ($-0.21)
+2025-12-13 15:26:45,960 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 15:26:46,461 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:26:46,543 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:26:47,299 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:47,300 [INFO]    Confidence: 67.58%
+2025-12-13 15:26:47,300 [INFO]    Entry: 2.0319
+2025-12-13 15:26:47,300 [INFO]    SL: 2.0391, TP: 2.0169
+2025-12-13 15:26:47,300 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:47,300 [INFO]    ðŸš« Cooldown active: 38.9m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:47,301 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:47,301 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:47,801 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:26:47,882 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:26:48,721 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:48,722 [INFO]    Confidence: 68.61%
+2025-12-13 15:26:48,722 [INFO]    Entry: 13.1870
+2025-12-13 15:26:48,722 [INFO]    SL: 13.2359, TP: 13.0852
+2025-12-13 15:26:48,722 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:48,722 [INFO]    ðŸš« Cooldown active: 39.0m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:48,723 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:48,723 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:49,224 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:26:49,304 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:26:50,116 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:50,117 [INFO]    Confidence: 67.77%
+2025-12-13 15:26:50,117 [INFO]    Entry: 0.4136
+2025-12-13 15:26:50,117 [INFO]    SL: 0.4158, TP: 0.4091
+2025-12-13 15:26:50,117 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:50,117 [INFO]    ðŸš« Cooldown active: 39.0m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:50,118 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:50,118 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:50,619 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:26:50,698 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:26:51,337 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:51,337 [INFO]    Confidence: 68.03%
+2025-12-13 15:26:51,337 [INFO]    Entry: 0.1394
+2025-12-13 15:26:51,337 [INFO]    SL: 0.1401, TP: 0.1380
+2025-12-13 15:26:51,337 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:51,338 [INFO]    ðŸš« Cooldown active: 39.0m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:51,338 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:51,338 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:51,839 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:26:51,921 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:26:52,567 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:52,567 [INFO]    Confidence: 67.92%
+2025-12-13 15:26:52,567 [INFO]    Entry: 13.3490
+2025-12-13 15:26:52,567 [INFO]    SL: 13.4080, TP: 13.2261
+2025-12-13 15:26:52,567 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:52,567 [INFO]    ðŸš« Cooldown active: 39.0m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:52,568 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:52,568 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:53,069 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:26:53,151 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:26:53,819 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:53,819 [INFO]    Confidence: 65.04%
+2025-12-13 15:26:53,819 [INFO]    Entry: 2.0390
+2025-12-13 15:26:53,820 [INFO]    SL: 2.0493, TP: 2.0176
+2025-12-13 15:26:53,820 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:53,820 [INFO]    ðŸš« Cooldown active: 39.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:26:53,821 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:53,821 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:54,321 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:26:54,405 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:26:54,405 [INFO]    Entry: $13.66 | Mark: $13.80
+2025-12-13 15:26:54,405 [INFO]    PnL: -10.17% ($-2.04)
+2025-12-13 15:26:54,405 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 15:26:54,906 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:26:54,984 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:26:55,857 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:55,857 [INFO]    Confidence: 67.90%
+2025-12-13 15:26:55,857 [INFO]    Entry: 5.4530
+2025-12-13 15:26:55,857 [INFO]    SL: 5.4791, TP: 5.3987
+2025-12-13 15:26:55,857 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:55,858 [INFO]    ðŸš« Cooldown active: 39.1m remaining (last: SHORT at 15:06)
+2025-12-13 15:26:55,858 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:55,859 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:56,360 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:26:56,442 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:26:57,094 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:57,094 [INFO]    Confidence: 66.82%
+2025-12-13 15:26:57,094 [INFO]    Entry: 1.6550
+2025-12-13 15:26:57,094 [INFO]    SL: 1.6638, TP: 1.6366
+2025-12-13 15:26:57,095 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:57,095 [INFO]    ðŸš« Cooldown active: 39.1m remaining (last: SHORT at 15:06)
+2025-12-13 15:26:57,095 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:57,095 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:57,596 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:26:57,677 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:26:58,348 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:58,348 [INFO]    Confidence: 67.95%
+2025-12-13 15:26:58,348 [INFO]    Entry: 2.1860
+2025-12-13 15:26:58,348 [INFO]    SL: 2.1953, TP: 2.1665
+2025-12-13 15:26:58,348 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:58,348 [INFO]    ðŸš« Cooldown active: 39.1m remaining (last: SHORT at 15:06)
+2025-12-13 15:26:58,349 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:58,350 [INFO]    âšª No signal - HOLD
+2025-12-13 15:26:58,850 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:26:58,931 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:26:59,593 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:26:59,593 [INFO]    Confidence: 71.70%
+2025-12-13 15:26:59,593 [INFO]    Entry: 1.3490
+2025-12-13 15:26:59,593 [INFO]    SL: 1.3561, TP: 1.3312
+2025-12-13 15:26:59,594 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:26:59,594 [INFO]    ðŸš« Cooldown active: 2.1m remaining (last: SHORT at 14:29)
+2025-12-13 15:26:59,594 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:26:59,595 [INFO]    âšª No signal - HOLD
+2025-12-13 15:27:00,096 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:27:00,179 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:27:00,842 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:27:00,842 [INFO]    Confidence: 67.35%
+2025-12-13 15:27:00,842 [INFO]    Entry: 0.2102
+2025-12-13 15:27:00,842 [INFO]    SL: 0.2113, TP: 0.2079
+2025-12-13 15:27:00,842 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:27:00,842 [INFO]    ðŸš« Cooldown active: 39.2m remaining (last: SHORT at 15:06)
+2025-12-13 15:27:00,843 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:27:00,843 [INFO]    âšª No signal - HOLD
+2025-12-13 15:27:01,344 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:27:01,423 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:27:02,183 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:27:02,183 [INFO]    Confidence: 66.12%
+2025-12-13 15:27:02,183 [INFO]    Entry: 0.3149
+2025-12-13 15:27:02,183 [INFO]    SL: 0.3170, TP: 0.3106
+2025-12-13 15:27:02,183 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:27:02,183 [INFO]    ðŸš« Cooldown active: 39.2m remaining (last: SHORT at 15:06)
+2025-12-13 15:27:02,184 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:27:02,184 [INFO]    âšª No signal - HOLD
+2025-12-13 15:27:02,685 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:27:02,767 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:27:03,430 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:27:03,430 [INFO]    Confidence: 66.30%
+2025-12-13 15:27:03,430 [INFO]    Entry: 1.6797
+2025-12-13 15:27:03,430 [INFO]    SL: 1.6931, TP: 1.6517
+2025-12-13 15:27:03,430 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:27:03,430 [INFO]    ðŸš« Cooldown active: 39.2m remaining (last: SHORT at 15:06)
+2025-12-13 15:27:03,431 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:27:03,432 [INFO]    âšª No signal - HOLD
+2025-12-13 15:27:03,432 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:30:03,522 [INFO] 
+============================================================
+2025-12-13 15:30:03,522 [INFO] ðŸ”„ LOOP #5 - 2025-12-13 15:30:03
+2025-12-13 15:30:03,522 [INFO] ============================================================
+2025-12-13 15:30:05,141 [INFO] ðŸ’“ Bot alive - Loop #5 - Active positions: 5
+2025-12-13 15:30:05,224 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:30:05,225 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:30:05,225 [INFO] 
+==================================================
+2025-12-13 15:30:05,225 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:30:05,225 [INFO] ==================================================
+2025-12-13 15:30:05,225 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:30:05,314 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:30:05,314 [INFO]    Entry: $90233.90 | Mark: $90101.38
+2025-12-13 15:30:05,315 [INFO]    PnL: 1.47% ($0.27)
+2025-12-13 15:30:05,315 [INFO]    Age: 2.0h / 72.0h
+2025-12-13 15:30:05,815 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:30:05,896 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:30:05,896 [INFO]    Entry: $3115.35 | Mark: $3116.59
+2025-12-13 15:30:05,896 [INFO]    PnL: -0.40% ($-0.08)
+2025-12-13 15:30:05,896 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 15:30:06,397 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:30:06,479 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:30:06,479 [INFO]    Entry: $575.57 | Mark: $576.07
+2025-12-13 15:30:06,479 [INFO]    PnL: -0.87% ($-0.17)
+2025-12-13 15:30:06,479 [INFO]    Age: 0.4h / 72.0h
+2025-12-13 15:30:06,980 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:30:07,062 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:30:07,721 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:07,722 [INFO]    Confidence: 68.01%
+2025-12-13 15:30:07,722 [INFO]    Entry: 81.6600
+2025-12-13 15:30:07,722 [INFO]    SL: 81.9257, TP: 81.1064
+2025-12-13 15:30:07,722 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:07,722 [INFO]    ðŸš« Cooldown active: 35.4m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:07,723 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:07,723 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:08,224 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:30:08,310 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:30:08,958 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:08,958 [INFO]    Confidence: 70.03%
+2025-12-13 15:30:08,958 [INFO]    Entry: 898.1400
+2025-12-13 15:30:08,958 [INFO]    SL: 901.2771, TP: 890.2971
+2025-12-13 15:30:08,958 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:08,958 [INFO]    ðŸš« Cooldown active: 35.5m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:08,959 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:08,959 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:09,460 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:30:09,539 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:30:09,540 [INFO]    Entry: $132.97 | Mark: $133.21
+2025-12-13 15:30:09,540 [INFO]    PnL: -1.80% ($-0.36)
+2025-12-13 15:30:09,540 [INFO]    Age: 1.1h / 72.0h
+2025-12-13 15:30:10,040 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:30:10,121 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:30:10,753 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:10,754 [INFO]    Confidence: 67.82%
+2025-12-13 15:30:10,754 [INFO]    Entry: 2.0316
+2025-12-13 15:30:10,754 [INFO]    SL: 2.0381, TP: 2.0180
+2025-12-13 15:30:10,754 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:10,754 [INFO]    ðŸš« Cooldown active: 35.5m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:10,754 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:10,754 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:11,255 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:30:11,340 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:30:11,977 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:11,978 [INFO]    Confidence: 68.53%
+2025-12-13 15:30:11,978 [INFO]    Entry: 13.1930
+2025-12-13 15:30:11,978 [INFO]    SL: 13.2400, TP: 13.0951
+2025-12-13 15:30:11,978 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:11,978 [INFO]    ðŸš« Cooldown active: 35.6m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:11,978 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:11,979 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:12,479 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:30:12,565 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:30:13,217 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:13,218 [INFO]    Confidence: 67.07%
+2025-12-13 15:30:13,219 [INFO]    Entry: 0.4138
+2025-12-13 15:30:13,219 [INFO]    SL: 0.4159, TP: 0.4095
+2025-12-13 15:30:13,219 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:13,219 [INFO]    ðŸš« Cooldown active: 35.6m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:13,219 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:13,220 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:13,720 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:30:13,800 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:30:14,450 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:14,450 [INFO]    Confidence: 67.06%
+2025-12-13 15:30:14,450 [INFO]    Entry: 0.1394
+2025-12-13 15:30:14,450 [INFO]    SL: 0.1400, TP: 0.1381
+2025-12-13 15:30:14,450 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:14,451 [INFO]    ðŸš« Cooldown active: 35.6m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:14,451 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:14,452 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:14,952 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:30:15,036 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:30:15,701 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:15,701 [INFO]    Confidence: 68.34%
+2025-12-13 15:30:15,701 [INFO]    Entry: 13.3600
+2025-12-13 15:30:15,701 [INFO]    SL: 13.4169, TP: 13.2414
+2025-12-13 15:30:15,701 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:15,702 [INFO]    ðŸš« Cooldown active: 35.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:15,702 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:15,703 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:16,203 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:30:16,284 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:30:17,200 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:17,200 [INFO]    Confidence: 67.00%
+2025-12-13 15:30:17,200 [INFO]    Entry: 2.0410
+2025-12-13 15:30:17,201 [INFO]    SL: 2.0504, TP: 2.0214
+2025-12-13 15:30:17,201 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:17,201 [INFO]    ðŸš« Cooldown active: 35.7m remaining (last: SHORT at 15:05)
+2025-12-13 15:30:17,201 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:17,202 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:17,702 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:30:17,795 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:30:17,795 [INFO]    Entry: $13.66 | Mark: $13.82
+2025-12-13 15:30:17,795 [INFO]    PnL: -11.81% ($-2.36)
+2025-12-13 15:30:17,795 [INFO]    Age: 1.0h / 72.0h
+2025-12-13 15:30:18,296 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:30:18,378 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:30:19,199 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:19,199 [INFO]    Confidence: 68.60%
+2025-12-13 15:30:19,199 [INFO]    Entry: 5.4540
+2025-12-13 15:30:19,199 [INFO]    SL: 5.4786, TP: 5.4027
+2025-12-13 15:30:19,199 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:19,200 [INFO]    ðŸš« Cooldown active: 35.7m remaining (last: SHORT at 15:06)
+2025-12-13 15:30:19,200 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:19,201 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:19,701 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:30:19,782 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:30:20,585 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:20,586 [INFO]    Confidence: 68.56%
+2025-12-13 15:30:20,586 [INFO]    Entry: 1.6570
+2025-12-13 15:30:20,586 [INFO]    SL: 1.6656, TP: 1.6391
+2025-12-13 15:30:20,586 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:20,586 [INFO]    ðŸš« Cooldown active: 35.7m remaining (last: SHORT at 15:06)
+2025-12-13 15:30:20,587 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:20,587 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:21,087 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:30:21,169 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:30:21,814 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:21,815 [INFO]    Confidence: 68.42%
+2025-12-13 15:30:21,815 [INFO]    Entry: 2.1860
+2025-12-13 15:30:21,815 [INFO]    SL: 2.1947, TP: 2.1680
+2025-12-13 15:30:21,815 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:21,815 [INFO]    ðŸš« Cooldown active: 35.8m remaining (last: SHORT at 15:06)
+2025-12-13 15:30:21,815 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:21,816 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:22,316 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:30:22,395 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:30:23,029 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:23,029 [INFO]    Confidence: 72.51%
+2025-12-13 15:30:23,029 [INFO]    Entry: 1.3480
+2025-12-13 15:30:23,030 [INFO]    SL: 1.3546, TP: 1.3315
+2025-12-13 15:30:23,030 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:23,030 [INFO] ðŸš€ FILUSDT Pipeline APPROVED: SHORT
+2025-12-13 15:30:23,030 [INFO]    ðŸ“Š Confidence: 72.51%
+2025-12-13 15:30:23,030 [INFO]    ðŸ’° Entry: $1.3480
+2025-12-13 15:30:23,030 [INFO]    ðŸ“ˆ ML: 0.275 | RSI: 52.8
+2025-12-13 15:30:23,030 [INFO]    âœ… Stages: ml_ensemble
+2025-12-13 15:30:23,030 [INFO]    ðŸ“Š Analysis complete: Signal=SHORT, Score=10
+2025-12-13 15:30:23,031 [INFO]    ðŸ“ Signal reasons: Pipeline: ml_ensemble
+2025-12-13 15:30:23,031 [INFO]    ðŸŸ¢ Entry signal detected: SHORT
+2025-12-13 15:30:23,031 [INFO]    ðŸ“Š Confluence score: 10/5
+2025-12-13 15:30:23,031 [INFO]    ðŸ“ Top reasons: Pipeline: ml_ensemble
+2025-12-13 15:30:23,032 [INFO]    ðŸš« Cooldown recorded for FILUSDT (60m)
+2025-12-13 15:30:23,032 [INFO]    âš™ï¸ Setting up leverage 10x and ISOLATED margin...
+2025-12-13 15:30:23,112 [INFO] âœ… [Binance] Set leverage 10x for FILUSDT
+2025-12-13 15:30:23,270 [INFO]    ðŸ’µ Current price: $1.35
+2025-12-13 15:30:23,389 [INFO]    ðŸ’° Position calculation:
+2025-12-13 15:30:23,390 [INFO]       Balance: $111.37
+2025-12-13 15:30:23,390 [INFO]       Price: $1.35
+2025-12-13 15:30:23,390 [INFO]       Capital (fixed): $20.00
+2025-12-13 15:30:23,390 [INFO]       Leverage: 10x
+2025-12-13 15:30:23,390 [INFO]       Raw quantity: 148.25796887
+2025-12-13 15:30:23,390 [INFO]       Formatted quantity: 148.30000000
+2025-12-13 15:30:23,390 [INFO]    ðŸ“¤ Placing SELL order for 148.3 FILUSDT...
+2025-12-13 15:30:23,390 [INFO] ðŸ“ [Binance] Order: SELL FILUSDT
+2025-12-13 15:30:23,390 [INFO]    Raw qty: 148.30000000 -> Formatted: 148.3
+2025-12-13 15:30:23,466 [ERROR] [Binance] Create order error: APIError(code=-2019): Margin is insufficient.
+2025-12-13 15:30:24,284 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:30:24,285 [ERROR]    Symbol: FILUSDT, Side: SELL, Qty: 148.3
+2025-12-13 15:30:24,732 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:30:24,734 [ERROR]    âŒ Order placement failed!
+2025-12-13 15:30:25,108 [INFO] HTTP Request: POST https://api.telegram.org/bot8291644636:AAFoVcH-LQdjcWlIdcdYV8oa067WxVQk2Ko/sendMessage "HTTP/1.1 200 OK"
+2025-12-13 15:30:25,610 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:30:25,689 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:30:26,316 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:26,317 [INFO]    Confidence: 67.56%
+2025-12-13 15:30:26,317 [INFO]    Entry: 0.2105
+2025-12-13 15:30:26,317 [INFO]    SL: 0.2116, TP: 0.2082
+2025-12-13 15:30:26,317 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:26,317 [INFO]    ðŸš« Cooldown active: 35.7m remaining (last: SHORT at 15:06)
+2025-12-13 15:30:26,317 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:26,317 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:26,818 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:30:26,897 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:30:27,549 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:27,549 [INFO]    Confidence: 68.56%
+2025-12-13 15:30:27,549 [INFO]    Entry: 0.3152
+2025-12-13 15:30:27,549 [INFO]    SL: 0.3172, TP: 0.3111
+2025-12-13 15:30:27,549 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:27,550 [INFO]    ðŸš« Cooldown active: 35.8m remaining (last: SHORT at 15:06)
+2025-12-13 15:30:27,550 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:27,550 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:28,051 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:30:28,133 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:30:28,758 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:30:28,759 [INFO]    Confidence: 68.42%
+2025-12-13 15:30:28,759 [INFO]    Entry: 1.6820
+2025-12-13 15:30:28,759 [INFO]    SL: 1.6947, TP: 1.6555
+2025-12-13 15:30:28,759 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:30:28,759 [INFO]    ðŸš« Cooldown active: 35.8m remaining (last: SHORT at 15:06)
+2025-12-13 15:30:28,760 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:30:28,760 [INFO]    âšª No signal - HOLD
+2025-12-13 15:30:28,760 [INFO] 
+ðŸ’¤ Sleeping 180s...
+2025-12-13 15:33:28,833 [INFO] 
+============================================================
+2025-12-13 15:33:28,834 [INFO] ðŸ”„ LOOP #6 - 2025-12-13 15:33:28
+2025-12-13 15:33:28,834 [INFO] ============================================================
+2025-12-13 15:33:28,919 [INFO] ðŸ’° [BINANCE] Balance: $111.37
+2025-12-13 15:33:28,919 [INFO] ðŸ’° Total balance: $111.37
+2025-12-13 15:33:28,919 [INFO] 
+==================================================
+2025-12-13 15:33:28,919 [INFO] ðŸ”„ Processing BINANCE
+2025-12-13 15:33:28,919 [INFO] ==================================================
+2025-12-13 15:33:28,919 [INFO] 
+ðŸ“Š [BINANCE] Processing BTCUSDT...
+2025-12-13 15:33:29,001 [INFO]    Current position: SHORT 0.002
+2025-12-13 15:33:29,002 [INFO]    Entry: $90233.90 | Mark: $90115.90
+2025-12-13 15:33:29,002 [INFO]    PnL: 1.31% ($0.24)
+2025-12-13 15:33:29,002 [INFO]    Age: 2.1h / 72.0h
+2025-12-13 15:33:29,503 [INFO] 
+ðŸ“Š [BINANCE] Processing ETHUSDT...
+2025-12-13 15:33:29,581 [INFO]    Current position: SHORT 0.064
+2025-12-13 15:33:29,582 [INFO]    Entry: $3115.35 | Mark: $3117.16
+2025-12-13 15:33:29,582 [INFO]    PnL: -0.58% ($-0.12)
+2025-12-13 15:33:29,582 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 15:33:30,082 [INFO] 
+ðŸ“Š [BINANCE] Processing BCHUSDT...
+2025-12-13 15:33:30,165 [INFO]    Current position: SHORT 0.347
+2025-12-13 15:33:30,165 [INFO]    Entry: $575.57 | Mark: $576.16
+2025-12-13 15:33:30,165 [INFO]    PnL: -1.03% ($-0.21)
+2025-12-13 15:33:30,165 [INFO]    Age: 0.5h / 72.0h
+2025-12-13 15:33:30,666 [INFO] 
+ðŸ“Š [BINANCE] Processing LTCUSDT...
+2025-12-13 15:33:30,748 [INFO]    ðŸ” Analyzing LTCUSDT for entry signal...
+2025-12-13 15:33:31,479 [INFO] âœ… LTCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:31,479 [INFO]    Confidence: 68.01%
+2025-12-13 15:33:31,479 [INFO]    Entry: 81.7000
+2025-12-13 15:33:31,479 [INFO]    SL: 81.9674, TP: 81.1429
+2025-12-13 15:33:31,479 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:31,479 [INFO]    ðŸš« Cooldown active: 32.0m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:31,480 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:31,480 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:31,981 [INFO] 
+ðŸ“Š [BINANCE] Processing BNBUSDT...
+2025-12-13 15:33:32,062 [INFO]    ðŸ” Analyzing BNBUSDT for entry signal...
+2025-12-13 15:33:32,711 [INFO] âœ… BNBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:32,711 [INFO]    Confidence: 69.04%
+2025-12-13 15:33:32,711 [INFO]    Entry: 898.5900
+2025-12-13 15:33:32,712 [INFO]    SL: 901.7837, TP: 891.9364
+2025-12-13 15:33:32,712 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:32,712 [INFO]    ðŸš« Cooldown active: 32.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:32,712 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:32,712 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:33,213 [INFO] 
+ðŸ“Š [BINANCE] Processing SOLUSDT...
+2025-12-13 15:33:33,298 [INFO]    Current position: SHORT 1.5
+2025-12-13 15:33:33,299 [INFO]    Entry: $132.97 | Mark: $133.39
+2025-12-13 15:33:33,299 [INFO]    PnL: -3.18% ($-0.63)
+2025-12-13 15:33:33,299 [INFO]    Age: 1.1h / 72.0h
+2025-12-13 15:33:33,800 [INFO] 
+ðŸ“Š [BINANCE] Processing XRPUSDT...
+2025-12-13 15:33:33,879 [INFO]    ðŸ” Analyzing XRPUSDT for entry signal...
+2025-12-13 15:33:34,530 [INFO] âœ… XRPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:34,530 [INFO]    Confidence: 66.83%
+2025-12-13 15:33:34,530 [INFO]    Entry: 2.0331
+2025-12-13 15:33:34,530 [INFO]    SL: 2.0397, TP: 2.0193
+2025-12-13 15:33:34,530 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:34,530 [INFO]    ðŸš« Cooldown active: 32.1m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:34,530 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:34,531 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:35,031 [INFO] 
+ðŸ“Š [BINANCE] Processing ETCUSDT...
+2025-12-13 15:33:35,110 [INFO]    ðŸ” Analyzing ETCUSDT for entry signal...
+2025-12-13 15:33:35,769 [INFO] âœ… ETCUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:35,769 [INFO]    Confidence: 67.10%
+2025-12-13 15:33:35,769 [INFO]    Entry: 13.2010
+2025-12-13 15:33:35,769 [INFO]    SL: 13.2488, TP: 13.1014
+2025-12-13 15:33:35,769 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:35,769 [INFO]    ðŸš« Cooldown active: 32.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:35,770 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:35,770 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:36,271 [INFO] 
+ðŸ“Š [BINANCE] Processing ADAUSDT...
+2025-12-13 15:33:36,353 [INFO]    ðŸ” Analyzing ADAUSDT for entry signal...
+2025-12-13 15:33:37,048 [INFO] âœ… ADAUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:37,048 [INFO]    Confidence: 67.35%
+2025-12-13 15:33:37,048 [INFO]    Entry: 0.4144
+2025-12-13 15:33:37,048 [INFO]    SL: 0.4165, TP: 0.4100
+2025-12-13 15:33:37,048 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:37,048 [INFO]    ðŸš« Cooldown active: 32.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:37,049 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:37,049 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:37,550 [INFO] 
+ðŸ“Š [BINANCE] Processing DOGEUSDT...
+2025-12-13 15:33:37,628 [INFO]    ðŸ” Analyzing DOGEUSDT for entry signal...
+2025-12-13 15:33:38,281 [INFO] âœ… DOGEUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:38,281 [INFO]    Confidence: 67.69%
+2025-12-13 15:33:38,281 [INFO]    Entry: 0.1396
+2025-12-13 15:33:38,281 [INFO]    SL: 0.1402, TP: 0.1382
+2025-12-13 15:33:38,281 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:38,281 [INFO]    ðŸš« Cooldown active: 32.2m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:38,282 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:38,282 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:38,783 [INFO] 
+ðŸ“Š [BINANCE] Processing AVAXUSDT...
+2025-12-13 15:33:38,864 [INFO]    ðŸ” Analyzing AVAXUSDT for entry signal...
+2025-12-13 15:33:39,552 [INFO] âœ… AVAXUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:39,553 [INFO]    Confidence: 66.40%
+2025-12-13 15:33:39,553 [INFO]    Entry: 13.3710
+2025-12-13 15:33:39,553 [INFO]    SL: 13.4291, TP: 13.2499
+2025-12-13 15:33:39,553 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:39,553 [INFO]    ðŸš« Cooldown active: 32.3m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:39,554 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:39,554 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:40,055 [INFO] 
+ðŸ“Š [BINANCE] Processing DOTUSDT...
+2025-12-13 15:33:40,138 [INFO]    ðŸ” Analyzing DOTUSDT for entry signal...
+2025-12-13 15:33:40,812 [INFO] âœ… DOTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:40,812 [INFO]    Confidence: 65.42%
+2025-12-13 15:33:40,812 [INFO]    Entry: 2.0410
+2025-12-13 15:33:40,812 [INFO]    SL: 2.0505, TP: 2.0212
+2025-12-13 15:33:40,812 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:40,813 [INFO]    ðŸš« Cooldown active: 32.3m remaining (last: SHORT at 15:05)
+2025-12-13 15:33:40,813 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:40,813 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:41,314 [INFO] 
+ðŸ“Š [BINANCE] Processing LINKUSDT...
+2025-12-13 15:33:41,396 [INFO]    Current position: SHORT 14.65
+2025-12-13 15:33:41,396 [INFO]    Entry: $13.66 | Mark: $13.83
+2025-12-13 15:33:41,396 [INFO]    PnL: -12.52% ($-2.51)
+2025-12-13 15:33:41,396 [INFO]    Age: 1.1h / 72.0h
+2025-12-13 15:33:41,897 [INFO] 
+ðŸ“Š [BINANCE] Processing UNIUSDT...
+2025-12-13 15:33:41,979 [INFO]    ðŸ” Analyzing UNIUSDT for entry signal...
+2025-12-13 15:33:42,648 [INFO] âœ… UNIUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:42,648 [INFO]    Confidence: 68.08%
+2025-12-13 15:33:42,648 [INFO]    Entry: 5.4580
+2025-12-13 15:33:42,648 [INFO]    SL: 5.4829, TP: 5.4062
+2025-12-13 15:33:42,648 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:42,648 [INFO]    ðŸš« Cooldown active: 32.3m remaining (last: SHORT at 15:06)
+2025-12-13 15:33:42,649 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:42,649 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:43,150 [INFO] 
+ðŸ“Š [BINANCE] Processing NEARUSDT...
+2025-12-13 15:33:43,231 [INFO]    ðŸ” Analyzing NEARUSDT for entry signal...
+2025-12-13 15:33:43,881 [INFO] âœ… NEARUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:43,882 [INFO]    Confidence: 67.46%
+2025-12-13 15:33:43,882 [INFO]    Entry: 1.6580
+2025-12-13 15:33:43,882 [INFO]    SL: 1.6667, TP: 1.6398
+2025-12-13 15:33:43,882 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:43,882 [INFO]    ðŸš« Cooldown active: 32.3m remaining (last: SHORT at 15:06)
+2025-12-13 15:33:43,883 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:43,883 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:44,384 [INFO] 
+ðŸ“Š [BINANCE] Processing ATOMUSDT...
+2025-12-13 15:33:44,463 [INFO]    ðŸ” Analyzing ATOMUSDT for entry signal...
+2025-12-13 15:33:45,300 [INFO] âœ… ATOMUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:45,301 [INFO]    Confidence: 67.85%
+2025-12-13 15:33:45,302 [INFO]    Entry: 2.1860
+2025-12-13 15:33:45,302 [INFO]    SL: 2.1947, TP: 2.1678
+2025-12-13 15:33:45,302 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:45,302 [INFO]    ðŸš« Cooldown active: 32.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:33:45,302 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:45,303 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:45,803 [INFO] 
+ðŸ“Š [BINANCE] Processing FILUSDT...
+2025-12-13 15:33:45,882 [INFO]    ðŸ” Analyzing FILUSDT for entry signal...
+2025-12-13 15:33:46,545 [INFO] âœ… FILUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:46,546 [INFO]    Confidence: 71.75%
+2025-12-13 15:33:46,546 [INFO]    Entry: 1.3470
+2025-12-13 15:33:46,546 [INFO]    SL: 1.3537, TP: 1.3303
+2025-12-13 15:33:46,546 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:46,546 [INFO]    ðŸš« Cooldown active: 56.6m remaining (last: SHORT at 15:30)
+2025-12-13 15:33:46,546 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:46,547 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:47,047 [INFO] 
+ðŸ“Š [BINANCE] Processing ARBUSDT...
+2025-12-13 15:33:47,127 [INFO]    ðŸ” Analyzing ARBUSDT for entry signal...
+2025-12-13 15:33:47,972 [INFO] âœ… ARBUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:47,973 [INFO]    Confidence: 66.84%
+2025-12-13 15:33:47,973 [INFO]    Entry: 0.2107
+2025-12-13 15:33:47,973 [INFO]    SL: 0.2118, TP: 0.2084
+2025-12-13 15:33:47,973 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:47,973 [INFO]    ðŸš« Cooldown active: 32.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:33:47,976 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:47,976 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:48,477 [INFO] 
+ðŸ“Š [BINANCE] Processing OPUSDT...
+2025-12-13 15:33:48,557 [INFO]    ðŸ” Analyzing OPUSDT for entry signal...
+2025-12-13 15:33:49,254 [INFO] âœ… OPUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:49,254 [INFO]    Confidence: 65.35%
+2025-12-13 15:33:49,254 [INFO]    Entry: 0.3153
+2025-12-13 15:33:49,255 [INFO]    SL: 0.3173, TP: 0.3111
+2025-12-13 15:33:49,255 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:49,255 [INFO]    ðŸš« Cooldown active: 32.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:33:49,255 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:49,256 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:49,756 [INFO] 
+ðŸ“Š [BINANCE] Processing APTUSDT...
+2025-12-13 15:33:49,837 [INFO]    ðŸ” Analyzing APTUSDT for entry signal...
+2025-12-13 15:33:50,547 [INFO] âœ… APTUSDT ENTRY APPROVED: SHORT
+2025-12-13 15:33:50,547 [INFO]    Confidence: 67.55%
+2025-12-13 15:33:50,547 [INFO]    Entry: 1.6819
+2025-12-13 15:33:50,547 [INFO]    SL: 1.6948, TP: 1.6550
+2025-12-13 15:33:50,547 [INFO]    Stages passed: ['ml_ensemble']
+2025-12-13 15:33:50,547 [INFO]    ðŸš« Cooldown active: 32.4m remaining (last: SHORT at 15:06)
+2025-12-13 15:33:50,548 [INFO]    ðŸ“Š Analysis complete: Signal=HOLD, Score=0
+2025-12-13 15:33:50,548 [INFO]    âšª No signal - HOLD
+2025-12-13 15:33:50,548 [INFO] 
+ðŸ’¤ Sleeping 180s...
