@@ -36,7 +36,7 @@ def show_menu():
     print(f"{Colors.GREEN}Chọn hành động:{Colors.NC}")
     print("1. Train Models (ml/train_ensemble.py)")
     print("2. Run Backtest (run_backtest.py)")
-    print("3. Run Bot Live (main.py)")
+    print("3. Run Bot Live (bot.py)")
     print("4. Run Bot in Background")
     print("5. Check Bot Status")
     print("6. View Bot Logs")
@@ -79,7 +79,7 @@ def run_backtest():
 def run_bot_live():
     """Run bot in foreground"""
     return run_command(
-        f"{sys.executable} main.py",
+        f"{sys.executable} bot.py",
         "🤖 Starting Bot (Live Mode)"
     )
 
@@ -105,7 +105,7 @@ def run_bot_background():
     # Start bot in background
     with open(log_file, 'w') as log:
         process = subprocess.Popen(
-            [sys.executable, "main.py"],
+            [sys.executable, "bot.py"],
             cwd=PROJECT_ROOT,
             stdout=log,
             stderr=subprocess.STDOUT,
