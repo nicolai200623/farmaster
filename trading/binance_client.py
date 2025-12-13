@@ -57,7 +57,19 @@ class BinanceClient(BaseExchangeClient):
             return 0.0
 
         except BinanceAPIException as e:
-            logger.error(f"[{self.exchange_name}] Get balance error: {e}")
+            # Check for permission error
+            if e.code == -2015:
+                logger.error(f"[{self.exchange_name}] ❌ API PERMISSION ERROR!")
+                logger.error(f"   API key thiếu quyền. Cần enable:")
+                logger.error(f"   1. Enable Reading")
+                logger.error(f"   2. Enable Futures")
+                logger.error(f"   3. Enable Spot & Margin Trading")
+                logger.error(f"   Truy cập: https://www.binance.com/en/my/settings/api-management")
+            else:
+                logger.error(f"[{self.exchange_name}] Get balance error: {e}")
+            return 0.0
+        except Exception as e:
+            logger.error(f"[{self.exchange_name}] Unexpected error getting balance: {e}")
             return 0.0
 
     def get_position(self, symbol):
