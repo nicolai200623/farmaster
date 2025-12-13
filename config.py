@@ -276,24 +276,41 @@ class Config:
         """Kiểm tra config hợp lệ"""
         # Validate exchanges
         valid_exchanges = ['asterdex', 'binance']
+        filtered_exchanges = []
+
         for exchange in cls.EXCHANGES:
             exchange = exchange.strip()
             if exchange not in valid_exchanges:
-                raise ValueError(f"❌ Exchange không hợp lệ: {exchange}. Chỉ hỗ trợ: {valid_exchanges}")
+                print(f"⚠️ Exchange không hợp lệ: {exchange}. Chỉ hỗ trợ: {valid_exchanges}")
+                continue
+            filtered_exchanges.append(exchange)
+
+        cls.EXCHANGES = filtered_exchanges
+
+        if not cls.EXCHANGES:
+            raise ValueError("❌ Không có exchange nào được cấu hình! Vui lòng set EXCHANGES trong .env")
 
         print(f"📊 Enabled exchanges: {', '.join(cls.EXCHANGES)}")
 
         # Validate AsterDEX credentials nếu sử dụng
         if 'asterdex' in cls.EXCHANGES:
             if not cls.API_KEY or not cls.API_SECRET:
-                raise ValueError("❌ AsterDEX API_KEY và API_SECRET bắt buộc phải có trong .env!")
-            print(f"✅ AsterDEX configured: {len(cls.SYMBOLS)} symbols")
+                print("⚠️ AsterDEX API_KEY hoặc API_SECRET không có trong .env, loại bỏ AsterDEX...")
+                cls.EXCHANGES = [e for e in cls.EXCHANGES if e != 'asterdex']
+            else:
+                print(f"✅ AsterDEX configured: {len(cls.SYMBOLS)} symbols")
 
         # Validate Binance credentials nếu sử dụng
         if 'binance' in cls.EXCHANGES:
             if not cls.BINANCE_API_KEY or not cls.BINANCE_API_SECRET:
-                raise ValueError("❌ BINANCE_API_KEY và BINANCE_API_SECRET bắt buộc phải có trong .env khi sử dụng Binance!")
-            print(f"✅ Binance configured: {len(cls.BINANCE_SYMBOLS)} symbols")
+                print("⚠️ BINANCE_API_KEY hoặc BINANCE_API_SECRET không có trong .env, loại bỏ Binance...")
+                cls.EXCHANGES = [e for e in cls.EXCHANGES if e != 'binance']
+            else:
+                print(f"✅ Binance configured: {len(cls.BINANCE_SYMBOLS)} symbols")
+
+        # Final check: Phải có ít nhất 1 exchange
+        if not cls.EXCHANGES:
+            raise ValueError("❌ Không có exchange nào có credentials hợp lệ! Vui lòng cấu hình API keys trong .env")
 
         # Validate position size config
         if cls.POSITION_SIZE_USDT is not None:
