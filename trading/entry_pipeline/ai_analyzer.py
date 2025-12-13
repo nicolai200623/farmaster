@@ -375,29 +375,41 @@ Guidelines:
         for i, (_, row) in enumerate(recent.iterrows()):
             candles.append({
                 'idx': i,
-                'o': round(row['open'], 2),
-                'h': round(row['high'], 2),
-                'l': round(row['low'], 2),
-                'c': round(row['close'], 2),
-                'v': int(row.get('volume', 0))
+                'o': float(round(row['open'], 2)),
+                'h': float(round(row['high'], 2)),
+                'l': float(round(row['low'], 2)),
+                'c': float(round(row['close'], 2)),
+                'v': int(float(row.get('volume', 0)))
             })
 
         # Build technical summary if not provided
         if technical_summary is None:
             technical_summary = {}
             if 'rsi' in df.columns:
-                technical_summary['rsi'] = round(df['rsi'].iloc[-1], 2)
+                technical_summary['rsi'] = float(round(df['rsi'].iloc[-1], 2))
             if 'macd' in df.columns:
-                technical_summary['macd'] = round(df['macd'].iloc[-1], 4)
+                technical_summary['macd'] = float(round(df['macd'].iloc[-1], 4))
             if 'atr' in df.columns:
-                technical_summary['atr'] = round(df['atr'].iloc[-1], 4)
+                technical_summary['atr'] = float(round(df['atr'].iloc[-1], 4))
+
+        # Build ML section if available
+        ml_section = ""
+        if ml_prediction is not None:
+            ml_section = f"""
+Direction: {ml_prediction.direction.value}
+ML Confidence: {ml_prediction.confidence:.2%}
+Model Agreement: {ml_prediction.model_agreement:.2%}"""
+        else:
+            # Detect direction from price action
+            direction = "BULLISH" if df['close'].iloc[-1] > df['close'].iloc[-5] else "BEARISH"
+            ml_section = f"""
+Direction: {direction} (detected from price action)
+ML Confidence: N/A (no ML models)
+Model Agreement: N/A"""
 
         prompt = f"""Analyze this trading setup:
 
-Symbol: {symbol}
-Direction: {ml_prediction.direction.value}
-ML Confidence: {ml_prediction.confidence:.2%}
-Model Agreement: {ml_prediction.model_agreement:.2%}
+Symbol: {symbol}{ml_section}
 Entry Score: {entry_score}/15
 Price Action Score: {pa_score}/8
 

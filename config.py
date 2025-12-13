@@ -251,6 +251,7 @@ class Config:
     AI_PROVIDER = os.getenv('AI_PROVIDER', 'grok')  # claude, grok, openai, gemini
     AI_CHECK_BORDERLINE_ONLY = os.getenv('AI_CHECK_BORDERLINE_ONLY', 'True').lower() == 'true'
     AI_MODEL = os.getenv('AI_MODEL', '')  # Empty = use default per provider
+    GROK_MODEL = os.getenv('GROK_MODEL', 'grok-2-latest')  # Grok model name
 
     # AI Validator Settings (Enhanced)
     USE_AI_VALIDATOR = os.getenv('USE_AI_VALIDATOR', 'False').lower() == 'true'

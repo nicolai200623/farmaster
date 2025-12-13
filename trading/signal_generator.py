@@ -126,12 +126,25 @@ class SignalGenerator:
             'REQUIRE_HTF_ALIGNMENT': getattr(Config, 'REQUIRE_HTF_ALIGNMENT', True),
             'HTF_STRICT_MODE': getattr(Config, 'HTF_STRICT_MODE', False),
 
-            # Stage 5: AI Check
+            # Stage 5: AI Check (Grok/Claude/OpenAI/Gemini)
             'USE_AI_CHECK': getattr(Config, 'USE_AI_CHECK', False),
-            'AI_API_KEY': getattr(Config, 'AI_API_KEY', ''),
-            'AI_MODEL': getattr(Config, 'AI_MODEL', 'claude-3-haiku-20240307'),
+            'AI_PROVIDER': getattr(Config, 'AI_PROVIDER', 'grok'),
+            'AI_VALIDATOR_MODE': getattr(Config, 'AI_VALIDATOR_MODE', 'all'),
+            'AI_CHECK_BORDERLINE_ONLY': getattr(Config, 'AI_CHECK_BORDERLINE_ONLY', False),
+            'AI_MIN_SCORE_FOR_CHECK': getattr(Config, 'AI_MIN_SCORE_FOR_CHECK', 0),
+            'AI_MAX_SCORE_FOR_CHECK': getattr(Config, 'AI_MAX_SCORE_FOR_CHECK', 15),
+
+            # AI API Keys
+            'XAI_API_KEY': getattr(Config, 'XAI_API_KEY', ''),
+            'ANTHROPIC_API_KEY': getattr(Config, 'ANTHROPIC_API_KEY', ''),
+            'OPENAI_API_KEY': getattr(Config, 'OPENAI_API_KEY', ''),
+            'GOOGLE_API_KEY': getattr(Config, 'GOOGLE_API_KEY', ''),
+
+            # AI Model
+            'AI_MODEL': getattr(Config, 'GROK_MODEL', 'grok-2-latest'),
             'AI_TIMEOUT_SECONDS': getattr(Config, 'AI_TIMEOUT_SECONDS', 5),
-            'USE_AI_FOR_BORDERLINE': getattr(Config, 'USE_AI_FOR_BORDERLINE', True),
+            'AI_MAX_RETRIES': getattr(Config, 'AI_MAX_RETRIES', 2),
+            'AI_MIN_CONFIDENCE': getattr(Config, 'AI_MIN_CONFIDENCE', 0.6),
         }
 
     def _get_ml_models(self) -> dict:
