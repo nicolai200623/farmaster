@@ -369,8 +369,22 @@ class AsterDEXBot:
                     logger.error(f"   Traceback: {traceback.format_exc()}")
                     return
 
-                if signal != 'HOLD':
-                    logger.info(f"   🟢 Entry signal detected: {signal}")
+                # Check if signal is valid (not HOLD)
+                # Handle both string signal ('LONG'/'SHORT') and tuple signal (('LONG', score, reasons))
+                is_valid_signal = False
+                if isinstance(signal, tuple):
+                    # For tuple format: ('LONG', score, reasons) or ('SHORT', score, reasons)
+                    signal_direction = signal[0] if len(signal) > 0 else 'HOLD'
+                    is_valid_signal = signal_direction not in ['HOLD', 'NEUTRAL', None]
+                else:
+                    # For string format: 'LONG' or 'SHORT'
+                    is_valid_signal = signal not in ['HOLD', 'NEUTRAL', None]
+
+                if is_valid_signal:
+                    # Extract signal direction for use in order placement
+                    signal_direction = signal[0] if isinstance(signal, tuple) else signal
+
+                    logger.info(f"   🟢 Entry signal detected: {signal_direction}")
                     if Config.USE_ADVANCED_ENTRY or Config.USE_SMART_ENTRY_V2:
                         logger.info(f"   📊 Confluence score: {confluence_score}/{Config.MIN_CONFLUENCE_SCORE}")
                         logger.info(f"   📝 Top reasons: {', '.join(reasons[:3])}")
@@ -378,7 +392,7 @@ class AsterDEXBot:
                     # ⚠️ RECORD COOLDOWN IMMEDIATELY when signal is generated
                     # This prevents spam signals when order fails (margin insufficient, etc.)
                     if self.signal_generator.cooldown_tracker is not None:
-                        self.signal_generator.cooldown_tracker.record_signal(symbol, signal)
+                        self.signal_generator.cooldown_tracker.record_signal(symbol, signal_direction)
                         logger.info(f"   🚫 Cooldown recorded for {symbol} ({Config.SIGNAL_COOLDOWN_MINUTES}m)")
 
                     try:
@@ -415,8 +429,8 @@ class AsterDEXBot:
 
                         # Check minimum quantity
                         if quantity > 0:
-                            # Determine side
-                            side = 'BUY' if signal == 'LONG' else 'SELL'
+                            # Determine side (use signal_direction, not signal)
+                            side = 'BUY' if signal_direction == 'LONG' else 'SELL'
                             logger.info(f"   📤 Placing {side} order for {quantity} {symbol}...")
 
                             # Create order
