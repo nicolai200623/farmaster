@@ -78,16 +78,20 @@ class MLEnsembleSignal:
     def predict(self, X: np.ndarray) -> MLPrediction:
         """
         Generate ML prediction from ensemble
-        
+
         Args:
             X: Input features (seq_len, n_features) or (n_samples, seq_len, n_features)
-        
+
         Returns:
             MLPrediction with direction, confidence, and details
         """
+        logger.info("   🎭 [TIER 1] ML Ensemble predicting...")
+        logger.info(f"      Available models: {list(self.models.keys())}")
+        logger.info(f"      Model weights: {self.weights}")
+
         predictions = {}
         valid_weights = {}
-        
+
         for model_name, weight in self.weights.items():
             if model_name not in self.models:
                 continue
@@ -110,6 +114,7 @@ class MLEnsembleSignal:
                 
                 predictions[model_name] = pred
                 valid_weights[model_name] = weight
+                logger.info(f"      ✓ {model_name}: {pred:.3f}")
                 
             except Exception as e:
                 logger.warning(f"Prediction failed for {model_name}: {e}")
@@ -127,16 +132,18 @@ class MLEnsembleSignal:
         # Calculate weighted ensemble prediction
         weights_array = np.array(list(valid_weights.values()))
         weights_array = weights_array / weights_array.sum()
-        
+
         preds_array = np.array(list(predictions.values()))
         ensemble_pred = np.average(preds_array, weights=weights_array)
-        
+
         # Calculate model agreement (1 - normalized std)
         std = np.std(preds_array)
         agreement = 1.0 - min(std * 2, 1.0)
-        
+
         # Determine direction and confidence
         direction, confidence = self._determine_direction(ensemble_pred)
+
+        logger.info(f"   📊 [TIER 1] Ensemble result: {direction.value} (confidence: {confidence:.2%}, agreement: {agreement:.2%})")
         
         return MLPrediction(
             direction=direction,

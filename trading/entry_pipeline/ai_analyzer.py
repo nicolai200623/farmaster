@@ -316,7 +316,7 @@ Guidelines:
     ) -> AIAnalysisResult:
         """
         Analyze entry with AI
-        
+
         Args:
             symbol: Trading symbol
             ml_prediction: ML prediction result
@@ -324,10 +324,13 @@ Guidelines:
             pa_score: Price action score
             df: DataFrame with OHLCV data
             technical_summary: Optional pre-computed summary
-        
+
         Returns:
             AIAnalysisResult
         """
+        logger.info(f"   🤖 [TIER 2] AI Analyzer ({self.provider.value}) analyzing...")
+        logger.info(f"      Entry score: {entry_score}/15, PA score: {pa_score}/8")
+
         if not self.enabled:
             return AIAnalysisResult(
                 decision="SKIP",
